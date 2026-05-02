@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "index.html", "use": "@vercel/static" },
+    { "src": "api/fetch-news.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/api/fetch-news", "dest": "/api/fetch-news.js" },
+    { "src": "/(.*)", "dest": "/index.html" }
+  ]
+}
