@@ -1,7 +1,3 @@
-// Server-side cache — shared across requests for 12 hours
-const CACHE_DURATION = 12 * 60 * 60 * 1000;
-if (!global._aibCache) global._aibCache = { articles: null, timestamp: 0, date: null };
-
 export default async function handler(req, res) {
   if (req.method !== "POST") {
     return res.status(405).json({ error: "Method not allowed" });
@@ -13,12 +9,6 @@ export default async function handler(req, res) {
   }
 
   const today = req.body?.today || new Date().toISOString().split("T")[0];
-
-  // Return cached result if still fresh — no Anthropic call needed
-  const cache = global._aibCache;
-  if (cache.articles && (Date.now() - cache.timestamp) < CACHE_DURATION) {
-    return res.status(200).json({ articles: cache.articles, date: cache.date, cached: true });
-  }
 
   try {
     const response = await fetch("https://api.anthropic.com/v1/messages", {
@@ -32,11 +22,9 @@ export default async function handler(req, res) {
         model: "claude-sonnet-4-6",
         max_tokens: 4000,
         tools: [{ type: "web_search_20250305", name: "web_search" }],
-        system:
-          'You are an AI news curator for "AI Build by Madhur". Today is ' + today +
-          '. Search the web for the latest AI news from the past 1-3 days. Find 6-8 diverse stories across LLMs, agentic systems, RAG, multimodal models, AI safety, AI tools, and industry news.\n\nReturn ONLY a valid JSON array (no markdown, no backticks, no preamble) with objects:\n- title: string\n- summary: string (2-3 sentences)\n- url: string (real article URL)\n- source: string\n- date: string (e.g. "May 2")\n- tags: array of 1-2 from ["llm","agentic","rag","multimodal","research","tools","safety","industry"]\n\nReturn ONLY the JSON array.',
+        system: 'You are an AI news curator for "AI Build by Madhur". Today is ' + today + '. Search the web for the latest AI news from the past 1-3 days. Find 6-8 diverse stories across LLMs, agentic systems, RAG, multimodal models, AI safety, AI tools, and industry news.\n\nReturn ONLY a valid JSON array (no markdown, no backticks, no preamble) with objects:\n- title: string\n- summary: string (2-3 sentences)\n- url: string (real article URL)\n- source: string\n- date: string (e.g. "May 2")\n- tags: array of 1-2 from ["llm","agentic","rag","multimodal","research","tools","safety","industry"]\n\nReturn ONLY the JSON array.',
         messages: [
-          { role: "user", content: "Get today's top AI news (" + today + "), return as JSON array." },
+          { role: "user", content: "Get today's top AI news (" + today + "), return as JSON array." }
         ],
       }),
     });
@@ -53,11 +41,8 @@ export default async function handler(req, res) {
     if (s < 0 || e < 0) throw new Error("Could not parse news response");
 
     const articles = JSON.parse(clean.slice(s, e + 1));
+    return res.status(200).json({ articles, date: today });
 
-    // Store in server cache
-    global._aibCache = { articles, timestamp: Date.now(), date: today };
-
-    return res.status(200).json({ articles, date: today, cached: false });
   } catch (err) {
     return res.status(500).json({ error: err.message });
   }
