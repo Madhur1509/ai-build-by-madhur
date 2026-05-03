@@ -379,8 +379,9 @@ function sendEmail(){
 function closeModal(){document.getElementById('modal-root').innerHTML='';}
 
 async function fetchNews(manual){
-  const btn=document.getElementById('fetch-btn'),status=document.getElementById('status-text');
-  btn.disabled=true;btn.innerHTML='<span class="spinner"></span> Fetching…';
+  const btn=document.getElementById('fetch-btn');
+  const status=document.getElementById('status-text');
+  if(btn){btn.disabled=true;btn.innerHTML='<span class="spinner"></span> Fetching…';}
   if(manual)status.textContent='Searching for today\'s AI news…';
   const today=new Date().toISOString().split('T')[0];
   try{
