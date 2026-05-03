@@ -10,33 +10,48 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Fetch AI news from Anthropic
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
           TODAY=$(date +%Y-%m-%d)
+          
+          cat > /tmp/request.json << REQEOF
+          {
+            "model": "claude-sonnet-4-6",
+            "max_tokens": 4000,
+            "tools": [{"type": "web_search_20250305", "name": "web_search"}],
+            "system": "You are an AI news curator for AI Build by Madhur. Today is $TODAY. Search the web for the latest AI news from the past 1-2 days. Find 8-10 diverse stories across LLMs, agentic systems, RAG, multimodal models, AI safety, AI tools, and industry news. Return ONLY a valid JSON array with objects: title, summary (2-3 sentences), url, source, date, tags (array of 1-2 from llm/agentic/rag/multimodal/research/tools/safety/industry). Return ONLY the JSON array, no markdown, no backticks.",
+            "messages": [{"role": "user", "content": "Get todays top AI news, return as JSON array."}]
+          }
+          REQEOF
+          
           RESPONSE=$(curl -s -X POST https://api.anthropic.com/v1/messages \
             -H "Content-Type: application/json" \
             -H "x-api-key: $ANTHROPIC_API_KEY" \
             -H "anthropic-version: 2023-06-01" \
-            -d '{
-              "model": "claude-sonnet-4-6",
-              "max_tokens": 4000,
-              "tools": [{"type": "web_search_20250305", "name": "web_search"}],
-              "system": "You are an AI news curator for AI Build by Madhur. Today is '"$TODAY"'. Search the web for the latest AI news from the past 1-2 days. Find 8-10 diverse stories across LLMs, agentic systems, RAG, multimodal models, AI safety, AI tools, and industry news.\n\nReturn ONLY a valid JSON array (no markdown, no backticks, no preamble) with objects:\n- title: string\n- summary: string (2-3 sentences)\n- url: string\n- source: string\n- date: string\n- tags: array of 1-2 from [\"llm\",\"agentic\",\"rag\",\"multimodal\",\"research\",\"tools\",\"safety\",\"industry\"]\n\nReturn ONLY the JSON array.",
-              "messages": [{"role": "user", "content": "Get todays top AI news '"$TODAY"' return as JSON array."}]
-            }')
+            -d @/tmp/request.json)
+          
+          echo "Response received, parsing..."
+          
           echo $RESPONSE | python3 -c "
-          import json, sys
-          data = json.load(sys.stdin)
-          text = ''.join(b['text'] for b in data.get('content', []) if b['type'] == 'text')
-          s, e = text.find('['), text.rfind(']')
-          articles = json.loads(text[s:e+1])
-          output = {'articles': articles, 'date': '$TODAY', 'updated': '$(date -u +%Y-%m-%dT%H:%M:%SZ)'}
-          print(json.dumps(output, indent=2))
-          " > public/news.json
+import json, sys
+data = json.load(sys.stdin)
+text = ''.join(b['text'] for b in data.get('content', []) if b['type'] == 'text')
+s, e = text.find('['), text.rfind(']')
+if s == -1 or e == -1:
+    print('ERROR: No JSON array found in response', file=sys.stderr)
+    print('Response:', text[:500], file=sys.stderr)
+    sys.exit(1)
+articles = json.loads(text[s:e+1])
+import datetime
+output = {'articles': articles, 'date': '$TODAY', 'updated': datetime.datetime.utcnow().isoformat() + 'Z'}
+with open('public/news.json', 'w') as f:
+    json.dump(output, f, indent=2)
+print(f'Saved {len(articles)} articles')
+"
 
       - name: Commit and push news.json
         run: |
