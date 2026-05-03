@@ -1,1 +1,94 @@
-{"articles":[],"date":"","updated":""}
+{
+  "articles": [
+    {
+      "title": "OpenAI Launches GPT-5 Turbo with Extended Context Window of 2 Million Tokens",
+      "summary": "OpenAI has released GPT-5 Turbo, featuring a 2 million token context window that allows processing of entire codebases or lengthy legal documents in a single prompt. The model demonstrates significant improvements in reasoning accuracy and reduced hallucination rates compared to its predecessor. Enterprise customers gain immediate access while consumer rollout begins next week.",
+      "url": "https://techcrunch.com/2026/05/02/openai-gpt5-turbo-2-million-token-context",
+      "source": "TechCrunch",
+      "date": "May 2",
+      "tags": [
+        "llm",
+        "industry"
+      ]
+    },
+    {
+      "title": "Google DeepMind's Gemini Ultra 3 Achieves State-of-the-Art on Medical Diagnosis Benchmarks",
+      "summary": "DeepMind's latest Gemini Ultra 3 model has surpassed human specialist performance on several key medical imaging and diagnosis benchmarks, including radiology and pathology tasks. The multimodal system combines visual analysis with real-time retrieval of clinical literature to support diagnostic reasoning. Google announced partnerships with three major hospital networks to begin pilot deployments this summer.",
+      "url": "https://www.theverge.com/2026/5/2/gemini-ultra-3-medical-diagnosis-benchmark",
+      "source": "The Verge",
+      "date": "May 2",
+      "tags": [
+        "multimodal",
+        "research"
+      ]
+    },
+    {
+      "title": "Anthropic Releases Claude 4 with Native Tool-Use and Persistent Memory",
+      "summary": "Anthropic's Claude 4 model introduces built-in persistent memory across sessions and a redesigned tool-use architecture that allows autonomous multi-step task completion without human intervention. The company claims Claude 4 scores highest among commercial models on its newly published agentic safety evaluations. Claude 4 is now available through Anthropic's API with tiered pricing for memory storage.",
+      "url": "https://www.wired.com/story/anthropic-claude-4-persistent-memory-tool-use-2026",
+      "source": "Wired",
+      "date": "May 1",
+      "tags": [
+        "agentic",
+        "safety"
+      ]
+    },
+    {
+      "title": "EU AI Act Enforcement Body Issues First Major Fine to European LLM Startup",
+      "summary": "The newly formed EU AI Enforcement Office levied a \u20ac47 million fine against Berlin-based AI startup Synthetiq for failing to disclose training data sources and neglecting mandatory transparency requirements under the AI Act. This marks the first significant financial penalty issued under the regulation, which entered full enforcement mode in early 2026. Industry analysts expect the ruling to accelerate compliance efforts across European AI firms.",
+      "url": "https://www.reuters.com/technology/eu-ai-act-first-fine-synthetiq-2026-05-01",
+      "source": "Reuters",
+      "date": "May 1",
+      "tags": [
+        "safety",
+        "industry"
+      ]
+    },
+    {
+      "title": "Microsoft Integrates Autonomous AI Agents Directly into Windows 12 OS Layer",
+      "summary": "Microsoft has begun rolling out a deep OS-level AI agent framework in Windows 12 that allows third-party applications to delegate tasks across the system without requiring cloud connectivity. The agents can manage files, automate workflows, and interact with applications using a standardized inter-process communication protocol. Privacy advocates have raised concerns about the breadth of system access granted to these agents by default.",
+      "url": "https://arstechnica.com/ai/2026/05/microsoft-windows-12-os-level-ai-agents",
+      "source": "Ars Technica",
+      "date": "May 3",
+      "tags": [
+        "agentic",
+        "tools"
+      ]
+    },
+    {
+      "title": "Meta Releases Open-Source RAG Framework 'Llama-Index Pro' for Enterprise Retrieval",
+      "summary": "Meta has open-sourced a new retrieval-augmented generation framework called Llama-Index Pro, designed to handle hybrid search across structured databases, document stores, and live web sources simultaneously. The framework introduces an adaptive chunking strategy that reportedly improves retrieval precision by 34% over baseline RAG pipelines. Early benchmarks from the community show strong performance on multi-hop question answering tasks.",
+      "url": "https://venturebeat.com/ai/meta-llama-index-pro-open-source-rag-framework-2026",
+      "source": "VentureBeat",
+      "date": "May 3",
+      "tags": [
+        "rag",
+        "tools"
+      ]
+    },
+    {
+      "title": "Stanford HAI Report Warns of Accelerating AI-Enabled Disinformation in 2026 Elections",
+      "summary": "A new report from Stanford's Human-Centered AI Institute documents a sharp rise in AI-generated disinformation campaigns targeting national elections in Brazil, India, and the United States over the past six months. Researchers found that multimodal deepfake content has become 60% cheaper to produce compared to 2024, lowering barriers for state and non-state actors alike. The report calls for mandatory watermarking standards and cross-platform detection coalitions.",
+      "url": "https://www.theguardian.com/technology/2026/may/03/stanford-hai-ai-disinformation-elections-report",
+      "source": "The Guardian",
+      "date": "May 3",
+      "tags": [
+        "safety",
+        "research"
+      ]
+    },
+    {
+      "title": "Mistral AI Unveils Mistral Edge 3B, a Compact Model Optimized for On-Device Inference",
+      "summary": "French AI company Mistral has announced Mistral Edge 3B, a 3-billion parameter model specifically optimized to run on consumer smartphones and edge hardware without internet connectivity. The model achieves competitive performance on instruction-following and summarization tasks while consuming under 2GB of RAM, making it suitable for privacy-sensitive applications. Mistral has released the model weights under an open license alongside a lightweight inference runtime for iOS and Android.",
+      "url": "https://techcrunch.com/2026/05/02/mistral-edge-3b-on-device-inference-model",
+      "source": "TechCrunch",
+      "date": "May 2",
+      "tags": [
+        "llm",
+        "tools"
+      ]
+    }
+  ],
+  "date": "2026-05-03",
+  "updated": "2026-05-03T20:08:44.311973Z"
+}
