@@ -399,7 +399,7 @@ async function fetchNews(manual){
     status.textContent='Error: '+err.message;
     if(!articles.length)document.getElementById('feed-grid').innerHTML='<div class="empty"><div class="empty-icon">⚠️</div>Could not load news. Try refreshing.</div>';
   }
-  finally{btn.disabled=false;btn.innerHTML='↻ Refresh';}
+  finally{if(btn){btn.disabled=false;btn.innerHTML='↻ Refresh';}}
 }
 </script>
 </body>
