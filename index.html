@@ -381,7 +381,7 @@ function closeModal(){document.getElementById('modal-root').innerHTML='';}
 async function fetchNews(manual){
   const status=document.getElementById('status-text');
   try{
-    const res=await fetch('/public/news.json?t='+Date.now());
+    const res=await fetch('/news.json?t='+Date.now());
     if(!res.ok) throw new Error('Could not load news');
     const data=await res.json();
     articles=data.articles||[];
