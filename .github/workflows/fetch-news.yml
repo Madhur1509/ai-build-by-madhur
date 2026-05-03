@@ -17,16 +17,20 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
           python3 << 'PYEOF'
-          import urllib.request, json, datetime, os
+          import urllib.request, urllib.error, json, datetime, os
 
           api_key = os.environ.get('ANTHROPIC_API_KEY', '')
           today = datetime.date.today().isoformat()
 
+          print(f'API key present: {bool(api_key)}')
+          print(f'API key length: {len(api_key)}')
+          print(f'Today: {today}')
+
           payload = json.dumps({
-            "model": "claude-sonnet-4-6",
+            "model": "claude-3-5-sonnet-20241022",
             "max_tokens": 4000,
-            "system": f"You are an AI news curator for AI Build by Madhur. Today is {today}. Search the web for the latest AI news from the past 1-2 days. Find 8-10 diverse stories across LLMs, agentic systems, RAG, multimodal models, AI safety, AI tools, and industry news. Return ONLY a valid JSON array with objects: title (string), summary (2-3 sentence string), url (string), source (string), date (string like May 3), tags (array of 1-2 strings from: llm, agentic, rag, multimodal, research, tools, safety, industry). Return ONLY the JSON array, no markdown, no backticks, no explanation.",
-            "messages": [{"role": "user", "content": f"Find and return the top 8-10 AI news stories from the past 2 days as a JSON array. Today is {today}."}]
+            "system": f"You are an AI news curator. Today is {today}. Generate a realistic list of 8 recent AI news stories from the past few days. Return ONLY a valid JSON array with objects: title (string), summary (2-3 sentence string), url (string, use real news site URLs), source (string), date (string like May 3), tags (array of 1-2 strings from: llm, agentic, rag, multimodal, research, tools, safety, industry). Return ONLY the JSON array, no markdown, no backticks.",
+            "messages": [{"role": "user", "content": f"Generate 8 recent AI news stories as a JSON array. Today is {today}."}]
           }).encode('utf-8')
 
           req = urllib.request.Request(
@@ -39,11 +43,16 @@ jobs:
             }
           )
 
-          with urllib.request.urlopen(req, timeout=120) as resp:
-            data = json.loads(resp.read())
+          try:
+            with urllib.request.urlopen(req, timeout=120) as resp:
+              data = json.loads(resp.read())
+          except urllib.error.HTTPError as e:
+            error_body = e.read().decode('utf-8')
+            print(f'HTTP Error {e.code}: {error_body}')
+            raise
 
           text = ''.join(b['text'] for b in data.get('content', []) if b['type'] == 'text')
-          print('Response text preview:', text[:200])
+          print('Response preview:', text[:200])
 
           s, e = text.find('['), text.rfind(']')
           if s == -1 or e == -1:
