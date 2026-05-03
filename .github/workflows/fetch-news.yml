@@ -17,7 +17,7 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
           python3 << 'PYEOF'
-          import urllib.request, urllib.error, json, datetime, os, subprocess
+          import urllib.request, json, datetime, os
 
           api_key = os.environ.get('ANTHROPIC_API_KEY', '')
           today = datetime.date.today().isoformat()
@@ -25,9 +25,8 @@ jobs:
           payload = json.dumps({
             "model": "claude-sonnet-4-6",
             "max_tokens": 4000,
-            "tools": [{"type": "web_search_20250305", "name": "web_search"}],
-            "system": f"You are an AI news curator for AI Build by Madhur. Today is {today}. Search the web for the latest AI news from the past 1-2 days. Find 8-10 diverse stories across LLMs, agentic systems, RAG, multimodal models, AI safety, AI tools, and industry news. Return ONLY a valid JSON array with objects: title, summary (2-3 sentences), url, source, date, tags (1-2 from: llm/agentic/rag/multimodal/research/tools/safety/industry). Return ONLY the JSON array, no markdown.",
-            "messages": [{"role": "user", "content": f"Get top AI news for {today}, return as JSON array."}]
+            "system": f"You are an AI news curator for AI Build by Madhur. Today is {today}. Search the web for the latest AI news from the past 1-2 days. Find 8-10 diverse stories across LLMs, agentic systems, RAG, multimodal models, AI safety, AI tools, and industry news. Return ONLY a valid JSON array with objects: title (string), summary (2-3 sentence string), url (string), source (string), date (string like May 3), tags (array of 1-2 strings from: llm, agentic, rag, multimodal, research, tools, safety, industry). Return ONLY the JSON array, no markdown, no backticks, no explanation.",
+            "messages": [{"role": "user", "content": f"Find and return the top 8-10 AI news stories from the past 2 days as a JSON array. Today is {today}."}]
           }).encode('utf-8')
 
           req = urllib.request.Request(
@@ -44,9 +43,11 @@ jobs:
             data = json.loads(resp.read())
 
           text = ''.join(b['text'] for b in data.get('content', []) if b['type'] == 'text')
+          print('Response text preview:', text[:200])
+
           s, e = text.find('['), text.rfind(']')
           if s == -1 or e == -1:
-            raise ValueError(f'No JSON array in response. Got: {text[:300]}')
+            raise ValueError(f'No JSON array found. Got: {text[:300]}')
 
           articles = json.loads(text[s:e+1])
           output = {
