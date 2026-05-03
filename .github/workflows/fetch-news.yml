@@ -27,7 +27,7 @@ jobs:
           print(f'Today: {today}')
 
           payload = json.dumps({
-            "model": "claude-3-5-sonnet-20241022",
+            "model": "claude-sonnet-4-6",
             "max_tokens": 4000,
             "system": f"You are an AI news curator. Today is {today}. Generate a realistic list of 8 recent AI news stories from the past few days. Return ONLY a valid JSON array with objects: title (string), summary (2-3 sentence string), url (string, use real news site URLs), source (string), date (string like May 3), tags (array of 1-2 strings from: llm, agentic, rag, multimodal, research, tools, safety, industry). Return ONLY the JSON array, no markdown, no backticks.",
             "messages": [{"role": "user", "content": f"Generate 8 recent AI news stories as a JSON array. Today is {today}."}]
