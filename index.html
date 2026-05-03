@@ -379,27 +379,24 @@ function sendEmail(){
 function closeModal(){document.getElementById('modal-root').innerHTML='';}
 
 async function fetchNews(manual){
-  const btn=document.getElementById('fetch-btn');
   const status=document.getElementById('status-text');
-  if(btn){btn.disabled=true;btn.innerHTML='<span class="spinner"></span> Fetching…';}
-  if(manual)status.textContent='Searching for today\'s AI news…';
-  const today=new Date().toISOString().split('T')[0];
   try{
-    const res=await fetch('/api/fetch-news',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({today})});
-    if(!res.ok){const e=await res.json().catch(()=>({}));throw new Error(e?.error||'Server error '+res.status);}
+    const res=await fetch('/public/news.json?t='+Date.now());
+    if(!res.ok) throw new Error('Could not load news');
     const data=await res.json();
     articles=data.articles||[];
+    if(!articles.length) throw new Error('No stories yet — check back soon');
     const now=Date.now();
     localStorage.setItem('aib_articles',JSON.stringify(articles));
     localStorage.setItem('aib_last_fetch',String(now));
-    status.textContent=articles.length+' stories · just now';
+    const updated=data.updated?new Date(data.updated).toLocaleDateString('en-US',{month:'short',day:'numeric'}):'today';
+    status.textContent=articles.length+' stories · updated '+updated;
     renderFeed();if(activeTab==='trending')renderTrending();
     startCountdown(now);updateSettingsInfo();
   }catch(err){
-    status.textContent='Error: '+err.message;
-    if(!articles.length)document.getElementById('feed-grid').innerHTML='<div class="empty"><div class="empty-icon">⚠️</div>Could not load news. Try refreshing.</div>';
+    status.textContent=err.message;
+    if(!articles.length)document.getElementById('feed-grid').innerHTML='<div class="empty"><div class="empty-icon">⚠️</div>News updates daily at 6 AM UTC</div>';
   }
-  finally{if(btn){btn.disabled=false;btn.innerHTML='↻ Refresh';}}
 }
 </script>
 </body>
