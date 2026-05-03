@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>AI Build by Madhur</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --bg:#0f0f0e; --bg2:#1a1a18; --bg3:#242422; --bg4:#2e2e2b;
+    --text:#f0efea; --text2:#a0a09e; --text3:#5a5a58;
+    --border:rgba(255,255,255,0.08); --border2:rgba(255,255,255,0.14); --border3:rgba(255,255,255,0.22);
+    --green:#1D9E75; --green-dk:#0F6E56; --green-lt:#04342C; --green-tx:#5DCAA5;
+    --radius:12px; --radius-sm:8px;
+  }
+  html,body{height:100%;}
+  body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',system-ui,sans-serif;background:var(--bg);color:var(--text);min-height:100vh;font-size:15px;line-height:1.5;display:flex;flex-direction:column;}
+  .page{max-width:720px;margin:0 auto;padding:0 16px 100px;flex:1;width:100%;}
+  .header{display:flex;align-items:center;justify-content:space-between;padding:20px 0 18px;border-bottom:0.5px solid var(--border);margin-bottom:20px;gap:12px;}
+  .brand{display:flex;align-items:center;gap:10px;}
+  .logo{width:38px;height:38px;border-radius:9px;background:var(--green);display:flex;align-items:center;justify-content:center;flex-shrink:0;}
+  .logo svg{width:20px;height:20px;}
+  .brand-name{font-size:19px;font-weight:600;color:var(--text);letter-spacing:-0.4px;line-height:1.2;}
+  .brand-name em{color:var(--green-tx);font-style:normal;}
+  .brand-by{font-size:11px;color:var(--text3);margin-top:1px;}
+  .header-actions{display:flex;align-items:center;gap:8px;}
+  .refresh-badge{font-size:11px;color:var(--text3);background:var(--bg2);border:0.5px solid var(--border);border-radius:20px;padding:3px 9px;display:flex;align-items:center;gap:5px;}
+  .refresh-dot{width:6px;height:6px;border-radius:50%;background:var(--green);flex-shrink:0;animation:pulse 2.5s ease-in-out infinite;}
+  @keyframes pulse{0%,100%{opacity:1;}50%{opacity:0.3;}}
+  .btn{font-size:13px;padding:7px 14px;border-radius:20px;cursor:pointer;border:0.5px solid var(--border3);background:var(--bg2);color:var(--text);font-family:inherit;transition:all 0.15s;display:inline-flex;align-items:center;gap:6px;white-space:nowrap;}
+  .btn:hover{background:var(--bg3);}
+  .btn:active{transform:scale(0.97);}
+  .btn:disabled{opacity:0.4;cursor:default;transform:none;}
+  .btn-green{background:var(--green);border-color:var(--green);color:#fff;}
+  .btn-green:hover{background:var(--green-dk);}
+  .btn-sm{font-size:12px;padding:5px 11px;}
+  .settings-panel{background:var(--bg2);border:0.5px solid var(--border2);border-radius:var(--radius);padding:16px 18px;margin-bottom:20px;display:none;}
+  .settings-panel.open{display:block;}
+  .settings-section{margin-bottom:16px;}
+  .settings-section:last-child{margin-bottom:0;}
+  .settings-label{font-size:12px;font-weight:500;color:var(--text3);text-transform:uppercase;letter-spacing:0.5px;margin-bottom:8px;}
+  .settings-divider{height:0.5px;background:var(--border);margin:14px 0;}
+  .info-row{display:flex;justify-content:space-between;align-items:center;padding:5px 0;}
+  .info-row-label{font-size:13px;color:var(--text2);}
+  .info-row-value{font-size:13px;color:var(--text3);}
+  .info-row-value.green{color:var(--green-tx);}
+  .tabs{display:flex;gap:0;margin-bottom:16px;border-bottom:0.5px solid var(--border);}
+  .tab{font-size:13px;padding:8px 16px;cursor:pointer;color:var(--text3);border-bottom:2px solid transparent;margin-bottom:-1px;background:none;border-top:none;border-left:none;border-right:none;font-family:inherit;transition:all 0.15s;}
+  .tab:hover{color:var(--text2);}
+  .tab.active{color:var(--text);border-bottom-color:var(--green);font-weight:500;}
+  .filter-row{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:14px;}
+  .chip{font-size:12px;padding:5px 12px;border-radius:20px;cursor:pointer;border:0.5px solid var(--border2);background:var(--bg2);color:var(--text2);user-select:none;transition:all 0.15s;font-family:inherit;}
+  .chip:hover{background:var(--bg3);color:var(--text);}
+  .chip.active{background:var(--green);border-color:var(--green);color:#fff;}
+  .chip.all.active{background:var(--text);border-color:var(--text);color:var(--bg);}
+  .status-bar{display:flex;align-items:center;justify-content:space-between;margin-bottom:14px;min-height:20px;flex-wrap:wrap;gap:8px;}
+  .status-text{font-size:12px;color:var(--text3);}
+  .next-refresh{font-size:11px;color:var(--text3);}
+  .news-grid{display:flex;flex-direction:column;gap:8px;}
+  .card{background:var(--bg2);border:0.5px solid var(--border);border-radius:var(--radius);padding:16px 18px;transition:border-color 0.15s;}
+  .card:hover{border-color:var(--border2);}
+  .card.saved{border-left:2.5px solid var(--green);border-radius:0 var(--radius) var(--radius) 0;}
+  .card-meta{display:flex;align-items:center;gap:6px;flex-wrap:wrap;margin-bottom:7px;}
+  .tag{font-size:11px;padding:2px 8px;border-radius:10px;font-weight:500;}
+  .tag-llm{background:#26215C;color:#AFA9EC;} .tag-agentic{background:#04342C;color:#5DCAA5;}
+  .tag-rag{background:#412402;color:#EF9F27;} .tag-multimodal{background:#4A1B0C;color:#F0997B;}
+  .tag-research{background:#042C53;color:#85B7EB;} .tag-tools{background:#173404;color:#97C459;}
+  .tag-safety{background:#501313;color:#F09595;} .tag-industry{background:#2C2C2A;color:#B4B2A9;}
+  .meta-sep{color:var(--border2);font-size:10px;}
+  .meta-txt{font-size:11px;color:var(--text3);}
+  .card-title{font-size:15px;font-weight:500;color:var(--text);line-height:1.45;margin-bottom:6px;cursor:pointer;}
+  .card-title:hover{color:var(--green-tx);}
+  .card-summary{font-size:13px;color:var(--text2);line-height:1.65;}
+  .card-foot{display:flex;align-items:center;gap:14px;margin-top:10px;}
+  .card-action{font-size:12px;color:var(--text3);cursor:pointer;background:none;border:none;font-family:inherit;padding:0;transition:color 0.15s;}
+  .card-action:hover{color:var(--text);}
+  .card-action.saved-btn{color:var(--green-tx);}
+  .empty{text-align:center;padding:48px 16px;color:var(--text3);font-size:14px;line-height:1.7;}
+  .empty-icon{font-size:30px;margin-bottom:12px;}
+  .stats-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:20px;}
+  .stat{background:var(--bg2);border:0.5px solid var(--border);border-radius:var(--radius-sm);padding:12px 14px;}
+  .stat-label{font-size:11px;color:var(--text3);margin-bottom:5px;}
+  .stat-value{font-size:20px;font-weight:600;color:var(--text);}
+  .stat-sub{font-size:11px;color:var(--text3);margin-top:2px;}
+  .section-label{font-size:12px;font-weight:500;color:var(--text2);margin-bottom:10px;}
+  .bar-row{display:flex;align-items:center;gap:10px;margin-bottom:8px;}
+  .bar-label{font-size:12px;color:var(--text2);width:84px;flex-shrink:0;text-transform:capitalize;}
+  .bar-track{flex:1;height:5px;background:var(--bg3);border-radius:3px;overflow:hidden;}
+  .bar-fill{height:100%;background:var(--green);border-radius:3px;}
+  .bar-count{font-size:11px;color:var(--text3);width:20px;text-align:right;}
+  .modal-backdrop{position:fixed;inset:0;background:rgba(0,0,0,0.7);display:flex;align-items:center;justify-content:center;z-index:100;padding:20px;}
+  .modal{background:var(--bg2);border:0.5px solid var(--border2);border-radius:var(--radius);padding:22px;width:100%;max-width:580px;max-height:92vh;overflow-y:auto;}
+  .modal-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:6px;}
+  .modal-title{font-size:16px;font-weight:500;}
+  .modal-sub{font-size:13px;color:var(--text2);margin-bottom:16px;}
+  .modal-divider{height:0.5px;background:var(--border);margin:16px 0;}
+  .export-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;}
+  .export-card{background:var(--bg3);border:0.5px solid var(--border2);border-radius:var(--radius-sm);padding:14px;cursor:pointer;transition:all 0.15s;text-align:center;}
+  .export-card:hover{border-color:var(--green);}
+  .export-card.active{border-color:var(--green);border-width:1.5px;}
+  .export-icon{font-size:22px;margin-bottom:6px;}
+  .export-label{font-size:13px;font-weight:500;color:var(--text);margin-bottom:2px;}
+  .export-desc{font-size:11px;color:var(--text3);line-height:1.4;}
+  .email-label{font-size:12px;color:var(--text3);margin-bottom:6px;}
+  .email-row{display:flex;gap:8px;}
+  .email-row input{flex:1;font-size:13px;padding:8px 12px;border-radius:var(--radius-sm);border:0.5px solid var(--border2);background:var(--bg3);color:var(--text);font-family:inherit;outline:none;}
+  .email-row input:focus{border-color:var(--green);}
+  .email-note{font-size:11px;color:var(--text3);margin-top:6px;line-height:1.5;}
+  .preview-label{font-size:12px;color:var(--text3);margin-bottom:6px;}
+  .preview-box{background:var(--bg3);border:0.5px solid var(--border2);border-radius:var(--radius-sm);padding:12px;font-size:12px;color:var(--text2);line-height:1.6;max-height:180px;overflow-y:auto;font-family:monospace;white-space:pre-wrap;word-break:break-word;}
+  .modal-foot{display:flex;gap:8px;margin-top:14px;justify-content:flex-end;flex-wrap:wrap;}
+  .modal-close-btn{font-size:12px;padding:5px 14px;border-radius:20px;border:0.5px solid var(--border2);background:none;color:var(--text2);cursor:pointer;font-family:inherit;}
+  .footer{position:fixed;bottom:0;left:0;right:0;background:var(--bg);border-top:0.5px solid var(--border);padding:12px 24px;display:flex;align-items:center;justify-content:space-between;z-index:50;}
+  .footer-left{display:flex;align-items:center;gap:8px;}
+  .footer-name{font-size:12px;color:var(--text3);}
+  .footer-name strong{color:var(--text2);font-weight:500;}
+  .social-links{display:flex;align-items:center;gap:4px;}
+  .social-link{display:flex;align-items:center;justify-content:center;width:30px;height:30px;border-radius:8px;border:0.5px solid var(--border2);background:var(--bg2);color:var(--text2);text-decoration:none;transition:all 0.15s;flex-shrink:0;}
+  .social-link:hover{background:var(--bg3);border-color:var(--border3);color:var(--text);}
+  .social-link svg{width:15px;height:15px;fill:currentColor;}
+  .footer-right{font-size:11px;color:var(--text3);}
+  .spinner{width:13px;height:13px;border:2px solid rgba(255,255,255,0.2);border-top-color:#fff;border-radius:50%;animation:spin 0.7s linear infinite;display:inline-block;vertical-align:middle;}
+  @keyframes spin{to{transform:rotate(360deg);}}
+  @media(max-width:540px){.export-grid{grid-template-columns:1fr 1fr;}.stats-grid{grid-template-columns:repeat(2,1fr);}.header-actions .btn span{display:none;}.footer{padding:10px 16px;}.refresh-badge{display:none;}}
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="header">
+    <div class="brand">
+      <div class="logo">
+        <svg viewBox="0 0 20 20" fill="none"><rect x="2" y="10" width="3.5" height="8" rx="1.5" fill="white"/><rect x="8.25" y="6" width="3.5" height="12" rx="1.5" fill="white"/><rect x="14.5" y="2" width="3.5" height="16" rx="1.5" fill="white"/></svg>
+      </div>
+      <div>
+        <div class="brand-name">AI <em>Build</em></div>
+        <div class="brand-by">by Madhur</div>
+      </div>
+    </div>
+    <div class="header-actions">
+      <div class="refresh-badge"><span class="refresh-dot"></span><span id="refresh-badge-text">auto · 12h</span></div>
+      <button class="btn" onclick="toggleSettings()">⚙ <span>Settings</span></button>
+      <button class="btn" onclick="openExport()" id="export-btn">Export ↗</button>
+      <button class="btn btn-green" onclick="fetchNews(true)" id="fetch-btn">↻ Refresh</button>
+    </div>
+  </div>
+
+  <div class="settings-panel" id="settings-panel">
+    <div class="settings-section">
+      <div class="settings-label">Auto-refresh</div>
+      <div class="info-row"><span class="info-row-label">Interval</span><span class="info-row-value green">Every 12 hours</span></div>
+      <div class="info-row"><span class="info-row-label">Last fetched</span><span class="info-row-value" id="last-fetched-setting">Never</span></div>
+      <div class="info-row"><span class="info-row-label">Next refresh</span><span class="info-row-value" id="next-refresh-setting">—</span></div>
+      <div class="info-row"><span class="info-row-label">Stories cached</span><span class="info-row-value" id="cached-count-setting">0</span></div>
+    </div>
+    <div class="settings-divider"></div>
+    <div class="settings-section">
+      <div class="settings-label">Export options</div>
+      <div class="info-row"><span class="info-row-label">PDF</span><span class="info-row-value">Branded digest download</span></div>
+      <div class="info-row"><span class="info-row-label">Word (.docx)</span><span class="info-row-value">Editable document download</span></div>
+      <div class="info-row"><span class="info-row-label">Email</span><span class="info-row-value">Send digest to any address</span></div>
+    </div>
+  </div>
+
+  <div class="tabs">
+    <button class="tab active" onclick="switchTab('feed')">Today</button>
+    <button class="tab" onclick="switchTab('saved')">Saved <span id="saved-count"></span></button>
+    <button class="tab" onclick="switchTab('trending')">Trending</button>
+  </div>
+
+  <div id="tab-feed">
+    <div class="filter-row">
+      <span class="chip all active" data-tag="all">All</span>
+      <span class="chip" data-tag="llm">LLM</span>
+      <span class="chip" data-tag="agentic">Agentic</span>
+      <span class="chip" data-tag="rag">RAG</span>
+      <span class="chip" data-tag="multimodal">Multimodal</span>
+      <span class="chip" data-tag="research">Research</span>
+      <span class="chip" data-tag="tools">Tools</span>
+      <span class="chip" data-tag="safety">Safety</span>
+      <span class="chip" data-tag="industry">Industry</span>
+    </div>
+    <div class="status-bar">
+      <span class="status-text" id="status-text">Loading today's AI news…</span>
+      <span class="next-refresh" id="next-refresh-bar"></span>
+    </div>
+    <div class="news-grid" id="feed-grid"><div class="empty"><div class="empty-icon">📡</div>Hit Refresh to load today's AI stories</div></div>
+  </div>
+
+  <div id="tab-saved" style="display:none">
+    <div class="status-bar">
+      <span class="status-text">Stories you've saved from the feed</span>
+      <div><button class="btn btn-sm" onclick="openExport('saved')">Export saved ↗</button></div>
+    </div>
+    <div class="news-grid" id="saved-grid"><div class="empty"><div class="empty-icon">🔖</div>No saved stories yet — hit ☆ Save on any card</div></div>
+  </div>
+
+  <div id="tab-trending" style="display:none">
+    <div id="trending-content"><div class="empty"><div class="empty-icon">📊</div>Load some stories first to see trends</div></div>
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="footer-left">
+    <div class="social-links">
+      <a class="social-link" href="https://www.linkedin.com/in/madhur-m/" target="_blank" title="LinkedIn">
+        <svg viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+      </a>
+      <a class="social-link" href="https://www.instagram.com/themadhurmehta/" target="_blank" title="Instagram">
+        <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+      </a>
+      <a class="social-link" href="https://substack.com/@madhurmehta" target="_blank" title="Substack">
+        <svg viewBox="0 0 24 24"><path d="M22.539 8.242H1.46V5.406h21.08v2.836zM1.46 10.812V24L12 18.11 22.54 24V10.812H1.46zM22.54 0H1.46v2.836h21.08V0z"/></svg>
+      </a>
+    </div>
+    <span class="footer-name">by <strong>Madhur Mehta</strong></span>
+  </div>
+  <div class="footer-right" id="footer-time"></div>
+</footer>
+
+<div id="modal-root"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/docx/7.8.2/docx.umd.min.js"></script>
+
+<script>
+const REFRESH_MS=12*60*60*1000;
+let articles=[],saved=new Set(JSON.parse(localStorage.getItem('aib_saved')||'[]')),activeTag='all',activeTab='feed',countdownTimer=null;
+
+(function init(){
+  updateSavedCount();bindChips();updateSettingsInfo();
+  const cached=localStorage.getItem('aib_articles');
+  const lastFetch=parseInt(localStorage.getItem('aib_last_fetch')||'0');
+  if(cached){articles=JSON.parse(cached);document.getElementById('status-text').textContent=articles.length+' stories · last updated '+formatAgo(lastFetch);renderFeed();}
+  if(lastFetch&&(Date.now()-lastFetch)>=REFRESH_MS){document.getElementById('status-text').textContent='Auto-refreshing…';fetchNews(false);}
+  else if(!cached){fetchNews(false);}
+  else startCountdown(lastFetch);
+  updateFooterTime();setInterval(updateFooterTime,60000);
+})();
+
+function startCountdown(lastFetch){
+  if(countdownTimer)clearInterval(countdownTimer);
+  if(!lastFetch){document.getElementById('next-refresh-bar').textContent='';return;}
+  function tick(){
+    const rem=REFRESH_MS-(Date.now()-lastFetch);
+    if(rem<=0){clearInterval(countdownTimer);fetchNews(false);return;}
+    const h=Math.floor(rem/3600000),m=Math.floor((rem%3600000)/60000);
+    const label=h>0?'next refresh in '+h+'h '+m+'m':'next refresh in '+m+'m';
+    document.getElementById('next-refresh-bar').textContent=label;
+    document.getElementById('refresh-badge-text').textContent='auto · '+(h>0?h+'h':m+'m');
+    updateSettingsInfo();
+  }
+  tick();countdownTimer=setInterval(tick,30000);
+}
+
+function formatAgo(ts){if(!ts)return'never';const diff=Date.now()-ts,h=Math.floor(diff/3600000),m=Math.floor((diff%3600000)/60000);if(h>0)return h+'h ago';if(m>0)return m+'m ago';return'just now';}
+function updateFooterTime(){const now=new Date();document.getElementById('footer-time').textContent=now.toLocaleDateString('en-US',{month:'short',day:'numeric'})+' · '+now.toLocaleTimeString('en-US',{hour:'numeric',minute:'2-digit'});}
+function updateSettingsInfo(){
+  const lastFetch=parseInt(localStorage.getItem('aib_last_fetch')||'0');
+  const cached=localStorage.getItem('aib_articles');
+  document.getElementById('last-fetched-setting').textContent=lastFetch?formatAgo(lastFetch):'Never';
+  document.getElementById('cached-count-setting').textContent=cached?JSON.parse(cached).length:0;
+  if(lastFetch){const nd=new Date(lastFetch+REFRESH_MS);document.getElementById('next-refresh-setting').textContent=nd.toLocaleTimeString('en-US',{hour:'numeric',minute:'2-digit'});}
+  else document.getElementById('next-refresh-setting').textContent='—';
+}
+function toggleSettings(){document.getElementById('settings-panel').classList.toggle('open');updateSettingsInfo();}
+function switchTab(t){activeTab=t;['feed','saved','trending'].forEach((n,i)=>{document.querySelectorAll('.tab')[i].classList.toggle('active',n===t);document.getElementById('tab-'+n).style.display=n===t?'':'none';});if(t==='saved')renderSaved();if(t==='trending')renderTrending();}
+function bindChips(){document.querySelectorAll('.chip').forEach(c=>{c.addEventListener('click',()=>{activeTag=c.dataset.tag;document.querySelectorAll('.chip').forEach(x=>x.classList.remove('active'));c.classList.add('active');renderFeed();});});}
+function toggleSave(i){saved.has(i)?saved.delete(i):saved.add(i);localStorage.setItem('aib_saved',JSON.stringify([...saved]));updateSavedCount();renderFeed();if(activeTab==='saved')renderSaved();}
+function updateSavedCount(){document.getElementById('saved-count').textContent=saved.size>0?'('+saved.size+')':'';}
+
+function cardHTML(a,i){
+  const s=saved.has(i);
+  const tags=(a.tags||[]).slice(0,2).map(t=>'<span class="tag tag-'+t+'">'+t+'</span>').join('');
+  const url=(a.url||'#').replace(/"/g,'&quot;').replace(/'/g,'&#39;');
+  return'<div class="card'+(s?' saved':'')+'"><div class="card-meta">'+tags+'<span class="meta-sep">·</span><span class="meta-txt">'+(a.source||'')+'</span><span class="meta-sep">·</span><span class="meta-txt">'+(a.date||'')+'</span></div><div class="card-title" onclick="window.open(\''+url+'\',\'_blank\')">'+a.title+'</div><div class="card-summary">'+a.summary+'</div><div class="card-foot"><button class="card-action'+(s?' saved-btn':'')+'" onclick="toggleSave('+i+')">'+(s?'★ Saved':'☆ Save')+'</button><button class="card-action" onclick="window.open(\''+url+'\',\'_blank\')">Read →</button></div></div>';
+}
+function renderFeed(){const g=document.getElementById('feed-grid');const rows=articles.map((a,i)=>({a,i})).filter(({a})=>activeTag==='all'||(a.tags&&a.tags.includes(activeTag)));g.innerHTML=rows.length?rows.map(({a,i})=>cardHTML(a,i)).join(''):'<div class="empty"><div class="empty-icon">🔍</div>No stories for this filter</div>';}
+function renderSaved(){const g=document.getElementById('saved-grid');const rows=[...saved].map(i=>({a:articles[i],i})).filter(r=>r.a);g.innerHTML=rows.length?rows.map(({a,i})=>cardHTML(a,i)).join(''):'<div class="empty"><div class="empty-icon">🔖</div>No saved stories yet</div>';}
+function renderTrending(){
+  const el=document.getElementById('trending-content');
+  if(!articles.length){el.innerHTML='<div class="empty"><div class="empty-icon">📊</div>Load some stories first</div>';return;}
+  const tc={};articles.forEach(a=>(a.tags||[]).forEach(t=>{tc[t]=(tc[t]||0)+1;}));
+  const sorted=Object.entries(tc).sort((a,b)=>b[1]-a[1]);const max=sorted[0]?.[1]||1,topTag=sorted[0]?.[0]||'';
+  const srcs={};articles.forEach(a=>{if(a.source)srcs[a.source]=(srcs[a.source]||0)+1;});
+  const topSrc=Object.entries(srcs).sort((a,b)=>b[1]-a[1])[0];
+  const topStory=articles.find(a=>a.tags&&a.tags.includes(topTag));const topIdx=articles.indexOf(topStory);
+  el.innerHTML='<div class="stats-grid"><div class="stat"><div class="stat-label">Stories today</div><div class="stat-value">'+articles.length+'</div></div><div class="stat"><div class="stat-label">Top topic</div><div class="stat-value" style="font-size:15px;text-transform:capitalize">'+topTag+'</div><div class="stat-sub">'+(tc[topTag]||0)+' stories</div></div><div class="stat"><div class="stat-label">Top source</div><div class="stat-value" style="font-size:13px">'+(topSrc?.[0]||'—')+'</div><div class="stat-sub">'+(topSrc?.[1]||0)+' stories</div></div></div><p class="section-label" style="margin-bottom:10px">By topic</p>'+sorted.map(([tag,n])=>'<div class="bar-row"><span class="bar-label">'+tag+'</span><div class="bar-track"><div class="bar-fill" style="width:'+Math.round(n/max*100)+'%"></div></div><span class="bar-count">'+n+'</span></div>').join('')+(topStory?'<p class="section-label" style="margin-top:20px;margin-bottom:10px">Top story in "'+topTag+'"</p>'+cardHTML(topStory,topIdx):'');
+}
+
+let exportArts=[],exportMode='pdf';
+function openExport(mode){
+  const arts=mode==='saved'?[...saved].map(i=>articles[i]).filter(Boolean):articles;
+  if(!arts.length){alert('No stories to export yet. Load some news first!');return;}
+  exportArts=arts;exportMode='pdf';
+  const root=document.getElementById('modal-root');
+  root.innerHTML=`<div class="modal-backdrop" id="mbdrop"><div class="modal"><div class="modal-header"><span class="modal-title">Export digest</span><button onclick="closeModal()" style="background:none;border:none;color:var(--text2);font-size:20px;cursor:pointer;padding:0;line-height:1">×</button></div><p class="modal-sub">Choose how to share your AI Build digest</p><div class="export-grid"><div class="export-card active" id="opt-pdf" onclick="selectExportMode('pdf')"><div class="export-icon">📄</div><div class="export-label">PDF</div><div class="export-desc">Branded download</div></div><div class="export-card" id="opt-word" onclick="selectExportMode('word')"><div class="export-icon">📝</div><div class="export-label">Word</div><div class="export-desc">Editable .docx</div></div><div class="export-card" id="opt-email" onclick="selectExportMode('email')"><div class="export-icon">✉️</div><div class="export-label">Email</div><div class="export-desc">Send to inbox</div></div></div><div class="modal-divider"></div><div id="export-detail"></div><div class="modal-foot"><button class="modal-close-btn" onclick="closeModal()">Close</button><button class="btn btn-green" id="export-action-btn" onclick="doExport()">Download PDF</button></div></div></div>`;
+  document.getElementById('mbdrop').addEventListener('click',e=>{if(e.target===e.currentTarget)closeModal();});
+  renderExportDetail();
+}
+function selectExportMode(m){exportMode=m;['pdf','word','email'].forEach(x=>document.getElementById('opt-'+x).classList.toggle('active',x===m));const labels={pdf:'Download PDF',word:'Download Word',email:'Send Email'};document.getElementById('export-action-btn').textContent=labels[m];renderExportDetail();}
+function digestText(arts){
+  const d=new Date().toLocaleDateString('en-US',{month:'long',day:'numeric',year:'numeric'});
+  let t='AI Build by Madhur — '+d+'\n'+'─'.repeat(44)+'\n\n';
+  arts.forEach((a,i)=>{t+=(i+1)+'. '+a.title+'\n';const m=[a.source,a.date].filter(Boolean).join(' · ');if(m)t+='   '+m+'\n';t+='   '+a.summary+'\n';if(a.url&&a.url!=='#')t+='   '+a.url+'\n';t+='\n';});
+  t+='─'.repeat(44)+'\nMadhur Mehta · themadhurmehta@gmail.com\nlinkedin.com/in/madhur-m · instagram.com/themadhurmehta · substack.com/@madhurmehta\n';
+  return t;
+}
+function renderExportDetail(){
+  const el=document.getElementById('export-detail');
+  if(exportMode==='email'){el.innerHTML='<div><div class="email-label">Send to email address</div><div class="email-row"><input type="email" id="email-to" placeholder="recipient@example.com" /></div><div class="email-note">Opens your default mail app with the digest pre-filled. Your name, email &amp; socials are included as signature.</div></div>';}
+  else{const prev=digestText(exportArts).slice(0,400)+'…';el.innerHTML='<div><div class="preview-label">'+(exportMode==='pdf'?'PDF':'Word')+' preview</div><div class="preview-box">'+prev+'</div></div>';}
+}
+function doExport(){if(exportMode==='pdf')exportPDF();else if(exportMode==='word')exportWord();else sendEmail();}
+
+function exportPDF(){
+  const btn=document.getElementById('export-action-btn');btn.textContent='Generating…';btn.disabled=true;
+  try{
+    const {jsPDF}=window.jspdf;const doc=new jsPDF({orientation:'portrait',unit:'mm',format:'a4'});
+    const W=210,margin=18,maxW=W-margin*2;let y=margin;
+    const d=new Date().toLocaleDateString('en-US',{month:'long',day:'numeric',year:'numeric'});
+    doc.setFillColor(29,158,117);doc.rect(0,0,W,22,'F');
+    doc.setTextColor(255,255,255);doc.setFontSize(16);doc.setFont('helvetica','bold');doc.text('AI Build by Madhur',margin,14);
+    doc.setFontSize(9);doc.setFont('helvetica','normal');doc.text(d,W-margin,14,{align:'right'});
+    y=32;doc.setTextColor(100,100,100);doc.setFontSize(9);doc.text('Daily AI intelligence · '+exportArts.length+' stories',margin,y);y+=10;
+    doc.setDrawColor(230,230,230);doc.setLineWidth(0.3);doc.line(margin,y,W-margin,y);y+=7;
+    exportArts.forEach((a,idx)=>{
+      if(y>268){doc.addPage();y=margin;}
+      doc.setFontSize(11);doc.setFont('helvetica','bold');doc.setTextColor(30,30,30);
+      const tl=doc.splitTextToSize((idx+1)+'. '+a.title,maxW);doc.text(tl,margin,y);y+=tl.length*6;
+      doc.setFontSize(8);doc.setFont('helvetica','normal');doc.setTextColor(29,158,117);
+      const meta=[(a.tags||[]).join(', '),a.source,a.date].filter(Boolean).join('  ·  ');doc.text(meta,margin,y);y+=5;
+      doc.setTextColor(80,80,80);doc.setFontSize(9);const sl=doc.splitTextToSize(a.summary,maxW);doc.text(sl,margin,y);y+=sl.length*5;
+      if(a.url&&a.url!=='#'){doc.setTextColor(29,158,117);doc.setFontSize(8);doc.text(a.url.slice(0,80),margin,y);y+=5;}
+      y+=5;if(idx<exportArts.length-1){doc.setDrawColor(240,240,240);doc.line(margin,y-2,W-margin,y-2);}
+    });
+    if(y>260){doc.addPage();y=margin;}y+=4;
+    doc.setDrawColor(29,158,117);doc.setLineWidth(0.5);doc.line(margin,y,W-margin,y);y+=7;
+    doc.setFontSize(8);doc.setFont('helvetica','bold');doc.setTextColor(30,30,30);doc.text('Madhur Mehta',margin,y);y+=5;
+    doc.setFont('helvetica','normal');doc.setTextColor(100,100,100);doc.text('themadhurmehta@gmail.com',margin,y);y+=4;
+    doc.text('linkedin.com/in/madhur-m  ·  instagram.com/themadhurmehta  ·  substack.com/@madhurmehta',margin,y);
+    doc.save('ai-build-by-madhur-'+new Date().toISOString().split('T')[0]+'.pdf');
+  }catch(e){alert('PDF error: '+e.message);}
+  finally{btn.textContent='Download PDF';btn.disabled=false;}
+}
+
+async function exportWord(){
+  const btn=document.getElementById('export-action-btn');btn.textContent='Generating…';btn.disabled=true;
+  try{
+    const {Document,Packer,Paragraph,TextRun,HeadingLevel,AlignmentType}=docx;
+    const d=new Date().toLocaleDateString('en-US',{month:'long',day:'numeric',year:'numeric'});
+    const children=[];
+    children.push(new Paragraph({text:'AI Build by Madhur — '+d,heading:HeadingLevel.HEADING_1}));
+    children.push(new Paragraph({children:[new TextRun({text:'Daily AI intelligence · '+exportArts.length+' stories',color:'1D9E75',size:18})]}));
+    children.push(new Paragraph({text:''}));
+    exportArts.forEach((a,idx)=>{
+      children.push(new Paragraph({children:[new TextRun({text:(idx+1)+'. '+a.title,bold:true,size:24})]}));
+      const meta=[(a.tags||[]).join(', '),a.source,a.date].filter(Boolean).join('  ·  ');
+      children.push(new Paragraph({children:[new TextRun({text:meta,color:'1D9E75',size:16})]}));
+      children.push(new Paragraph({children:[new TextRun({text:a.summary,size:18,color:'444444'})]}));
+      if(a.url&&a.url!=='#')children.push(new Paragraph({children:[new TextRun({text:a.url,color:'1D9E75',size:16})]}));
+      children.push(new Paragraph({text:''}));
+    });
+    children.push(new Paragraph({text:'─'.repeat(40)}));
+    children.push(new Paragraph({children:[new TextRun({text:'Madhur Mehta',bold:true,size:20})]}));
+    children.push(new Paragraph({children:[new TextRun({text:'themadhurmehta@gmail.com',color:'1D9E75',size:18})]}));
+    children.push(new Paragraph({children:[new TextRun({text:'linkedin.com/in/madhur-m  ·  instagram.com/themadhurmehta  ·  substack.com/@madhurmehta',size:16,color:'888888'})]}));
+    const docObj=new Document({sections:[{properties:{},children}]});
+    const blob=await Packer.toBlob(docObj);
+    const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download='ai-build-by-madhur-'+new Date().toISOString().split('T')[0]+'.docx';document.body.appendChild(a);a.click();document.body.removeChild(a);URL.revokeObjectURL(url);
+  }catch(e){alert('Word error: '+e.message);}
+  finally{btn.textContent='Download Word';btn.disabled=false;}
+}
+
+function sendEmail(){
+  const to=document.getElementById('email-to')?.value?.trim();
+  if(!to){alert('Please enter a recipient email address.');return;}
+  const d=new Date().toLocaleDateString('en-US',{month:'long',day:'numeric',year:'numeric'});
+  window.location.href='mailto:'+to+'?subject='+encodeURIComponent('AI Build by Madhur — '+d)+'&body='+encodeURIComponent(digestText(exportArts));
+}
+
+function closeModal(){document.getElementById('modal-root').innerHTML='';}
+
+async function fetchNews(manual){
+  const btn=document.getElementById('fetch-btn'),status=document.getElementById('status-text');
+  btn.disabled=true;btn.innerHTML='<span class="spinner"></span> Fetching…';
+  if(manual)status.textContent='Searching for today\'s AI news…';
+  const today=new Date().toISOString().split('T')[0];
+  try{
+    const res=await fetch('/api/fetch-news',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({today})});
+    if(!res.ok){const e=await res.json().catch(()=>({}));throw new Error(e?.error||'Server error '+res.status);}
+    const data=await res.json();
+    articles=data.articles||[];
+    const now=Date.now();
+    localStorage.setItem('aib_articles',JSON.stringify(articles));
+    localStorage.setItem('aib_last_fetch',String(now));
+    status.textContent=articles.length+' stories · just now';
+    renderFeed();if(activeTab==='trending')renderTrending();
+    startCountdown(now);updateSettingsInfo();
+  }catch(err){
+    status.textContent='Error: '+err.message;
+    if(!articles.length)document.getElementById('feed-grid').innerHTML='<div class="empty"><div class="empty-icon">⚠️</div>Could not load news. Try refreshing.</div>';
+  }
+  finally{btn.disabled=false;btn.innerHTML='↻ Refresh';}
+}
+</script>
+</body>
+</html>
