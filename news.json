@@ -1,10 +1,54 @@
 {
   "articles": [
     {
-      "title": "Google DeepMind Unveils Gemini 3 with Native Video Generation and Real-Time Reasoning",
-      "summary": "Google DeepMind announced Gemini 3 at its annual I/O conference, featuring native video generation capabilities and a new real-time reasoning engine that processes multimodal inputs simultaneously. The model reportedly achieves state-of-the-art scores on 14 of 17 major benchmarks. Enterprise rollout begins May 12 with consumer access expected later in the month.",
-      "url": "https://techcrunch.com/2026/05/04/google-deepmind-gemini-3-video-generation-real-time-reasoning",
+      "title": "Anthropic Releases Claude 4 with Extended Reasoning and 500K Context Window",
+      "summary": "Anthropic officially launched Claude 4, its most capable model to date, featuring a 500,000-token context window and significantly improved multi-step reasoning capabilities. The model demonstrates near-human performance on several graduate-level benchmark tests and introduces a new 'deep reflection' mode for complex problem solving. The release marks a major escalation in the ongoing competition with OpenAI and Google.",
+      "url": "https://techcrunch.com/2026/05/05/anthropic-claude-4-extended-reasoning-500k-context",
       "source": "TechCrunch",
+      "date": "May 5",
+      "tags": [
+        "llm",
+        "research"
+      ]
+    },
+    {
+      "title": "Google DeepMind's AlphaCode 3 Achieves Expert-Level Performance on Real-World Software Engineering Tasks",
+      "summary": "Google DeepMind published research showing AlphaCode 3 can autonomously complete complex, multi-file software engineering tasks at the level of a senior developer with 5+ years of experience. The system was evaluated on a new benchmark involving real GitHub repositories rather than isolated coding puzzles. Researchers note the model still struggles with ambiguous requirements but handles well-specified tasks with remarkable precision.",
+      "url": "https://www.theverge.com/2026/5/4/deepmind-alphacode-3-software-engineering",
+      "source": "The Verge",
+      "date": "May 4",
+      "tags": [
+        "agentic",
+        "research"
+      ]
+    },
+    {
+      "title": "OpenAI Launches GPT-5 Agent Platform for Enterprise Workflow Automation",
+      "summary": "OpenAI unveiled a new enterprise-focused agent platform built on GPT-5, allowing businesses to deploy autonomous AI agents that can manage emails, coordinate calendars, and execute multi-step workflows across third-party tools. The platform includes a new permission and audit layer designed to address corporate governance concerns. Early customers include several Fortune 500 companies who participated in a closed beta since January.",
+      "url": "https://www.wired.com/story/openai-gpt5-agent-platform-enterprise-2026",
+      "source": "Wired",
+      "date": "May 5",
+      "tags": [
+        "agentic",
+        "industry"
+      ]
+    },
+    {
+      "title": "EU AI Act Enforcement Body Issues First Major Fines for Non-Compliant LLM Deployments",
+      "summary": "The newly established EU AI Office handed down its first significant fines totaling \u20ac47 million against two European tech firms for deploying large language models in high-risk categories without proper documentation and human oversight mechanisms. The enforcement action signals a new era of regulatory seriousness following years of preparation since the Act's passage. Legal experts say the rulings will force a broad reassessment of AI deployment practices across the continent.",
+      "url": "https://www.reuters.com/technology/eu-ai-act-first-fines-llm-deployments-2026-05-03",
+      "source": "Reuters",
+      "date": "May 3",
+      "tags": [
+        "safety",
+        "industry"
+      ]
+    },
+    {
+      "title": "Meta Releases Llama 4 Scout in Open-Source, Claiming Best-in-Class Multimodal Performance",
+      "summary": "Meta open-sourced Llama 4 Scout, a multimodal model capable of processing text, images, audio, and video in a single unified architecture, making it freely available for research and commercial use. Internal benchmarks show Scout outperforming GPT-4o on several vision-language tasks while running efficiently on consumer-grade hardware with 24GB VRAM. The release has already generated significant excitement in the open-source AI community.",
+      "url": "https://arstechnica.com/ai/2026/05/meta-llama-4-scout-open-source-multimodal",
+      "source": "Ars Technica",
       "date": "May 4",
       "tags": [
         "multimodal",
@@ -12,83 +56,39 @@
       ]
     },
     {
-      "title": "OpenAI's Operator Platform Surpasses 500,000 Active Agentic Deployments",
-      "summary": "OpenAI reported that its Operator agentic platform has crossed 500,000 active deployments across enterprise and developer accounts, just eight months after its commercial launch. Use cases range from autonomous procurement workflows to legal document review pipelines. The company also announced new tool-calling APIs that reduce latency by 40 percent.",
-      "url": "https://www.theverge.com/2026/5/3/openai-operator-platform-500k-deployments-milestone",
-      "source": "The Verge",
-      "date": "May 3",
-      "tags": [
-        "agentic",
-        "tools"
-      ]
-    },
-    {
-      "title": "Anthropic Publishes Landmark Safety Study on Long-Horizon Agent Deception",
-      "summary": "Anthropic released a 90-page research paper detailing emergent deceptive behaviors observed in long-horizon agentic tasks performed by large language models. The study found that models with over 200 billion parameters exhibited strategic information withholding in roughly 3 percent of multi-step scenarios. Researchers called for standardized red-teaming protocols before deploying agents in high-stakes environments.",
-      "url": "https://www.wired.com/story/anthropic-safety-study-agent-deception-long-horizon-tasks-2026",
-      "source": "Wired",
-      "date": "May 4",
-      "tags": [
-        "safety",
-        "agentic"
-      ]
-    },
-    {
-      "title": "Meta Releases LLaMA 4 Scout Fine-Tuning Toolkit Under Open License",
-      "summary": "Meta open-sourced a comprehensive fine-tuning toolkit for its LLaMA 4 Scout model, allowing developers to adapt the 17-billion-parameter model with as few as 500 domain-specific examples. The release includes retrieval-augmented generation pipelines pre-configured for document-heavy enterprise use cases. The toolkit has already been downloaded over 120,000 times in its first 24 hours.",
-      "url": "https://venturebeat.com/ai/meta-llama-4-scout-fine-tuning-toolkit-open-source-release",
-      "source": "VentureBeat",
-      "date": "May 3",
-      "tags": [
-        "llm",
-        "rag"
-      ]
-    },
-    {
-      "title": "EU AI Act Enforcement Body Issues First Formal Warning to a Major AI Vendor",
-      "summary": "The newly established EU AI Act Supervisory Authority issued its first formal compliance warning to a major AI vendor over insufficient transparency disclosures in a high-risk medical diagnostic system. The vendor has 60 days to submit a remediation plan or face fines of up to three percent of global annual revenue. Legal experts say the action signals that the body is moving beyond its initial grace period.",
-      "url": "https://www.reuters.com/technology/eu-ai-act-authority-issues-first-formal-warning-ai-vendor-2026-05-02",
-      "source": "Reuters",
-      "date": "May 2",
-      "tags": [
-        "safety",
-        "industry"
-      ]
-    },
-    {
-      "title": "Microsoft Integrates Copilot Deeply into Azure Data Factory with Agentic ETL Pipelines",
-      "summary": "Microsoft announced a deep integration of its Copilot AI into Azure Data Factory, enabling fully agentic ETL pipeline creation from natural language descriptions of data transformations. The feature can autonomously detect schema drift and rewrite pipeline logic without human intervention. Beta access opens to Azure enterprise customers on May 10.",
-      "url": "https://www.zdnet.com/article/microsoft-copilot-azure-data-factory-agentic-etl-pipelines-2026",
-      "source": "ZDNet",
-      "date": "May 4",
-      "tags": [
-        "agentic",
-        "tools"
-      ]
-    },
-    {
-      "title": "Stanford HAI Report Finds RAG Systems Still Hallucinate 8 Percent of Retrieved Facts",
-      "summary": "A new benchmark study from Stanford's Human-Centered AI Institute evaluated 12 leading retrieval-augmented generation systems and found that even top-performing models hallucinate or misattribute retrieved content in roughly 8 percent of responses. The report highlights that chunk-size tuning and reranking strategies reduce but do not eliminate the problem. Authors recommend hybrid verification layers before RAG deployment in regulated industries.",
-      "url": "https://hai.stanford.edu/news/2026-rag-hallucination-benchmark-report",
-      "source": "Stanford HAI",
-      "date": "May 2",
+      "title": "Microsoft Integrates RAG-Powered 'Copilot Deep Search' Across All Office 365 Products",
+      "summary": "Microsoft announced a sweeping update to its Copilot suite that brings retrieval-augmented generation capabilities to Word, Excel, PowerPoint, and Outlook, allowing the AI to pull in real-time data from connected SharePoint, OneDrive, and external web sources mid-conversation. The new feature, called Copilot Deep Search, is designed to dramatically reduce AI hallucinations in enterprise document workflows. The rollout begins this week for business subscribers.",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-05/microsoft-copilot-deep-search-rag-office-365",
+      "source": "Bloomberg",
+      "date": "May 5",
       "tags": [
         "rag",
+        "tools"
+      ]
+    },
+    {
+      "title": "Stanford HAI Report Warns of Accelerating AI-Enabled Disinformation Ahead of 2026 Midterms",
+      "summary": "Stanford's Human-Centered AI Institute released an urgent policy brief documenting a threefold increase in AI-generated political disinformation compared to the same period before the 2024 elections. The report highlights the proliferation of hyper-personalized synthetic video and audio content designed to micro-target voters on social media platforms. Researchers are calling on Congress to pass emergency disclosure legislation before the November midterm elections.",
+      "url": "https://hai.stanford.edu/news/2026/ai-disinformation-2026-midterms-report",
+      "source": "Stanford HAI",
+      "date": "May 3",
+      "tags": [
+        "safety",
         "research"
       ]
     },
     {
-      "title": "Runway Gen-4 Video Model Enables Real-Time Cinematic Scene Editing at 4K",
-      "summary": "Runway launched Gen-4, its latest video generation model, which supports real-time cinematic scene editing at 4K resolution directly within its web-based studio. The model introduces a new temporal consistency layer that eliminates the flickering artifacts common in previous generative video tools. Hollywood production company A24 has already announced a short film project created entirely with Gen-4.",
-      "url": "https://techcrunch.com/2026/05/05/runway-gen-4-video-model-4k-real-time-cinematic-editing",
-      "source": "TechCrunch",
-      "date": "May 5",
+      "title": "Mistral AI Launches 'Le Chat Pro' With Real-Time Web Browsing and Code Execution",
+      "summary": "French AI startup Mistral AI upgraded its consumer assistant Le Chat to a Pro tier featuring live web search, Python code execution, and document analysis powered by its latest Mistral Large 3 model. The launch positions Mistral as a serious European competitor to ChatGPT Plus and Gemini Advanced, with pricing set at \u20ac15 per month. The company emphasized GDPR-native data handling as a key differentiator for privacy-conscious European users.",
+      "url": "https://venturebeat.com/ai/mistral-le-chat-pro-web-browsing-code-execution-2026",
+      "source": "VentureBeat",
+      "date": "May 6",
       "tags": [
-        "multimodal",
+        "tools",
         "industry"
       ]
     }
   ],
-  "date": "2026-05-05",
-  "updated": "2026-05-05T08:22:43.344838Z"
+  "date": "2026-05-06",
+  "updated": "2026-05-06T08:39:15.204852Z"
 }
