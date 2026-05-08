@@ -1,94 +1,94 @@
 {
   "articles": [
     {
-      "title": "Anthropic Releases Claude 4 with Expanded Context and Reasoning Upgrades",
-      "summary": "Anthropic unveiled Claude 4 this week, featuring a 2 million token context window and significantly improved multi-step reasoning capabilities. The model outperforms previous benchmarks on complex coding and scientific tasks. The release includes both a consumer-facing version and an API tier aimed at enterprise deployments.",
-      "url": "https://techcrunch.com/2026/05/06/anthropic-releases-claude-4-expanded-context-reasoning",
-      "source": "TechCrunch",
-      "date": "May 6",
-      "tags": [
-        "llm",
-        "industry"
-      ]
-    },
-    {
-      "title": "OpenAI Launches Autonomous Agent Platform for Enterprise Workflows",
-      "summary": "OpenAI announced a new enterprise-focused agentic platform that allows companies to deploy AI agents capable of managing multi-step business workflows without human intervention. The platform integrates with major enterprise tools including Salesforce, SAP, and Microsoft 365. Early adopters report up to 40% reduction in manual administrative tasks.",
-      "url": "https://www.theverge.com/2026/5/5/openai-autonomous-agent-platform-enterprise",
-      "source": "The Verge",
-      "date": "May 5",
-      "tags": [
-        "agentic",
-        "industry"
-      ]
-    },
-    {
-      "title": "Google DeepMind's Gemini Ultra 2 Achieves Top Scores on Medical Licensing Exams",
-      "summary": "Google DeepMind published research showing Gemini Ultra 2 scoring in the 97th percentile on the USMLE and equivalent medical exams across five countries. The model demonstrated strong multimodal diagnostic reasoning, combining radiology images with patient histories. Researchers caution the results reflect benchmark performance and not readiness for clinical deployment.",
-      "url": "https://www.wired.com/story/google-deepmind-gemini-ultra-2-medical-exams-2026",
-      "source": "Wired",
-      "date": "May 5",
-      "tags": [
-        "multimodal",
-        "research"
-      ]
-    },
-    {
-      "title": "EU AI Act Enforcement Body Issues First Major Fines to Three Tech Firms",
-      "summary": "The newly empowered EU AI Office issued its first enforcement actions under the AI Act, fining three unnamed technology companies a combined \u20ac340 million for deploying high-risk AI systems without required conformity assessments. The fines signal a shift from the act's transitional grace period into active regulatory enforcement. Industry groups are calling for clearer guidance on compliance standards.",
-      "url": "https://www.reuters.com/technology/eu-ai-act-enforcement-first-fines-2026-05-04",
-      "source": "Reuters",
-      "date": "May 4",
-      "tags": [
-        "safety",
-        "industry"
-      ]
-    },
-    {
-      "title": "Meta Releases Open-Source RAG Framework LlamaIndex 3.0 with Native Tool Use",
-      "summary": "Meta and the open-source community officially released LlamaIndex 3.0, a major overhaul of the popular retrieval-augmented generation framework now featuring native tool-calling integrations and improved vector store connectors. The update supports seamless hybrid search combining dense and sparse retrieval methods. Developer adoption has surged with over 50,000 GitHub stars in the first 48 hours.",
-      "url": "https://venturebeat.com/ai/meta-llamaindex-3-open-source-rag-framework-tool-use-2026",
-      "source": "VentureBeat",
-      "date": "May 4",
-      "tags": [
-        "rag",
-        "tools"
-      ]
-    },
-    {
-      "title": "Stanford HAI Report Warns of Accelerating AI-Driven Misinformation Ahead of 2026 Midterms",
-      "summary": "Stanford's Human-Centered AI Institute released its annual report highlighting a sharp rise in AI-generated political misinformation campaigns in the lead-up to U.S. midterm elections. Researchers documented over 1,200 coordinated inauthentic influence operations using synthetic media in the past six months. The report urges platforms to adopt mandatory AI content provenance labeling.",
-      "url": "https://apnews.com/article/stanford-hai-ai-misinformation-2026-midterms-report",
-      "source": "AP News",
-      "date": "May 3",
-      "tags": [
-        "safety",
-        "research"
-      ]
-    },
-    {
-      "title": "Microsoft Copilot Studio Adds Real-Time Voice Multimodal Capabilities",
-      "summary": "Microsoft expanded its Copilot Studio platform with real-time voice and visual input processing, allowing enterprise bots to handle spoken queries while simultaneously analyzing shared screens or documents. The update leverages GPT-5 under the hood and is rolling out to commercial tenants globally. Microsoft claims the feature reduces customer support call resolution times by an average of 28%.",
-      "url": "https://www.zdnet.com/article/microsoft-copilot-studio-voice-multimodal-update-2026",
-      "source": "ZDNet",
-      "date": "May 6",
-      "tags": [
-        "multimodal",
-        "tools"
-      ]
-    },
-    {
-      "title": "Mistral AI Unveils Mistral Edge, a 3B Parameter Model Optimized for On-Device Inference",
-      "summary": "Paris-based Mistral AI announced Mistral Edge, a compact 3-billion parameter model designed to run efficiently on smartphones and edge hardware without cloud connectivity. The model achieves competitive performance on instruction-following tasks while consuming under 4GB of memory. Mistral says the release targets healthcare and industrial IoT use cases where data privacy and offline operation are critical.",
-      "url": "https://techcrunch.com/2026/05/07/mistral-ai-edge-model-on-device-inference",
+      "title": "Anthropic Releases Claude 4 with Extended Reasoning and 500K Context Window",
+      "summary": "Anthropic has officially launched Claude 4, featuring a 500,000-token context window and an improved extended thinking mode that rivals leading models on complex multi-step tasks. The model demonstrates significant gains on math and coding benchmarks, scoring 92% on AIME 2025. Enterprise customers gain immediate access, with consumer rollout expected within the week.",
+      "url": "https://techcrunch.com/2026/05/07/anthropic-claude-4-extended-reasoning-500k-context",
       "source": "TechCrunch",
       "date": "May 7",
       "tags": [
         "llm",
         "research"
       ]
+    },
+    {
+      "title": "Google DeepMind's Gemini Agent Framework Now Open to Third-Party Developers",
+      "summary": "Google DeepMind opened its Gemini Agent Framework to external developers, allowing teams to build autonomous multi-agent pipelines using Gemini Ultra 2.5 as the orchestration backbone. The SDK includes built-in tool-use APIs, memory modules, and sandboxed execution environments. The announcement drew immediate comparisons to OpenAI's Operator platform, intensifying competition in the agentic AI space.",
+      "url": "https://www.theverge.com/2026/5/6/google-deepmind-gemini-agent-framework-open-developers",
+      "source": "The Verge",
+      "date": "May 6",
+      "tags": [
+        "agentic",
+        "tools"
+      ]
+    },
+    {
+      "title": "OpenAI GPT-5 Fine-Tuning API Launches with Reinforcement Learning Support",
+      "summary": "OpenAI has expanded its fine-tuning API to include reinforcement learning from human feedback capabilities, letting enterprises customize GPT-5 for domain-specific tasks without building reward pipelines from scratch. Early partners including Salesforce and ServiceNow report 40% accuracy improvements on customer support workflows. Pricing is tiered by compute usage and is generally available starting today.",
+      "url": "https://venturebeat.com/ai/2026/05/07/openai-gpt5-fine-tuning-api-reinforcement-learning",
+      "source": "VentureBeat",
+      "date": "May 7",
+      "tags": [
+        "llm",
+        "industry"
+      ]
+    },
+    {
+      "title": "Meta Introduces Perception Encoder: A Universal Multimodal Embedding Model",
+      "summary": "Meta AI has published research on Perception Encoder, a unified model capable of generating embeddings across text, images, audio, and video in a shared latent space. The model outperforms domain-specific encoders on 14 of 18 cross-modal retrieval benchmarks. Meta has open-sourced the weights under a permissive license, calling it a step toward truly general-purpose multimodal AI.",
+      "url": "https://arxiv.org/abs/2026.05041",
+      "source": "arXiv / Meta AI",
+      "date": "May 5",
+      "tags": [
+        "multimodal",
+        "research"
+      ]
+    },
+    {
+      "title": "EU AI Act Enforcement Body Issues First Formal Warnings to Three Major AI Providers",
+      "summary": "The newly operational EU AI Office issued formal compliance warnings to three unnamed AI providers for failing to meet transparency and risk-disclosure requirements under the AI Act's general-purpose model provisions. Companies have 60 days to submit remediation plans or face fines of up to 3% of global annual revenue. The action marks the first real enforcement test of Europe's landmark AI regulation.",
+      "url": "https://www.reuters.com/technology/eu-ai-office-issues-first-formal-warnings-ai-providers-2026-05-06",
+      "source": "Reuters",
+      "date": "May 6",
+      "tags": [
+        "safety",
+        "industry"
+      ]
+    },
+    {
+      "title": "Startup Cohere Launches RAG-Optimized Command R3 with Real-Time Web Grounding",
+      "summary": "Cohere announced Command R3, an enterprise-focused retrieval-augmented generation model that integrates real-time web search grounding alongside private document retrieval in a single inference call. The model is designed to reduce hallucinations in knowledge-intensive tasks by dynamically citing sources at the sentence level. Command R3 is available immediately via API with on-premises deployment options for regulated industries.",
+      "url": "https://www.zdnet.com/article/cohere-command-r3-rag-real-time-web-grounding-launch-2026",
+      "source": "ZDNet",
+      "date": "May 5",
+      "tags": [
+        "rag",
+        "industry"
+      ]
+    },
+    {
+      "title": "MIT Researchers Demonstrate AI System That Detects Its Own Hallucinations in Real Time",
+      "summary": "A team at MIT CSAIL has developed a self-monitoring layer called HaloscoPe that attaches to any transformer-based LLM and flags potential hallucinations during generation before output is returned to the user. In controlled tests, the system reduced factual errors by 61% on medical and legal QA datasets with only a 12% increase in latency. The team plans to release code publicly and is in talks with healthcare AI vendors about deployment.",
+      "url": "https://news.mit.edu/2026/haloscope-ai-hallucination-detection-real-time-0505",
+      "source": "MIT News",
+      "date": "May 5",
+      "tags": [
+        "safety",
+        "research"
+      ]
+    },
+    {
+      "title": "Microsoft Copilot Studio Gains Autonomous Task Scheduling and Calendar Integration",
+      "summary": "Microsoft has rolled out a major update to Copilot Studio that allows enterprise agents to autonomously schedule, reschedule, and prioritize tasks across Outlook, Teams, and third-party project management tools without requiring user confirmation for low-risk actions. The feature uses a confidence-scoring system to determine when to act autonomously versus when to prompt for human approval. The update is live for all Microsoft 365 Business and Enterprise subscribers as of this week.",
+      "url": "https://www.windowscentral.com/microsoft-copilot-studio-autonomous-task-scheduling-2026",
+      "source": "Windows Central",
+      "date": "May 7",
+      "tags": [
+        "agentic",
+        "tools"
+      ]
     }
   ],
-  "date": "2026-05-07",
-  "updated": "2026-05-07T08:46:13.153932Z"
+  "date": "2026-05-08",
+  "updated": "2026-05-08T07:52:23.986840Z"
 }
