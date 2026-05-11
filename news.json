@@ -1,94 +1,94 @@
 {
   "articles": [
     {
-      "title": "Anthropic Releases Claude 4 with Extended Reasoning and 500K Context Window",
-      "summary": "Anthropic has unveiled Claude 4, featuring a dramatically expanded 500,000-token context window and a new extended reasoning mode that allows the model to deliberate on complex problems for up to 10 minutes before responding. The model reportedly outperforms competitors on graduate-level math and scientific benchmarks by a significant margin. Anthropic also announced new constitutional AI improvements aimed at reducing subtle sycophancy.",
-      "url": "https://www.theverge.com/2026/5/8/anthropic-claude-4-release",
+      "title": "Anthropic Releases Claude 4 with Extended Reasoning and 2M Token Context",
+      "summary": "Anthropic officially launched Claude 4, featuring a massive 2 million token context window and an enhanced extended thinking mode that significantly outperforms previous models on complex reasoning benchmarks. The model demonstrates notable improvements in coding, mathematics, and multi-step planning tasks. Early enterprise customers report a 40% reduction in hallucination rates compared to Claude 3.7.",
+      "url": "https://techcrunch.com/2026/05/09/anthropic-claude-4-extended-reasoning-2m-context",
+      "source": "TechCrunch",
+      "date": "May 9",
+      "tags": [
+        "llm",
+        "research"
+      ]
+    },
+    {
+      "title": "Google DeepMind's Gemini Ultra 2.5 Achieves Human-Level Performance on MedBench Pro",
+      "summary": "Google DeepMind announced that Gemini Ultra 2.5 has surpassed human expert-level performance on MedBench Pro, a rigorous medical reasoning benchmark developed by Johns Hopkins University. The model correctly diagnosed complex multi-symptom cases with 94.2% accuracy compared to specialist physicians averaging 91.7%. Google is now pursuing FDA approval for a clinical decision support tool powered by the model.",
+      "url": "https://www.theverge.com/2026/5/8/gemini-ultra-25-medbench-pro-human-level",
       "source": "The Verge",
       "date": "May 8",
       "tags": [
-        "llm",
-        "safety"
+        "multimodal",
+        "research"
       ]
     },
     {
-      "title": "Google DeepMind's Gemini 2.5 Ultra Achieves Human-Level Performance on MedQA",
-      "summary": "Google DeepMind announced that Gemini 2.5 Ultra has reached human-level performance on the MedQA medical licensing exam benchmark, scoring above 95% accuracy. The achievement is being hailed as a major step toward AI-assisted clinical decision support. Google has partnered with three major hospital networks to begin limited real-world trials.",
-      "url": "https://techcrunch.com/2026/5/7/gemini-2-5-ultra-medqa-human-level",
-      "source": "TechCrunch",
+      "title": "OpenAI Launches GPT-5 Operator: Autonomous AI Agents for Enterprise Workflows",
+      "summary": "OpenAI unveiled GPT-5 Operator, a new agentic platform that allows enterprises to deploy autonomous AI agents capable of executing multi-step business workflows across software ecosystems without human intervention. The system integrates natively with Salesforce, SAP, and Microsoft 365 and includes a new safety layer called GuardRail that monitors agent actions in real time. Early pilots at Fortune 500 companies showed a 60% reduction in manual processing time for back-office operations.",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-07/openai-gpt5-operator-enterprise-agents",
+      "source": "Bloomberg",
       "date": "May 7",
       "tags": [
-        "research",
-        "multimodal"
-      ]
-    },
-    {
-      "title": "OpenAI Launches GPT-5 Agent Platform with Persistent Memory Across Sessions",
-      "summary": "OpenAI has officially launched its GPT-5-powered Agent Platform, which enables developers to build autonomous agents that maintain persistent memory across unlimited sessions. The platform includes new tool-use APIs supporting browser control, code execution, and third-party integrations. Early enterprise customers including Salesforce and SAP have already deployed agents handling end-to-end business workflows.",
-      "url": "https://www.wired.com/story/openai-gpt5-agent-platform-persistent-memory",
-      "source": "Wired",
-      "date": "May 9",
-      "tags": [
         "agentic",
-        "tools"
+        "industry"
       ]
     },
     {
-      "title": "EU AI Act Enforcement Body Issues First Major Fine to Meta Over Training Data Practices",
-      "summary": "The newly empowered EU AI Act Enforcement Authority levied a \u20ac480 million fine against Meta, citing non-compliance with transparency requirements around the data used to train its Llama series of models. Meta has 60 days to appeal the ruling and must submit a detailed data provenance report within 30 days. The case is being watched closely as a bellwether for how regulators will interpret the Act's provisions on foundation models.",
-      "url": "https://www.reuters.com/technology/eu-ai-act-fine-meta-training-data-2026-05-08",
+      "title": "EU AI Act Enforcement Body Issues First Major Fine to Meta Over Llama 5 Training Data",
+      "summary": "The newly established EU AI Enforcement Office levied a \u20ac480 million fine against Meta, citing violations of the EU AI Act related to insufficient transparency around training data sourcing for its Llama 5 model. Regulators found that Meta failed to adequately document the use of copyrighted European digital content in the model's pretraining corpus. Meta said it plans to appeal the decision and is cooperating with authorities to clarify its data governance practices.",
+      "url": "https://www.reuters.com/technology/2026/05/08/eu-ai-act-meta-fine-llama5-training-data",
       "source": "Reuters",
       "date": "May 8",
       "tags": [
-        "industry",
-        "safety"
+        "safety",
+        "industry"
       ]
     },
     {
-      "title": "Microsoft Research Unveils RAG 2.0 Framework with Dynamic Knowledge Graph Integration",
-      "summary": "Microsoft Research has published a paper and open-sourced a new retrieval-augmented generation framework dubbed RAG 2.0, which replaces static vector databases with dynamically updated knowledge graphs. The system achieves a 34% reduction in hallucination rates on enterprise document QA benchmarks compared to traditional RAG pipelines. The framework is already being integrated into Microsoft 365 Copilot's backend.",
-      "url": "https://www.zdnet.com/article/microsoft-research-rag-2-knowledge-graph-2026",
+      "title": "Microsoft Integrates RAG-Powered Copilot into GitHub for Real-Time Codebase Q&A",
+      "summary": "Microsoft announced a major update to GitHub Copilot that introduces a retrieval-augmented generation layer allowing developers to query their entire codebase, documentation, and issue history in natural language. The feature, called Copilot Codebase Intelligence, dynamically indexes repositories and surfaces contextually relevant code snippets and explanations in seconds. The rollout begins for GitHub Enterprise customers this week before a broader release in June.",
+      "url": "https://www.zdnet.com/article/microsoft-github-copilot-rag-codebase-intelligence-2026",
       "source": "ZDNet",
-      "date": "May 7",
+      "date": "May 9",
       "tags": [
         "rag",
         "tools"
       ]
     },
     {
-      "title": "xAI's Grok 3.5 Introduces Real-Time Video Understanding and Live Web Grounding",
-      "summary": "Elon Musk's xAI released Grok 3.5, adding real-time video stream understanding and live web grounding capabilities that allow the model to answer questions about ongoing events with up-to-the-minute context. The model is integrated directly into X's video features, enabling users to get AI commentary on live sports, news broadcasts, and user-generated streams. xAI claims Grok 3.5 processes video at 60 frames per second with sub-second latency.",
-      "url": "https://arstechnica.com/ai/2026/05/xai-grok-35-real-time-video-understanding",
-      "source": "Ars Technica",
-      "date": "May 9",
+      "title": "Mistral AI Open-Sources Mistral 3B Edge, Targeting On-Device AI Applications",
+      "summary": "Paris-based Mistral AI released Mistral 3B Edge under an Apache 2.0 license, a compact but powerful model optimized for deployment on smartphones, IoT devices, and laptops without cloud connectivity. The model achieves benchmark scores comparable to much larger models from two years ago while running efficiently on Apple Silicon and Qualcomm Snapdragon chips. Mistral says it is targeting healthcare wearables and offline enterprise tools as primary use cases.",
+      "url": "https://venturebeat.com/ai/2026/05/10/mistral-3b-edge-open-source-on-device-ai",
+      "source": "VentureBeat",
+      "date": "May 10",
       "tags": [
-        "multimodal",
-        "llm"
+        "llm",
+        "tools"
       ]
     },
     {
       "title": "Stanford HAI Report Warns of Cascading Failures in Multi-Agent AI Systems",
-      "summary": "Stanford's Human-Centered AI Institute has released a comprehensive safety report documenting 17 documented instances of cascading failures in production multi-agent AI deployments over the past year. The report highlights how error propagation between loosely coupled agents can lead to large-scale data corruption or unintended financial transactions. Researchers are calling for mandatory circuit-breaker protocols and standardized inter-agent communication auditing.",
-      "url": "https://venturebeat.com/ai/stanford-hai-multi-agent-cascading-failures-report-2026",
-      "source": "VentureBeat",
-      "date": "May 6",
+      "summary": "A major new report from Stanford's Human-Centered AI Institute highlights emerging safety risks in multi-agent AI deployments, where errors or adversarial inputs in one agent can propagate unpredictably through interconnected agent networks. Researchers studied 14 real-world enterprise deployments and found that 8 experienced at least one cascading failure event within a six-month period. The report calls for mandatory sandboxing standards and inter-agent communication auditing before large-scale agentic deployments.",
+      "url": "https://hai.stanford.edu/news/2026/05/multi-agent-cascading-failures-report",
+      "source": "Stanford HAI",
+      "date": "May 9",
       "tags": [
         "safety",
         "agentic"
       ]
     },
     {
-      "title": "Mistral AI Open-Sources Mistral Edge 3B, a Model Optimized for On-Device Inference",
-      "summary": "French AI startup Mistral AI has open-sourced Mistral Edge 3B, a 3-billion parameter model specifically optimized for on-device inference on smartphones and edge hardware. The model runs at full speed on 2024-era mobile chips with no quantization quality loss, according to the company's benchmarks. Mistral says the release is intended to advance privacy-preserving AI by enabling sensitive workloads to remain entirely on-device.",
-      "url": "https://www.technologyreview.com/2026/05/06/mistral-edge-3b-on-device-inference",
-      "source": "MIT Technology Review",
-      "date": "May 6",
+      "title": "Sora 2.0 Now Generates 4K Cinematic Video Up to 10 Minutes from Text Prompts",
+      "summary": "OpenAI quietly updated Sora to version 2.0, dramatically increasing output quality to native 4K resolution and extending maximum video length from 60 seconds to 10 minutes with consistent scene coherence. The new model also supports multi-scene story arcs with persistent character identities across cuts, addressing one of the most criticized limitations of the original. Hollywood studios including Warner Bros. Discovery have already signed pilot agreements to test the tool for pre-visualization and concept development.",
+      "url": "https://www.wired.com/story/2026/05/sora-2-4k-10-minute-video-openai",
+      "source": "Wired",
+      "date": "May 10",
       "tags": [
-        "llm",
-        "research"
+        "multimodal",
+        "industry"
       ]
     }
   ],
-  "date": "2026-05-10",
-  "updated": "2026-05-10T08:20:21.769719Z"
+  "date": "2026-05-11",
+  "updated": "2026-05-11T09:57:33.997419Z"
 }
