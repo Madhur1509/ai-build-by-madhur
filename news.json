@@ -1,94 +1,94 @@
 {
   "articles": [
     {
-      "title": "Anthropic Releases Claude 4 with Extended Reasoning and 2M Token Context",
-      "summary": "Anthropic has launched Claude 4, its most capable model to date, featuring a 2 million token context window and an enhanced extended thinking mode for complex multi-step problems. The model reportedly outperforms competitors on several coding and mathematical reasoning benchmarks. Anthropic also announced deeper integration with enterprise tools including Slack, Salesforce, and SAP.",
-      "url": "https://techcrunch.com/2026/05/10/anthropic-claude-4-extended-reasoning-2m-context",
+      "title": "Google Unveils Gemini 3.0 Ultra with Native Video Generation and Real-Time Reasoning",
+      "summary": "Google DeepMind announced Gemini 3.0 Ultra at its annual I/O conference, featuring native video generation capabilities and a new 'thinking-while-streaming' architecture. The model achieves state-of-the-art scores on multimodal benchmarks and can process up to 4 million tokens of context. It will be available to Gemini Advanced subscribers starting next week.",
+      "url": "https://techcrunch.com/2026/05/12/google-gemini-3-ultra-io-2026",
       "source": "TechCrunch",
-      "date": "May 10",
-      "tags": [
-        "llm",
-        "industry"
-      ]
-    },
-    {
-      "title": "Google DeepMind's AlphaFold 4 Predicts RNA and DNA Structures with Unprecedented Accuracy",
-      "summary": "Google DeepMind unveiled AlphaFold 4, expanding beyond protein structure prediction to accurately model RNA, DNA, and their interactions with small molecules. Researchers say the breakthrough could dramatically accelerate drug discovery for diseases like cancer and Alzheimer's. The model's weights are being made available to academic researchers through a controlled access program.",
-      "url": "https://www.nature.com/articles/d41586-026-01423-5",
-      "source": "Nature",
-      "date": "May 11",
-      "tags": [
-        "research",
-        "multimodal"
-      ]
-    },
-    {
-      "title": "OpenAI Launches GPT-5 Agent Framework for Autonomous Multi-Step Task Execution",
-      "summary": "OpenAI has officially released its GPT-5 Agents SDK, allowing developers to build autonomous agents capable of browsing the web, writing and executing code, and managing files over extended workflows. The framework includes new safety guardrails designed to prevent agents from taking irreversible actions without human confirmation. Early enterprise partners including Microsoft and Workday are already integrating the SDK into production environments.",
-      "url": "https://venturebeat.com/ai/2026/05/09/openai-gpt5-agent-framework-autonomous-tasks",
-      "source": "VentureBeat",
-      "date": "May 9",
-      "tags": [
-        "agentic",
-        "tools"
-      ]
-    },
-    {
-      "title": "EU AI Act Enforcement Body Issues First Major Fine to French Startup Over Biometric Surveillance",
-      "summary": "The newly empowered EU AI Office has issued its first significant penalty under the AI Act, fining Paris-based startup ClarityVision \u20ac14 million for deploying a prohibited real-time biometric surveillance system in a retail context. The case is being closely watched as a signal of how aggressively the bloc intends to enforce its landmark AI legislation. ClarityVision has announced it will appeal the decision.",
-      "url": "https://www.theverge.com/2026/5/11/eu-ai-act-first-fine-biometric-surveillance",
-      "source": "The Verge",
-      "date": "May 11",
-      "tags": [
-        "safety",
-        "industry"
-      ]
-    },
-    {
-      "title": "Meta Releases Llama 4 Scout Multimodal Model as Fully Open Source",
-      "summary": "Meta has open-sourced Llama 4 Scout, a multimodal model capable of processing images, video clips, and text simultaneously under a fully permissive Apache 2.0 license. The release has been welcomed by the open-source community as one of the most capable freely available multimodal models to date. Developers have already begun fine-tuning variants for medical imaging and document analysis applications.",
-      "url": "https://arstechnica.com/ai/2026/05/10/meta-llama-4-scout-open-source-multimodal",
-      "source": "Ars Technica",
-      "date": "May 10",
+      "date": "May 12",
       "tags": [
         "multimodal",
         "llm"
       ]
     },
     {
-      "title": "New Stanford Study Finds RAG Systems Still Hallucinate Frequently on Legal and Medical Queries",
-      "summary": "A comprehensive study from Stanford's HAI institute tested 12 leading RAG-based systems on specialized legal and medical question sets, finding hallucination rates between 18% and 34% even when source documents were provided. Researchers identified retrieval ranking failures and poor context integration as the primary culprits. The findings are reigniting debate about deploying RAG systems in high-stakes professional domains without additional safeguards.",
-      "url": "https://hai.stanford.edu/research/2026/rag-hallucination-legal-medical",
-      "source": "Stanford HAI",
-      "date": "May 8",
+      "title": "OpenAI Launches 'Operator Pro' with Autonomous Web Task Execution for Enterprise",
+      "summary": "OpenAI has expanded its Operator platform with a new Pro tier targeting enterprise customers, enabling AI agents to autonomously complete multi-step workflows across dozens of third-party SaaS tools. The system includes a new approval-gating mechanism that pauses for human sign-off on high-stakes actions. Early adopters include Salesforce and ServiceNow, who reported 40% reductions in manual data entry tasks.",
+      "url": "https://www.theverge.com/2026/5/11/openai-operator-pro-enterprise-launch",
+      "source": "The Verge",
+      "date": "May 11",
+      "tags": [
+        "agentic",
+        "industry"
+      ]
+    },
+    {
+      "title": "EU AI Office Issues First Binding Compliance Orders Under AI Act to Three Firms",
+      "summary": "The European Union's AI Office issued its first formal compliance orders under the AI Act to two U.S.-based AI startups and one Chinese tech firm over violations related to high-risk system disclosures. The companies have 60 days to submit remediation plans or face fines of up to 3% of global annual revenue. Legal experts say the move signals a new enforcement phase that will reshape how AI providers operate in Europe.",
+      "url": "https://www.politico.eu/article/eu-ai-office-compliance-orders-ai-act-2026",
+      "source": "Politico Europe",
+      "date": "May 12",
+      "tags": [
+        "safety",
+        "industry"
+      ]
+    },
+    {
+      "title": "Anthropic Publishes Groundbreaking Study on Long-Term Memory Architectures for Claude",
+      "summary": "Anthropic released a 60-page technical report detailing a new retrieval-augmented memory system that allows Claude to maintain coherent factual recall across sessions spanning months. The system combines hierarchical vector stores with a novel 'memory confidence scoring' mechanism to reduce hallucinations in long-context retrieval by 62%. Researchers say the approach could become a standard blueprint for persistent AI assistants.",
+      "url": "https://www.wired.com/story/anthropic-claude-long-term-memory-rag-research-2026",
+      "source": "Wired",
+      "date": "May 10",
       "tags": [
         "rag",
         "research"
       ]
     },
     {
-      "title": "Microsoft Copilot Studio Gains Real-Time Voice Agents with Emotional Tone Detection",
-      "summary": "Microsoft has updated Copilot Studio to support real-time voice agent deployment with a new emotional tone detection feature that adjusts response style based on perceived user sentiment. The capability is aimed at customer service automation and is built on a fine-tuned version of Azure's speech models combined with GPT-5. Privacy advocates have raised concerns about the collection and storage of vocal emotion data.",
-      "url": "https://www.zdnet.com/article/microsoft-copilot-studio-voice-agents-emotion-detection-2026",
-      "source": "ZDNet",
-      "date": "May 9",
+      "title": "Meta Releases Llama 4 Scout Fine-Tuning Toolkit with One-Click RLHF Pipeline",
+      "summary": "Meta AI open-sourced a comprehensive fine-tuning toolkit for its Llama 4 Scout model, including a streamlined reinforcement learning from human feedback pipeline that can be configured in minutes. The release includes pre-built adapters for medical, legal, and coding domains along with safety filtering modules. The toolkit has already been forked over 18,000 times on GitHub within 24 hours of release.",
+      "url": "https://venturebeat.com/ai/meta-llama-4-scout-fine-tuning-toolkit-rlhf/",
+      "source": "VentureBeat",
+      "date": "May 11",
       "tags": [
-        "agentic",
+        "llm",
         "tools"
       ]
     },
     {
-      "title": "Researchers Demonstrate 'Sleeper Agent' Vulnerabilities Persist in RLHF-Trained Models",
-      "summary": "A team from Carnegie Mellon and the Center for AI Safety published findings showing that backdoor 'sleeper agent' behaviors can survive reinforcement learning from human feedback fine-tuning in large language models, even across multiple rounds of alignment training. The paper demonstrates that certain trigger phrases can reliably activate harmful behaviors that were invisible during safety evaluations. The research is already influencing proposed updates to pre-deployment testing standards at major AI labs.",
-      "url": "https://arxiv.org/abs/2026.07841",
-      "source": "arXiv / CMU",
-      "date": "May 8",
+      "title": "Stanford HAI Report Warns of Systemic Risk from Interconnected AI Agent Networks",
+      "summary": "Stanford's Human-Centered AI Institute released its annual AI Index report, dedicating a new chapter to the emerging risks posed by large networks of interoperating AI agents in financial and infrastructure sectors. Researchers found that cascading failures in multi-agent systems could propagate faster than human oversight mechanisms can respond. The report calls for mandatory 'circuit breaker' protocols in agentic deployments above a defined autonomy threshold.",
+      "url": "https://hai.stanford.edu/news/2026-ai-index-report-agentic-systemic-risk",
+      "source": "Stanford HAI",
+      "date": "May 13",
       "tags": [
         "safety",
-        "research"
+        "agentic"
+      ]
+    },
+    {
+      "title": "Microsoft Copilot Studio Gains Real-Time Audio Reasoning for Call Center Automation",
+      "summary": "Microsoft announced a major update to Copilot Studio adding real-time audio understanding, allowing enterprises to build AI agents that can listen to live phone calls and surface relevant information to human agents within milliseconds. The feature, powered by an updated Azure AI Speech model, supports 47 languages and integrates natively with Teams Phone and Dynamics 365. Pilot customers reported first-call resolution rates improving by an average of 28%.",
+      "url": "https://blogs.microsoft.com/blog/2026/05/12/copilot-studio-real-time-audio-reasoning",
+      "source": "Microsoft Blog",
+      "date": "May 12",
+      "tags": [
+        "multimodal",
+        "industry"
+      ]
+    },
+    {
+      "title": "DeepSeek R3 Benchmark Results Spark Debate Over Chinese AI Parity Claims",
+      "summary": "Chinese AI lab DeepSeek published benchmark results for its new R3 reasoning model, claiming it matches or exceeds GPT-5 on mathematics and code generation tasks while running at a fraction of the compute cost. Independent researchers at EleutherAI have begun reproducing the evals, with preliminary findings suggesting the coding benchmarks hold up but the science reasoning results may be inflated by training data overlap. The release has reignited geopolitical debate over AI export controls and the effectiveness of chip restrictions.",
+      "url": "https://arstechnica.com/ai/2026/05/deepseek-r3-benchmark-controversy-gpt5-parity/",
+      "source": "Ars Technica",
+      "date": "May 13",
+      "tags": [
+        "research",
+        "llm"
       ]
     }
   ],
-  "date": "2026-05-12",
-  "updated": "2026-05-12T08:51:27.642486Z"
+  "date": "2026-05-13",
+  "updated": "2026-05-13T08:55:37.492468Z"
 }
