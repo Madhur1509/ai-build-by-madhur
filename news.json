@@ -1,32 +1,43 @@
 {
   "articles": [
     {
-      "title": "Google Unveils Gemini 3.0 Ultra with Native Video Generation and Real-Time Reasoning",
-      "summary": "Google DeepMind announced Gemini 3.0 Ultra at its annual I/O conference, featuring native video generation capabilities and a new 'thinking-while-streaming' architecture. The model achieves state-of-the-art scores on multimodal benchmarks and can process up to 4 million tokens of context. It will be available to Gemini Advanced subscribers starting next week.",
-      "url": "https://techcrunch.com/2026/05/12/google-gemini-3-ultra-io-2026",
+      "title": "Anthropic Releases Claude 4 with Extended Reasoning and 2M Token Context",
+      "summary": "Anthropic has unveiled Claude 4, its most capable model yet, featuring a 2 million token context window and enhanced chain-of-thought reasoning capabilities. The model demonstrates significant improvements on coding and scientific benchmarks, outperforming competitors on several industry-standard tests. Claude 4 is available via API and through Claude.ai starting today.",
+      "url": "https://techcrunch.com/2026/05/13/anthropic-releases-claude-4-extended-reasoning",
       "source": "TechCrunch",
-      "date": "May 12",
+      "date": "May 13",
       "tags": [
-        "multimodal",
-        "llm"
+        "llm",
+        "research"
       ]
     },
     {
-      "title": "OpenAI Launches 'Operator Pro' with Autonomous Web Task Execution for Enterprise",
-      "summary": "OpenAI has expanded its Operator platform with a new Pro tier targeting enterprise customers, enabling AI agents to autonomously complete multi-step workflows across dozens of third-party SaaS tools. The system includes a new approval-gating mechanism that pauses for human sign-off on high-stakes actions. Early adopters include Salesforce and ServiceNow, who reported 40% reductions in manual data entry tasks.",
-      "url": "https://www.theverge.com/2026/5/11/openai-operator-pro-enterprise-launch",
+      "title": "Google DeepMind's Gemini Ultra 2.5 Achieves Human-Level Performance on New Medical Licensing Exams",
+      "summary": "Google DeepMind announced that Gemini Ultra 2.5 has surpassed human expert performance on updated medical licensing examinations across six countries. The study, published in Nature Medicine, highlights the model's ability to synthesize complex clinical data and provide nuanced diagnostic reasoning. Researchers caution that real-world deployment still requires careful human oversight frameworks.",
+      "url": "https://www.theverge.com/2026/5/12/gemini-ultra-medical-licensing-exam",
       "source": "The Verge",
-      "date": "May 11",
+      "date": "May 12",
+      "tags": [
+        "multimodal",
+        "research"
+      ]
+    },
+    {
+      "title": "OpenAI Launches GPT-5 Operator Mode for Fully Autonomous Business Workflows",
+      "summary": "OpenAI has introduced Operator Mode for GPT-5, enabling enterprises to deploy fully autonomous AI agents capable of managing multi-step business workflows without human intervention. The feature includes built-in audit trails and rollback mechanisms designed to satisfy corporate compliance requirements. Early enterprise customers including Salesforce and SAP are already piloting the system.",
+      "url": "https://www.wired.com/story/openai-gpt5-operator-mode-autonomous-workflows",
+      "source": "Wired",
+      "date": "May 13",
       "tags": [
         "agentic",
         "industry"
       ]
     },
     {
-      "title": "EU AI Office Issues First Binding Compliance Orders Under AI Act to Three Firms",
-      "summary": "The European Union's AI Office issued its first formal compliance orders under the AI Act to two U.S.-based AI startups and one Chinese tech firm over violations related to high-risk system disclosures. The companies have 60 days to submit remediation plans or face fines of up to 3% of global annual revenue. Legal experts say the move signals a new enforcement phase that will reshape how AI providers operate in Europe.",
-      "url": "https://www.politico.eu/article/eu-ai-office-compliance-orders-ai-act-2026",
-      "source": "Politico Europe",
+      "title": "EU AI Act Enforcement Agency Issues First Major Fines to Three Tech Firms",
+      "summary": "The newly operational EU AI Office has levied fines totaling \u20ac480 million against three unnamed technology companies for deploying high-risk AI systems without required conformity assessments. The enforcement actions are seen as a landmark test of the EU AI Act's teeth, drawing significant attention from global tech legal teams. Industry groups have called for clearer compliance guidelines ahead of further enforcement actions expected this summer.",
+      "url": "https://www.reuters.com/technology/eu-ai-office-issues-first-fines-2026-05-12",
+      "source": "Reuters",
       "date": "May 12",
       "tags": [
         "safety",
@@ -34,21 +45,10 @@
       ]
     },
     {
-      "title": "Anthropic Publishes Groundbreaking Study on Long-Term Memory Architectures for Claude",
-      "summary": "Anthropic released a 60-page technical report detailing a new retrieval-augmented memory system that allows Claude to maintain coherent factual recall across sessions spanning months. The system combines hierarchical vector stores with a novel 'memory confidence scoring' mechanism to reduce hallucinations in long-context retrieval by 62%. Researchers say the approach could become a standard blueprint for persistent AI assistants.",
-      "url": "https://www.wired.com/story/anthropic-claude-long-term-memory-rag-research-2026",
-      "source": "Wired",
-      "date": "May 10",
-      "tags": [
-        "rag",
-        "research"
-      ]
-    },
-    {
-      "title": "Meta Releases Llama 4 Scout Fine-Tuning Toolkit with One-Click RLHF Pipeline",
-      "summary": "Meta AI open-sourced a comprehensive fine-tuning toolkit for its Llama 4 Scout model, including a streamlined reinforcement learning from human feedback pipeline that can be configured in minutes. The release includes pre-built adapters for medical, legal, and coding domains along with safety filtering modules. The toolkit has already been forked over 18,000 times on GitHub within 24 hours of release.",
-      "url": "https://venturebeat.com/ai/meta-llama-4-scout-fine-tuning-toolkit-rlhf/",
-      "source": "VentureBeat",
+      "title": "Meta Releases Llama 4 Scout Open-Source Model with Mixture-of-Experts Architecture",
+      "summary": "Meta has open-sourced Llama 4 Scout, a 120-billion parameter mixture-of-experts model that activates only 17 billion parameters per inference pass, dramatically reducing compute costs. The release includes fine-tuning recipes and quantized versions optimized for consumer-grade hardware. The model scores competitively with closed-source alternatives on major reasoning and instruction-following benchmarks.",
+      "url": "https://ai.meta.com/blog/llama-4-scout-release-2026",
+      "source": "Meta AI Blog",
       "date": "May 11",
       "tags": [
         "llm",
@@ -56,39 +56,39 @@
       ]
     },
     {
-      "title": "Stanford HAI Report Warns of Systemic Risk from Interconnected AI Agent Networks",
-      "summary": "Stanford's Human-Centered AI Institute released its annual AI Index report, dedicating a new chapter to the emerging risks posed by large networks of interoperating AI agents in financial and infrastructure sectors. Researchers found that cascading failures in multi-agent systems could propagate faster than human oversight mechanisms can respond. The report calls for mandatory 'circuit breaker' protocols in agentic deployments above a defined autonomy threshold.",
-      "url": "https://hai.stanford.edu/news/2026-ai-index-report-agentic-systemic-risk",
-      "source": "Stanford HAI",
+      "title": "Microsoft and OpenAI Unveil Real-Time RAG Infrastructure for Enterprise Azure Deployments",
+      "summary": "Microsoft and OpenAI have jointly announced a new retrieval-augmented generation infrastructure layer for Azure AI Foundry that promises sub-100ms retrieval latency across datasets exceeding one billion documents. The system uses a novel hierarchical vector index combined with semantic caching to dramatically cut query costs. General availability is set for June 2026 with preview access opening this week.",
+      "url": "https://blogs.microsoft.com/ai/azure-real-time-rag-infrastructure-2026",
+      "source": "Microsoft AI Blog",
       "date": "May 13",
       "tags": [
-        "safety",
-        "agentic"
-      ]
-    },
-    {
-      "title": "Microsoft Copilot Studio Gains Real-Time Audio Reasoning for Call Center Automation",
-      "summary": "Microsoft announced a major update to Copilot Studio adding real-time audio understanding, allowing enterprises to build AI agents that can listen to live phone calls and surface relevant information to human agents within milliseconds. The feature, powered by an updated Azure AI Speech model, supports 47 languages and integrates natively with Teams Phone and Dynamics 365. Pilot customers reported first-call resolution rates improving by an average of 28%.",
-      "url": "https://blogs.microsoft.com/blog/2026/05/12/copilot-studio-real-time-audio-reasoning",
-      "source": "Microsoft Blog",
-      "date": "May 12",
-      "tags": [
-        "multimodal",
+        "rag",
         "industry"
       ]
     },
     {
-      "title": "DeepSeek R3 Benchmark Results Spark Debate Over Chinese AI Parity Claims",
-      "summary": "Chinese AI lab DeepSeek published benchmark results for its new R3 reasoning model, claiming it matches or exceeds GPT-5 on mathematics and code generation tasks while running at a fraction of the compute cost. Independent researchers at EleutherAI have begun reproducing the evals, with preliminary findings suggesting the coding benchmarks hold up but the science reasoning results may be inflated by training data overlap. The release has reignited geopolitical debate over AI export controls and the effectiveness of chip restrictions.",
-      "url": "https://arstechnica.com/ai/2026/05/deepseek-r3-benchmark-controversy-gpt5-parity/",
-      "source": "Ars Technica",
-      "date": "May 13",
+      "title": "Stanford HAI Report Warns of Growing 'Alignment Tax' as Safety Measures Slow Model Deployment",
+      "summary": "Stanford's Human-Centered AI Institute released its 2026 AI Index, highlighting what researchers are calling an 'alignment tax'\u2014the measurable performance and speed costs associated with implementing safety guardrails in frontier models. The report finds that organizations under commercial pressure are increasingly opting for lighter safety interventions, raising concerns among policymakers. The authors recommend new funding mechanisms to make robust alignment research economically viable.",
+      "url": "https://hai.stanford.edu/news/2026-ai-index-alignment-tax-report",
+      "source": "Stanford HAI",
+      "date": "May 11",
       "tags": [
-        "research",
-        "llm"
+        "safety",
+        "research"
+      ]
+    },
+    {
+      "title": "Sora 2 Generates Fully Coherent 10-Minute Videos with Director-Mode Controls",
+      "summary": "OpenAI has quietly rolled out Sora 2 to select creative partners, featuring the ability to generate up to 10 minutes of temporally coherent video from text prompts. New director-mode controls allow users to specify camera movements, lighting conditions, and scene transitions using natural language commands. Film studios and advertising agencies have reportedly been testing the system under NDA for the past month.",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-14/openai-sora-2-ten-minute-video-director-mode",
+      "source": "Bloomberg",
+      "date": "May 14",
+      "tags": [
+        "multimodal",
+        "industry"
       ]
     }
   ],
-  "date": "2026-05-13",
-  "updated": "2026-05-13T08:55:37.492468Z"
+  "date": "2026-05-14",
+  "updated": "2026-05-14T08:48:25.823444Z"
 }
