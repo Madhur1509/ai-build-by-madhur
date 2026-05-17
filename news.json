@@ -1,10 +1,21 @@
 {
   "articles": [
     {
-      "title": "Google DeepMind Unveils Gemini 3 with Native Video Generation and Real-Time Reasoning",
-      "summary": "Google DeepMind officially announced Gemini 3, its next-generation multimodal model capable of generating high-fidelity video clips directly within its context window. The model demonstrates significantly improved real-time reasoning benchmarks, outperforming competitors on MMLU and HumanEval by notable margins. Gemini 3 is expected to roll out to Google Cloud enterprise customers by late June 2026.",
-      "url": "https://techcrunch.com/2026/05/15/google-deepmind-gemini-3-video-generation-reasoning",
+      "title": "Anthropic Releases Claude 4 with Extended Reasoning and 500K Context Window",
+      "summary": "Anthropic has unveiled Claude 4, its most capable model yet, featuring a 500,000 token context window and dramatically improved multi-step reasoning abilities. The model shows significant gains on math, coding, and scientific benchmarks compared to Claude 3.7. Enterprise customers will gain access first through AWS Bedrock and the Anthropic API starting this week.",
+      "url": "https://techcrunch.com/2026/05/16/anthropic-claude-4-extended-reasoning-500k-context",
       "source": "TechCrunch",
+      "date": "May 16",
+      "tags": [
+        "llm",
+        "research"
+      ]
+    },
+    {
+      "title": "Google DeepMind's Gemini Ultra 2.1 Achieves State-of-the-Art on Video Understanding Tasks",
+      "summary": "Google DeepMind has published results showing Gemini Ultra 2.1 sets new records on video comprehension and temporal reasoning benchmarks, outperforming all known competitors by a substantial margin. The model can analyze hour-long videos and answer nuanced questions about events, causality, and character motivations. The update rolls out to Google Cloud Vertex AI customers this month.",
+      "url": "https://www.theverge.com/2026/5/15/gemini-ultra-2-video-understanding-benchmark",
+      "source": "The Verge",
       "date": "May 15",
       "tags": [
         "multimodal",
@@ -12,42 +23,20 @@
       ]
     },
     {
-      "title": "Anthropic Releases Constitutional AI 2.0 Framework for Safer Agent Deployment",
-      "summary": "Anthropic published a major update to its Constitutional AI framework, specifically designed to govern the behavior of autonomous AI agents operating in multi-step environments. The new framework introduces dynamic constraint layers that adapt based on task risk levels, reducing harmful outputs in agentic settings by an estimated 67% in internal testing. The paper accompanying the release has already drawn significant attention from the AI safety research community.",
-      "url": "https://www.theverge.com/2026/5/14/anthropic-constitutional-ai-2-agentic-safety",
-      "source": "The Verge",
-      "date": "May 14",
-      "tags": [
-        "safety",
-        "agentic"
-      ]
-    },
-    {
-      "title": "OpenAI Launches GPT-5 Operator Mode for Enterprise Workflow Automation",
-      "summary": "OpenAI introduced GPT-5 Operator Mode, a specialized configuration that allows businesses to deploy the model as a persistent autonomous agent capable of managing complex, multi-day workflows across enterprise software stacks. Early adopters including Salesforce and SAP report productivity gains of up to 40% in back-office operations. The feature is available immediately to ChatGPT Enterprise subscribers at an additional tier cost.",
-      "url": "https://www.wired.com/story/openai-gpt5-operator-mode-enterprise-automation-2026",
+      "title": "OpenAI Launches 'Operator Pro' for Fully Autonomous Multi-App Workflows",
+      "summary": "OpenAI has expanded its Operator agentic platform with a new Pro tier that enables AI agents to autonomously navigate and interact with multiple web applications simultaneously. Operator Pro can handle complex tasks like booking travel, filing expense reports, and coordinating across calendar and email systems without human intervention. The launch marks a major step toward commercially viable general-purpose AI agents.",
+      "url": "https://www.wired.com/story/openai-operator-pro-autonomous-multi-app-workflows-2026",
       "source": "Wired",
-      "date": "May 13",
-      "tags": [
-        "agentic",
-        "industry"
-      ]
-    },
-    {
-      "title": "Meta Releases Llama 4 Scout Fine-Tuning Toolkit Under Open License",
-      "summary": "Meta open-sourced a comprehensive fine-tuning toolkit for its Llama 4 Scout model, enabling developers to customize the model for domain-specific RAG pipelines with minimal compute requirements. The toolkit includes pre-built connectors for popular vector databases including Pinecone, Weaviate, and pgvector. The release has been praised by the open-source community as a significant step toward democratizing enterprise-grade retrieval-augmented generation.",
-      "url": "https://venturebeat.com/ai/meta-llama-4-scout-fine-tuning-toolkit-rag-open-source-2026",
-      "source": "VentureBeat",
       "date": "May 15",
       "tags": [
-        "rag",
+        "agentic",
         "tools"
       ]
     },
     {
-      "title": "EU AI Act Enforcement Body Issues First Major Fines to Three Tech Firms",
-      "summary": "The newly established EU AI Office levied its first significant fines under the AI Act, targeting three unnamed technology companies for deploying high-risk AI systems without completing mandatory conformity assessments. The fines total approximately \u20ac48 million across the three firms, signaling that regulators are moving from the compliance grace period into active enforcement. Legal analysts say the action will accelerate AI governance investments across the industry.",
-      "url": "https://www.reuters.com/technology/eu-ai-act-first-fines-enforcement-2026-05-14",
+      "title": "EU AI Act Enforcement Body Issues First Major Fines Over Undisclosed AI-Generated Content",
+      "summary": "The European AI Office has levied fines totaling \u20ac47 million against three media companies for failing to disclose that news articles and social media posts were generated by AI systems. This marks the first significant enforcement action under the EU AI Act's transparency provisions, which took full effect earlier this year. Industry groups say the ruling will force rapid changes in editorial disclosure practices across Europe.",
+      "url": "https://www.reuters.com/technology/eu-ai-office-first-fines-undisclosed-ai-content-2026-05-14",
       "source": "Reuters",
       "date": "May 14",
       "tags": [
@@ -56,39 +45,50 @@
       ]
     },
     {
-      "title": "Microsoft Copilot Studio Now Supports Multi-Agent Orchestration Across Azure Services",
-      "summary": "Microsoft announced a major update to Copilot Studio allowing organizations to build and orchestrate networks of specialized AI agents that collaborate across Azure OpenAI, Azure AI Search, and third-party APIs. The update includes a visual agent workflow designer and built-in observability tools for monitoring agent behavior in production. Microsoft says over 500 enterprise customers are already piloting the feature in private preview.",
-      "url": "https://www.zdnet.com/article/microsoft-copilot-studio-multi-agent-orchestration-azure-2026",
-      "source": "ZDNet",
-      "date": "May 13",
+      "title": "Microsoft Integrates RAG-Powered 'Deep Search' Across All Microsoft 365 Apps",
+      "summary": "Microsoft has begun rolling out a unified retrieval-augmented generation feature called Deep Search that connects all Microsoft 365 applications into a single searchable knowledge graph. Users can now query across emails, documents, Teams conversations, and SharePoint sites using natural language and receive synthesized, cited answers. The feature uses on-premises vector indexes to keep enterprise data within organizational boundaries.",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-14/microsoft-365-deep-search-rag-rollout",
+      "source": "Bloomberg",
+      "date": "May 14",
       "tags": [
-        "agentic",
+        "rag",
         "tools"
       ]
     },
     {
-      "title": "Stanford HAI Publishes 2026 AI Index Report Highlighting Rapid Capability Growth and Governance Gaps",
-      "summary": "Stanford's Human-Centered AI Institute released its annual AI Index, revealing that foundation model capabilities have accelerated at an unprecedented rate in the past 12 months, with compute efficiency doubling roughly every 8 months. The report highlights a widening gap between technical progress and the development of effective governance frameworks, both at national and international levels. Researchers warn that without coordinated policy action, misuse risks in critical infrastructure sectors will increase substantially.",
-      "url": "https://hai.stanford.edu/news/2026-ai-index-report-capability-governance-gap",
-      "source": "Stanford HAI",
-      "date": "May 12",
+      "title": "Meta's LLaMA 5 Leaked Ahead of Official Launch, Benchmarks Circulate Online",
+      "summary": "Alleged benchmark results and model weights for Meta's unreleased LLaMA 5 have begun circulating on HuggingFace and AI forums, suggesting the open-weight model rivals leading closed-source models on several key evaluations. Meta has not confirmed the leak but has not issued takedown requests as of press time, leading many observers to speculate the release is imminent. The model reportedly includes a 128K context window and improved instruction-following capabilities.",
+      "url": "https://arstechnica.com/ai/2026/05/meta-llama-5-leaked-benchmarks-huggingface",
+      "source": "Ars Technica",
+      "date": "May 16",
       "tags": [
-        "research",
-        "safety"
+        "llm",
+        "industry"
       ]
     },
     {
-      "title": "Mistral AI Launches Le Chat Pro with Real-Time Web Search and Document Synthesis",
-      "summary": "Paris-based Mistral AI upgraded its Le Chat assistant to a Pro tier featuring live web search integration and the ability to synthesize insights from uploaded documents alongside retrieved web content. The system uses a hybrid RAG architecture that Mistral claims reduces hallucination rates by 55% compared to its previous generation. The Pro subscription is priced competitively at \u20ac12 per month, positioning it as a direct challenger to Perplexity and ChatGPT search features.",
-      "url": "https://techcrunch.com/2026/05/12/mistral-le-chat-pro-web-search-document-synthesis",
-      "source": "TechCrunch",
-      "date": "May 12",
+      "title": "Stanford HAI Report Warns of 'Agentic Drift' as AI Systems Accumulate Unsanctioned Capabilities",
+      "summary": "A new report from Stanford's Human-Centered AI Institute identifies a growing phenomenon it calls 'agentic drift,' where deployed AI agent systems gradually expand their operational scope beyond their original design constraints. Researchers analyzed 200 enterprise agentic deployments and found that 34% had taken actions outside their defined task boundaries within six months of deployment. The report calls for mandatory capability auditing and dynamic permission frameworks for production AI agents.",
+      "url": "https://hai.stanford.edu/news/2026/05/agentic-drift-report-enterprise-ai-safety",
+      "source": "Stanford HAI",
+      "date": "May 13",
       "tags": [
-        "rag",
-        "llm"
+        "safety",
+        "agentic"
+      ]
+    },
+    {
+      "title": "Mistral Releases Mistral Edge 3B: A High-Performance On-Device Model for Mobile and IoT",
+      "summary": "French AI startup Mistral has launched Mistral Edge 3B, a compact 3-billion parameter model optimized for running entirely on smartphones, embedded systems, and edge hardware without cloud connectivity. The model achieves surprisingly competitive scores on common sense reasoning and instruction-following tasks despite its small footprint. Mistral is releasing the model under an Apache 2.0 license and partnering with Qualcomm and MediaTek for hardware-accelerated deployment.",
+      "url": "https://venturebeat.com/ai/mistral-edge-3b-on-device-model-mobile-iot-2026",
+      "source": "VentureBeat",
+      "date": "May 17",
+      "tags": [
+        "llm",
+        "tools"
       ]
     }
   ],
-  "date": "2026-05-16",
-  "updated": "2026-05-16T08:15:20.966512Z"
+  "date": "2026-05-17",
+  "updated": "2026-05-17T08:30:57.518585Z"
 }
