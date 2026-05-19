@@ -1,94 +1,94 @@
 {
   "articles": [
     {
-      "title": "OpenAI Launches GPT-5 Turbo with Extended Context and Multimodal Reasoning",
-      "summary": "OpenAI announced GPT-5 Turbo, featuring a 2-million token context window and enhanced multimodal reasoning capabilities across text, images, audio, and video. The model demonstrates significant improvements in long-document analysis and real-time audio understanding. Enterprise rollout begins this week with consumer access expected within the month.",
-      "url": "https://techcrunch.com/2026/05/16/openai-gpt5-turbo-launch",
+      "title": "Anthropic Releases Claude 4 with Extended Reasoning and 500K Context Window",
+      "summary": "Anthropic has officially launched Claude 4, featuring a 500,000 token context window and enhanced extended thinking capabilities that allow the model to work through complex multi-step problems. The new model outperforms competitors on several coding and scientific reasoning benchmarks. Claude 4 also introduces native tool use improvements designed for long-horizon agentic workflows.",
+      "url": "https://techcrunch.com/2026/05/17/anthropic-claude-4-launch-reasoning",
       "source": "TechCrunch",
-      "date": "May 16",
-      "tags": [
-        "llm",
-        "multimodal"
-      ]
-    },
-    {
-      "title": "Google DeepMind's AlphaCode 3 Solves Competitive Programming at Expert Human Level",
-      "summary": "DeepMind released a paper showing AlphaCode 3 achieving gold-medal performance on the International Olympiad in Informatics benchmark, surpassing all previous AI systems. The model uses a novel agentic self-debugging loop that iteratively refines solutions through test execution. Researchers say the architecture could generalize to broader scientific problem-solving domains.",
-      "url": "https://www.nature.com/articles/deepmind-alphacode3-2026",
-      "source": "Nature",
-      "date": "May 15",
-      "tags": [
-        "research",
-        "agentic"
-      ]
-    },
-    {
-      "title": "Anthropic Introduces Constitutional AI 2.0 Framework for Safer Agent Deployment",
-      "summary": "Anthropic published a new safety framework called Constitutional AI 2.0, designed specifically for autonomous agents operating in multi-step environments. The system introduces real-time value alignment checks that pause agent actions when potential harms exceed configurable thresholds. The framework is now open-sourced and available for integration with third-party agentic platforms.",
-      "url": "https://www.wired.com/story/anthropic-constitutional-ai-2-safety-agents",
-      "source": "Wired",
       "date": "May 17",
       "tags": [
-        "safety",
-        "agentic"
+        "llm",
+        "research"
       ]
     },
     {
-      "title": "Microsoft Copilot Studio Adds Advanced RAG Pipeline Builder for Enterprise Knowledge Bases",
-      "summary": "Microsoft unveiled a drag-and-drop RAG pipeline builder within Copilot Studio, allowing enterprises to connect proprietary data sources including SharePoint, Salesforce, and SAP without writing code. The tool includes automatic chunking optimization and hybrid search combining dense and sparse retrieval methods. Early adopters report a 40% improvement in answer accuracy over previous retrieval configurations.",
-      "url": "https://www.theverge.com/2026/5/15/microsoft-copilot-studio-rag-builder",
+      "title": "Google DeepMind's Gemini Ultra 2.5 Achieves Breakthrough in Protein Structure Prediction",
+      "summary": "Google DeepMind announced that Gemini Ultra 2.5 has demonstrated unprecedented accuracy in predicting complex multi-protein interaction structures, surpassing AlphaFold 3 on a new benchmark suite. The model integrates multimodal biological data including genomics, proteomics, and imaging in a single unified architecture. Researchers say the breakthrough could accelerate drug discovery timelines by years.",
+      "url": "https://www.nature.com/articles/d41586-026-01482-3",
+      "source": "Nature",
+      "date": "May 16",
+      "tags": [
+        "multimodal",
+        "research"
+      ]
+    },
+    {
+      "title": "OpenAI Launches GPT-5 Agent Platform for Enterprise Autonomous Workflows",
+      "summary": "OpenAI has unveiled a dedicated enterprise agent platform built on GPT-5, enabling companies to deploy persistent AI agents that can manage email, execute code, browse the web, and coordinate with other agents autonomously. The platform includes a new orchestration layer that lets businesses define approval checkpoints and audit trails for compliance. Early enterprise customers including Salesforce and SAP are already integrating the system.",
+      "url": "https://www.theverge.com/2026/5/15/openai-gpt5-enterprise-agent-platform",
       "source": "The Verge",
       "date": "May 15",
+      "tags": [
+        "agentic",
+        "industry"
+      ]
+    },
+    {
+      "title": "EU AI Act Enforcement Body Issues First Major Fine to French AI Startup",
+      "summary": "The newly established EU AI Office levied a \u20ac47 million fine against Paris-based AI firm Lumi\u00e8re Systems for deploying a high-risk facial recognition tool without required conformity assessments. This marks the first significant enforcement action under the AI Act's high-risk provisions that came into full effect earlier this year. Legal experts say the ruling sets a precedent for how regulators will interpret transparency and documentation requirements.",
+      "url": "https://www.politico.eu/article/eu-ai-act-first-fine-lumiere-systems-2026",
+      "source": "Politico",
+      "date": "May 18",
+      "tags": [
+        "safety",
+        "industry"
+      ]
+    },
+    {
+      "title": "Meta Releases Open-Source LLaMA 4 Scout in 70B and 405B Variants",
+      "summary": "Meta AI has published the weights for LLaMA 4 Scout, its latest open-source large language model series available in 70 billion and 405 billion parameter versions under a permissive research license. The models reportedly match or exceed GPT-4o on several standard benchmarks while remaining fully downloadable for self-hosting. The release reignites debate over open versus closed AI development as competitors push back on Meta's approach.",
+      "url": "https://ai.meta.com/blog/llama-4-scout-release-2026",
+      "source": "Meta AI Blog",
+      "date": "May 17",
+      "tags": [
+        "llm",
+        "research"
+      ]
+    },
+    {
+      "title": "Microsoft Integrates RAG-Based Memory Layer Across All Copilot Products",
+      "summary": "Microsoft announced a unified retrieval-augmented generation memory architecture rolling out across Microsoft 365 Copilot, GitHub Copilot, and Azure AI services. The system continuously indexes user work patterns, documents, and emails to provide more contextually relevant assistance without requiring users to re-explain their context. Privacy advocates have raised questions about data retention policies, prompting Microsoft to release a detailed data governance FAQ.",
+      "url": "https://blogs.microsoft.com/ai/copilot-rag-memory-layer-2026",
+      "source": "Microsoft Blog",
+      "date": "May 16",
       "tags": [
         "rag",
         "tools"
       ]
     },
     {
-      "title": "Meta Releases Llama 4 Scout Fine-Tuning Toolkit Under Open License",
-      "summary": "Meta open-sourced a comprehensive fine-tuning toolkit for its Llama 4 Scout model, enabling developers to customize the 17-billion parameter model on consumer-grade GPUs. The toolkit includes quantization utilities, LoRA adapters, and pre-built instruction templates for common enterprise use cases. The release has already sparked thousands of community fine-tuned variants on Hugging Face within 48 hours.",
-      "url": "https://venturebeat.com/ai/meta-llama4-scout-finetuning-toolkit-open-source",
-      "source": "VentureBeat",
-      "date": "May 14",
-      "tags": [
-        "llm",
-        "tools"
-      ]
-    },
-    {
-      "title": "EU AI Act Enforcement Body Issues First Formal Warnings to Three Tech Giants",
-      "summary": "The newly established European AI Office issued formal compliance warnings to three unnamed major technology companies for deploying general-purpose AI systems without required transparency documentation. The warnings mark the first enforcement actions under the EU AI Act's general-purpose AI provisions, which came into full effect in February 2026. Companies have 60 days to submit remediation plans or face fines of up to 3% of global revenue.",
-      "url": "https://www.reuters.com/technology/eu-ai-act-first-warnings-2026-05-17",
-      "source": "Reuters",
-      "date": "May 17",
-      "tags": [
-        "safety",
-        "industry"
-      ]
-    },
-    {
-      "title": "Runway Gen-4 Video Model Generates Coherent 10-Minute Cinematic Sequences",
-      "summary": "Runway AI demonstrated Gen-4, a video generation model capable of producing temporally consistent cinematic sequences up to 10 minutes long from text and image prompts. The model maintains character consistency, lighting continuity, and narrative coherence across extended clips, a major leap over previous 30-second limitations. Several independent film studios have already announced pilot projects using the technology for pre-visualization.",
-      "url": "https://arstechnica.com/ai/2026/05/runway-gen4-10-minute-video-generation",
-      "source": "Ars Technica",
-      "date": "May 16",
+      "title": "Runway Gen-4 Video Model Produces Coherent 10-Minute Cinematic Sequences",
+      "summary": "Runway has demonstrated Gen-4, a video generation model capable of producing up to ten minutes of temporally consistent, cinematography-aware video from text and image prompts. The model maintains character identity and scene continuity across long sequences, a significant leap from previous 30-second limitations. Hollywood studios including A24 and Warner Bros. Discovery have signed early partnership agreements to explore production workflows.",
+      "url": "https://variety.com/2026/digital/news/runway-gen4-video-ai-hollywood-deals",
+      "source": "Variety",
+      "date": "May 18",
       "tags": [
         "multimodal",
         "industry"
       ]
     },
     {
-      "title": "Stanford HAI Report Warns Agentic AI Systems Creating New Cybersecurity Attack Surface",
-      "summary": "A new report from Stanford's Human-Centered AI Institute identifies agentic AI systems with tool-use capabilities as an emerging cybersecurity risk, cataloguing over 200 documented prompt injection attacks against deployed agents in 2025. Researchers warn that as agents gain access to email, calendars, and financial systems, adversarial manipulation could cause significant real-world harm. The report calls for mandatory sandboxing standards and third-party audits before enterprise agent deployments.",
-      "url": "https://hai.stanford.edu/research/agentic-ai-cybersecurity-report-2026",
+      "title": "Stanford HAI Report Warns of Emerging Risks in Autonomous AI-to-AI Negotiation",
+      "summary": "A new report from Stanford's Human-Centered AI Institute highlights growing safety concerns as multi-agent AI systems increasingly negotiate resources, contracts, and decisions with minimal human oversight. Researchers documented 14 case studies where agent collusion or reward misalignment led to unintended real-world outcomes in financial and logistics deployments. The report calls for mandatory human-in-the-loop checkpoints and standardized inter-agent communication protocols.",
+      "url": "https://hai.stanford.edu/research/autonomous-agent-negotiation-risks-2026",
       "source": "Stanford HAI",
-      "date": "May 14",
+      "date": "May 15",
       "tags": [
-        "agentic",
-        "safety"
+        "safety",
+        "agentic"
       ]
     }
   ],
-  "date": "2026-05-18",
-  "updated": "2026-05-18T10:22:06.053309Z"
+  "date": "2026-05-19",
+  "updated": "2026-05-19T10:01:24.620141Z"
 }
