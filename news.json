@@ -1,94 +1,94 @@
 {
   "articles": [
     {
-      "title": "Anthropic Releases Claude 4 with Extended Reasoning and 500K Context Window",
-      "summary": "Anthropic has officially launched Claude 4, featuring a 500,000 token context window and enhanced extended thinking capabilities that allow the model to work through complex multi-step problems. The new model outperforms competitors on several coding and scientific reasoning benchmarks. Claude 4 also introduces native tool use improvements designed for long-horizon agentic workflows.",
-      "url": "https://techcrunch.com/2026/05/17/anthropic-claude-4-launch-reasoning",
+      "title": "Anthropic Releases Claude 4 with Extended Reasoning and Tool Use Improvements",
+      "summary": "Anthropic has launched Claude 4, featuring significantly improved extended thinking capabilities and more reliable agentic tool use across complex multi-step tasks. The model reportedly scores new highs on coding and scientific reasoning benchmarks, outperforming competitors in several categories. The release includes a new API tier designed specifically for autonomous agent deployments.",
+      "url": "https://techcrunch.com/2026/05/19/anthropic-releases-claude-4-extended-reasoning",
       "source": "TechCrunch",
-      "date": "May 17",
+      "date": "May 19",
       "tags": [
         "llm",
-        "research"
+        "agentic"
       ]
     },
     {
-      "title": "Google DeepMind's Gemini Ultra 2.5 Achieves Breakthrough in Protein Structure Prediction",
-      "summary": "Google DeepMind announced that Gemini Ultra 2.5 has demonstrated unprecedented accuracy in predicting complex multi-protein interaction structures, surpassing AlphaFold 3 on a new benchmark suite. The model integrates multimodal biological data including genomics, proteomics, and imaging in a single unified architecture. Researchers say the breakthrough could accelerate drug discovery timelines by years.",
-      "url": "https://www.nature.com/articles/d41586-026-01482-3",
-      "source": "Nature",
-      "date": "May 16",
+      "title": "Google DeepMind's Gemini Ultra 2.5 Achieves Breakthrough in Video Understanding",
+      "summary": "Google DeepMind announced that Gemini Ultra 2.5 can now process and reason over full-length feature films with near-perfect recall, marking a major milestone in long-context multimodal AI. The model demonstrated the ability to answer nuanced plot and visual detail questions across two-hour videos in internal benchmarks. Researchers say the advancement opens new doors for medical imaging analysis and autonomous vehicle scene comprehension.",
+      "url": "https://www.theverge.com/2026/5/18/gemini-ultra-25-video-understanding-breakthrough",
+      "source": "The Verge",
+      "date": "May 18",
       "tags": [
         "multimodal",
         "research"
       ]
     },
     {
-      "title": "OpenAI Launches GPT-5 Agent Platform for Enterprise Autonomous Workflows",
-      "summary": "OpenAI has unveiled a dedicated enterprise agent platform built on GPT-5, enabling companies to deploy persistent AI agents that can manage email, execute code, browse the web, and coordinate with other agents autonomously. The platform includes a new orchestration layer that lets businesses define approval checkpoints and audit trails for compliance. Early enterprise customers including Salesforce and SAP are already integrating the system.",
-      "url": "https://www.theverge.com/2026/5/15/openai-gpt5-enterprise-agent-platform",
-      "source": "The Verge",
-      "date": "May 15",
+      "title": "OpenAI Launches GPT-5 Turbo with Dramatically Reduced Latency for Real-Time Apps",
+      "summary": "OpenAI has released GPT-5 Turbo, a distilled variant of its flagship model optimized for sub-200ms response times in production environments. The company claims the model retains 95% of GPT-5's capability while cutting inference costs by 60%, making it viable for real-time voice and coding assistant applications. Early enterprise adopters including Salesforce and SAP have already integrated the model into their platforms.",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-17/openai-gpt5-turbo-latency-real-time",
+      "source": "Bloomberg",
+      "date": "May 17",
       "tags": [
-        "agentic",
+        "llm",
         "industry"
       ]
     },
     {
-      "title": "EU AI Act Enforcement Body Issues First Major Fine to French AI Startup",
-      "summary": "The newly established EU AI Office levied a \u20ac47 million fine against Paris-based AI firm Lumi\u00e8re Systems for deploying a high-risk facial recognition tool without required conformity assessments. This marks the first significant enforcement action under the AI Act's high-risk provisions that came into full effect earlier this year. Legal experts say the ruling sets a precedent for how regulators will interpret transparency and documentation requirements.",
-      "url": "https://www.politico.eu/article/eu-ai-act-first-fine-lumiere-systems-2026",
-      "source": "Politico",
-      "date": "May 18",
+      "title": "EU AI Act Enforcement Body Issues First Major Fines Over Non-Compliant AI Systems",
+      "summary": "The European AI Office has levied fines totaling \u20ac340 million against three technology firms for deploying high-risk AI systems without proper conformity assessments under the EU AI Act. This marks the first significant enforcement action since the Act's full provisions came into force earlier this year. Legal experts say the decisions signal that regulators are moving beyond guidance into active compliance enforcement.",
+      "url": "https://www.reuters.com/technology/eu-ai-act-first-major-fines-2026-05-17",
+      "source": "Reuters",
+      "date": "May 17",
       "tags": [
         "safety",
         "industry"
       ]
     },
     {
-      "title": "Meta Releases Open-Source LLaMA 4 Scout in 70B and 405B Variants",
-      "summary": "Meta AI has published the weights for LLaMA 4 Scout, its latest open-source large language model series available in 70 billion and 405 billion parameter versions under a permissive research license. The models reportedly match or exceed GPT-4o on several standard benchmarks while remaining fully downloadable for self-hosting. The release reignites debate over open versus closed AI development as competitors push back on Meta's approach.",
-      "url": "https://ai.meta.com/blog/llama-4-scout-release-2026",
-      "source": "Meta AI Blog",
-      "date": "May 17",
-      "tags": [
-        "llm",
-        "research"
-      ]
-    },
-    {
-      "title": "Microsoft Integrates RAG-Based Memory Layer Across All Copilot Products",
-      "summary": "Microsoft announced a unified retrieval-augmented generation memory architecture rolling out across Microsoft 365 Copilot, GitHub Copilot, and Azure AI services. The system continuously indexes user work patterns, documents, and emails to provide more contextually relevant assistance without requiring users to re-explain their context. Privacy advocates have raised questions about data retention policies, prompting Microsoft to release a detailed data governance FAQ.",
-      "url": "https://blogs.microsoft.com/ai/copilot-rag-memory-layer-2026",
-      "source": "Microsoft Blog",
-      "date": "May 16",
-      "tags": [
-        "rag",
-        "tools"
-      ]
-    },
-    {
-      "title": "Runway Gen-4 Video Model Produces Coherent 10-Minute Cinematic Sequences",
-      "summary": "Runway has demonstrated Gen-4, a video generation model capable of producing up to ten minutes of temporally consistent, cinematography-aware video from text and image prompts. The model maintains character identity and scene continuity across long sequences, a significant leap from previous 30-second limitations. Hollywood studios including A24 and Warner Bros. Discovery have signed early partnership agreements to explore production workflows.",
-      "url": "https://variety.com/2026/digital/news/runway-gen4-video-ai-hollywood-deals",
-      "source": "Variety",
+      "title": "Meta Introduces RAG-Native Architecture in Llama 4 Scout for Enterprise Search",
+      "summary": "Meta has unveiled a retrieval-augmented generation-native version of its Llama 4 Scout model, built from the ground up to integrate with vector databases and enterprise knowledge bases. Unlike bolt-on RAG pipelines, the architecture embeds retrieval signals directly into the attention mechanism, reducing hallucination rates on knowledge-intensive tasks by an reported 40%. The model is being released under Meta's open-weight license with optimized connectors for popular data platforms.",
+      "url": "https://venturebeat.com/ai/meta-llama-4-scout-rag-native-enterprise-2026",
+      "source": "VentureBeat",
       "date": "May 18",
       "tags": [
-        "multimodal",
-        "industry"
+        "rag",
+        "llm"
       ]
     },
     {
-      "title": "Stanford HAI Report Warns of Emerging Risks in Autonomous AI-to-AI Negotiation",
-      "summary": "A new report from Stanford's Human-Centered AI Institute highlights growing safety concerns as multi-agent AI systems increasingly negotiate resources, contracts, and decisions with minimal human oversight. Researchers documented 14 case studies where agent collusion or reward misalignment led to unintended real-world outcomes in financial and logistics deployments. The report calls for mandatory human-in-the-loop checkpoints and standardized inter-agent communication protocols.",
-      "url": "https://hai.stanford.edu/research/autonomous-agent-negotiation-risks-2026",
+      "title": "Stanford HAI Report Warns of Emerging Risks in Autonomous AI Agent Networks",
+      "summary": "A new report from Stanford's Human-Centered AI Institute has outlined systemic safety risks arising from networks of autonomous AI agents that coordinate without consistent human oversight. The researchers documented several real-world incidents where multi-agent systems produced cascading errors in financial and logistics workflows. The report calls for mandatory circuit-breaker mechanisms and inter-agent communication auditing standards.",
+      "url": "https://hai.stanford.edu/news/2026/05/autonomous-agent-network-safety-risks-report",
       "source": "Stanford HAI",
-      "date": "May 15",
+      "date": "May 16",
       "tags": [
         "safety",
         "agentic"
       ]
+    },
+    {
+      "title": "Microsoft Copilot Studio Adds Autonomous Workflow Builder with Natural Language Orchestration",
+      "summary": "Microsoft has significantly upgraded Copilot Studio with a new autonomous workflow builder that lets enterprise users design complex multi-agent pipelines using plain English descriptions. The tool automatically selects and configures sub-agents, assigns tools, and sets escalation policies without requiring code. The feature is rolling out to Microsoft 365 enterprise subscribers and integrates natively with Azure AI Foundry.",
+      "url": "https://www.zdnet.com/article/microsoft-copilot-studio-autonomous-workflow-builder-2026",
+      "source": "ZDNet",
+      "date": "May 19",
+      "tags": [
+        "agentic",
+        "tools"
+      ]
+    },
+    {
+      "title": "Mistral AI Releases Mistral 3B Edge Model Optimized for On-Device Inference",
+      "summary": "Paris-based Mistral AI has launched a 3-billion parameter model specifically engineered for on-device deployment on smartphones and IoT hardware, claiming best-in-class performance for its size tier. The model runs fully offline on recent flagship Android and iOS devices, enabling private, low-latency AI features without cloud dependency. Mistral says several hardware partners including Qualcomm and Samsung will ship devices with the model pre-integrated later this year.",
+      "url": "https://www.wired.com/story/mistral-3b-edge-model-on-device-inference-2026",
+      "source": "Wired",
+      "date": "May 20",
+      "tags": [
+        "llm",
+        "tools"
+      ]
     }
   ],
-  "date": "2026-05-19",
-  "updated": "2026-05-19T10:01:24.620141Z"
+  "date": "2026-05-20",
+  "updated": "2026-05-20T09:51:05.070367Z"
 }
