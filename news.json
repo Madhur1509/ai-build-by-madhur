@@ -1,94 +1,94 @@
 {
   "articles": [
     {
-      "title": "Anthropic Releases Claude 4 with Extended Reasoning and Tool Use Improvements",
-      "summary": "Anthropic has launched Claude 4, featuring significantly improved extended thinking capabilities and more reliable agentic tool use across complex multi-step tasks. The model reportedly scores new highs on coding and scientific reasoning benchmarks, outperforming competitors in several categories. The release includes a new API tier designed specifically for autonomous agent deployments.",
-      "url": "https://techcrunch.com/2026/05/19/anthropic-releases-claude-4-extended-reasoning",
+      "title": "Anthropic Releases Claude 4 with Extended Reasoning and 2M Token Context Window",
+      "summary": "Anthropic has officially launched Claude 4, featuring a 2 million token context window and significantly improved extended reasoning capabilities. The model reportedly outperforms competitors on complex multi-step coding and scientific analysis benchmarks. Anthropic claims Claude 4 sets a new standard for safety alignment alongside raw performance.",
+      "url": "https://techcrunch.com/2026/05/20/anthropic-claude-4-release-extended-reasoning",
       "source": "TechCrunch",
-      "date": "May 19",
+      "date": "May 20",
       "tags": [
         "llm",
-        "agentic"
+        "safety"
       ]
     },
     {
-      "title": "Google DeepMind's Gemini Ultra 2.5 Achieves Breakthrough in Video Understanding",
-      "summary": "Google DeepMind announced that Gemini Ultra 2.5 can now process and reason over full-length feature films with near-perfect recall, marking a major milestone in long-context multimodal AI. The model demonstrated the ability to answer nuanced plot and visual detail questions across two-hour videos in internal benchmarks. Researchers say the advancement opens new doors for medical imaging analysis and autonomous vehicle scene comprehension.",
-      "url": "https://www.theverge.com/2026/5/18/gemini-ultra-25-video-understanding-breakthrough",
+      "title": "Google DeepMind's Gemini Ultra 2.5 Achieves Human-Level Performance on Medical Licensing Exams",
+      "summary": "Google DeepMind announced that Gemini Ultra 2.5 has surpassed human-level performance across all major medical licensing examinations, including the USMLE and UK PLAB tests. The multimodal model can interpret medical imaging alongside patient notes to generate diagnostic recommendations. The announcement has reignited debate around AI deployment in clinical settings.",
+      "url": "https://www.theverge.com/2026/5/19/gemini-ultra-25-medical-licensing-exams",
       "source": "The Verge",
-      "date": "May 18",
+      "date": "May 19",
       "tags": [
         "multimodal",
         "research"
       ]
     },
     {
-      "title": "OpenAI Launches GPT-5 Turbo with Dramatically Reduced Latency for Real-Time Apps",
-      "summary": "OpenAI has released GPT-5 Turbo, a distilled variant of its flagship model optimized for sub-200ms response times in production environments. The company claims the model retains 95% of GPT-5's capability while cutting inference costs by 60%, making it viable for real-time voice and coding assistant applications. Early enterprise adopters including Salesforce and SAP have already integrated the model into their platforms.",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-17/openai-gpt5-turbo-latency-real-time",
+      "title": "OpenAI Launches GPT-5 Agent Platform for Enterprise Autonomous Workflows",
+      "summary": "OpenAI has unveiled a new enterprise-focused agentic platform built on GPT-5, allowing businesses to deploy autonomous AI agents capable of managing multi-step workflows across internal tools and databases. The platform includes built-in audit trails and human-in-the-loop checkpoints designed to satisfy corporate compliance requirements. Early adopters including Salesforce and SAP have already integrated the system into production environments.",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-18/openai-gpt5-agent-platform-enterprise",
       "source": "Bloomberg",
-      "date": "May 17",
-      "tags": [
-        "llm",
-        "industry"
-      ]
-    },
-    {
-      "title": "EU AI Act Enforcement Body Issues First Major Fines Over Non-Compliant AI Systems",
-      "summary": "The European AI Office has levied fines totaling \u20ac340 million against three technology firms for deploying high-risk AI systems without proper conformity assessments under the EU AI Act. This marks the first significant enforcement action since the Act's full provisions came into force earlier this year. Legal experts say the decisions signal that regulators are moving beyond guidance into active compliance enforcement.",
-      "url": "https://www.reuters.com/technology/eu-ai-act-first-major-fines-2026-05-17",
-      "source": "Reuters",
-      "date": "May 17",
-      "tags": [
-        "safety",
-        "industry"
-      ]
-    },
-    {
-      "title": "Meta Introduces RAG-Native Architecture in Llama 4 Scout for Enterprise Search",
-      "summary": "Meta has unveiled a retrieval-augmented generation-native version of its Llama 4 Scout model, built from the ground up to integrate with vector databases and enterprise knowledge bases. Unlike bolt-on RAG pipelines, the architecture embeds retrieval signals directly into the attention mechanism, reducing hallucination rates on knowledge-intensive tasks by an reported 40%. The model is being released under Meta's open-weight license with optimized connectors for popular data platforms.",
-      "url": "https://venturebeat.com/ai/meta-llama-4-scout-rag-native-enterprise-2026",
-      "source": "VentureBeat",
       "date": "May 18",
       "tags": [
-        "rag",
-        "llm"
+        "agentic",
+        "industry"
       ]
     },
     {
-      "title": "Stanford HAI Report Warns of Emerging Risks in Autonomous AI Agent Networks",
-      "summary": "A new report from Stanford's Human-Centered AI Institute has outlined systemic safety risks arising from networks of autonomous AI agents that coordinate without consistent human oversight. The researchers documented several real-world incidents where multi-agent systems produced cascading errors in financial and logistics workflows. The report calls for mandatory circuit-breaker mechanisms and inter-agent communication auditing standards.",
-      "url": "https://hai.stanford.edu/news/2026/05/autonomous-agent-network-safety-risks-report",
-      "source": "Stanford HAI",
-      "date": "May 16",
-      "tags": [
-        "safety",
-        "agentic"
-      ]
-    },
-    {
-      "title": "Microsoft Copilot Studio Adds Autonomous Workflow Builder with Natural Language Orchestration",
-      "summary": "Microsoft has significantly upgraded Copilot Studio with a new autonomous workflow builder that lets enterprise users design complex multi-agent pipelines using plain English descriptions. The tool automatically selects and configures sub-agents, assigns tools, and sets escalation policies without requiring code. The feature is rolling out to Microsoft 365 enterprise subscribers and integrates natively with Azure AI Foundry.",
-      "url": "https://www.zdnet.com/article/microsoft-copilot-studio-autonomous-workflow-builder-2026",
-      "source": "ZDNet",
+      "title": "EU AI Act Enforcement Body Issues First Major Fine to Meta Over Llama Model Transparency",
+      "summary": "The newly operational EU AI Office levied a \u20ac350 million fine against Meta for failing to disclose adequate training data documentation for its Llama model series, marking the first major enforcement action under the EU AI Act. Regulators cited insufficient transparency around data provenance and potential copyright violations. Meta has announced it will appeal the decision while updating its model cards to meet compliance standards.",
+      "url": "https://www.reuters.com/technology/eu-ai-office-fines-meta-llama-transparency-2026-05-19",
+      "source": "Reuters",
       "date": "May 19",
       "tags": [
-        "agentic",
+        "safety",
+        "industry"
+      ]
+    },
+    {
+      "title": "Microsoft Introduces RAG-Optimized Azure AI Search with Real-Time Knowledge Grounding",
+      "summary": "Microsoft has rolled out a major update to Azure AI Search, introducing native retrieval-augmented generation pipelines with real-time knowledge grounding for enterprise document repositories. The new architecture reduces hallucination rates by an estimated 40% in internal benchmarks by tightly coupling vector search with live data connectors. The update is generally available across all Azure regions starting this week.",
+      "url": "https://azure.microsoft.com/en-us/blog/2026/05/20/azure-ai-search-rag-optimized-update",
+      "source": "Microsoft Azure Blog",
+      "date": "May 20",
+      "tags": [
+        "rag",
         "tools"
       ]
     },
     {
-      "title": "Mistral AI Releases Mistral 3B Edge Model Optimized for On-Device Inference",
-      "summary": "Paris-based Mistral AI has launched a 3-billion parameter model specifically engineered for on-device deployment on smartphones and IoT hardware, claiming best-in-class performance for its size tier. The model runs fully offline on recent flagship Android and iOS devices, enabling private, low-latency AI features without cloud dependency. Mistral says several hardware partners including Qualcomm and Samsung will ship devices with the model pre-integrated later this year.",
-      "url": "https://www.wired.com/story/mistral-3b-edge-model-on-device-inference-2026",
+      "title": "Stanford HAI Releases Comprehensive 2026 AI Index Report Highlighting Compute Cost Collapse",
+      "summary": "Stanford's Human-Centered AI Institute published its annual AI Index, finding that the cost of training frontier models has dropped by 68% year-over-year due to hardware efficiency gains and improved training techniques. The report also notes a record 1,400 open-source AI model releases in Q1 2026, surpassing all of 2024 combined. Researchers warn that democratized access is accelerating dual-use risks alongside beneficial applications.",
+      "url": "https://hai.stanford.edu/research/ai-index-2026",
+      "source": "Stanford HAI",
+      "date": "May 17",
+      "tags": [
+        "research",
+        "safety"
+      ]
+    },
+    {
+      "title": "Mistral AI Unveils Mistral Edge 3B, a Compact Model Designed for On-Device Inference",
+      "summary": "French AI startup Mistral AI has released Mistral Edge 3B, a highly quantized 3-billion parameter model optimized to run entirely on consumer smartphones and laptops without cloud connectivity. The model achieves performance comparable to GPT-3.5 on common reasoning tasks while consuming under 2GB of memory. Mistral is positioning the release as a privacy-first alternative for sensitive enterprise and personal use cases.",
+      "url": "https://venturebeat.com/ai/mistral-edge-3b-on-device-inference-2026",
+      "source": "VentureBeat",
+      "date": "May 21",
+      "tags": [
+        "llm",
+        "tools"
+      ]
+    },
+    {
+      "title": "Runway and Adobe Announce Joint Video Generation Integration Embedded in Premiere Pro",
+      "summary": "Runway and Adobe have formalized a deep integration partnership, embedding Runway's Gen-4 Turbo video generation model directly into Adobe Premiere Pro's timeline editor. Users can now generate, extend, and restyle video clips using natural language prompts without leaving the editing environment. The collaboration signals a broader shift toward AI-native creative tooling in professional media production.",
+      "url": "https://www.wired.com/story/runway-adobe-premiere-pro-video-generation-integration-2026",
       "source": "Wired",
       "date": "May 20",
       "tags": [
-        "llm",
-        "tools"
+        "multimodal",
+        "industry"
       ]
     }
   ],
-  "date": "2026-05-20",
-  "updated": "2026-05-20T09:51:05.070367Z"
+  "date": "2026-05-21",
+  "updated": "2026-05-21T09:58:25.023341Z"
 }
