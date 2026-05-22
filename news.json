@@ -1,94 +1,94 @@
 {
   "articles": [
     {
-      "title": "Anthropic Releases Claude 4 with Extended Reasoning and 2M Token Context Window",
-      "summary": "Anthropic has officially launched Claude 4, featuring a 2 million token context window and significantly improved extended reasoning capabilities. The model reportedly outperforms competitors on complex multi-step coding and scientific analysis benchmarks. Anthropic claims Claude 4 sets a new standard for safety alignment alongside raw performance.",
-      "url": "https://techcrunch.com/2026/05/20/anthropic-claude-4-release-extended-reasoning",
+      "title": "Anthropic Releases Claude 4 with Extended Reasoning and 500K Context Window",
+      "summary": "Anthropic has launched Claude 4, featuring a dramatically expanded 500,000-token context window and improved extended reasoning capabilities that rival leading models. The new model demonstrates significant gains on mathematical and coding benchmarks, scoring 94.2% on MATH and surpassing previous records on SWE-bench. Claude 4 is available immediately via API and through Anthropic's Claude.ai platform with tiered pricing.",
+      "url": "https://techcrunch.com/2026/05/21/anthropic-releases-claude-4-extended-reasoning-500k-context",
       "source": "TechCrunch",
-      "date": "May 20",
+      "date": "May 21",
       "tags": [
         "llm",
-        "safety"
-      ]
-    },
-    {
-      "title": "Google DeepMind's Gemini Ultra 2.5 Achieves Human-Level Performance on Medical Licensing Exams",
-      "summary": "Google DeepMind announced that Gemini Ultra 2.5 has surpassed human-level performance across all major medical licensing examinations, including the USMLE and UK PLAB tests. The multimodal model can interpret medical imaging alongside patient notes to generate diagnostic recommendations. The announcement has reignited debate around AI deployment in clinical settings.",
-      "url": "https://www.theverge.com/2026/5/19/gemini-ultra-25-medical-licensing-exams",
-      "source": "The Verge",
-      "date": "May 19",
-      "tags": [
-        "multimodal",
         "research"
       ]
     },
     {
-      "title": "OpenAI Launches GPT-5 Agent Platform for Enterprise Autonomous Workflows",
-      "summary": "OpenAI has unveiled a new enterprise-focused agentic platform built on GPT-5, allowing businesses to deploy autonomous AI agents capable of managing multi-step workflows across internal tools and databases. The platform includes built-in audit trails and human-in-the-loop checkpoints designed to satisfy corporate compliance requirements. Early adopters including Salesforce and SAP have already integrated the system into production environments.",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-18/openai-gpt5-agent-platform-enterprise",
-      "source": "Bloomberg",
-      "date": "May 18",
+      "title": "Google DeepMind's Gemini Ultra 2 Agents Now Autonomously Manage Enterprise Workflows",
+      "summary": "Google DeepMind announced that Gemini Ultra 2 has been deployed in agentic configurations across several Fortune 500 companies, autonomously handling complex multi-step enterprise workflows including procurement and HR operations. Early trials showed a 40% reduction in processing time compared to human-led workflows. The rollout raises new questions about workforce displacement and AI governance in enterprise settings.",
+      "url": "https://www.theverge.com/2026/5/20/gemini-ultra-2-agents-enterprise-workflows",
+      "source": "The Verge",
+      "date": "May 20",
       "tags": [
         "agentic",
         "industry"
       ]
     },
     {
-      "title": "EU AI Act Enforcement Body Issues First Major Fine to Meta Over Llama Model Transparency",
-      "summary": "The newly operational EU AI Office levied a \u20ac350 million fine against Meta for failing to disclose adequate training data documentation for its Llama model series, marking the first major enforcement action under the EU AI Act. Regulators cited insufficient transparency around data provenance and potential copyright violations. Meta has announced it will appeal the decision while updating its model cards to meet compliance standards.",
-      "url": "https://www.reuters.com/technology/eu-ai-office-fines-meta-llama-transparency-2026-05-19",
+      "title": "OpenAI's GPT-5 Vision Module Achieves Human-Level Medical Image Diagnosis in Trials",
+      "summary": "A peer-reviewed study published in Nature Medicine confirms that OpenAI's GPT-5 vision module matched or exceeded radiologist performance across seven categories of medical imaging diagnosis. The model was tested on over 120,000 anonymized scans from hospitals across the US and EU. Researchers caution that clinical deployment will still require regulatory approval and robust human oversight frameworks.",
+      "url": "https://www.nature.com/articles/s41591-026-03847-1",
+      "source": "Nature Medicine",
+      "date": "May 21",
+      "tags": [
+        "multimodal",
+        "research"
+      ]
+    },
+    {
+      "title": "EU AI Act Enforcement Agency Issues First Major Fine to Meta Over Llama 5 Training Data",
+      "summary": "The newly operational EU AI Enforcement Agency levied a \u20ac480 million fine against Meta, citing violations of the EU AI Act related to undisclosed copyrighted training data used in Llama 5. Meta has disputed the ruling and announced plans to appeal, arguing its data sourcing practices were compliant with existing guidelines. The case is being closely watched as a landmark test of the EU's AI regulatory framework.",
+      "url": "https://www.reuters.com/technology/eu-ai-act-agency-fines-meta-llama-5-training-data-2026-05-20",
       "source": "Reuters",
-      "date": "May 19",
+      "date": "May 20",
       "tags": [
         "safety",
         "industry"
       ]
     },
     {
-      "title": "Microsoft Introduces RAG-Optimized Azure AI Search with Real-Time Knowledge Grounding",
-      "summary": "Microsoft has rolled out a major update to Azure AI Search, introducing native retrieval-augmented generation pipelines with real-time knowledge grounding for enterprise document repositories. The new architecture reduces hallucination rates by an estimated 40% in internal benchmarks by tightly coupling vector search with live data connectors. The update is generally available across all Azure regions starting this week.",
-      "url": "https://azure.microsoft.com/en-us/blog/2026/05/20/azure-ai-search-rag-optimized-update",
-      "source": "Microsoft Azure Blog",
-      "date": "May 20",
+      "title": "Microsoft Launches AutoDev 3.0: Fully Autonomous Software Development Platform",
+      "summary": "Microsoft unveiled AutoDev 3.0, an agentic AI platform that can independently plan, write, test, and deploy production-grade software from natural language specifications. The system integrates deeply with Azure DevOps and GitHub, enabling end-to-end software delivery pipelines with minimal human intervention. Beta testers report that AutoDev 3.0 successfully completed projects that previously required teams of three to five engineers.",
+      "url": "https://blogs.microsoft.com/ai/autodev-3-autonomous-software-development-2026",
+      "source": "Microsoft Blog",
+      "date": "May 19",
+      "tags": [
+        "agentic",
+        "tools"
+      ]
+    },
+    {
+      "title": "Researchers Demonstrate Retrieval-Augmented Generation Breakthrough Using Dynamic Knowledge Graphs",
+      "summary": "A team from Stanford and MIT published findings showing that dynamically updated knowledge graphs can improve RAG system accuracy by up to 37% on time-sensitive queries compared to traditional vector database approaches. The technique, called GraphRAG-Live, continuously ingests and restructures information from live data streams rather than relying on static embeddings. The researchers released their code and benchmark datasets openly, prompting rapid adoption across the AI community.",
+      "url": "https://arxiv.org/abs/2026.09812",
+      "source": "arXiv / Stanford HAI",
+      "date": "May 18",
       "tags": [
         "rag",
-        "tools"
+        "research"
       ]
     },
     {
-      "title": "Stanford HAI Releases Comprehensive 2026 AI Index Report Highlighting Compute Cost Collapse",
-      "summary": "Stanford's Human-Centered AI Institute published its annual AI Index, finding that the cost of training frontier models has dropped by 68% year-over-year due to hardware efficiency gains and improved training techniques. The report also notes a record 1,400 open-source AI model releases in Q1 2026, surpassing all of 2024 combined. Researchers warn that democratized access is accelerating dual-use risks alongside beneficial applications.",
-      "url": "https://hai.stanford.edu/research/ai-index-2026",
-      "source": "Stanford HAI",
-      "date": "May 17",
-      "tags": [
-        "research",
-        "safety"
-      ]
-    },
-    {
-      "title": "Mistral AI Unveils Mistral Edge 3B, a Compact Model Designed for On-Device Inference",
-      "summary": "French AI startup Mistral AI has released Mistral Edge 3B, a highly quantized 3-billion parameter model optimized to run entirely on consumer smartphones and laptops without cloud connectivity. The model achieves performance comparable to GPT-3.5 on common reasoning tasks while consuming under 2GB of memory. Mistral is positioning the release as a privacy-first alternative for sensitive enterprise and personal use cases.",
-      "url": "https://venturebeat.com/ai/mistral-edge-3b-on-device-inference-2026",
+      "title": "xAI's Grok 3 Ultra Tops New Multi-Modal Reasoning Leaderboard Released by HELM",
+      "summary": "Stanford's HELM project released an updated benchmark suite including multimodal reasoning tasks, with xAI's Grok 3 Ultra claiming the top overall position ahead of GPT-5 and Gemini Ultra 2. The new benchmark evaluates models on interleaved text, image, audio, and video comprehension tasks designed to resist saturation from narrow fine-tuning. xAI CEO Elon Musk highlighted the results on X, sparking a fresh round of public debate about benchmark validity.",
+      "url": "https://venturebeat.com/ai/grok-3-ultra-tops-helm-multimodal-reasoning-leaderboard-2026",
       "source": "VentureBeat",
-      "date": "May 21",
-      "tags": [
-        "llm",
-        "tools"
-      ]
-    },
-    {
-      "title": "Runway and Adobe Announce Joint Video Generation Integration Embedded in Premiere Pro",
-      "summary": "Runway and Adobe have formalized a deep integration partnership, embedding Runway's Gen-4 Turbo video generation model directly into Adobe Premiere Pro's timeline editor. Users can now generate, extend, and restyle video clips using natural language prompts without leaving the editing environment. The collaboration signals a broader shift toward AI-native creative tooling in professional media production.",
-      "url": "https://www.wired.com/story/runway-adobe-premiere-pro-video-generation-integration-2026",
-      "source": "Wired",
       "date": "May 20",
       "tags": [
         "multimodal",
-        "industry"
+        "research"
+      ]
+    },
+    {
+      "title": "AI Safety Institute Publishes Red-Teaming Report Revealing Persistent Jailbreak Vulnerabilities in Top LLMs",
+      "summary": "The UK AI Safety Institute released a comprehensive red-teaming report assessing six leading large language models, finding that all tested systems retained exploitable jailbreak pathways despite recent safety updates. The report details 14 novel attack vectors, several of which bypassed alignment measures in models from OpenAI, Google, and Anthropic. AISI is calling for mandatory pre-deployment adversarial testing standards to be adopted internationally before the Paris AI Summit in July.",
+      "url": "https://www.aisi.gov.uk/reports/red-teaming-llm-vulnerabilities-may-2026",
+      "source": "UK AI Safety Institute",
+      "date": "May 22",
+      "tags": [
+        "safety",
+        "llm"
       ]
     }
   ],
-  "date": "2026-05-21",
-  "updated": "2026-05-21T09:58:25.023341Z"
+  "date": "2026-05-22",
+  "updated": "2026-05-22T09:44:43.891510Z"
 }
