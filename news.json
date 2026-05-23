@@ -1,94 +1,94 @@
 {
   "articles": [
     {
-      "title": "Anthropic Releases Claude 4 with Extended Reasoning and 500K Context Window",
-      "summary": "Anthropic has launched Claude 4, featuring a dramatically expanded 500,000-token context window and improved extended reasoning capabilities that rival leading models. The new model demonstrates significant gains on mathematical and coding benchmarks, scoring 94.2% on MATH and surpassing previous records on SWE-bench. Claude 4 is available immediately via API and through Anthropic's Claude.ai platform with tiered pricing.",
-      "url": "https://techcrunch.com/2026/05/21/anthropic-releases-claude-4-extended-reasoning-500k-context",
+      "title": "Anthropic Releases Claude 4 with Extended Reasoning and 1M Token Context",
+      "summary": "Anthropic has unveiled Claude 4, its most capable model to date, featuring a native one-million token context window and significantly improved multi-step reasoning capabilities. The model outperforms competitors on multiple benchmarks including MMLU, HumanEval, and a new long-context retrieval suite. Claude 4 is available via API and Anthropic's consumer products starting today.",
+      "url": "https://techcrunch.com/2026/05/22/anthropic-releases-claude-4-extended-reasoning",
       "source": "TechCrunch",
-      "date": "May 21",
+      "date": "May 22",
       "tags": [
         "llm",
         "research"
       ]
     },
     {
-      "title": "Google DeepMind's Gemini Ultra 2 Agents Now Autonomously Manage Enterprise Workflows",
-      "summary": "Google DeepMind announced that Gemini Ultra 2 has been deployed in agentic configurations across several Fortune 500 companies, autonomously handling complex multi-step enterprise workflows including procurement and HR operations. Early trials showed a 40% reduction in processing time compared to human-led workflows. The rollout raises new questions about workforce displacement and AI governance in enterprise settings.",
-      "url": "https://www.theverge.com/2026/5/20/gemini-ultra-2-agents-enterprise-workflows",
+      "title": "Google DeepMind's AlphaFold 4 Predicts RNA and DNA Structures with Unprecedented Accuracy",
+      "summary": "Google DeepMind announced AlphaFold 4, expanding beyond protein folding to accurately model RNA and DNA tertiary structures. Researchers say the tool could dramatically accelerate drug discovery for genetic diseases and viral pathogens. The model is being made available to academic institutions through a new partnership with the Wellcome Trust.",
+      "url": "https://www.nature.com/articles/d41586-026-01523-8",
+      "source": "Nature",
+      "date": "May 21",
+      "tags": [
+        "research",
+        "multimodal"
+      ]
+    },
+    {
+      "title": "OpenAI Launches Operator Pro: Autonomous Agent Platform for Enterprise Workflows",
+      "summary": "OpenAI has expanded its Operator product with a new enterprise-tier called Operator Pro, enabling businesses to deploy fully autonomous AI agents across complex multi-system workflows. The platform integrates with Salesforce, SAP, and Microsoft 365, allowing agents to execute tasks spanning CRM updates, financial reporting, and supply chain management. Early customers report up to 40% reduction in operational overhead during beta testing.",
+      "url": "https://www.theverge.com/2026/5/21/openai-operator-pro-enterprise-agents",
       "source": "The Verge",
-      "date": "May 20",
+      "date": "May 21",
       "tags": [
         "agentic",
         "industry"
       ]
     },
     {
-      "title": "OpenAI's GPT-5 Vision Module Achieves Human-Level Medical Image Diagnosis in Trials",
-      "summary": "A peer-reviewed study published in Nature Medicine confirms that OpenAI's GPT-5 vision module matched or exceeded radiologist performance across seven categories of medical imaging diagnosis. The model was tested on over 120,000 anonymized scans from hospitals across the US and EU. Researchers caution that clinical deployment will still require regulatory approval and robust human oversight frameworks.",
-      "url": "https://www.nature.com/articles/s41591-026-03847-1",
-      "source": "Nature Medicine",
-      "date": "May 21",
-      "tags": [
-        "multimodal",
-        "research"
-      ]
-    },
-    {
-      "title": "EU AI Act Enforcement Agency Issues First Major Fine to Meta Over Llama 5 Training Data",
-      "summary": "The newly operational EU AI Enforcement Agency levied a \u20ac480 million fine against Meta, citing violations of the EU AI Act related to undisclosed copyrighted training data used in Llama 5. Meta has disputed the ruling and announced plans to appeal, arguing its data sourcing practices were compliant with existing guidelines. The case is being closely watched as a landmark test of the EU's AI regulatory framework.",
-      "url": "https://www.reuters.com/technology/eu-ai-act-agency-fines-meta-llama-5-training-data-2026-05-20",
-      "source": "Reuters",
-      "date": "May 20",
+      "title": "EU AI Act Enforcement Body Issues First Major Fine Against Unnamed LLM Provider",
+      "summary": "The newly established EU AI Office has issued its first significant enforcement action under the AI Act, levying a \u20ac48 million fine against an unnamed large language model provider for failing to meet transparency and bias documentation requirements. The case centers on inadequate disclosure of training data sources and missing conformity assessments for high-risk deployment categories. Legal analysts say the action signals aggressive enforcement ahead of the Act's full compliance deadline later this year.",
+      "url": "https://www.politico.eu/article/eu-ai-act-first-fine-llm-provider-2026",
+      "source": "Politico Europe",
+      "date": "May 22",
       "tags": [
         "safety",
         "industry"
       ]
     },
     {
-      "title": "Microsoft Launches AutoDev 3.0: Fully Autonomous Software Development Platform",
-      "summary": "Microsoft unveiled AutoDev 3.0, an agentic AI platform that can independently plan, write, test, and deploy production-grade software from natural language specifications. The system integrates deeply with Azure DevOps and GitHub, enabling end-to-end software delivery pipelines with minimal human intervention. Beta testers report that AutoDev 3.0 successfully completed projects that previously required teams of three to five engineers.",
-      "url": "https://blogs.microsoft.com/ai/autodev-3-autonomous-software-development-2026",
-      "source": "Microsoft Blog",
-      "date": "May 19",
+      "title": "Meta Introduces Joint Embedding Architecture for Real-Time Video Understanding",
+      "summary": "Meta AI Research has published a paper and accompanying open-source model capable of real-time semantic understanding of video streams using a novel joint embedding architecture. The system processes video at 30fps on consumer-grade GPUs while simultaneously generating natural language descriptions and answering queries about ongoing footage. The work represents a major step forward for applications in robotics, accessibility tools, and live content moderation.",
+      "url": "https://ai.meta.com/blog/real-time-video-understanding-joint-embedding-2026",
+      "source": "Meta AI Blog",
+      "date": "May 20",
       "tags": [
-        "agentic",
+        "multimodal",
+        "research"
+      ]
+    },
+    {
+      "title": "Microsoft Azure Unveils RAG 2.0 Toolkit with Adaptive Chunking and Source Verification",
+      "summary": "Microsoft has released a major update to its Azure AI Search and retrieval-augmented generation stack, branding it RAG 2.0, with features including adaptive semantic chunking, automatic source credibility scoring, and hallucination-detection guardrails. The toolkit is designed to help enterprises build more reliable knowledge-grounded applications without requiring custom model fine-tuning. The release is accompanied by a benchmark showing a 31% reduction in factual errors compared to standard RAG pipelines.",
+      "url": "https://azure.microsoft.com/en-us/blog/rag-2-toolkit-adaptive-chunking-2026",
+      "source": "Microsoft Azure Blog",
+      "date": "May 22",
+      "tags": [
+        "rag",
         "tools"
       ]
     },
     {
-      "title": "Researchers Demonstrate Retrieval-Augmented Generation Breakthrough Using Dynamic Knowledge Graphs",
-      "summary": "A team from Stanford and MIT published findings showing that dynamically updated knowledge graphs can improve RAG system accuracy by up to 37% on time-sensitive queries compared to traditional vector database approaches. The technique, called GraphRAG-Live, continuously ingests and restructures information from live data streams rather than relying on static embeddings. The researchers released their code and benchmark datasets openly, prompting rapid adoption across the AI community.",
-      "url": "https://arxiv.org/abs/2026.09812",
-      "source": "arXiv / Stanford HAI",
-      "date": "May 18",
-      "tags": [
-        "rag",
-        "research"
-      ]
-    },
-    {
-      "title": "xAI's Grok 3 Ultra Tops New Multi-Modal Reasoning Leaderboard Released by HELM",
-      "summary": "Stanford's HELM project released an updated benchmark suite including multimodal reasoning tasks, with xAI's Grok 3 Ultra claiming the top overall position ahead of GPT-5 and Gemini Ultra 2. The new benchmark evaluates models on interleaved text, image, audio, and video comprehension tasks designed to resist saturation from narrow fine-tuning. xAI CEO Elon Musk highlighted the results on X, sparking a fresh round of public debate about benchmark validity.",
-      "url": "https://venturebeat.com/ai/grok-3-ultra-tops-helm-multimodal-reasoning-leaderboard-2026",
-      "source": "VentureBeat",
+      "title": "Stanford HAI Report Warns of Accelerating AI-Enabled Disinformation at Scale",
+      "summary": "Stanford's Human-Centered AI Institute released its annual AI Index report with a dedicated chapter on AI-generated disinformation, finding a 340% year-over-year increase in detected synthetic media campaigns targeting electoral processes globally. Researchers highlight that current platform detection tools lag significantly behind generation capabilities, creating a widening safety gap. The report calls for mandatory watermarking standards and coordinated international regulation.",
+      "url": "https://hai.stanford.edu/news/2026-ai-index-disinformation-report",
+      "source": "Stanford HAI",
       "date": "May 20",
       "tags": [
-        "multimodal",
+        "safety",
         "research"
       ]
     },
     {
-      "title": "AI Safety Institute Publishes Red-Teaming Report Revealing Persistent Jailbreak Vulnerabilities in Top LLMs",
-      "summary": "The UK AI Safety Institute released a comprehensive red-teaming report assessing six leading large language models, finding that all tested systems retained exploitable jailbreak pathways despite recent safety updates. The report details 14 novel attack vectors, several of which bypassed alignment measures in models from OpenAI, Google, and Anthropic. AISI is calling for mandatory pre-deployment adversarial testing standards to be adopted internationally before the Paris AI Summit in July.",
-      "url": "https://www.aisi.gov.uk/reports/red-teaming-llm-vulnerabilities-may-2026",
-      "source": "UK AI Safety Institute",
-      "date": "May 22",
+      "title": "Mistral AI Open-Sources Mistral-Next-72B Beating GPT-4o on Several Coding Benchmarks",
+      "summary": "Paris-based Mistral AI has released Mistral-Next-72B as a fully open-weight model under the Apache 2.0 license, posting top scores on HumanEval+, SWE-bench, and LiveCodeBench that surpass OpenAI's GPT-4o. The model uses a new mixture-of-depths architecture that dynamically allocates compute per token, achieving strong performance with lower inference costs. The release is being celebrated by the open-source AI community as a landmark moment for accessible frontier-class models.",
+      "url": "https://mistral.ai/news/mistral-next-72b-open-source-release-2026",
+      "source": "Mistral AI",
+      "date": "May 23",
       "tags": [
-        "safety",
-        "llm"
+        "llm",
+        "tools"
       ]
     }
   ],
-  "date": "2026-05-22",
-  "updated": "2026-05-22T09:44:43.891510Z"
+  "date": "2026-05-23",
+  "updated": "2026-05-23T08:29:06.642286Z"
 }
