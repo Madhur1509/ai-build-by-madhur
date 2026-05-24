@@ -1,31 +1,31 @@
 {
   "articles": [
     {
-      "title": "Anthropic Releases Claude 4 with Extended Reasoning and 1M Token Context",
-      "summary": "Anthropic has unveiled Claude 4, its most capable model to date, featuring a native one-million token context window and significantly improved multi-step reasoning capabilities. The model outperforms competitors on multiple benchmarks including MMLU, HumanEval, and a new long-context retrieval suite. Claude 4 is available via API and Anthropic's consumer products starting today.",
-      "url": "https://techcrunch.com/2026/05/22/anthropic-releases-claude-4-extended-reasoning",
+      "title": "Anthropic Releases Claude 4 with Extended Reasoning and 2M Token Context Window",
+      "summary": "Anthropic has officially launched Claude 4, featuring a breakthrough 2 million token context window and enhanced extended thinking capabilities that allow the model to work through complex multi-step problems. The new model reportedly outperforms competitors on coding, mathematics, and scientific reasoning benchmarks. Enterprise customers gain access starting today, with consumer availability rolling out over the next two weeks.",
+      "url": "https://techcrunch.com/2026/05/23/anthropic-claude-4-launch-2m-context-window",
       "source": "TechCrunch",
-      "date": "May 22",
+      "date": "May 23",
       "tags": [
         "llm",
         "research"
       ]
     },
     {
-      "title": "Google DeepMind's AlphaFold 4 Predicts RNA and DNA Structures with Unprecedented Accuracy",
-      "summary": "Google DeepMind announced AlphaFold 4, expanding beyond protein folding to accurately model RNA and DNA tertiary structures. Researchers say the tool could dramatically accelerate drug discovery for genetic diseases and viral pathogens. The model is being made available to academic institutions through a new partnership with the Wellcome Trust.",
-      "url": "https://www.nature.com/articles/d41586-026-01523-8",
+      "title": "Google DeepMind's AlphaFold 4 Predicts RNA and DNA Structures with Near-Perfect Accuracy",
+      "summary": "Google DeepMind announced AlphaFold 4, expanding beyond protein folding to predict the 3D structures of RNA, DNA, and small molecules with unprecedented accuracy. Researchers say the tool could dramatically accelerate drug discovery for diseases including cancer and Alzheimer's. The model is being made available to academic researchers through a new API portal launching this week.",
+      "url": "https://www.nature.com/articles/alphafold4-deepmind-2026",
       "source": "Nature",
-      "date": "May 21",
+      "date": "May 22",
       "tags": [
         "research",
         "multimodal"
       ]
     },
     {
-      "title": "OpenAI Launches Operator Pro: Autonomous Agent Platform for Enterprise Workflows",
-      "summary": "OpenAI has expanded its Operator product with a new enterprise-tier called Operator Pro, enabling businesses to deploy fully autonomous AI agents across complex multi-system workflows. The platform integrates with Salesforce, SAP, and Microsoft 365, allowing agents to execute tasks spanning CRM updates, financial reporting, and supply chain management. Early customers report up to 40% reduction in operational overhead during beta testing.",
-      "url": "https://www.theverge.com/2026/5/21/openai-operator-pro-enterprise-agents",
+      "title": "OpenAI Launches Operator Enterprise: Autonomous AI Agents for Business Workflows",
+      "summary": "OpenAI has unveiled Operator Enterprise, a platform allowing businesses to deploy autonomous AI agents capable of managing end-to-end workflows including procurement, customer service, and software deployment. The system integrates with over 500 enterprise tools including Salesforce, SAP, and Jira out of the box. Early adopters like JPMorgan and Siemens report up to 40% reduction in operational costs during the beta period.",
+      "url": "https://www.theverge.com/2026/05/21/openai-operator-enterprise-launch",
       "source": "The Verge",
       "date": "May 21",
       "tags": [
@@ -34,10 +34,10 @@
       ]
     },
     {
-      "title": "EU AI Act Enforcement Body Issues First Major Fine Against Unnamed LLM Provider",
-      "summary": "The newly established EU AI Office has issued its first significant enforcement action under the AI Act, levying a \u20ac48 million fine against an unnamed large language model provider for failing to meet transparency and bias documentation requirements. The case centers on inadequate disclosure of training data sources and missing conformity assessments for high-risk deployment categories. Legal analysts say the action signals aggressive enforcement ahead of the Act's full compliance deadline later this year.",
-      "url": "https://www.politico.eu/article/eu-ai-act-first-fine-llm-provider-2026",
-      "source": "Politico Europe",
+      "title": "EU AI Act Enforcement Body Issues First Major Fines to Three Tech Firms",
+      "summary": "The newly operational EU AI Enforcement Office handed down its first significant penalties, fining three unnamed technology companies a combined \u20ac340 million for deploying high-risk AI systems without proper conformity assessments. The fines signal a new era of regulatory teeth in the European AI landscape. Legal experts say more enforcement actions are expected in Q3 2026 as regulators work through a backlog of complaints.",
+      "url": "https://www.reuters.com/technology/eu-ai-act-first-fines-2026-05-22",
+      "source": "Reuters",
       "date": "May 22",
       "tags": [
         "safety",
@@ -45,50 +45,50 @@
       ]
     },
     {
-      "title": "Meta Introduces Joint Embedding Architecture for Real-Time Video Understanding",
-      "summary": "Meta AI Research has published a paper and accompanying open-source model capable of real-time semantic understanding of video streams using a novel joint embedding architecture. The system processes video at 30fps on consumer-grade GPUs while simultaneously generating natural language descriptions and answering queries about ongoing footage. The work represents a major step forward for applications in robotics, accessibility tools, and live content moderation.",
-      "url": "https://ai.meta.com/blog/real-time-video-understanding-joint-embedding-2026",
+      "title": "Meta Releases Llama 4 Scout Open-Source Multimodal Model with Video Understanding",
+      "summary": "Meta has open-sourced Llama 4 Scout, a multimodal model capable of understanding and reasoning across text, images, audio, and full video sequences up to 30 minutes long. The model is available under a permissive commercial license on Hugging Face and Meta's own platform. Developers are already reporting strong performance on video question answering and real-time scene description tasks.",
+      "url": "https://ai.meta.com/blog/llama-4-scout-multimodal-release-2026",
       "source": "Meta AI Blog",
       "date": "May 20",
       "tags": [
         "multimodal",
-        "research"
+        "llm"
       ]
     },
     {
-      "title": "Microsoft Azure Unveils RAG 2.0 Toolkit with Adaptive Chunking and Source Verification",
-      "summary": "Microsoft has released a major update to its Azure AI Search and retrieval-augmented generation stack, branding it RAG 2.0, with features including adaptive semantic chunking, automatic source credibility scoring, and hallucination-detection guardrails. The toolkit is designed to help enterprises build more reliable knowledge-grounded applications without requiring custom model fine-tuning. The release is accompanied by a benchmark showing a 31% reduction in factual errors compared to standard RAG pipelines.",
-      "url": "https://azure.microsoft.com/en-us/blog/rag-2-toolkit-adaptive-chunking-2026",
-      "source": "Microsoft Azure Blog",
-      "date": "May 22",
-      "tags": [
-        "rag",
-        "tools"
-      ]
-    },
-    {
-      "title": "Stanford HAI Report Warns of Accelerating AI-Enabled Disinformation at Scale",
-      "summary": "Stanford's Human-Centered AI Institute released its annual AI Index report with a dedicated chapter on AI-generated disinformation, finding a 340% year-over-year increase in detected synthetic media campaigns targeting electoral processes globally. Researchers highlight that current platform detection tools lag significantly behind generation capabilities, creating a widening safety gap. The report calls for mandatory watermarking standards and coordinated international regulation.",
-      "url": "https://hai.stanford.edu/news/2026-ai-index-disinformation-report",
-      "source": "Stanford HAI",
-      "date": "May 20",
-      "tags": [
-        "safety",
-        "research"
-      ]
-    },
-    {
-      "title": "Mistral AI Open-Sources Mistral-Next-72B Beating GPT-4o on Several Coding Benchmarks",
-      "summary": "Paris-based Mistral AI has released Mistral-Next-72B as a fully open-weight model under the Apache 2.0 license, posting top scores on HumanEval+, SWE-bench, and LiveCodeBench that surpass OpenAI's GPT-4o. The model uses a new mixture-of-depths architecture that dynamically allocates compute per token, achieving strong performance with lower inference costs. The release is being celebrated by the open-source AI community as a landmark moment for accessible frontier-class models.",
-      "url": "https://mistral.ai/news/mistral-next-72b-open-source-release-2026",
-      "source": "Mistral AI",
+      "title": "Microsoft Integrates RAG-Powered Copilot Deeply into Windows 12, Raising Privacy Concerns",
+      "summary": "Microsoft has begun rolling out a deeply embedded Copilot experience in Windows 12 that uses on-device retrieval-augmented generation to index and query a user's full file system, emails, and browsing history. The feature, called Copilot Recall Pro, has immediately sparked debate among privacy advocates who argue the local indexing creates significant security vulnerabilities. Microsoft says all data remains on-device and encrypted, but has paused the rollout in the EU pending regulatory review.",
+      "url": "https://arstechnica.com/microsoft/2026/05/windows-12-copilot-recall-pro-privacy",
+      "source": "Ars Technica",
       "date": "May 23",
       "tags": [
-        "llm",
+        "rag",
+        "safety"
+      ]
+    },
+    {
+      "title": "Stanford HAI Report Warns of Accelerating AI Energy Consumption Crisis",
+      "summary": "Stanford University's Human-Centered AI Institute released its annual AI Index report, highlighting that global AI data center energy consumption grew 210% year-over-year and is projected to exceed the energy usage of France by 2028. The report calls for mandatory energy disclosure requirements for frontier AI model training runs. Several leading AI labs have responded by announcing new efficiency research initiatives.",
+      "url": "https://hai.stanford.edu/research/ai-index-2026-energy-report",
+      "source": "Stanford HAI",
+      "date": "May 21",
+      "tags": [
+        "research",
+        "safety"
+      ]
+    },
+    {
+      "title": "Hugging Face Launches SmolAgents 2.0 with Visual Tool-Use and Code Sandboxing",
+      "summary": "Hugging Face has released SmolAgents 2.0, a major update to its lightweight agent framework that adds native visual tool-use, allowing agents to interact with GUIs and web browsers through screenshot-based perception. The update also includes a secure code sandboxing environment that runs agent-generated code in isolated containers, addressing a key safety concern for production deployments. The framework now supports plug-and-play integration with any Hugging Face hosted model.",
+      "url": "https://huggingface.co/blog/smolAgents-2-launch-2026",
+      "source": "Hugging Face Blog",
+      "date": "May 24",
+      "tags": [
+        "agentic",
         "tools"
       ]
     }
   ],
-  "date": "2026-05-23",
-  "updated": "2026-05-23T08:29:06.642286Z"
+  "date": "2026-05-24",
+  "updated": "2026-05-24T08:42:06.533695Z"
 }
