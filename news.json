@@ -1,32 +1,32 @@
 {
   "articles": [
     {
-      "title": "Anthropic Releases Claude 4 with Extended Reasoning and 2M Token Context Window",
-      "summary": "Anthropic has officially launched Claude 4, featuring a breakthrough 2 million token context window and enhanced extended thinking capabilities that allow the model to work through complex multi-step problems. The new model reportedly outperforms competitors on coding, mathematics, and scientific reasoning benchmarks. Enterprise customers gain access starting today, with consumer availability rolling out over the next two weeks.",
-      "url": "https://techcrunch.com/2026/05/23/anthropic-claude-4-launch-2m-context-window",
+      "title": "Anthropic Releases Claude 4 with Extended Reasoning and 2M Token Context",
+      "summary": "Anthropic has officially launched Claude 4, featuring a 2 million token context window and a new 'deep reasoning' mode that outperforms competitors on complex multi-step tasks. The model also introduces improved tool use and agentic capabilities, enabling it to autonomously execute long-horizon workflows. Benchmarks show significant gains over Claude 3.7 on coding, mathematics, and scientific reasoning tasks.",
+      "url": "https://techcrunch.com/2026/05/23/anthropic-claude-4-extended-reasoning-2m-context",
       "source": "TechCrunch",
       "date": "May 23",
       "tags": [
         "llm",
+        "agentic"
+      ]
+    },
+    {
+      "title": "Google DeepMind's Gemini Ultra 2 Achieves Human-Level Performance on Medical Licensing Exams",
+      "summary": "Google DeepMind announced that Gemini Ultra 2 has scored above the 95th percentile on the USMLE and UK PLAB medical licensing examinations. The model demonstrates advanced multimodal diagnostic reasoning, interpreting MRI scans, lab results, and clinical notes simultaneously. The announcement has reignited debates around AI regulation in clinical settings.",
+      "url": "https://www.theverge.com/2026/5/22/gemini-ultra-2-medical-exam-human-level",
+      "source": "The Verge",
+      "date": "May 22",
+      "tags": [
+        "multimodal",
         "research"
       ]
     },
     {
-      "title": "Google DeepMind's AlphaFold 4 Predicts RNA and DNA Structures with Near-Perfect Accuracy",
-      "summary": "Google DeepMind announced AlphaFold 4, expanding beyond protein folding to predict the 3D structures of RNA, DNA, and small molecules with unprecedented accuracy. Researchers say the tool could dramatically accelerate drug discovery for diseases including cancer and Alzheimer's. The model is being made available to academic researchers through a new API portal launching this week.",
-      "url": "https://www.nature.com/articles/alphafold4-deepmind-2026",
-      "source": "Nature",
-      "date": "May 22",
-      "tags": [
-        "research",
-        "multimodal"
-      ]
-    },
-    {
-      "title": "OpenAI Launches Operator Enterprise: Autonomous AI Agents for Business Workflows",
-      "summary": "OpenAI has unveiled Operator Enterprise, a platform allowing businesses to deploy autonomous AI agents capable of managing end-to-end workflows including procurement, customer service, and software deployment. The system integrates with over 500 enterprise tools including Salesforce, SAP, and Jira out of the box. Early adopters like JPMorgan and Siemens report up to 40% reduction in operational costs during the beta period.",
-      "url": "https://www.theverge.com/2026/05/21/openai-operator-enterprise-launch",
-      "source": "The Verge",
+      "title": "OpenAI Launches GPT-5 Agent Platform for Enterprise Autonomous Workflows",
+      "summary": "OpenAI has unveiled a dedicated Agent Platform built on GPT-5, allowing enterprises to deploy autonomous AI agents that manage email, scheduling, data analysis, and customer service pipelines. The platform includes a new sandboxed execution environment and granular permission controls to limit agent actions. Early adopters including Salesforce and SAP have reported productivity gains of up to 40 percent.",
+      "url": "https://www.bloomberg.com/news/articles/2026-05-21/openai-gpt5-enterprise-agent-platform-launch",
+      "source": "Bloomberg",
       "date": "May 21",
       "tags": [
         "agentic",
@@ -34,61 +34,61 @@
       ]
     },
     {
-      "title": "EU AI Act Enforcement Body Issues First Major Fines to Three Tech Firms",
-      "summary": "The newly operational EU AI Enforcement Office handed down its first significant penalties, fining three unnamed technology companies a combined \u20ac340 million for deploying high-risk AI systems without proper conformity assessments. The fines signal a new era of regulatory teeth in the European AI landscape. Legal experts say more enforcement actions are expected in Q3 2026 as regulators work through a backlog of complaints.",
-      "url": "https://www.reuters.com/technology/eu-ai-act-first-fines-2026-05-22",
+      "title": "EU AI Act Enforcement Body Issues First Major Fine to Meta Over Llama Training Data",
+      "summary": "The newly established European AI Office has levied a \u20ac400 million fine against Meta, citing violations of the EU AI Act's transparency requirements regarding training data used for the Llama 4 series. Regulators allege Meta failed to adequately document data provenance and did not conduct required risk assessments before deployment. Meta has announced it will appeal the ruling.",
+      "url": "https://www.reuters.com/technology/2026-05-23/eu-ai-office-fines-meta-llama-training-data",
       "source": "Reuters",
-      "date": "May 22",
+      "date": "May 23",
       "tags": [
         "safety",
         "industry"
       ]
     },
     {
-      "title": "Meta Releases Llama 4 Scout Open-Source Multimodal Model with Video Understanding",
-      "summary": "Meta has open-sourced Llama 4 Scout, a multimodal model capable of understanding and reasoning across text, images, audio, and full video sequences up to 30 minutes long. The model is available under a permissive commercial license on Hugging Face and Meta's own platform. Developers are already reporting strong performance on video question answering and real-time scene description tasks.",
-      "url": "https://ai.meta.com/blog/llama-4-scout-multimodal-release-2026",
-      "source": "Meta AI Blog",
+      "title": "Microsoft Integrates RAG-Native Architecture Directly into Azure AI Foundry",
+      "summary": "Microsoft has announced that Azure AI Foundry now ships with a native retrieval-augmented generation layer, eliminating the need for third-party vector database integrations for most enterprise use cases. The new architecture supports hybrid dense-sparse retrieval and automatic document chunking with semantic awareness. Developers can deploy production-ready RAG pipelines with minimal configuration through updated SDK tooling.",
+      "url": "https://azure.microsoft.com/en-us/blog/2026/05/20/azure-ai-foundry-rag-native-architecture",
+      "source": "Microsoft Azure Blog",
       "date": "May 20",
       "tags": [
-        "multimodal",
-        "llm"
-      ]
-    },
-    {
-      "title": "Microsoft Integrates RAG-Powered Copilot Deeply into Windows 12, Raising Privacy Concerns",
-      "summary": "Microsoft has begun rolling out a deeply embedded Copilot experience in Windows 12 that uses on-device retrieval-augmented generation to index and query a user's full file system, emails, and browsing history. The feature, called Copilot Recall Pro, has immediately sparked debate among privacy advocates who argue the local indexing creates significant security vulnerabilities. Microsoft says all data remains on-device and encrypted, but has paused the rollout in the EU pending regulatory review.",
-      "url": "https://arstechnica.com/microsoft/2026/05/windows-12-copilot-recall-pro-privacy",
-      "source": "Ars Technica",
-      "date": "May 23",
-      "tags": [
         "rag",
-        "safety"
+        "tools"
       ]
     },
     {
-      "title": "Stanford HAI Report Warns of Accelerating AI Energy Consumption Crisis",
-      "summary": "Stanford University's Human-Centered AI Institute released its annual AI Index report, highlighting that global AI data center energy consumption grew 210% year-over-year and is projected to exceed the energy usage of France by 2028. The report calls for mandatory energy disclosure requirements for frontier AI model training runs. Several leading AI labs have responded by announcing new efficiency research initiatives.",
-      "url": "https://hai.stanford.edu/research/ai-index-2026-energy-report",
+      "title": "Stanford HAI Report Warns of Accelerating AI Capability Overhang in Open-Source Models",
+      "summary": "A new report from Stanford's Human-Centered AI Institute highlights a growing 'capability overhang' in openly released models, where post-training techniques allow smaller models to punch far above their parameter weight. Researchers found that fine-tuned 70B models now routinely match 2024-era frontier performance on many benchmarks. The report calls for updated safety evaluation frameworks that account for post-deployment model modification.",
+      "url": "https://hai.stanford.edu/research/2026/05/ai-capability-overhang-open-source-report",
       "source": "Stanford HAI",
-      "date": "May 21",
+      "date": "May 22",
       "tags": [
-        "research",
-        "safety"
+        "safety",
+        "research"
       ]
     },
     {
-      "title": "Hugging Face Launches SmolAgents 2.0 with Visual Tool-Use and Code Sandboxing",
-      "summary": "Hugging Face has released SmolAgents 2.0, a major update to its lightweight agent framework that adds native visual tool-use, allowing agents to interact with GUIs and web browsers through screenshot-based perception. The update also includes a secure code sandboxing environment that runs agent-generated code in isolated containers, addressing a key safety concern for production deployments. The framework now supports plug-and-play integration with any Hugging Face hosted model.",
-      "url": "https://huggingface.co/blog/smolAgents-2-launch-2026",
-      "source": "Hugging Face Blog",
+      "title": "Runway Gen-4 Video Model Generates Coherent 10-Minute Cinematic Sequences",
+      "summary": "Runway has released Gen-4, a next-generation video generation model capable of producing up to 10 minutes of temporally consistent, cinematography-aware video from text or image prompts. The model maintains character and scene consistency across cuts, a long-standing challenge for generative video systems. Several independent filmmakers have already used early access to produce short films screened at the 2026 Tribeca Festival.",
+      "url": "https://www.wired.com/story/2026/05/runway-gen4-10-minute-video-generation",
+      "source": "Wired",
       "date": "May 24",
+      "tags": [
+        "multimodal",
+        "industry"
+      ]
+    },
+    {
+      "title": "LangChain Releases LangGraph 2.0 with Persistent Memory and Multi-Agent Orchestration",
+      "summary": "LangChain has launched LangGraph 2.0, a major overhaul of its agent orchestration framework featuring built-in persistent memory stores and native support for coordinating fleets of specialized sub-agents. The new version introduces a visual graph editor for designing agent topologies without code, aimed at lowering the barrier for non-engineer teams. The release has been widely praised by the developer community as a significant step toward production-grade agentic systems.",
+      "url": "https://blog.langchain.dev/langgraph-2-0-persistent-memory-multi-agent",
+      "source": "LangChain Blog",
+      "date": "May 21",
       "tags": [
         "agentic",
         "tools"
       ]
     }
   ],
-  "date": "2026-05-24",
-  "updated": "2026-05-24T08:42:06.533695Z"
+  "date": "2026-05-25",
+  "updated": "2026-05-25T10:26:27.217905Z"
 }
