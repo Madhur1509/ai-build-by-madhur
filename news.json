@@ -2,93 +2,93 @@
   "articles": [
     {
       "title": "Anthropic Releases Claude 4 with Extended Reasoning and 2M Token Context",
-      "summary": "Anthropic has officially launched Claude 4, featuring a 2 million token context window and a new 'deep reasoning' mode that outperforms competitors on complex multi-step tasks. The model also introduces improved tool use and agentic capabilities, enabling it to autonomously execute long-horizon workflows. Benchmarks show significant gains over Claude 3.7 on coding, mathematics, and scientific reasoning tasks.",
-      "url": "https://techcrunch.com/2026/05/23/anthropic-claude-4-extended-reasoning-2m-context",
-      "source": "TechCrunch",
-      "date": "May 23",
+      "summary": "Anthropic officially launched Claude 4 today, featuring a 2 million token context window and a new 'deep reasoning' mode that outperforms competitors on mathematical and scientific benchmarks. The model introduces native tool use with persistent memory across sessions, marking a significant leap in agentic capabilities. Early enterprise customers report 40% improvements in complex document analysis tasks compared to Claude 3.7.",
+      "url": "https://www.theverge.com/2026/5/26/anthropic-claude-4-release",
+      "source": "The Verge",
+      "date": "May 26",
       "tags": [
         "llm",
         "agentic"
       ]
     },
     {
-      "title": "Google DeepMind's Gemini Ultra 2 Achieves Human-Level Performance on Medical Licensing Exams",
-      "summary": "Google DeepMind announced that Gemini Ultra 2 has scored above the 95th percentile on the USMLE and UK PLAB medical licensing examinations. The model demonstrates advanced multimodal diagnostic reasoning, interpreting MRI scans, lab results, and clinical notes simultaneously. The announcement has reignited debates around AI regulation in clinical settings.",
-      "url": "https://www.theverge.com/2026/5/22/gemini-ultra-2-medical-exam-human-level",
-      "source": "The Verge",
-      "date": "May 22",
+      "title": "Google DeepMind's AlphaFold 4 Predicts RNA-Protein Interactions at Atomic Scale",
+      "summary": "Google DeepMind published research in Nature detailing AlphaFold 4's ability to model complex RNA-protein interactions with near-experimental accuracy, a capability that eluded previous versions. The breakthrough could accelerate drug discovery for diseases where RNA plays a central regulatory role, including several cancers and neurological disorders. Researchers at three independent labs have already confirmed the predictions using cryo-EM imaging.",
+      "url": "https://www.nature.com/articles/alphafold4-rna-protein-2026",
+      "source": "Nature",
+      "date": "May 24",
       "tags": [
-        "multimodal",
-        "research"
+        "research",
+        "multimodal"
       ]
     },
     {
-      "title": "OpenAI Launches GPT-5 Agent Platform for Enterprise Autonomous Workflows",
-      "summary": "OpenAI has unveiled a dedicated Agent Platform built on GPT-5, allowing enterprises to deploy autonomous AI agents that manage email, scheduling, data analysis, and customer service pipelines. The platform includes a new sandboxed execution environment and granular permission controls to limit agent actions. Early adopters including Salesforce and SAP have reported productivity gains of up to 40 percent.",
-      "url": "https://www.bloomberg.com/news/articles/2026-05-21/openai-gpt5-enterprise-agent-platform-launch",
-      "source": "Bloomberg",
-      "date": "May 21",
+      "title": "OpenAI's GPT-5 Agent Framework Now Available to All Developers",
+      "summary": "OpenAI opened its GPT-5 Agents API to all tier-1 developers after a six-week private beta, enabling the creation of long-running autonomous agents that can browse the web, write and execute code, and manage files without human intervention. The framework includes a new 'guardrail orchestration' layer that monitors agent behavior in real time and flags potential safety violations. Pricing starts at $0.008 per 1,000 agent steps, drawing debate about cost-efficiency for complex workflows.",
+      "url": "https://techcrunch.com/2026/05/25/openai-gpt5-agents-api-general-availability",
+      "source": "TechCrunch",
+      "date": "May 25",
       "tags": [
         "agentic",
-        "industry"
+        "tools"
       ]
     },
     {
-      "title": "EU AI Act Enforcement Body Issues First Major Fine to Meta Over Llama Training Data",
-      "summary": "The newly established European AI Office has levied a \u20ac400 million fine against Meta, citing violations of the EU AI Act's transparency requirements regarding training data used for the Llama 4 series. Regulators allege Meta failed to adequately document data provenance and did not conduct required risk assessments before deployment. Meta has announced it will appeal the ruling.",
-      "url": "https://www.reuters.com/technology/2026-05-23/eu-ai-office-fines-meta-llama-training-data",
+      "title": "EU AI Act Enforcement Body Issues First Major Fine to Meta Over Llama 5 Training Data",
+      "summary": "The newly operational EU AI Office levied a \u20ac230 million fine against Meta, alleging the company used copyrighted European publications to train Llama 5 without adequate licensing or opt-out mechanisms. Meta called the ruling 'legally unfounded' and announced plans to appeal, while open-source advocacy groups warned the decision could chill future open-weight model releases in Europe. The case is being watched closely as a precedent for how the AI Act's training data provisions will be enforced.",
+      "url": "https://www.reuters.com/technology/eu-ai-office-fines-meta-llama5-2026-05-24",
       "source": "Reuters",
-      "date": "May 23",
+      "date": "May 24",
       "tags": [
         "safety",
         "industry"
       ]
     },
     {
-      "title": "Microsoft Integrates RAG-Native Architecture Directly into Azure AI Foundry",
-      "summary": "Microsoft has announced that Azure AI Foundry now ships with a native retrieval-augmented generation layer, eliminating the need for third-party vector database integrations for most enterprise use cases. The new architecture supports hybrid dense-sparse retrieval and automatic document chunking with semantic awareness. Developers can deploy production-ready RAG pipelines with minimal configuration through updated SDK tooling.",
-      "url": "https://azure.microsoft.com/en-us/blog/2026/05/20/azure-ai-foundry-rag-native-architecture",
-      "source": "Microsoft Azure Blog",
-      "date": "May 20",
+      "title": "Microsoft Copilot Studio Gains Real-Time RAG Over Enterprise SharePoint and Teams Data",
+      "summary": "Microsoft announced a major update to Copilot Studio that enables real-time retrieval-augmented generation directly over live SharePoint libraries and Teams conversation history, eliminating the need to pre-index documents. The feature uses a new differential indexing engine that updates vector embeddings within seconds of document edits, ensuring answers are always current. The update is rolling out to Microsoft 365 E3 and E5 subscribers beginning this week.",
+      "url": "https://www.zdnet.com/article/microsoft-copilot-studio-realtime-rag-sharepoint-2026",
+      "source": "ZDNet",
+      "date": "May 23",
       "tags": [
         "rag",
         "tools"
       ]
     },
     {
-      "title": "Stanford HAI Report Warns of Accelerating AI Capability Overhang in Open-Source Models",
-      "summary": "A new report from Stanford's Human-Centered AI Institute highlights a growing 'capability overhang' in openly released models, where post-training techniques allow smaller models to punch far above their parameter weight. Researchers found that fine-tuned 70B models now routinely match 2024-era frontier performance on many benchmarks. The report calls for updated safety evaluation frameworks that account for post-deployment model modification.",
-      "url": "https://hai.stanford.edu/research/2026/05/ai-capability-overhang-open-source-report",
+      "title": "Stanford HAI Report Warns of 'Alignment Tax' as Safety Measures Slow Frontier Models",
+      "summary": "A comprehensive report from Stanford's Human-Centered AI Institute found that leading labs are spending up to 35% of compute during post-training on alignment and safety fine-tuning, a cost the authors term the 'alignment tax.' While acknowledging the necessity of safety measures, the report urges investment in more efficient alignment techniques to avoid competitive disadvantages against less safety-conscious developers. The findings are expected to inform upcoming U.S. congressional hearings on AI competitiveness scheduled for next month.",
+      "url": "https://hai.stanford.edu/research/alignment-tax-report-2026",
       "source": "Stanford HAI",
-      "date": "May 22",
+      "date": "May 23",
       "tags": [
         "safety",
         "research"
       ]
     },
     {
-      "title": "Runway Gen-4 Video Model Generates Coherent 10-Minute Cinematic Sequences",
-      "summary": "Runway has released Gen-4, a next-generation video generation model capable of producing up to 10 minutes of temporally consistent, cinematography-aware video from text or image prompts. The model maintains character and scene consistency across cuts, a long-standing challenge for generative video systems. Several independent filmmakers have already used early access to produce short films screened at the 2026 Tribeca Festival.",
-      "url": "https://www.wired.com/story/2026/05/runway-gen4-10-minute-video-generation",
+      "title": "Runway Gen-4 Video Model Achieves Photorealistic 4K Output at 60fps",
+      "summary": "Runway released Gen-4, its latest video generation model, capable of producing photorealistic 4K footage at 60 frames per second from text or image prompts with clips up to 30 seconds long. The model demonstrates significantly improved temporal consistency and physics simulation, with water, smoke, and cloth behaving in visually convincing ways for the first time in an accessible consumer tool. Hollywood studios including two major production houses have already announced Gen-4 integration into pre-visualization pipelines.",
+      "url": "https://www.wired.com/story/runway-gen4-video-model-4k-60fps-2026",
       "source": "Wired",
-      "date": "May 24",
+      "date": "May 22",
       "tags": [
         "multimodal",
         "industry"
       ]
     },
     {
-      "title": "LangChain Releases LangGraph 2.0 with Persistent Memory and Multi-Agent Orchestration",
-      "summary": "LangChain has launched LangGraph 2.0, a major overhaul of its agent orchestration framework featuring built-in persistent memory stores and native support for coordinating fleets of specialized sub-agents. The new version introduces a visual graph editor for designing agent topologies without code, aimed at lowering the barrier for non-engineer teams. The release has been widely praised by the developer community as a significant step toward production-grade agentic systems.",
-      "url": "https://blog.langchain.dev/langgraph-2-0-persistent-memory-multi-agent",
-      "source": "LangChain Blog",
+      "title": "MIT Researchers Demonstrate LLM Self-Correction Without Human Feedback Using Debate Protocol",
+      "summary": "MIT CSAIL published a paper showing that large language models can reliably identify and correct their own factual errors through a structured multi-agent debate protocol, achieving a 67% reduction in hallucinations on standardized benchmarks without any human-labeled correction data. The technique involves two model instances arguing opposing interpretations of a claim, with a third acting as adjudicator, all running on the same base weights. The authors suggest the method could substantially reduce dependence on expensive human feedback loops in RLHF pipelines.",
+      "url": "https://arxiv.org/abs/2026.05198",
+      "source": "arXiv / MIT CSAIL",
       "date": "May 21",
       "tags": [
-        "agentic",
-        "tools"
+        "research",
+        "llm"
       ]
     }
   ],
-  "date": "2026-05-25",
-  "updated": "2026-05-25T10:26:27.217905Z"
+  "date": "2026-05-26",
+  "updated": "2026-05-26T10:14:21.629181Z"
 }
