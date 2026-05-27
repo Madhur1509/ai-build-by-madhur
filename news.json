@@ -1,42 +1,31 @@
 {
   "articles": [
     {
-      "title": "Anthropic Releases Claude 4 with Extended Reasoning and 2M Token Context",
-      "summary": "Anthropic officially launched Claude 4 today, featuring a 2 million token context window and a new 'deep reasoning' mode that outperforms competitors on mathematical and scientific benchmarks. The model introduces native tool use with persistent memory across sessions, marking a significant leap in agentic capabilities. Early enterprise customers report 40% improvements in complex document analysis tasks compared to Claude 3.7.",
-      "url": "https://www.theverge.com/2026/5/26/anthropic-claude-4-release",
-      "source": "The Verge",
+      "title": "Google DeepMind Unveils Gemini 3 with Unprecedented Reasoning Capabilities",
+      "summary": "Google DeepMind officially launched Gemini 3 at its annual I/O conference, claiming state-of-the-art performance on mathematical reasoning and scientific benchmarks. The model introduces a new 'chain-of-thought verification' layer that autonomously checks its own outputs before responding. Early evaluations suggest it outperforms competing models on multi-step logic tasks by a significant margin.",
+      "url": "https://techcrunch.com/2026/05/26/google-deepmind-gemini-3-reasoning",
+      "source": "TechCrunch",
       "date": "May 26",
       "tags": [
         "llm",
-        "agentic"
+        "research"
       ]
     },
     {
-      "title": "Google DeepMind's AlphaFold 4 Predicts RNA-Protein Interactions at Atomic Scale",
-      "summary": "Google DeepMind published research in Nature detailing AlphaFold 4's ability to model complex RNA-protein interactions with near-experimental accuracy, a capability that eluded previous versions. The breakthrough could accelerate drug discovery for diseases where RNA plays a central regulatory role, including several cancers and neurological disorders. Researchers at three independent labs have already confirmed the predictions using cryo-EM imaging.",
-      "url": "https://www.nature.com/articles/alphafold4-rna-protein-2026",
-      "source": "Nature",
-      "date": "May 24",
-      "tags": [
-        "research",
-        "multimodal"
-      ]
-    },
-    {
-      "title": "OpenAI's GPT-5 Agent Framework Now Available to All Developers",
-      "summary": "OpenAI opened its GPT-5 Agents API to all tier-1 developers after a six-week private beta, enabling the creation of long-running autonomous agents that can browse the web, write and execute code, and manage files without human intervention. The framework includes a new 'guardrail orchestration' layer that monitors agent behavior in real time and flags potential safety violations. Pricing starts at $0.008 per 1,000 agent steps, drawing debate about cost-efficiency for complex workflows.",
-      "url": "https://techcrunch.com/2026/05/25/openai-gpt5-agents-api-general-availability",
-      "source": "TechCrunch",
+      "title": "OpenAI Announces GPT-5 Agent Framework for Enterprise Automation",
+      "summary": "OpenAI has released a new agentic framework built on top of GPT-5 that allows enterprises to deploy autonomous workflows across cloud platforms. The system supports multi-agent coordination, allowing separate AI instances to delegate subtasks and verify each other's outputs. Several Fortune 500 companies including SAP and Salesforce have already signed on as launch partners.",
+      "url": "https://www.theverge.com/2026/5/25/openai-gpt5-agent-framework-enterprise",
+      "source": "The Verge",
       "date": "May 25",
       "tags": [
         "agentic",
-        "tools"
+        "industry"
       ]
     },
     {
-      "title": "EU AI Act Enforcement Body Issues First Major Fine to Meta Over Llama 5 Training Data",
-      "summary": "The newly operational EU AI Office levied a \u20ac230 million fine against Meta, alleging the company used copyrighted European publications to train Llama 5 without adequate licensing or opt-out mechanisms. Meta called the ruling 'legally unfounded' and announced plans to appeal, while open-source advocacy groups warned the decision could chill future open-weight model releases in Europe. The case is being watched closely as a precedent for how the AI Act's training data provisions will be enforced.",
-      "url": "https://www.reuters.com/technology/eu-ai-office-fines-meta-llama5-2026-05-24",
+      "title": "EU AI Act Enforcement Agency Issues First Major Fines to Three Tech Firms",
+      "summary": "The newly established European AI Enforcement Agency handed down its first significant penalties, fining three unnamed technology companies a combined \u20ac340 million for deploying high-risk AI systems without required conformity assessments. The fines mark a turning point in EU regulatory enforcement, which critics had previously called toothless. Industry groups have warned the actions could slow AI deployment across the continent.",
+      "url": "https://www.reuters.com/technology/eu-ai-act-enforcement-first-fines-2026-05-24",
       "source": "Reuters",
       "date": "May 24",
       "tags": [
@@ -45,9 +34,20 @@
       ]
     },
     {
-      "title": "Microsoft Copilot Studio Gains Real-Time RAG Over Enterprise SharePoint and Teams Data",
-      "summary": "Microsoft announced a major update to Copilot Studio that enables real-time retrieval-augmented generation directly over live SharePoint libraries and Teams conversation history, eliminating the need to pre-index documents. The feature uses a new differential indexing engine that updates vector embeddings within seconds of document edits, ensuring answers are always current. The update is rolling out to Microsoft 365 E3 and E5 subscribers beginning this week.",
-      "url": "https://www.zdnet.com/article/microsoft-copilot-studio-realtime-rag-sharepoint-2026",
+      "title": "Anthropic's Claude 4 Demonstrates Advanced Multimodal Document Understanding",
+      "summary": "Anthropic released Claude 4 with dramatically improved multimodal capabilities, enabling the model to parse complex tables, diagrams, and handwritten documents with near-human accuracy. The company highlighted performance on medical imaging annotations and legal document review as key enterprise use cases. Claude 4 is available via API starting today with an expanded context window of 500,000 tokens.",
+      "url": "https://venturebeat.com/ai/anthropic-claude-4-multimodal-document-understanding-2026",
+      "source": "VentureBeat",
+      "date": "May 26",
+      "tags": [
+        "multimodal",
+        "llm"
+      ]
+    },
+    {
+      "title": "Microsoft Integrates Retrieval-Augmented Generation Natively into Azure AI Foundry",
+      "summary": "Microsoft announced native RAG pipeline support baked directly into Azure AI Foundry, eliminating the need for third-party orchestration tools like LangChain for many enterprise workflows. The new tooling includes automated chunk optimization, hybrid vector-keyword search, and real-time index refresh for live data sources. The update is expected to accelerate enterprise adoption of grounded AI applications significantly.",
+      "url": "https://www.zdnet.com/article/microsoft-azure-ai-foundry-native-rag-pipelines-2026",
       "source": "ZDNet",
       "date": "May 23",
       "tags": [
@@ -56,39 +56,39 @@
       ]
     },
     {
-      "title": "Stanford HAI Report Warns of 'Alignment Tax' as Safety Measures Slow Frontier Models",
-      "summary": "A comprehensive report from Stanford's Human-Centered AI Institute found that leading labs are spending up to 35% of compute during post-training on alignment and safety fine-tuning, a cost the authors term the 'alignment tax.' While acknowledging the necessity of safety measures, the report urges investment in more efficient alignment techniques to avoid competitive disadvantages against less safety-conscious developers. The findings are expected to inform upcoming U.S. congressional hearings on AI competitiveness scheduled for next month.",
-      "url": "https://hai.stanford.edu/research/alignment-tax-report-2026",
-      "source": "Stanford HAI",
-      "date": "May 23",
+      "title": "MIT Researchers Publish Landmark Study on AI Model Collapse in Recursive Training",
+      "summary": "A team from MIT's CSAIL published findings showing that large language models trained repeatedly on AI-generated data exhibit measurable degradation in output diversity after just three generations of recursive training. The study, published in Nature Machine Intelligence, provides quantitative thresholds for what the authors call 'semantic entropy collapse.' The research is already being cited by major labs as justification for stricter data provenance requirements.",
+      "url": "https://www.nature.com/articles/s42256-026-00891-4",
+      "source": "Nature Machine Intelligence",
+      "date": "May 22",
       "tags": [
-        "safety",
+        "research",
+        "safety"
+      ]
+    },
+    {
+      "title": "Meta Releases Open-Source Video Generation Model Rivaling Sora",
+      "summary": "Meta AI released Movie Gen 2 as a fully open-weight model, allowing researchers and developers to generate high-definition 60-second video clips from text prompts. The release immediately sparked debate about responsible open-sourcing of generative video technology given deepfake concerns. Independent benchmarks place Movie Gen 2 within five percentage points of OpenAI's Sora on standard video quality metrics.",
+      "url": "https://arstechnica.com/ai/2026/05/meta-movie-gen-2-open-source-video-model",
+      "source": "Ars Technica",
+      "date": "May 25",
+      "tags": [
+        "multimodal",
         "research"
       ]
     },
     {
-      "title": "Runway Gen-4 Video Model Achieves Photorealistic 4K Output at 60fps",
-      "summary": "Runway released Gen-4, its latest video generation model, capable of producing photorealistic 4K footage at 60 frames per second from text or image prompts with clips up to 30 seconds long. The model demonstrates significantly improved temporal consistency and physics simulation, with water, smoke, and cloth behaving in visually convincing ways for the first time in an accessible consumer tool. Hollywood studios including two major production houses have already announced Gen-4 integration into pre-visualization pipelines.",
-      "url": "https://www.wired.com/story/runway-gen4-video-model-4k-60fps-2026",
+      "title": "Nvidia Announces Blackwell Ultra GPUs with Dedicated On-Chip RAG Acceleration",
+      "summary": "Nvidia unveiled the Blackwell Ultra GPU architecture at Computex 2026, featuring dedicated silicon for vector database operations designed to accelerate retrieval-augmented generation workloads up to 8x compared to the previous generation. CEO Jensen Huang demonstrated a live benchmark running a 70-billion parameter model with real-time knowledge retrieval at under 50 milliseconds latency. Pre-orders for data center configurations have already exceeded $2 billion according to the company.",
+      "url": "https://www.wired.com/story/nvidia-blackwell-ultra-rag-acceleration-computex-2026",
       "source": "Wired",
-      "date": "May 22",
+      "date": "May 27",
       "tags": [
-        "multimodal",
+        "tools",
         "industry"
-      ]
-    },
-    {
-      "title": "MIT Researchers Demonstrate LLM Self-Correction Without Human Feedback Using Debate Protocol",
-      "summary": "MIT CSAIL published a paper showing that large language models can reliably identify and correct their own factual errors through a structured multi-agent debate protocol, achieving a 67% reduction in hallucinations on standardized benchmarks without any human-labeled correction data. The technique involves two model instances arguing opposing interpretations of a claim, with a third acting as adjudicator, all running on the same base weights. The authors suggest the method could substantially reduce dependence on expensive human feedback loops in RLHF pipelines.",
-      "url": "https://arxiv.org/abs/2026.05198",
-      "source": "arXiv / MIT CSAIL",
-      "date": "May 21",
-      "tags": [
-        "research",
-        "llm"
       ]
     }
   ],
-  "date": "2026-05-26",
-  "updated": "2026-05-26T10:14:21.629181Z"
+  "date": "2026-05-27",
+  "updated": "2026-05-27T10:12:27.330755Z"
 }
