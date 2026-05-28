@@ -1,94 +1,94 @@
 {
   "articles": [
     {
-      "title": "Google DeepMind Unveils Gemini 3 with Unprecedented Reasoning Capabilities",
-      "summary": "Google DeepMind officially launched Gemini 3 at its annual I/O conference, claiming state-of-the-art performance on mathematical reasoning and scientific benchmarks. The model introduces a new 'chain-of-thought verification' layer that autonomously checks its own outputs before responding. Early evaluations suggest it outperforms competing models on multi-step logic tasks by a significant margin.",
-      "url": "https://techcrunch.com/2026/05/26/google-deepmind-gemini-3-reasoning",
+      "title": "Anthropic Releases Claude 4 with Extended Reasoning and 2M Token Context Window",
+      "summary": "Anthropic officially launched Claude 4, featuring a breakthrough 2 million token context window and enhanced chain-of-thought reasoning capabilities. The model demonstrates significant improvements on coding and scientific benchmarks, outperforming competitors on several key tasks. Early enterprise customers report dramatic productivity gains in document analysis and multi-step research workflows.",
+      "url": "https://techcrunch.com/2026/05/27/anthropic-claude-4-release-extended-reasoning",
       "source": "TechCrunch",
-      "date": "May 26",
+      "date": "May 27",
       "tags": [
         "llm",
         "research"
       ]
     },
     {
-      "title": "OpenAI Announces GPT-5 Agent Framework for Enterprise Automation",
-      "summary": "OpenAI has released a new agentic framework built on top of GPT-5 that allows enterprises to deploy autonomous workflows across cloud platforms. The system supports multi-agent coordination, allowing separate AI instances to delegate subtasks and verify each other's outputs. Several Fortune 500 companies including SAP and Salesforce have already signed on as launch partners.",
-      "url": "https://www.theverge.com/2026/5/25/openai-gpt5-agent-framework-enterprise",
+      "title": "Google DeepMind's Gemini Ultra 2.5 Achieves State-of-the-Art on AGI Benchmarks",
+      "summary": "Google DeepMind announced Gemini Ultra 2.5, which has set new records on the ARC-AGI-2 and FrontierMath evaluation suites. The model exhibits improved spatial reasoning and novel problem-solving capabilities that researchers say represent a qualitative leap in general intelligence metrics. DeepMind emphasized that the model passed all internal safety evaluations before deployment.",
+      "url": "https://www.theverge.com/2026/5/26/gemini-ultra-25-deepmind-agi-benchmarks",
       "source": "The Verge",
-      "date": "May 25",
+      "date": "May 26",
+      "tags": [
+        "llm",
+        "safety"
+      ]
+    },
+    {
+      "title": "OpenAI Operator Agents Now Handle End-to-End Enterprise Workflows Autonomously",
+      "summary": "OpenAI expanded its Operator platform to support fully autonomous multi-agent pipelines that can execute complex enterprise workflows without human intervention. The system integrates with over 400 third-party business tools including Salesforce, SAP, and ServiceNow. Critics and safety researchers are calling for stronger oversight mechanisms as adoption accelerates across Fortune 500 companies.",
+      "url": "https://www.wired.com/story/openai-operator-agents-enterprise-workflows-2026",
+      "source": "Wired",
+      "date": "May 27",
       "tags": [
         "agentic",
         "industry"
       ]
     },
     {
-      "title": "EU AI Act Enforcement Agency Issues First Major Fines to Three Tech Firms",
-      "summary": "The newly established European AI Enforcement Agency handed down its first significant penalties, fining three unnamed technology companies a combined \u20ac340 million for deploying high-risk AI systems without required conformity assessments. The fines mark a turning point in EU regulatory enforcement, which critics had previously called toothless. Industry groups have warned the actions could slow AI deployment across the continent.",
-      "url": "https://www.reuters.com/technology/eu-ai-act-enforcement-first-fines-2026-05-24",
-      "source": "Reuters",
-      "date": "May 24",
-      "tags": [
-        "safety",
-        "industry"
-      ]
-    },
-    {
-      "title": "Anthropic's Claude 4 Demonstrates Advanced Multimodal Document Understanding",
-      "summary": "Anthropic released Claude 4 with dramatically improved multimodal capabilities, enabling the model to parse complex tables, diagrams, and handwritten documents with near-human accuracy. The company highlighted performance on medical imaging annotations and legal document review as key enterprise use cases. Claude 4 is available via API starting today with an expanded context window of 500,000 tokens.",
-      "url": "https://venturebeat.com/ai/anthropic-claude-4-multimodal-document-understanding-2026",
-      "source": "VentureBeat",
-      "date": "May 26",
+      "title": "Meta Releases Llama 4 Scout Open-Source Multimodal Model Under Permissive License",
+      "summary": "Meta open-sourced Llama 4 Scout, a 72-billion parameter multimodal model capable of processing images, video, and audio alongside text. The model is available on Hugging Face with a fully permissive commercial license, a notable departure from previous Llama release restrictions. Developers have already begun fine-tuning experiments and the model topped the open-source leaderboard within 48 hours of release.",
+      "url": "https://huggingface.co/blog/llama4-scout-release-meta-2026",
+      "source": "Hugging Face Blog",
+      "date": "May 25",
       "tags": [
         "multimodal",
         "llm"
       ]
     },
     {
-      "title": "Microsoft Integrates Retrieval-Augmented Generation Natively into Azure AI Foundry",
-      "summary": "Microsoft announced native RAG pipeline support baked directly into Azure AI Foundry, eliminating the need for third-party orchestration tools like LangChain for many enterprise workflows. The new tooling includes automated chunk optimization, hybrid vector-keyword search, and real-time index refresh for live data sources. The update is expected to accelerate enterprise adoption of grounded AI applications significantly.",
-      "url": "https://www.zdnet.com/article/microsoft-azure-ai-foundry-native-rag-pipelines-2026",
-      "source": "ZDNet",
-      "date": "May 23",
+      "title": "EU AI Act Enforcement Body Issues First Major Fines to Three Tech Companies",
+      "summary": "The newly established European AI Office issued its first significant penalties under the AI Act, fining three major technology firms a combined \u20ac840 million for deploying high-risk AI systems without proper conformity assessments. The companies, whose names are under legal dispute, are believed to include a large social media platform and two hiring algorithm providers. Legal experts say the fines signal that EU regulators are prepared to aggressively enforce the landmark legislation.",
+      "url": "https://www.reuters.com/technology/eu-ai-act-first-fines-enforcement-2026-05-26",
+      "source": "Reuters",
+      "date": "May 26",
+      "tags": [
+        "safety",
+        "industry"
+      ]
+    },
+    {
+      "title": "Microsoft Copilot Studio Gains Real-Time RAG Pipelines Powered by Azure AI Search",
+      "summary": "Microsoft unveiled a major upgrade to Copilot Studio that enables developers to build real-time retrieval-augmented generation pipelines with sub-second latency using the revamped Azure AI Search service. The update includes automatic document chunking strategies, hybrid vector-keyword search, and built-in hallucination detection guardrails. The feature is now generally available across all Azure regions.",
+      "url": "https://blogs.microsoft.com/ai/copilot-studio-rag-azure-ai-search-2026",
+      "source": "Microsoft AI Blog",
+      "date": "May 28",
       "tags": [
         "rag",
         "tools"
       ]
     },
     {
-      "title": "MIT Researchers Publish Landmark Study on AI Model Collapse in Recursive Training",
-      "summary": "A team from MIT's CSAIL published findings showing that large language models trained repeatedly on AI-generated data exhibit measurable degradation in output diversity after just three generations of recursive training. The study, published in Nature Machine Intelligence, provides quantitative thresholds for what the authors call 'semantic entropy collapse.' The research is already being cited by major labs as justification for stricter data provenance requirements.",
-      "url": "https://www.nature.com/articles/s42256-026-00891-4",
-      "source": "Nature Machine Intelligence",
-      "date": "May 22",
-      "tags": [
-        "research",
-        "safety"
-      ]
-    },
-    {
-      "title": "Meta Releases Open-Source Video Generation Model Rivaling Sora",
-      "summary": "Meta AI released Movie Gen 2 as a fully open-weight model, allowing researchers and developers to generate high-definition 60-second video clips from text prompts. The release immediately sparked debate about responsible open-sourcing of generative video technology given deepfake concerns. Independent benchmarks place Movie Gen 2 within five percentage points of OpenAI's Sora on standard video quality metrics.",
-      "url": "https://arstechnica.com/ai/2026/05/meta-movie-gen-2-open-source-video-model",
-      "source": "Ars Technica",
+      "title": "Stanford HAI Report Finds AI Coding Assistants Introduce Security Vulnerabilities at Scale",
+      "summary": "A comprehensive study from Stanford's Human-Centered AI Institute analyzed over 2.3 million code commits assisted by AI tools and found that 14% contained at least one exploitable security vulnerability. The research highlights that developers often accept AI-generated code with minimal review, compounding risk in production environments. The authors recommend mandatory AI code scanning requirements and updated developer training programs.",
+      "url": "https://hai.stanford.edu/research/ai-coding-security-vulnerabilities-2026-report",
+      "source": "Stanford HAI",
       "date": "May 25",
       "tags": [
-        "multimodal",
+        "safety",
         "research"
       ]
     },
     {
-      "title": "Nvidia Announces Blackwell Ultra GPUs with Dedicated On-Chip RAG Acceleration",
-      "summary": "Nvidia unveiled the Blackwell Ultra GPU architecture at Computex 2026, featuring dedicated silicon for vector database operations designed to accelerate retrieval-augmented generation workloads up to 8x compared to the previous generation. CEO Jensen Huang demonstrated a live benchmark running a 70-billion parameter model with real-time knowledge retrieval at under 50 milliseconds latency. Pre-orders for data center configurations have already exceeded $2 billion according to the company.",
-      "url": "https://www.wired.com/story/nvidia-blackwell-ultra-rag-acceleration-computex-2026",
-      "source": "Wired",
-      "date": "May 27",
+      "title": "Runway Gen-4 Video Model Generates Photorealistic 4K Clips from Text with Consistent Characters",
+      "summary": "Runway released Gen-4, its most advanced video generation model to date, capable of producing 60-second 4K video clips with consistent character identity across scenes. The model addresses a long-standing limitation of previous generative video systems by maintaining coherent facial features and clothing through complex camera movements. Hollywood studios and independent filmmakers have flooded social media with early test outputs, sparking renewed debate about AI's impact on the creative industry.",
+      "url": "https://www.theverge.com/2026/5/28/runway-gen4-video-model-4k-launch",
+      "source": "The Verge",
+      "date": "May 28",
       "tags": [
-        "tools",
+        "multimodal",
         "industry"
       ]
     }
   ],
-  "date": "2026-05-27",
-  "updated": "2026-05-27T10:12:27.330755Z"
+  "date": "2026-05-28",
+  "updated": "2026-05-28T10:21:26.598580Z"
 }
