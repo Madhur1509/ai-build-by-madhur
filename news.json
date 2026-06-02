@@ -1,94 +1,94 @@
 {
   "articles": [
     {
-      "title": "Anthropic Releases Claude 4 with Enhanced Reasoning and 2M Token Context",
-      "summary": "Anthropic has unveiled Claude 4, featuring a groundbreaking 2 million token context window and significantly improved multi-step reasoning capabilities. The model demonstrates state-of-the-art performance on complex coding and scientific benchmarks, surpassing previous leaders on MMLU and HumanEval. Anthropic claims Claude 4 sets a new standard for safety-aligned frontier models.",
-      "url": "https://www.theverge.com/2026/5/30/anthropic-claude-4-release",
-      "source": "The Verge",
-      "date": "May 30",
+      "title": "Google DeepMind Unveils Gemini 3 with Breakthrough Reasoning Capabilities",
+      "summary": "Google DeepMind has officially launched Gemini 3, claiming state-of-the-art performance across mathematics, coding, and scientific reasoning benchmarks. The model introduces a new 'chain-of-thought verification' layer that allows it to self-correct logical errors in real time. Early enterprise partners report significant improvements in complex multi-step task completion compared to previous versions.",
+      "url": "https://techcrunch.com/2026/06/01/google-deepmind-gemini-3-reasoning",
+      "source": "TechCrunch",
+      "date": "June 1",
       "tags": [
         "llm",
-        "safety"
-      ]
-    },
-    {
-      "title": "Google DeepMind's Gemini Ultra 2.5 Achieves Human-Level Performance on Medical Licensing Exams",
-      "summary": "Google DeepMind announced that Gemini Ultra 2.5 has achieved near-perfect scores across the USMLE, MCAT, and several international medical licensing examinations. The multimodal model can interpret radiology scans, lab results, and clinical notes simultaneously to generate diagnostic recommendations. Researchers caution that regulatory approval is still required before clinical deployment.",
-      "url": "https://techcrunch.com/2026/5/29/gemini-ultra-2-5-medical-benchmarks",
-      "source": "TechCrunch",
-      "date": "May 29",
-      "tags": [
-        "multimodal",
         "research"
       ]
     },
     {
-      "title": "OpenAI Launches GPT-5 Agent Framework for Autonomous Enterprise Workflows",
-      "summary": "OpenAI has introduced a new agentic framework built on GPT-5 that allows enterprises to deploy fully autonomous AI agents capable of managing multi-day, multi-system workflows without human intervention. The platform integrates with over 300 enterprise tools including Salesforce, SAP, and ServiceNow out of the box. Early adopters report up to 60% reduction in operational overhead for routine back-office processes.",
-      "url": "https://www.wired.com/2026/5/28/openai-gpt5-agent-framework-enterprise",
-      "source": "Wired",
-      "date": "May 28",
+      "title": "OpenAI's Operator Agents Now Handle End-to-End Enterprise Workflows",
+      "summary": "OpenAI announced a major expansion of its Operator platform, enabling agentic AI systems to autonomously manage multi-department enterprise workflows including procurement, HR onboarding, and financial reporting. The update includes new guardrails and audit logging features designed to satisfy corporate compliance requirements. Over 400 Fortune 500 companies are reportedly piloting the expanded system.",
+      "url": "https://www.theverge.com/2026/6/1/openai-operator-enterprise-workflows",
+      "source": "The Verge",
+      "date": "June 1",
       "tags": [
         "agentic",
-        "tools"
-      ]
-    },
-    {
-      "title": "EU AI Act Enforcement Body Issues First Major Fine to Meta Over LLaMA Training Data",
-      "summary": "The newly operational EU AI Act Enforcement Authority has levied a \u20ac1.2 billion fine against Meta, citing violations related to undisclosed copyrighted training data used in the LLaMA 4 model series. This marks the first significant enforcement action under the landmark regulation, which came into full effect in early 2026. Meta has announced it will appeal the ruling, calling the standards 'ambiguous and retroactively applied.'",
-      "url": "https://www.reuters.com/technology/eu-ai-act-meta-fine-llama-2026-05-27",
-      "source": "Reuters",
-      "date": "May 27",
-      "tags": [
-        "safety",
         "industry"
       ]
     },
     {
-      "title": "Microsoft Unveils RAG 2.0 Architecture Integrated Natively into Azure AI Search",
-      "summary": "Microsoft has announced a next-generation Retrieval-Augmented Generation architecture it calls RAG 2.0, now natively embedded within Azure AI Search services. The new system features dynamic knowledge graph integration, real-time re-ranking, and automated chunking strategies that reduce hallucination rates by an reported 40% compared to standard RAG pipelines. The update is rolling out to Azure enterprise customers through June.",
-      "url": "https://techcrunch.com/2026/5/28/microsoft-rag-2-azure-ai-search",
-      "source": "TechCrunch",
-      "date": "May 28",
+      "title": "Anthropic Publishes Landmark Safety Report on Frontier Model Risks",
+      "summary": "Anthropic released a comprehensive 180-page safety report outlining potential catastrophic risk vectors from models at and beyond the GPT-5 capability level. The report proposes a new international framework for third-party auditing of frontier AI systems before public deployment. It has already drawn responses from the EU AI Office and the US AI Safety Institute, both signaling intent to incorporate the findings into updated regulations.",
+      "url": "https://www.wired.com/story/anthropic-safety-report-frontier-models-2026",
+      "source": "Wired",
+      "date": "May 31",
+      "tags": [
+        "safety",
+        "research"
+      ]
+    },
+    {
+      "title": "Meta Introduces Movie Gen 2 for Photorealistic Video Synthesis",
+      "summary": "Meta AI has released Movie Gen 2, a multimodal video generation model capable of producing two-minute photorealistic clips from text and image prompts. The model also supports audio synthesis synchronized to visual content, marking a major leap from its 2024 predecessor. Critics and filmmakers are already debating the creative and ethical implications of the technology.",
+      "url": "https://arstechnica.com/ai/2026/06/meta-movie-gen-2-photorealistic-video",
+      "source": "Ars Technica",
+      "date": "June 2",
+      "tags": [
+        "multimodal",
+        "industry"
+      ]
+    },
+    {
+      "title": "Microsoft Azure Launches RAG-Optimized Vector Search at Massive Scale",
+      "summary": "Microsoft Azure unveiled a new vector search infrastructure specifically tuned for retrieval-augmented generation workloads, capable of querying trillion-scale document indexes in under 50 milliseconds. The service integrates natively with Azure OpenAI and supports hybrid sparse-dense retrieval strategies. The announcement positions Microsoft aggressively against competitors Pinecone and Weaviate in the enterprise RAG tooling market.",
+      "url": "https://venturebeat.com/ai/2026/06/02/microsoft-azure-rag-vector-search-scale",
+      "source": "VentureBeat",
+      "date": "June 2",
       "tags": [
         "rag",
         "tools"
       ]
     },
     {
-      "title": "Stanford HAI Report Warns of Accelerating AI-Driven Misinformation Ahead of 2026 Midterms",
-      "summary": "Stanford's Human-Centered AI Institute released its annual AI Index report with a special section highlighting a dramatic surge in AI-generated political misinformation in the first half of 2026. Researchers documented a 340% increase in synthetic media incidents compared to the same period in 2024. The report urges Congress to fast-track platform accountability legislation before the November elections.",
-      "url": "https://www.nytimes.com/2026/05/29/technology/stanford-hai-ai-misinformation-report.html",
-      "source": "The New York Times",
-      "date": "May 29",
-      "tags": [
-        "safety",
-        "research"
-      ]
-    },
-    {
-      "title": "Mistral AI Releases Mistral Large 3 as Open-Weight Model, Shaking Up the Open-Source Landscape",
-      "summary": "French AI startup Mistral AI has open-sourced its most powerful model to date, Mistral Large 3, under the Apache 2.0 license. The 72-billion parameter model reportedly matches GPT-4o on several key benchmarks while running efficiently on a single high-end consumer GPU. The release has energized the open-source AI community and intensified debate about the safety implications of releasing frontier-class weights publicly.",
-      "url": "https://www.theverge.com/2026/5/31/mistral-large-3-open-source-release",
-      "source": "The Verge",
-      "date": "May 31",
-      "tags": [
-        "llm",
-        "industry"
-      ]
-    },
-    {
-      "title": "Apple WWDC 2026: Apple Intelligence Gains On-Device Multimodal Reasoning with 'Siri Vision'",
-      "summary": "At WWDC 2026, Apple announced a major expansion of its Apple Intelligence platform, introducing 'Siri Vision,' a fully on-device multimodal reasoning engine for iPhone 17 and M4 Mac lineups. The feature allows Siri to understand and respond to live camera feeds, screen content, and documents simultaneously without sending data to the cloud. Apple emphasized privacy-preserving architecture as a key differentiator from cloud-dependent competitors.",
-      "url": "https://www.macrumors.com/2026/06/01/wwdc-2026-apple-intelligence-siri-vision",
-      "source": "MacRumors",
+      "title": "EU AI Act Enforcement Body Issues First Major Fine to European LLM Startup",
+      "summary": "The newly empowered EU AI Enforcement Authority levied a \u20ac47 million fine against Berlin-based AI startup Lumira for deploying a high-risk LLM in healthcare settings without completing required conformity assessments. This marks the first significant penalty under the fully enacted EU AI Act and is being watched closely by the industry as a signal of enforcement intent. Lumira has 60 days to appeal and must suspend the product in the interim.",
+      "url": "https://www.reuters.com/technology/eu-ai-act-first-fine-lumira-2026-06-01",
+      "source": "Reuters",
       "date": "June 1",
       "tags": [
-        "multimodal",
+        "safety",
         "industry"
+      ]
+    },
+    {
+      "title": "Stanford HAI Releases 2026 AI Index: Compute Costs Drop 70% Year-Over-Year",
+      "summary": "Stanford's Human-Centered AI Institute published its annual AI Index report, revealing that the cost to train a GPT-4-class model has fallen by 70% compared to 2025 figures. The report also highlights a surge in AI-related patent filings from South Korea and India, signaling a broadening of global AI leadership. Researchers warn that accelerating capability gains are outpacing corresponding advances in interpretability and alignment.",
+      "url": "https://hai.stanford.edu/news/2026-ai-index-report-compute-costs",
+      "source": "Stanford HAI",
+      "date": "May 30",
+      "tags": [
+        "research",
+        "industry"
+      ]
+    },
+    {
+      "title": "LangChain Releases LangGraph 2.0 with Stateful Multi-Agent Orchestration",
+      "summary": "LangChain has launched LangGraph 2.0, a major overhaul of its agent orchestration framework that introduces persistent shared state across heterogeneous multi-agent pipelines. New features include visual graph debugging, built-in conflict resolution between competing agents, and first-class support for long-running asynchronous tasks. The release has been widely praised by the developer community as a significant step toward production-grade agentic applications.",
+      "url": "https://www.infoq.com/news/2026/06/langgraph-2-multi-agent-orchestration",
+      "source": "InfoQ",
+      "date": "May 31",
+      "tags": [
+        "agentic",
+        "tools"
       ]
     }
   ],
-  "date": "2026-06-01",
-  "updated": "2026-06-01T11:52:27.099250Z"
+  "date": "2026-06-02",
+  "updated": "2026-06-02T10:50:58.314400Z"
 }
