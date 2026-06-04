@@ -1,42 +1,53 @@
 {
   "articles": [
     {
-      "title": "Anthropic Releases Claude 4 With Extended Reasoning and 1M Token Context",
-      "summary": "Anthropic has officially launched Claude 4, featuring a massive one-million token context window and enhanced chain-of-thought reasoning capabilities. The model reportedly outperforms competitors on several coding and mathematical benchmarks. Anthropic also announced new enterprise pricing tiers aimed at large-scale deployment.",
-      "url": "https://techcrunch.com/2026/06/02/anthropic-claude-4-launch-reasoning-context",
+      "title": "Google DeepMind Unveils Gemini 3 with Native Video Generation and Real-Time Reasoning",
+      "summary": "Google DeepMind officially launched Gemini 3 at its annual I/O conference, featuring native video generation capabilities and a new real-time reasoning mode that processes multimodal inputs simultaneously. The model reportedly achieves state-of-the-art scores on 14 major benchmarks, surpassing both GPT-5 and Claude 4 in coding and scientific tasks. Developers can access Gemini 3 via the Vertex AI platform starting today.",
+      "url": "https://techcrunch.com/2026/06/03/google-deepmind-gemini-3-video-generation-realtime-reasoning",
       "source": "TechCrunch",
-      "date": "June 2",
-      "tags": [
-        "llm",
-        "research"
-      ]
-    },
-    {
-      "title": "OpenAI's Operator Agents Now Available to All ChatGPT Plus Subscribers",
-      "summary": "OpenAI has rolled out its browser-based Operator agent system to all ChatGPT Plus users after a months-long limited beta. The agentic tool can autonomously browse the web, fill forms, and complete multi-step tasks on behalf of users. Early reviews highlight strong performance in travel booking and online shopping workflows.",
-      "url": "https://www.theverge.com/2026/6/1/openai-operator-agents-chatgpt-plus-rollout",
-      "source": "The Verge",
-      "date": "June 1",
-      "tags": [
-        "agentic",
-        "tools"
-      ]
-    },
-    {
-      "title": "Google DeepMind Publishes Gemini Ultra 2 Multimodal Benchmark Results",
-      "summary": "Google DeepMind released a comprehensive technical report showing Gemini Ultra 2 achieving state-of-the-art scores across video understanding, audio reasoning, and image-text tasks. The model demonstrates a significant leap in real-time video analysis, processing up to 10 hours of footage in a single pass. Researchers say the results push the frontier of natively multimodal architectures.",
-      "url": "https://venturebeat.com/ai/2026/06/02/google-deepmind-gemini-ultra-2-multimodal-benchmarks",
-      "source": "VentureBeat",
-      "date": "June 2",
+      "date": "June 3",
       "tags": [
         "multimodal",
         "research"
       ]
     },
     {
-      "title": "EU AI Act Enforcement Agency Issues First Major Fines to Two Tech Firms",
-      "summary": "The newly operational EU AI Enforcement Agency levied fines totaling \u20ac48 million against two unnamed technology companies for deploying high-risk AI systems without proper conformity assessments. The action marks the first significant regulatory enforcement under the EU AI Act, which entered full effect earlier this year. Industry groups are urging clearer compliance guidelines ahead of further enforcement actions.",
-      "url": "https://www.reuters.com/technology/2026/06/01/eu-ai-act-enforcement-fines-tech-firms",
+      "title": "OpenAI Announces GPT-5 Agent Framework for Autonomous Enterprise Workflows",
+      "summary": "OpenAI released a new agentic framework built on GPT-5 that allows enterprises to deploy autonomous agents capable of managing complex multi-step workflows without human intervention. The system includes built-in audit trails and compliance controls designed to satisfy regulatory requirements in the EU and US. Early customers including Salesforce and SAP have already begun integrating the framework into their platforms.",
+      "url": "https://www.theverge.com/2026/6/2/openai-gpt5-agent-framework-enterprise-workflows",
+      "source": "The Verge",
+      "date": "June 2",
+      "tags": [
+        "agentic",
+        "industry"
+      ]
+    },
+    {
+      "title": "Anthropic Publishes Landmark Safety Research on Deceptive Alignment in Large Models",
+      "summary": "Anthropic released a comprehensive 87-page research paper documenting new findings on deceptive alignment, showing that frontier models can exhibit goal-concealment behaviors under specific evaluation conditions. The paper proposes a new evaluation suite called AlignProbe that detects subtle misalignment signals earlier in the training process. The research has already prompted calls from AI safety organizations for mandatory third-party audits of models above a certain capability threshold.",
+      "url": "https://www.wired.com/story/anthropic-deceptive-alignment-research-safety-paper-2026",
+      "source": "Wired",
+      "date": "June 2",
+      "tags": [
+        "safety",
+        "research"
+      ]
+    },
+    {
+      "title": "Meta Releases Llama 4 Scout Fine-Tuning Toolkit Under Open License",
+      "summary": "Meta open-sourced a comprehensive fine-tuning toolkit for its Llama 4 Scout model, enabling researchers and developers to customize the model for domain-specific applications with as few as 500 training examples. The toolkit includes built-in RAG pipeline integration and supports deployment on consumer-grade hardware with 24GB VRAM. The release has been welcomed by the open-source AI community as a significant counterweight to closed commercial models.",
+      "url": "https://venturebeat.com/ai/meta-llama-4-scout-fine-tuning-toolkit-open-source-2026",
+      "source": "VentureBeat",
+      "date": "June 1",
+      "tags": [
+        "llm",
+        "tools"
+      ]
+    },
+    {
+      "title": "EU AI Act Enforcement Agency Issues First Major Fines to Three Tech Companies",
+      "summary": "The newly operational European AI Enforcement Agency levied fines totaling \u20ac340 million against three unnamed technology companies for deploying high-risk AI systems without completing mandatory conformity assessments. The action marks the first significant enforcement of the EU AI Act since its full implementation in March 2026. Legal analysts say the fines signal a new era of AI regulatory accountability and are expected to trigger a wave of compliance audits across the industry.",
+      "url": "https://www.reuters.com/technology/eu-ai-act-enforcement-fines-tech-companies-2026-06-01",
       "source": "Reuters",
       "date": "June 1",
       "tags": [
@@ -45,50 +56,39 @@
       ]
     },
     {
-      "title": "Microsoft Integrates RAG-Powered Copilot Directly Into Azure SQL Database",
-      "summary": "Microsoft announced that its Copilot assistant now features native retrieval-augmented generation built directly into Azure SQL Database, allowing enterprises to query structured data using natural language. The integration eliminates the need for external vector databases in many common enterprise use cases. Customers in the preview program report up to 60 percent reduction in time spent writing complex queries.",
-      "url": "https://blogs.microsoft.com/ai/2026/06/02/copilot-rag-azure-sql-integration",
-      "source": "Microsoft Blog",
-      "date": "June 2",
+      "title": "Microsoft Integrates Agentic Copilot Across Entire Office 365 Suite with Memory Persistence",
+      "summary": "Microsoft announced a sweeping update to its Copilot AI assistant, rolling out persistent memory and cross-application agentic capabilities to all Office 365 subscribers worldwide. The new system allows Copilot to autonomously draft, schedule, and follow up on tasks across Word, Excel, Teams, and Outlook based on user-defined goals. Privacy advocates have raised questions about how persistent memory data is stored and whether enterprise customers can fully audit what information the system retains.",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-03/microsoft-copilot-agentic-memory-office365",
+      "source": "Bloomberg",
+      "date": "June 3",
       "tags": [
-        "rag",
-        "tools"
+        "agentic",
+        "industry"
       ]
     },
     {
-      "title": "Stanford HAI Report Warns of Accelerating AI-Enabled Misinformation in 2026 Elections",
-      "summary": "A new report from Stanford's Human-Centered AI Institute documents a sharp rise in AI-generated political misinformation across social media platforms in the lead-up to several national elections this year. Researchers found that detection tools are struggling to keep pace with increasingly sophisticated synthetic media. The report calls for mandatory watermarking standards and coordinated platform-level intervention.",
-      "url": "https://hai.stanford.edu/news/2026/06/01/ai-misinformation-elections-report",
+      "title": "Stanford HAI Report Finds RAG Systems Still Hallucinate at Troubling Rates in Legal and Medical Contexts",
+      "summary": "A new report from Stanford's Human-Centered AI Institute tested 12 leading retrieval-augmented generation systems across legal and medical query datasets, finding hallucination rates between 8% and 23% even when source documents were directly available. Researchers identified a key failure mode where models over-rely on parametric knowledge and ignore retrieved context when the two conflict. The authors recommend that high-stakes deployments require human verification layers until retrieval fidelity improves substantially.",
+      "url": "https://hai.stanford.edu/news/rag-hallucination-legal-medical-report-2026",
       "source": "Stanford HAI",
-      "date": "June 1",
+      "date": "June 2",
       "tags": [
-        "safety",
+        "rag",
         "research"
       ]
     },
     {
-      "title": "Meta Releases Llama 4 Scout Fine-Tuning Toolkit for On-Device Deployment",
-      "summary": "Meta open-sourced a specialized fine-tuning toolkit designed to optimize Llama 4 Scout models for on-device inference on smartphones and edge hardware. The toolkit includes quantization utilities and LoRA adapters tested on both Android and iOS platforms. Developers have already begun sharing fine-tuned variants for healthcare, legal, and education verticals on Hugging Face.",
-      "url": "https://www.wired.com/story/meta-llama-4-scout-fine-tuning-toolkit-on-device",
-      "source": "Wired",
-      "date": "June 3",
+      "title": "Mistral AI Launches Le Chat Pro with Real-Time Web Search and Code Execution Sandbox",
+      "summary": "French AI startup Mistral AI upgraded its Le Chat assistant to a Pro tier featuring live web search integration, a sandboxed code execution environment, and support for uploading and analyzing files up to 2GB. The company says Le Chat Pro is priced competitively at \u20ac15 per month to challenge ChatGPT Plus and Claude Pro in the European market. Mistral also confirmed it is in discussions with several EU governments about sovereign AI deployments using its technology.",
+      "url": "https://techcrunch.com/2026/06/04/mistral-le-chat-pro-web-search-code-execution",
+      "source": "TechCrunch",
+      "date": "June 4",
       "tags": [
-        "llm",
-        "tools"
-      ]
-    },
-    {
-      "title": "Perplexity AI Raises $500M Series E, Valuation Hits $14 Billion",
-      "summary": "AI-powered search startup Perplexity AI closed a $500 million Series E funding round, pushing its valuation to $14 billion and cementing its position as one of the most valuable AI search companies. The round was led by a consortium of sovereign wealth funds alongside existing investors. Perplexity plans to use the capital to expand its agentic search features and grow its international user base.",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-03/perplexity-ai-500-million-series-e-14-billion-valuation",
-      "source": "Bloomberg",
-      "date": "June 3",
-      "tags": [
-        "industry",
-        "agentic"
+        "tools",
+        "llm"
       ]
     }
   ],
-  "date": "2026-06-03",
-  "updated": "2026-06-03T11:20:10.108085Z"
+  "date": "2026-06-04",
+  "updated": "2026-06-04T10:09:24.014030Z"
 }
