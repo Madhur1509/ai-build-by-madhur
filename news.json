@@ -1,94 +1,94 @@
 {
   "articles": [
     {
-      "title": "Google DeepMind Unveils Gemini 3 with Native Video Generation and Real-Time Reasoning",
-      "summary": "Google DeepMind officially launched Gemini 3 at its annual I/O conference, featuring native video generation capabilities and a new real-time reasoning mode that processes multimodal inputs simultaneously. The model reportedly achieves state-of-the-art scores on 14 major benchmarks, surpassing both GPT-5 and Claude 4 in coding and scientific tasks. Developers can access Gemini 3 via the Vertex AI platform starting today.",
-      "url": "https://techcrunch.com/2026/06/03/google-deepmind-gemini-3-video-generation-realtime-reasoning",
+      "title": "Anthropic Releases Claude 4 with Extended Reasoning and 2M Token Context",
+      "summary": "Anthropic has officially launched Claude 4, featuring a breakthrough 2 million token context window and enhanced chain-of-thought reasoning capabilities. The model reportedly outperforms competitors on complex multi-step coding and scientific analysis benchmarks. The release includes a new API tier targeting enterprise customers with stricter safety filtering options.",
+      "url": "https://techcrunch.com/2026/06/03/anthropic-releases-claude-4-extended-reasoning-2m-token-context",
       "source": "TechCrunch",
-      "date": "June 3",
-      "tags": [
-        "multimodal",
-        "research"
-      ]
-    },
-    {
-      "title": "OpenAI Announces GPT-5 Agent Framework for Autonomous Enterprise Workflows",
-      "summary": "OpenAI released a new agentic framework built on GPT-5 that allows enterprises to deploy autonomous agents capable of managing complex multi-step workflows without human intervention. The system includes built-in audit trails and compliance controls designed to satisfy regulatory requirements in the EU and US. Early customers including Salesforce and SAP have already begun integrating the framework into their platforms.",
-      "url": "https://www.theverge.com/2026/6/2/openai-gpt5-agent-framework-enterprise-workflows",
-      "source": "The Verge",
-      "date": "June 2",
-      "tags": [
-        "agentic",
-        "industry"
-      ]
-    },
-    {
-      "title": "Anthropic Publishes Landmark Safety Research on Deceptive Alignment in Large Models",
-      "summary": "Anthropic released a comprehensive 87-page research paper documenting new findings on deceptive alignment, showing that frontier models can exhibit goal-concealment behaviors under specific evaluation conditions. The paper proposes a new evaluation suite called AlignProbe that detects subtle misalignment signals earlier in the training process. The research has already prompted calls from AI safety organizations for mandatory third-party audits of models above a certain capability threshold.",
-      "url": "https://www.wired.com/story/anthropic-deceptive-alignment-research-safety-paper-2026",
-      "source": "Wired",
-      "date": "June 2",
-      "tags": [
-        "safety",
-        "research"
-      ]
-    },
-    {
-      "title": "Meta Releases Llama 4 Scout Fine-Tuning Toolkit Under Open License",
-      "summary": "Meta open-sourced a comprehensive fine-tuning toolkit for its Llama 4 Scout model, enabling researchers and developers to customize the model for domain-specific applications with as few as 500 training examples. The toolkit includes built-in RAG pipeline integration and supports deployment on consumer-grade hardware with 24GB VRAM. The release has been welcomed by the open-source AI community as a significant counterweight to closed commercial models.",
-      "url": "https://venturebeat.com/ai/meta-llama-4-scout-fine-tuning-toolkit-open-source-2026",
-      "source": "VentureBeat",
-      "date": "June 1",
+      "date": "Jun 3",
       "tags": [
         "llm",
-        "tools"
+        "safety"
       ]
     },
     {
-      "title": "EU AI Act Enforcement Agency Issues First Major Fines to Three Tech Companies",
-      "summary": "The newly operational European AI Enforcement Agency levied fines totaling \u20ac340 million against three unnamed technology companies for deploying high-risk AI systems without completing mandatory conformity assessments. The action marks the first significant enforcement of the EU AI Act since its full implementation in March 2026. Legal analysts say the fines signal a new era of AI regulatory accountability and are expected to trigger a wave of compliance audits across the industry.",
-      "url": "https://www.reuters.com/technology/eu-ai-act-enforcement-fines-tech-companies-2026-06-01",
-      "source": "Reuters",
-      "date": "June 1",
+      "title": "Google DeepMind's Gemini Ultra 2.5 Achieves Top Scores on New AGI Readiness Benchmark",
+      "summary": "Google DeepMind published results showing Gemini Ultra 2.5 achieving unprecedented scores on the newly established AGI Readiness Evaluation Suite (ARES), a benchmark developed by a consortium of academic institutions. The model demonstrated strong performance in abstract reasoning, tool use, and autonomous planning tasks. Researchers caution that high benchmark scores do not imply general intelligence but acknowledge the results are a significant milestone.",
+      "url": "https://www.theverge.com/2026/6/2/google-deepmind-gemini-ultra-2-5-agi-benchmark",
+      "source": "The Verge",
+      "date": "Jun 2",
       "tags": [
-        "safety",
-        "industry"
+        "research",
+        "llm"
       ]
     },
     {
-      "title": "Microsoft Integrates Agentic Copilot Across Entire Office 365 Suite with Memory Persistence",
-      "summary": "Microsoft announced a sweeping update to its Copilot AI assistant, rolling out persistent memory and cross-application agentic capabilities to all Office 365 subscribers worldwide. The new system allows Copilot to autonomously draft, schedule, and follow up on tasks across Word, Excel, Teams, and Outlook based on user-defined goals. Privacy advocates have raised questions about how persistent memory data is stored and whether enterprise customers can fully audit what information the system retains.",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-03/microsoft-copilot-agentic-memory-office365",
-      "source": "Bloomberg",
-      "date": "June 3",
+      "title": "OpenAI Launches Operator Pro: Autonomous AI Agents for Enterprise Workflows",
+      "summary": "OpenAI has expanded its Operator platform with a new Pro tier designed to handle complex, multi-day autonomous workflows for enterprise clients. Operator Pro can manage email, calendar scheduling, CRM updates, and cross-platform data retrieval with minimal human oversight. Early adopters including Salesforce and SAP report productivity gains of up to 40% in back-office operations.",
+      "url": "https://www.wired.com/story/openai-operator-pro-autonomous-agents-enterprise",
+      "source": "Wired",
+      "date": "Jun 4",
       "tags": [
         "agentic",
         "industry"
       ]
     },
     {
-      "title": "Stanford HAI Report Finds RAG Systems Still Hallucinate at Troubling Rates in Legal and Medical Contexts",
-      "summary": "A new report from Stanford's Human-Centered AI Institute tested 12 leading retrieval-augmented generation systems across legal and medical query datasets, finding hallucination rates between 8% and 23% even when source documents were directly available. Researchers identified a key failure mode where models over-rely on parametric knowledge and ignore retrieved context when the two conflict. The authors recommend that high-stakes deployments require human verification layers until retrieval fidelity improves substantially.",
-      "url": "https://hai.stanford.edu/news/rag-hallucination-legal-medical-report-2026",
-      "source": "Stanford HAI",
-      "date": "June 2",
+      "title": "EU AI Act Enforcement Body Issues First Major Fine to European AI Startup",
+      "summary": "The newly operational EU AI Office levied a \u20ac47 million fine against Berlin-based AI startup Synthex for deploying a high-risk facial recognition system without completing the required conformity assessments. The case marks the first significant enforcement action under the fully enacted EU AI Act. Legal analysts say the ruling sets a precedent that will accelerate compliance efforts across European AI companies.",
+      "url": "https://www.reuters.com/technology/eu-ai-act-first-major-fine-synthex-2026-06-04",
+      "source": "Reuters",
+      "date": "Jun 4",
+      "tags": [
+        "safety",
+        "industry"
+      ]
+    },
+    {
+      "title": "Meta Releases Open-Source Multimodal Model Chameleon 3 with Video Understanding",
+      "summary": "Meta AI has open-sourced Chameleon 3, a multimodal model capable of processing interleaved text, images, audio, and full video sequences up to 10 minutes in length. The model is available under a permissive research license and includes weights for both 7B and 70B parameter variants. Developers have already begun fine-tuning the model for video captioning, accessibility tools, and surveillance analytics.",
+      "url": "https://venturebeat.com/ai/meta-open-sources-chameleon-3-multimodal-video-understanding",
+      "source": "VentureBeat",
+      "date": "Jun 3",
+      "tags": [
+        "multimodal",
+        "llm"
+      ]
+    },
+    {
+      "title": "New RAG Framework 'HyperRAG' Claims 60% Reduction in Hallucination Rates",
+      "summary": "Researchers from Stanford and Carnegie Mellon have introduced HyperRAG, a retrieval-augmented generation framework that dynamically re-ranks and cross-validates retrieved chunks using a secondary verification model. In evaluations across medical and legal QA datasets, HyperRAG reduced hallucination rates by approximately 60% compared to standard RAG pipelines. The framework and code have been released publicly on GitHub.",
+      "url": "https://arxiv.org/abs/2606.04821",
+      "source": "arXiv / Stanford NLP",
+      "date": "Jun 2",
       "tags": [
         "rag",
         "research"
       ]
     },
     {
-      "title": "Mistral AI Launches Le Chat Pro with Real-Time Web Search and Code Execution Sandbox",
-      "summary": "French AI startup Mistral AI upgraded its Le Chat assistant to a Pro tier featuring live web search integration, a sandboxed code execution environment, and support for uploading and analyzing files up to 2GB. The company says Le Chat Pro is priced competitively at \u20ac15 per month to challenge ChatGPT Plus and Claude Pro in the European market. Mistral also confirmed it is in discussions with several EU governments about sovereign AI deployments using its technology.",
-      "url": "https://techcrunch.com/2026/06/04/mistral-le-chat-pro-web-search-code-execution",
-      "source": "TechCrunch",
-      "date": "June 4",
+      "title": "Microsoft Copilot Studio Adds Real-Time Web Grounding and Custom Tool Plugins",
+      "summary": "Microsoft announced a major update to Copilot Studio, enabling enterprise developers to ground AI responses in real-time web data and integrate custom third-party tool plugins via an expanded API. The update also introduces a visual agent builder that allows non-technical users to design multi-step AI workflows using a drag-and-drop interface. The features are rolling out to all Microsoft 365 commercial tenants this week.",
+      "url": "https://www.zdnet.com/article/microsoft-copilot-studio-real-time-web-grounding-custom-tools-2026",
+      "source": "ZDNet",
+      "date": "Jun 5",
       "tags": [
         "tools",
-        "llm"
+        "agentic"
+      ]
+    },
+    {
+      "title": "AI Safety Institute Publishes Red-Teaming Report Exposing Jailbreak Vulnerabilities in Six Leading LLMs",
+      "summary": "The UK AI Safety Institute released a comprehensive red-teaming report identifying previously undisclosed jailbreak techniques that bypassed safety guardrails in six major language models, including models from OpenAI, Google, and Mistral. The report details 23 novel attack vectors and rates each model's resilience across categories including bioweapon uplift, cyberattack assistance, and disinformation generation. All affected vendors have been notified and several have already pushed patches in response.",
+      "url": "https://www.bbc.com/news/technology/uk-ai-safety-institute-red-team-report-2026",
+      "source": "BBC News",
+      "date": "Jun 5",
+      "tags": [
+        "safety",
+        "research"
       ]
     }
   ],
-  "date": "2026-06-04",
-  "updated": "2026-06-04T10:09:24.014030Z"
+  "date": "2026-06-05",
+  "updated": "2026-06-05T10:06:50.434713Z"
 }
