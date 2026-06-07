@@ -1,94 +1,94 @@
 {
   "articles": [
     {
-      "title": "OpenAI Releases GPT-5 Turbo with Extended Context and Improved Reasoning",
-      "summary": "OpenAI announced GPT-5 Turbo, featuring a 2-million token context window and significantly enhanced multi-step reasoning capabilities. The model demonstrates a 40% improvement on complex math and coding benchmarks compared to its predecessor. Enterprise customers gain access immediately, with a broader rollout expected next week.",
-      "url": "https://techcrunch.com/2026/06/04/openai-gpt5-turbo-extended-context-reasoning",
+      "title": "Google DeepMind Unveils Gemini 3 Ultra with Native Video Generation",
+      "summary": "Google DeepMind announced Gemini 3 Ultra, its most capable model to date, featuring native real-time video generation and editing capabilities baked directly into the base model. The system achieves state-of-the-art benchmarks across reasoning, coding, and multimodal tasks, surpassing previous leading models from OpenAI and Anthropic. Enterprise access begins rolling out this week through Google Cloud Vertex AI.",
+      "url": "https://techcrunch.com/2026/06/06/google-deepmind-gemini-3-ultra-video-generation",
       "source": "TechCrunch",
-      "date": "June 4",
-      "tags": [
-        "llm",
-        "research"
-      ]
-    },
-    {
-      "title": "Google DeepMind's Gemini 2.5 Ultra Tops Major Multimodal Benchmarks",
-      "summary": "Google DeepMind published results showing Gemini 2.5 Ultra achieving state-of-the-art scores across video understanding, image reasoning, and audio transcription tasks. The model edges out competing systems on the newly standardized OmniEval benchmark suite. Researchers noted particular gains in long-form video comprehension exceeding 90 minutes of content.",
-      "url": "https://www.theverge.com/2026/6/5/gemini-25-ultra-multimodal-benchmarks-deepmind",
-      "source": "The Verge",
-      "date": "June 5",
+      "date": "Jun 6",
       "tags": [
         "multimodal",
-        "research"
-      ]
-    },
-    {
-      "title": "Anthropic Introduces Claude Agents Platform for Autonomous Workflow Automation",
-      "summary": "Anthropic launched a dedicated agentic platform allowing Claude models to autonomously manage multi-step business workflows, including web browsing, code execution, and API integrations. The platform includes a new safety layer called Constitutional Guardrails that limits unauthorized actions during autonomous runs. Early enterprise partners report up to 60% reduction in manual operational overhead.",
-      "url": "https://www.wired.com/story/anthropic-claude-agents-platform-autonomous-workflows-2026",
-      "source": "Wired",
-      "date": "June 4",
-      "tags": [
-        "agentic",
-        "safety"
-      ]
-    },
-    {
-      "title": "EU AI Act Enforcement Begins: First Compliance Deadlines Hit Major Tech Firms",
-      "summary": "The European Union's AI Act entered its first major enforcement phase this week, requiring high-risk AI systems deployed in the EU to meet strict transparency and audit requirements. Several large technology companies including Meta and Microsoft confirmed they have submitted compliance documentation to national authorities. Industry analysts warn that non-compliant firms could face fines of up to 3% of global annual turnover.",
-      "url": "https://www.reuters.com/technology/eu-ai-act-enforcement-compliance-deadlines-2026-06-05",
-      "source": "Reuters",
-      "date": "June 5",
-      "tags": [
-        "safety",
         "industry"
       ]
     },
     {
-      "title": "Microsoft Copilot Studio Adds Native RAG Pipeline Builder for Enterprise Knowledge Bases",
-      "summary": "Microsoft unveiled an integrated retrieval-augmented generation pipeline builder within Copilot Studio, enabling enterprises to connect proprietary document stores without custom coding. The tool supports hybrid search combining dense vector retrieval with BM25 keyword matching, and includes automatic chunk optimization. The feature is now available in preview for Microsoft 365 E5 subscribers.",
-      "url": "https://blogs.microsoft.com/2026/06/03/copilot-studio-rag-pipeline-builder-enterprise",
-      "source": "Microsoft Blog",
-      "date": "June 3",
+      "title": "Anthropic's Claude 4 Agents Now Autonomously Manage Multi-Week Software Projects",
+      "summary": "Anthropic released a major update to its Claude 4 agent framework, enabling autonomous software development agents to manage and execute multi-week coding projects with minimal human oversight. The system introduces persistent memory and a new task-decomposition architecture that allows agents to coordinate subagents across complex workflows. Early enterprise customers report a 60% reduction in developer time on large migration projects.",
+      "url": "https://www.theverge.com/2026/6/5/anthropic-claude-4-agents-software-projects",
+      "source": "The Verge",
+      "date": "Jun 5",
       "tags": [
-        "rag",
+        "agentic",
         "tools"
       ]
     },
     {
-      "title": "Meta Releases LLaMA 4 Scout Open-Source Model with 400 Billion Parameters",
-      "summary": "Meta open-sourced LLaMA 4 Scout, a 400-billion parameter model available under a permissive research and commercial license. The model reportedly matches GPT-5 Turbo performance on several standard benchmarks while remaining fully downloadable for self-hosting. The release has energized the open-source AI community, with thousands of fine-tuned variants already appearing on Hugging Face within 24 hours.",
-      "url": "https://arstechnica.com/ai/2026/06/meta-llama-4-scout-400b-open-source-release",
-      "source": "Ars Technica",
-      "date": "June 5",
+      "title": "OpenAI Faces EU Regulatory Probe Over GPT-5 Training Data Practices",
+      "summary": "The European Data Protection Board launched a formal investigation into OpenAI's data collection practices used to train GPT-5, citing potential violations of GDPR provisions around consent and data minimization. The probe follows a coalition of European publishers who allege their copyrighted content was scraped without authorization or compensation. OpenAI stated it is cooperating fully and believes its practices comply with applicable regulations.",
+      "url": "https://www.reuters.com/technology/openai-eu-gdpr-investigation-gpt5-2026-06-04",
+      "source": "Reuters",
+      "date": "Jun 4",
       "tags": [
-        "llm",
+        "safety",
         "industry"
       ]
     },
     {
-      "title": "Stanford HAI Report Warns of Accelerating AI-Enabled Disinformation Risks Ahead of 2026 Midterms",
-      "summary": "Stanford's Human-Centered AI Institute released a comprehensive report outlining growing threats from AI-generated disinformation as US midterm elections approach in November 2026. Researchers documented a 300% year-over-year increase in synthetic media designed to impersonate political candidates. The report calls for mandatory watermarking of AI-generated political content and faster platform-level detection tools.",
-      "url": "https://hai.stanford.edu/news/2026-report-ai-disinformation-midterms-risks",
-      "source": "Stanford HAI",
-      "date": "June 4",
+      "title": "MIT Researchers Introduce RAG-Fusion Architecture That Cuts Hallucinations by 40%",
+      "summary": "A team at MIT CSAIL published a paper introducing RAG-Fusion, a new retrieval-augmented generation architecture that cross-validates retrieved documents using multiple specialized retriever models before generating a response. In benchmark evaluations across medical, legal, and financial domains, the approach reduced factual hallucinations by approximately 40% compared to standard RAG pipelines. The researchers have released the full codebase and model weights on Hugging Face.",
+      "url": "https://venturebeat.com/ai/mit-rag-fusion-hallucination-reduction-2026-06-05",
+      "source": "VentureBeat",
+      "date": "Jun 5",
       "tags": [
-        "safety",
+        "rag",
         "research"
       ]
     },
     {
-      "title": "Mistral AI Launches Le Chat Pro with Real-Time Web Search and Code Interpreter",
-      "summary": "Paris-based Mistral AI upgraded its Le Chat assistant to a Pro tier featuring live web search integration, an in-browser code interpreter, and file analysis capabilities. The offering positions Mistral as a direct competitor to ChatGPT Plus and Google Gemini Advanced in the European market. Pricing is set at \u20ac18 per month, with a free tier retaining access to the base Mistral Large model.",
-      "url": "https://venturebeat.com/ai/mistral-le-chat-pro-web-search-code-interpreter-launch-2026",
-      "source": "VentureBeat",
-      "date": "June 3",
+      "title": "Meta Open-Sources Llama 4 Scout Successor with 512K Context Window",
+      "summary": "Meta AI released Llama 4 Edge, an open-weight model designed for on-device and edge deployment featuring a 512K token context window and optimized quantization for consumer hardware. The model runs efficiently on laptops with 16GB of unified memory, representing a significant leap in accessible long-context inference. Developers have already begun integrating it into local productivity tools and private document analysis applications.",
+      "url": "https://www.wired.com/story/meta-llama-4-edge-open-source-512k-context-2026",
+      "source": "Wired",
+      "date": "Jun 6",
+      "tags": [
+        "llm",
+        "research"
+      ]
+    },
+    {
+      "title": "xAI's Grok 3 Achieves Human-Level Performance on International Math Olympiad Problems",
+      "summary": "Elon Musk's xAI announced that Grok 3, its latest large language model, solved 42 out of 45 problems from historical International Mathematical Olympiad exams, reaching what the company claims is human gold-medalist level performance. The achievement was independently verified by a panel of mathematics professors from Stanford and Cambridge. xAI says the model will be available to premium Grok subscribers starting June 10.",
+      "url": "https://arstechnica.com/ai/2026/06/xai-grok3-math-olympiad-human-level",
+      "source": "Ars Technica",
+      "date": "Jun 5",
+      "tags": [
+        "llm",
+        "research"
+      ]
+    },
+    {
+      "title": "New AI Safety Coalition Publishes Global Standards for Autonomous Agent Deployment",
+      "summary": "A coalition of 34 AI labs, governments, and academic institutions released a comprehensive framework for safely deploying autonomous AI agents in high-stakes environments including healthcare, infrastructure, and financial systems. The standards mandate human-in-the-loop checkpoints for irreversible actions and require independent third-party auditing for agents with access to critical systems. The framework is non-binding but has already been adopted as baseline policy by the EU AI Office and the UK's AI Safety Institute.",
+      "url": "https://www.bbc.com/news/technology/ai-safety-coalition-autonomous-agents-standards-2026",
+      "source": "BBC News",
+      "date": "Jun 4",
+      "tags": [
+        "safety",
+        "agentic"
+      ]
+    },
+    {
+      "title": "Perplexity AI Launches Deep Research API for Enterprise Knowledge Management",
+      "summary": "Perplexity AI unveiled a new Deep Research API that allows enterprises to deploy its multi-step research agent directly within internal knowledge management systems and document repositories. The tool autonomously synthesizes insights across thousands of proprietary documents, generating structured reports with cited sources and confidence scores. The launch targets industries like consulting, pharmaceuticals, and law where rapid synthesis of large document sets is critical.",
+      "url": "https://techcrunch.com/2026/06/06/perplexity-deep-research-api-enterprise-launch",
+      "source": "TechCrunch",
+      "date": "Jun 6",
       "tags": [
         "tools",
-        "industry"
+        "rag"
       ]
     }
   ],
-  "date": "2026-06-06",
-  "updated": "2026-06-06T08:44:22.384611Z"
+  "date": "2026-06-07",
+  "updated": "2026-06-07T09:29:50.831889Z"
 }
