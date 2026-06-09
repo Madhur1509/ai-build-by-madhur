@@ -1,94 +1,94 @@
 {
   "articles": [
     {
-      "title": "OpenAI Releases GPT-5 Turbo with Extended Context Window of 2 Million Tokens",
-      "summary": "OpenAI has launched GPT-5 Turbo, featuring a dramatically expanded context window of 2 million tokens, enabling processing of entire codebases and lengthy document collections in a single prompt. The model also introduces improved reasoning capabilities and a 40% reduction in inference costs compared to its predecessor. Enterprise customers gained access first, with broader rollout expected within the week.",
-      "url": "https://techcrunch.com/2026/06/06/openai-gpt5-turbo-2-million-token-context",
+      "title": "Anthropic Releases Claude 4 with Extended Reasoning and 500K Context Window",
+      "summary": "Anthropic has officially launched Claude 4, featuring a 500,000-token context window and an enhanced extended thinking mode that allows the model to reason through complex multi-step problems. The new model reportedly outperforms GPT-5 on several coding and scientific benchmarks. Anthropic claims Claude 4 also incorporates new Constitutional AI 2.0 techniques to reduce hallucinations and improve factual grounding.",
+      "url": "https://techcrunch.com/2026/06/08/anthropic-releases-claude-4-extended-reasoning",
       "source": "TechCrunch",
-      "date": "June 6",
+      "date": "Jun 8",
       "tags": [
         "llm",
-        "industry"
+        "safety"
       ]
     },
     {
-      "title": "Google DeepMind's Gemini 2.5 Ultra Achieves New Benchmarks in Scientific Reasoning",
-      "summary": "DeepMind announced Gemini 2.5 Ultra has set new state-of-the-art scores on several scientific reasoning benchmarks including GPQA Diamond and FrontierMath, surpassing previous top models by a significant margin. The model demonstrates particularly strong performance in chemistry and materials science domains. Researchers noted the system's ability to autonomously design and evaluate multi-step experimental hypotheses.",
-      "url": "https://www.theverge.com/2026/6/5/gemini-25-ultra-scientific-reasoning-benchmarks",
-      "source": "The Verge",
-      "date": "June 5",
+      "title": "Google DeepMind's AlphaFold 4 Predicts RNA and Protein-Ligand Interactions at Atomic Precision",
+      "summary": "Google DeepMind unveiled AlphaFold 4, expanding beyond protein structure prediction to accurately model RNA folding and protein-ligand binding interactions. Researchers say the system could dramatically accelerate drug discovery pipelines by predicting how candidate molecules interact with biological targets. Early access is being granted to pharmaceutical partners through a new commercial API.",
+      "url": "https://www.nature.com/articles/d41586-026-01823-5",
+      "source": "Nature",
+      "date": "Jun 7",
       "tags": [
         "research",
-        "llm"
+        "multimodal"
       ]
     },
     {
-      "title": "Anthropic's Claude 4 Agents Now Autonomously Manage Multi-Week Software Projects",
-      "summary": "Anthropic unveiled new agentic capabilities in Claude 4 that allow it to independently manage software development projects spanning multiple weeks, including writing code, running tests, filing pull requests, and communicating with stakeholders. In internal trials, Claude 4 agents completed mid-sized feature implementations with minimal human intervention. The company has introduced new oversight tools allowing teams to monitor and pause agent activities in real time.",
-      "url": "https://www.wired.com/story/anthropic-claude-4-agents-software-projects-2026",
-      "source": "Wired",
-      "date": "June 6",
+      "title": "OpenAI Launches Operator Pro: Autonomous Web Agents Now Available to All ChatGPT Plus Users",
+      "summary": "OpenAI has expanded its Operator agentic platform to all ChatGPT Plus subscribers, enabling autonomous agents to browse the web, fill forms, book appointments, and execute multi-step tasks without human intervention at each step. The rollout includes new safety guardrails and a session-replay feature allowing users to audit agent actions. The move positions OpenAI directly against competitors like Google's Project Mariner and Cognition AI.",
+      "url": "https://www.theverge.com/2026/6/7/openai-operator-pro-chatgpt-plus",
+      "source": "The Verge",
+      "date": "Jun 7",
       "tags": [
         "agentic",
         "tools"
       ]
     },
     {
-      "title": "EU AI Act Enforcement Begins: First Compliance Deadlines Hit Major Tech Firms",
-      "summary": "The European Union's AI Act entered its first major enforcement phase this week, requiring high-risk AI system operators to submit compliance documentation and undergo third-party audits. Regulators in Germany and France have already opened preliminary inquiries into several unnamed AI providers suspected of non-compliance. Industry groups are warning that the pace of enforcement could stifle innovation unless clearer technical guidance is issued.",
-      "url": "https://www.reuters.com/technology/eu-ai-act-enforcement-compliance-deadlines-2026-06-07",
+      "title": "EU AI Act Enforcement Body Issues First Major Fine to Meta Over Training Data Transparency",
+      "summary": "The newly established EU AI Act Enforcement Authority levied a \u20ac430 million fine against Meta, citing insufficient transparency disclosures about the datasets used to train its Llama 4 family of models. Meta has 60 days to appeal the ruling or submit a remediation plan. The decision is seen as a landmark test of the EU's willingness to enforce its sweeping AI regulations against major tech players.",
+      "url": "https://www.reuters.com/technology/eu-ai-act-fine-meta-2026-06-06",
       "source": "Reuters",
-      "date": "June 7",
+      "date": "Jun 6",
       "tags": [
         "safety",
         "industry"
       ]
     },
     {
-      "title": "Meta Releases Llama 4 Scout as Open-Weight Model with Native Multimodal Support",
-      "summary": "Meta has open-sourced Llama 4 Scout, a compact multimodal model capable of processing text, images, audio, and video inputs simultaneously under a permissive license. The model delivers competitive performance against proprietary alternatives on vision-language benchmarks while running efficiently on consumer-grade hardware. Developers have already begun fine-tuning Scout for specialized applications in medical imaging and accessibility tools.",
-      "url": "https://venturebeat.com/ai/meta-llama-4-scout-open-weight-multimodal-2026",
-      "source": "VentureBeat",
-      "date": "June 5",
-      "tags": [
-        "multimodal",
-        "llm"
-      ]
-    },
-    {
-      "title": "Microsoft and LinkedIn Launch AI Career Coach with Real-Time Labor Market RAG",
-      "summary": "Microsoft and LinkedIn have jointly released an AI-powered career coaching product that uses retrieval-augmented generation to pull live job market data, salary benchmarks, and skill demand trends directly into its responses. The tool can analyze a user's professional profile and generate tailored upskilling roadmaps updated daily based on current hiring signals. Early beta users reported significantly more actionable advice compared to static career planning tools.",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-04/microsoft-linkedin-ai-career-coach-rag-labor-market",
-      "source": "Bloomberg",
-      "date": "June 4",
+      "title": "Microsoft Copilot Studio Gains RAG-Native Pipelines with Azure AI Foundry Integration",
+      "summary": "Microsoft announced that Copilot Studio now supports RAG-native pipeline construction directly within the Azure AI Foundry environment, allowing enterprise developers to build retrieval-augmented applications without writing custom orchestration code. The update includes automatic chunking strategies, hybrid search combining vector and keyword retrieval, and built-in evaluation dashboards. The feature is generally available starting today for Azure enterprise customers.",
+      "url": "https://blogs.microsoft.com/ai/copilot-studio-rag-azure-ai-foundry-2026",
+      "source": "Microsoft Blog",
+      "date": "Jun 9",
       "tags": [
         "rag",
-        "industry"
+        "tools"
       ]
     },
     {
-      "title": "Stanford HAI Report Warns of Emerging Risks in Autonomous AI Agent Ecosystems",
-      "summary": "A new report from Stanford's Human-Centered AI Institute highlights systemic safety risks arising from networks of autonomous AI agents that increasingly interact with one another without human oversight. The researchers documented cases of agents entering feedback loops that amplify errors and, in simulated environments, taking unintended irreversible actions. The report calls for standardized agent communication protocols and mandatory kill-switch requirements for commercial deployments.",
-      "url": "https://hai.stanford.edu/news/report-risks-autonomous-ai-agent-ecosystems-2026",
+      "title": "Stanford HAI Report Warns Agentic AI Systems Pose Unprecedented Coordination Risks",
+      "summary": "Stanford's Human-Centered AI Institute published a comprehensive report arguing that the rapid deployment of multi-agent AI systems creates novel risks around unintended coordination, resource acquisition, and cascading failures that current safety frameworks are not equipped to handle. The report calls for mandatory sandboxing requirements and inter-agency communication logging standards before agentic systems are granted access to critical infrastructure. Several AI labs have already responded, with mixed reactions from the research community.",
+      "url": "https://hai.stanford.edu/news/agentic-ai-coordination-risks-report-2026",
       "source": "Stanford HAI",
-      "date": "June 7",
+      "date": "Jun 6",
       "tags": [
-        "safety",
-        "agentic"
+        "agentic",
+        "safety"
       ]
     },
     {
-      "title": "Sora 2 Generates Fully Coherent 10-Minute Cinematic Videos from Text Prompts",
-      "summary": "OpenAI's Sora 2 video generation model has demonstrated the ability to produce coherent, cinematically styled videos up to ten minutes in length from detailed text descriptions, a dramatic leap from earlier minute-long outputs. The model maintains consistent character appearance, lighting, and narrative continuity across scenes, which previous versions struggled with. Hollywood studios and independent filmmakers have been granted early access as part of a creative partnership program.",
-      "url": "https://variety.com/2026/digital/news/openai-sora-2-10-minute-video-generation-hollywood-1236200445",
+      "title": "Runway Gen-4 Video Model Achieves Cinematic-Quality Output at 4K Resolution",
+      "summary": "Runway has released Gen-4, its latest video generation model capable of producing 4K resolution, 60-second clips with consistent character identity across scenes. The model introduces a new temporal coherence architecture that eliminates the flickering and object drift that plagued earlier generative video tools. Hollywood studios including A24 and Warner Bros. are reportedly already piloting the technology for pre-visualization and concept development workflows.",
+      "url": "https://variety.com/2026/digital/news/runway-gen-4-video-model-4k-hollywood-1236098234",
       "source": "Variety",
-      "date": "June 6",
+      "date": "Jun 8",
       "tags": [
         "multimodal",
         "industry"
+      ]
+    },
+    {
+      "title": "UC Berkeley Researchers Demonstrate LLMs Can Self-Correct Reasoning Errors via Iterative Debate",
+      "summary": "A new paper from UC Berkeley's BAIR lab shows that large language models can substantially reduce reasoning errors when two instances of the same model engage in structured adversarial debate, challenging each other's intermediate conclusions before producing a final answer. The technique, called Self-Adversarial Iterative Refinement (SAIR), improved accuracy on MATH-500 and GPQA benchmarks by up to 18 percentage points without any additional fine-tuning. The researchers have open-sourced the evaluation framework on GitHub.",
+      "url": "https://arxiv.org/abs/2026.08841",
+      "source": "arXiv / BAIR",
+      "date": "Jun 5",
+      "tags": [
+        "research",
+        "llm"
       ]
     }
   ],
-  "date": "2026-06-08",
-  "updated": "2026-06-08T11:14:20.835893Z"
+  "date": "2026-06-09",
+  "updated": "2026-06-09T09:59:56.222675Z"
 }
