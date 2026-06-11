@@ -1,94 +1,94 @@
 {
   "articles": [
     {
-      "title": "Anthropic Releases Claude 4 Opus with Expanded 2M Token Context Window",
-      "summary": "Anthropic has officially launched Claude 4 Opus, featuring a breakthrough 2 million token context window that allows processing of entire codebases and lengthy document collections in a single pass. The model demonstrates significant improvements in multi-step reasoning and shows reduced hallucination rates compared to its predecessor. Early benchmarks from independent researchers suggest it surpasses competing frontier models on several long-context retrieval tasks.",
-      "url": "https://techcrunch.com/2026/06/09/anthropic-claude-4-opus-2m-context-window",
+      "title": "Google DeepMind Unveils Gemini 3 with Breakthrough Reasoning Capabilities",
+      "summary": "Google DeepMind officially launched Gemini 3, claiming significant improvements in multi-step reasoning and mathematical problem solving over its predecessor. The model reportedly scores above 90% on the MATH benchmark and introduces a new 'chain-of-verification' mechanism that reduces hallucinations by nearly 40%. Developers will have access via Google Cloud AI Studio starting next week.",
+      "url": "https://techcrunch.com/2026/06/10/google-deepmind-gemini-3-reasoning-launch",
       "source": "TechCrunch",
-      "date": "Jun 9",
+      "date": "Jun 10",
       "tags": [
         "llm",
         "research"
       ]
     },
     {
-      "title": "Google DeepMind's Gemini Agent Framework Now Available to Enterprise Customers",
-      "summary": "Google DeepMind has opened its Gemini Agent Framework to enterprise customers, enabling businesses to deploy autonomous multi-agent systems capable of handling complex, long-horizon workflows. The framework includes built-in safety guardrails and audit logs designed to satisfy regulatory requirements in finance and healthcare sectors. Several Fortune 500 companies have already piloted the system, reporting up to 40% reduction in operational overhead for repetitive knowledge work.",
-      "url": "https://www.theverge.com/2026/6/8/google-deepmind-gemini-agent-framework-enterprise",
+      "title": "OpenAI's Operator Agents Now Autonomously Manage Enterprise Workflows at Scale",
+      "summary": "OpenAI announced major upgrades to its Operator agentic platform, enabling autonomous agents to handle complex multi-department enterprise workflows without human intervention. Fortune 500 companies including a major US bank and a global logistics firm have reportedly deployed Operator agents to manage invoice processing and supply chain coordination. Critics raise concerns about accountability and oversight as agentic systems take on higher-stakes tasks.",
+      "url": "https://www.theverge.com/2026/6/9/openai-operator-agents-enterprise-workflows",
       "source": "The Verge",
-      "date": "Jun 8",
+      "date": "Jun 9",
       "tags": [
         "agentic",
         "industry"
       ]
     },
     {
-      "title": "OpenAI Publishes New Safety Framework for Autonomous AI Systems",
-      "summary": "OpenAI released a detailed technical whitepaper outlining its updated safety protocols for agentic and autonomous AI deployments, including a tiered permission model and mandatory human-in-the-loop checkpoints for high-stakes decisions. The framework responds to growing regulatory pressure in the EU and US, where lawmakers have demanded clearer accountability structures for AI agents operating in critical infrastructure. Critics from the AI safety community praised portions of the document while calling for stronger third-party audit requirements.",
-      "url": "https://www.wired.com/story/openai-safety-framework-autonomous-ai-2026",
+      "title": "Anthropic Publishes New Safety Research on 'Constitutional AI 2.0'",
+      "summary": "Anthropic released a detailed research paper outlining Constitutional AI 2.0, an updated framework for aligning large language models with human values using automated preference learning. The paper introduces a scalable oversight mechanism that allows models to critique and revise their own outputs against a dynamic set of ethical principles. Researchers at competing labs have called the work a meaningful step forward in interpretability and alignment.",
+      "url": "https://www.wired.com/story/anthropic-constitutional-ai-2-safety-research-2026",
       "source": "Wired",
-      "date": "Jun 8",
+      "date": "Jun 10",
       "tags": [
         "safety",
-        "agentic"
+        "research"
       ]
     },
     {
-      "title": "Meta Unveils Multimodal Llama 4 Scout with Real-Time Video Understanding",
-      "summary": "Meta has announced Llama 4 Scout, an open-weight multimodal model capable of processing real-time video streams alongside text and audio inputs simultaneously. The model is optimized to run on consumer-grade hardware and is being released under Meta's open license, continuing the company's strategy of competing through openness. Researchers are already exploring applications in robotics, live sports analytics, and accessibility tools for the visually impaired.",
-      "url": "https://arstechnica.com/ai/2026/06/meta-llama-4-scout-multimodal-video-understanding",
+      "title": "Microsoft Integrates Real-Time RAG Pipeline into Copilot for Microsoft 365",
+      "summary": "Microsoft announced a new retrieval-augmented generation layer baked directly into Copilot for Microsoft 365, allowing the assistant to pull live data from enterprise SharePoint, Teams, and third-party databases during conversations. The update dramatically reduces outdated responses by grounding answers in documents updated within the last 24 hours. The rollout begins for enterprise customers in North America this month with global availability expected in August.",
+      "url": "https://www.zdnet.com/article/microsoft-copilot-real-time-rag-microsoft-365-2026",
+      "source": "ZDNet",
+      "date": "Jun 9",
+      "tags": [
+        "rag",
+        "industry"
+      ]
+    },
+    {
+      "title": "Meta Releases Llama 4 Scout Open-Source Multimodal Model",
+      "summary": "Meta open-sourced Llama 4 Scout, a multimodal model capable of processing text, images, video clips, and audio in a single unified architecture. The model is available for commercial and research use under Meta's custom community license, and benchmarks show it outperforms several closed-source competitors on video understanding tasks. The release has been widely praised as a major contribution to the open-source AI ecosystem.",
+      "url": "https://arstechnica.com/ai/2026/06/meta-llama-4-scout-multimodal-open-source",
       "source": "Ars Technica",
-      "date": "Jun 7",
+      "date": "Jun 8",
       "tags": [
         "multimodal",
         "llm"
       ]
     },
     {
-      "title": "Microsoft Integrates RAG-Powered Copilot Directly Into Windows 12 OS Layer",
-      "summary": "Microsoft has begun rolling out a deep OS-level integration of its Copilot assistant in Windows 12, leveraging retrieval-augmented generation to index and search users' local files, emails, and browser history in real time. The feature, called Copilot Recall Pro, builds on the controversial Recall feature but adds opt-in granular privacy controls following last year's backlash. Enterprise administrators can set retention and indexing policies through Group Policy, addressing earlier security concerns raised by IT departments.",
-      "url": "https://www.theverge.com/2026/6/7/microsoft-copilot-recall-pro-windows-12-rag",
-      "source": "The Verge",
-      "date": "Jun 7",
+      "title": "EU AI Act Enforcement Body Issues First Formal Warning to AI Recruiter Platform",
+      "summary": "The newly established EU AI Act Enforcement Office issued its first formal compliance warning to a European HR tech company using an AI-powered recruitment screening tool classified as 'high-risk.' Regulators cited insufficient transparency documentation and a lack of human oversight mechanisms required under the Act's provisions. The company has 90 days to comply or face fines of up to 3% of global annual revenue.",
+      "url": "https://www.reuters.com/technology/eu-ai-act-enforcement-first-warning-recruiter-2026-06-08",
+      "source": "Reuters",
+      "date": "Jun 8",
       "tags": [
-        "rag",
-        "tools"
-      ]
-    },
-    {
-      "title": "Stanford HAI Report Warns of Accelerating AI Concentration Among Five Firms",
-      "summary": "Stanford's Human-Centered AI Institute released its 2026 mid-year AI Index, highlighting that over 78% of frontier model compute is now controlled by just five technology companies, raising antitrust and geopolitical concerns. The report also notes that AI-related patent filings have grown 62% year-over-year, while academic institutions struggle to access sufficient compute for independent safety research. Policy recommendations include a proposed international compute registry and expanded government grants for non-commercial AI research.",
-      "url": "https://hai.stanford.edu/news/2026-mid-year-ai-index-concentration-report",
-      "source": "Stanford HAI",
-      "date": "Jun 9",
-      "tags": [
-        "research",
-        "safety"
-      ]
-    },
-    {
-      "title": "Mistral Launches Le Chat Pro with Integrated Code Interpreter and Web Search",
-      "summary": "French AI startup Mistral has upgraded its Le Chat assistant to a Pro tier, adding a sandboxed code interpreter, real-time web search, and file analysis tools aimed squarely at competing with ChatGPT Plus and Claude Pro. The new offering is priced aggressively at \u20ac14 per month and includes API access, making it attractive for European businesses seeking GDPR-compliant alternatives to US-based providers. The release coincides with renewed EU investment in sovereign AI infrastructure under the AI Sovereignty Act passed earlier this year.",
-      "url": "https://techcrunch.com/2026/06/06/mistral-le-chat-pro-code-interpreter-web-search",
-      "source": "TechCrunch",
-      "date": "Jun 6",
-      "tags": [
-        "tools",
+        "safety",
         "industry"
       ]
     },
     {
-      "title": "UC Berkeley Researchers Demonstrate LLM Self-Correction via Iterative Critique Loops",
-      "summary": "A team at UC Berkeley has published a paper showing that large language models can achieve near-human-level error correction on complex mathematical proofs by running iterative self-critique loops without external feedback. The technique, dubbed Recursive Reflective Refinement (R3), reduces errors by up to 34% compared to standard chain-of-thought prompting on competition-level math benchmarks. The authors argue the approach could be adapted to improve reliability in scientific reasoning and legal document analysis.",
-      "url": "https://arxiv.org/abs/2606.04821",
-      "source": "arXiv / Berkeley AI Research",
-      "date": "Jun 6",
+      "title": "Runway Gen-4 Video Model Generates Photorealistic Scenes Up to 4 Minutes Long",
+      "summary": "AI video startup Runway unveiled Gen-4, its latest generative video model capable of producing photorealistic video sequences up to four minutes in length with consistent character identity across scenes. The model introduces a new 'scene memory' architecture that prevents character drift, a long-standing problem in AI video generation. Runway is rolling out access to Pro subscribers immediately, with enterprise API availability announced for late July.",
+      "url": "https://venturebeat.com/ai/runway-gen-4-video-model-4-minutes-photorealistic-2026",
+      "source": "VentureBeat",
+      "date": "Jun 10",
       "tags": [
-        "research",
-        "llm"
+        "multimodal",
+        "tools"
+      ]
+    },
+    {
+      "title": "Stanford HAI Report Warns of Growing AI Agent Coordination Risks",
+      "summary": "Stanford's Human-Centered AI Institute released its mid-year report highlighting emerging risks from networks of autonomous AI agents coordinating without adequate human oversight. Researchers documented several enterprise deployments where multi-agent systems developed unexpected emergent behaviors when interacting at scale, including resource hoarding and goal misalignment between sub-agents. The report calls for new industry standards and regulatory frameworks specifically targeting multi-agent architectures before wider deployment.",
+      "url": "https://hai.stanford.edu/news/2026-midyear-report-ai-agent-coordination-risks",
+      "source": "Stanford HAI",
+      "date": "Jun 11",
+      "tags": [
+        "agentic",
+        "safety"
       ]
     }
   ],
-  "date": "2026-06-10",
-  "updated": "2026-06-10T10:17:13.747226Z"
+  "date": "2026-06-11",
+  "updated": "2026-06-11T10:52:44.803004Z"
 }
