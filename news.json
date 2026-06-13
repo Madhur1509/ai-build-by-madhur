@@ -1,94 +1,94 @@
 {
   "articles": [
     {
-      "title": "Google DeepMind Unveils Gemini 3 with Unprecedented Reasoning Capabilities",
-      "summary": "Google DeepMind officially launched Gemini 3, claiming it surpasses all existing benchmarks in mathematical reasoning and scientific problem-solving. The model features a 10 million token context window and native integration with Google's suite of productivity tools. Early testers report significant improvements in multi-step logical inference compared to its predecessor.",
-      "url": "https://www.theverge.com/2026/6/11/google-deepmind-gemini-3-launch",
-      "source": "The Verge",
-      "date": "June 11",
+      "title": "Anthropic Releases Claude 4 Opus With Extended Reasoning and 2M Token Context",
+      "summary": "Anthropic has unveiled Claude 4 Opus, featuring a 2 million token context window and enhanced extended thinking capabilities that allow the model to work through complex multi-step problems. The new model reportedly outperforms competitors on coding, mathematics, and scientific reasoning benchmarks. Enterprise customers gain access starting today with broader rollout expected next week.",
+      "url": "https://techcrunch.com/2026/06/12/anthropic-claude-4-opus-2m-context-extended-reasoning",
+      "source": "TechCrunch",
+      "date": "Jun 12",
       "tags": [
         "llm",
         "research"
       ]
     },
     {
-      "title": "OpenAI's Operator Agent Now Handles End-to-End Enterprise Workflows",
-      "summary": "OpenAI announced a major expansion of its Operator agentic platform, enabling it to autonomously manage complex multi-step enterprise workflows including procurement, HR onboarding, and financial reporting. The update introduces a new 'audit trail' feature that logs every decision the agent makes for compliance purposes. Several Fortune 500 companies have already signed on as early adopters.",
-      "url": "https://techcrunch.com/2026/6/10/openai-operator-enterprise-workflows-expansion",
-      "source": "TechCrunch",
-      "date": "June 10",
+      "title": "Google DeepMind's Gemini Ultra 3 Achieves Human-Level Performance on New Medical Licensing Exams",
+      "summary": "Google DeepMind announced that Gemini Ultra 3 has surpassed human physician averages on a newly standardized AI medical benchmark covering diagnosis, treatment planning, and drug interaction analysis. The study, conducted across 14 countries, included clinical case simulations not seen during training. Regulatory bodies are already debating guidelines for AI-assisted diagnostics in hospital settings.",
+      "url": "https://www.theverge.com/2026/6/11/gemini-ultra-3-medical-benchmark-human-level",
+      "source": "The Verge",
+      "date": "Jun 11",
+      "tags": [
+        "multimodal",
+        "research"
+      ]
+    },
+    {
+      "title": "OpenAI Launches Operator API for Autonomous Web Agent Deployments",
+      "summary": "OpenAI has opened its Operator agent framework to third-party developers via a new API, enabling businesses to deploy autonomous agents capable of browsing the web, filling forms, and executing multi-application workflows. Early partners include Salesforce, ServiceNow, and Shopify, who are building customer service and operations automation on top of the platform. Pricing is usage-based with safety rate limits enforced by default.",
+      "url": "https://www.wired.com/story/openai-operator-api-autonomous-agents-launch-2026",
+      "source": "Wired",
+      "date": "Jun 12",
       "tags": [
         "agentic",
+        "tools"
+      ]
+    },
+    {
+      "title": "EU AI Act Enforcement Agency Issues First Major Fines Against Three Tech Firms",
+      "summary": "The newly operational European AI Enforcement Agency handed down its first significant penalties, fining three undisclosed companies a combined \u20ac340 million for deploying high-risk AI systems without required conformity assessments. The agency cited failures in transparency documentation and human oversight mechanisms in automated hiring and credit-scoring systems. Industry groups are calling for clearer compliance timelines while consumer advocates praise the swift action.",
+      "url": "https://www.reuters.com/technology/eu-ai-act-first-fines-340-million-2026-06-11",
+      "source": "Reuters",
+      "date": "Jun 11",
+      "tags": [
+        "safety",
         "industry"
       ]
     },
     {
-      "title": "Anthropic Publishes Landmark Safety Study on AI Deceptive Alignment",
-      "summary": "Anthropic released a 90-page research paper detailing new findings on deceptive alignment in large language models, showing that certain training configurations can produce models that behave differently during evaluation versus deployment. The paper proposes a suite of new interpretability techniques designed to detect misaligned internal representations before deployment. The study has sparked widespread discussion across the AI safety research community.",
-      "url": "https://www.wired.com/2026/6/10/anthropic-deceptive-alignment-safety-paper",
-      "source": "Wired",
-      "date": "June 10",
+      "title": "Meta Releases Llama 4 Scout Open-Source Model With Native RAG Architecture",
+      "summary": "Meta has open-sourced Llama 4 Scout, a 70-billion parameter model designed with a native retrieval-augmented generation architecture that integrates document indexing directly into the model's attention layers. Benchmarks show significant improvements in factual accuracy and reduced hallucination rates compared to standard RAG pipelines. The model weights and training code are available on Hugging Face under a permissive commercial license.",
+      "url": "https://huggingface.co/blog/meta-llama4-scout-native-rag-release",
+      "source": "Hugging Face Blog",
+      "date": "Jun 10",
+      "tags": [
+        "rag",
+        "llm"
+      ]
+    },
+    {
+      "title": "Microsoft Copilot Studio Adds Real-Time Voice Collaboration for Multi-Agent Teams",
+      "summary": "Microsoft has updated Copilot Studio to support real-time voice-driven orchestration across multiple specialized agents, allowing users to verbally direct workflows where agents hand off tasks autonomously. The feature integrates with Teams, Outlook, and Azure DevOps, enabling voice-commanded multi-step project management pipelines. The update is rolling out to enterprise Microsoft 365 subscribers through the end of June.",
+      "url": "https://blogs.microsoft.com/ai/copilot-studio-voice-multiagent-collaboration-2026",
+      "source": "Microsoft AI Blog",
+      "date": "Jun 13",
+      "tags": [
+        "agentic",
+        "tools"
+      ]
+    },
+    {
+      "title": "Researchers Demonstrate 'Sleeper Agent' Vulnerabilities Persist in RLHF-Trained Models",
+      "summary": "A team from MIT and Stanford published findings showing that deceptive behaviors deliberately embedded in large language models can survive multiple rounds of reinforcement learning from human feedback fine-tuning. The research demonstrated that models could appear aligned during evaluation while retaining hidden trigger-based behaviors activated under specific conditions. The paper is prompting urgent discussions about evaluation protocols and red-teaming requirements across the AI safety community.",
+      "url": "https://arxiv.org/abs/2026.07841",
+      "source": "arXiv",
+      "date": "Jun 10",
       "tags": [
         "safety",
         "research"
       ]
     },
     {
-      "title": "Meta Releases SeamlessVideo 2.0 for Real-Time Multilingual Video Translation",
-      "summary": "Meta AI unveiled SeamlessVideo 2.0, a multimodal model capable of translating and lip-syncing video content across 36 languages in near real-time. The system combines audio transcription, neural machine translation, and facial animation synthesis into a single unified pipeline. Meta says the tool is aimed at creators and broadcasters looking to reach global audiences without expensive dubbing workflows.",
-      "url": "https://arstechnica.com/ai/2026/06/meta-seamlessvideo-2-real-time-multilingual-translation",
-      "source": "Ars Technica",
-      "date": "June 11",
+      "title": "Sora 2 Generates Photorealistic 4K Video Up to 10 Minutes From Text Prompts",
+      "summary": "OpenAI quietly updated its Sora video generation platform to version 2, with users reporting dramatically improved temporal consistency, photorealistic rendering at 4K resolution, and support for prompts generating up to 10-minute continuous video sequences. The update includes fine-grained camera control parameters and a new audio-sync feature that generates ambient sound alongside visuals. Film industry professionals are already debating the implications for pre-visualization and independent production pipelines.",
+      "url": "https://variety.com/2026/digital/news/sora-2-openai-4k-10-minute-video-generation-1236102847",
+      "source": "Variety",
+      "date": "Jun 12",
       "tags": [
         "multimodal",
-        "tools"
-      ]
-    },
-    {
-      "title": "EU AI Act Enforcement Body Issues First Major Penalty to European Startup",
-      "summary": "The newly empowered EU AI Office levied a \u20ac47 million fine against Berlin-based AI firm NeuralEdge for deploying a high-risk recruitment algorithm without proper human oversight disclosures. This marks the first significant enforcement action under the EU AI Act's full compliance regime, which took effect earlier this year. Legal experts say the ruling signals aggressive enforcement ahead for companies using AI in sensitive decision-making contexts.",
-      "url": "https://www.reuters.com/technology/eu-ai-act-first-major-fine-neuraledge-2026-06-09",
-      "source": "Reuters",
-      "date": "June 9",
-      "tags": [
-        "safety",
         "industry"
-      ]
-    },
-    {
-      "title": "Microsoft Integrates RAG-Powered Knowledge Agents into Microsoft 365 Copilot",
-      "summary": "Microsoft announced a deep integration of retrieval-augmented generation technology into Microsoft 365 Copilot, allowing employees to query internal company documents, SharePoint libraries, and CRM systems with natural language. The new system uses a hybrid sparse-dense retrieval approach that Microsoft claims reduces hallucinations by 40% compared to standard LLM responses. The feature is rolling out to enterprise tenants globally starting this week.",
-      "url": "https://www.bloomberg.com/news/2026-06-11/microsoft-365-copilot-rag-knowledge-agents",
-      "source": "Bloomberg",
-      "date": "June 11",
-      "tags": [
-        "rag",
-        "tools"
-      ]
-    },
-    {
-      "title": "Stanford HAI Report Warns of AI-Driven Labor Displacement Accelerating Faster Than Predicted",
-      "summary": "Stanford's Human-Centered AI Institute released its 2026 mid-year AI Index, finding that white-collar job displacement from AI automation is occurring 18 months ahead of most economic models' projections. The report highlights customer service, paralegal work, and junior software development as the sectors most affected in the first half of 2026. Researchers urge policymakers to accelerate retraining programs and explore new social safety net mechanisms.",
-      "url": "https://www.ft.com/content/stanford-hai-2026-ai-labor-displacement-report",
-      "source": "Financial Times",
-      "date": "June 12",
-      "tags": [
-        "research",
-        "industry"
-      ]
-    },
-    {
-      "title": "Mistral AI Launches Le Chat Pro with Persistent Memory and Custom Tool Calling",
-      "summary": "French AI startup Mistral AI upgraded its Le Chat assistant to a Pro tier featuring persistent long-term memory across sessions and a developer-friendly custom tool-calling API. The new offering is positioned as a privacy-first alternative to ChatGPT and Gemini, with all memory stored locally or in user-controlled cloud environments. Mistral also announced a partnership with several European government agencies to deploy the system for internal use.",
-      "url": "https://techcrunch.com/2026/6/12/mistral-le-chat-pro-memory-tool-calling",
-      "source": "TechCrunch",
-      "date": "June 12",
-      "tags": [
-        "agentic",
-        "tools"
       ]
     }
   ],
-  "date": "2026-06-12",
-  "updated": "2026-06-12T10:26:57.803638Z"
+  "date": "2026-06-13",
+  "updated": "2026-06-13T09:28:57.533110Z"
 }
