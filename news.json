@@ -1,94 +1,94 @@
 {
   "articles": [
     {
-      "title": "Anthropic Releases Claude 4 with Extended Reasoning and 2M Token Context Window",
-      "summary": "Anthropic has unveiled Claude 4, featuring a breakthrough 2 million token context window and enhanced multi-step reasoning capabilities. The model demonstrates significant improvements on complex coding and scientific benchmarks, outperforming previous state-of-the-art systems. The release includes a new 'deep think' mode that allows the model to deliberate for extended periods before producing output.",
-      "url": "https://techcrunch.com/2026/06/12/anthropic-claude-4-extended-reasoning-2m-context",
+      "title": "Anthropic Releases Claude 4 with Breakthrough Reasoning Capabilities",
+      "summary": "Anthropic has unveiled Claude 4, its most advanced AI model to date, featuring dramatically improved multi-step reasoning and a 2 million token context window. The model reportedly outperforms all existing benchmarks on graduate-level science and mathematics tasks. Anthropic claims Claude 4 represents a significant step toward models capable of sustained autonomous research work.",
+      "url": "https://techcrunch.com/2026/06/13/anthropic-claude-4-reasoning-breakthrough",
       "source": "TechCrunch",
-      "date": "June 12",
+      "date": "Jun 13",
       "tags": [
         "llm",
         "research"
       ]
     },
     {
-      "title": "OpenAI Launches Operator Pro: Autonomous Agent Platform for Enterprise Workflows",
-      "summary": "OpenAI has expanded its Operator product into Operator Pro, a fully autonomous agent platform designed to handle end-to-end enterprise workflows including procurement, HR onboarding, and financial reporting. The platform integrates natively with Salesforce, SAP, and Microsoft 365 ecosystems. Early enterprise customers report up to 60% reduction in manual processing time for routine administrative tasks.",
-      "url": "https://www.theverge.com/2026/6/11/openai-operator-pro-enterprise-autonomous-agents",
+      "title": "OpenAI's Operator Agents Now Handling Real Enterprise Workflows at Scale",
+      "summary": "OpenAI announced that its Operator agentic platform has surpassed 50,000 enterprise deployments, with companies like Salesforce and JPMorgan Chase automating complex multi-step business processes. The platform now supports persistent memory across sessions and improved error-recovery mechanisms. OpenAI shared case studies showing 60-70% reduction in manual processing time for back-office operations.",
+      "url": "https://www.theverge.com/2026/6/12/openai-operator-enterprise-scale-deployments",
       "source": "The Verge",
-      "date": "June 11",
+      "date": "Jun 12",
       "tags": [
         "agentic",
         "industry"
       ]
     },
     {
-      "title": "Google DeepMind's Gemini Ultra 2.5 Achieves Human-Level Performance on Medical Licensing Exams",
-      "summary": "Google DeepMind announced that Gemini Ultra 2.5 has surpassed human-expert performance on USMLE, MRCPUK, and several other international medical licensing examinations. The model was evaluated under strict proctored conditions to ensure validity of results. Researchers caution that benchmark performance does not directly translate to clinical deployment readiness, and regulatory review remains essential.",
-      "url": "https://www.nature.com/articles/gemini-ultra-medical-licensing-2026",
-      "source": "Nature",
-      "date": "June 13",
-      "tags": [
-        "research",
-        "multimodal"
-      ]
-    },
-    {
-      "title": "EU AI Act Enforcement Division Issues First Major Fine to Meta Over Llama Model Transparency",
-      "summary": "The European Union's newly established AI Act Enforcement Division levied a \u20ac230 million fine against Meta for insufficient transparency disclosures surrounding its open-source Llama model family. Regulators argued that Meta's documentation failed to adequately disclose training data sources and potential biases as required for high-risk system classifications. Meta has announced it will appeal the decision while simultaneously updating its model documentation practices.",
-      "url": "https://www.bbc.com/news/technology/eu-ai-act-meta-llama-fine-2026",
-      "source": "BBC News",
-      "date": "June 10",
+      "title": "EU AI Act Enforcement Begins: First Major Fines Issued to Tech Giants",
+      "summary": "European regulators issued the first significant fines under the EU AI Act, targeting two unnamed tech companies for deploying high-risk AI systems without proper conformity assessments. The fines total \u20ac180 million, signaling that enforcement is moving from guidance to active prosecution. Legal experts say this marks a turning point that will force rapid compliance reviews across the industry.",
+      "url": "https://www.reuters.com/technology/eu-ai-act-first-fines-2026-06-11",
+      "source": "Reuters",
+      "date": "Jun 11",
       "tags": [
         "safety",
         "industry"
       ]
     },
     {
-      "title": "Microsoft Integrates RAG-Powered Copilot Directly into Azure SQL and Fabric Platforms",
-      "summary": "Microsoft has announced deep native integration of retrieval-augmented generation capabilities into Azure SQL Database and Microsoft Fabric, allowing enterprises to query structured and unstructured data simultaneously through natural language. The system automatically indexes documents, tables, and data lakes into a unified vector store without requiring external tooling. The feature enters public preview this week and is expected to reach general availability by Q3 2026.",
-      "url": "https://blogs.microsoft.com/azure/rag-copilot-sql-fabric-integration-2026",
-      "source": "Microsoft Blog",
-      "date": "June 12",
+      "title": "Google DeepMind Unveils Gemini Ultra 2.0 with Native Video Generation",
+      "summary": "Google DeepMind has released Gemini Ultra 2.0, integrating real-time video understanding and generation directly into the base model architecture. The multimodal system can analyze live video streams, generate coherent video segments up to 60 seconds, and reason across audio, video, and text simultaneously. The model is being rolled out to Google Cloud enterprise customers starting this week.",
+      "url": "https://www.wired.com/story/google-deepmind-gemini-ultra-2-video-generation-2026",
+      "source": "Wired",
+      "date": "Jun 14",
+      "tags": [
+        "multimodal",
+        "llm"
+      ]
+    },
+    {
+      "title": "Meta Open-Sources LLaMA 4 Scout: A New Benchmark for Open Models",
+      "summary": "Meta has released LLaMA 4 Scout under an open-weights license, a 109-billion parameter model that matches or exceeds GPT-4-class performance on most standard benchmarks. The release includes full training details, safety red-teaming reports, and optimized inference code for consumer-grade hardware. The AI research community has responded enthusiastically, with hundreds of fine-tuned variants already appearing on Hugging Face within 24 hours.",
+      "url": "https://arstechnica.com/ai/2026/06/meta-llama-4-scout-open-source-release",
+      "source": "Ars Technica",
+      "date": "Jun 13",
+      "tags": [
+        "llm",
+        "research"
+      ]
+    },
+    {
+      "title": "Microsoft Integrates RAG-Powered Copilot Directly into Windows 12 Kernel",
+      "summary": "Microsoft has announced that Windows 12's upcoming update will embed a retrieval-augmented generation engine at the OS level, allowing Copilot to index and query all local files, emails, and browser history in real time. The on-device RAG system is designed to run without sending data to the cloud, addressing longstanding privacy concerns. Privacy advocates remain cautious, calling for independent audits of the data handling architecture.",
+      "url": "https://www.zdnet.com/article/microsoft-windows-12-copilot-rag-kernel-integration-2026",
+      "source": "ZDNet",
+      "date": "Jun 14",
       "tags": [
         "rag",
         "tools"
       ]
     },
     {
-      "title": "Runway Debuts Gen-4 Turbo: Real-Time Video Generation at 4K Resolution",
-      "summary": "Runway has launched Gen-4 Turbo, a video generation model capable of producing 4K resolution clips in near real-time on consumer-grade GPUs. The model introduces new cinematic consistency controls that maintain character identity and scene coherence across extended sequences. Hollywood studios including Lionsgate and A24 have signed partnership agreements to explore production pipeline integration.",
-      "url": "https://variety.com/2026/digital/runway-gen4-turbo-4k-video-generation",
-      "source": "Variety",
-      "date": "June 11",
-      "tags": [
-        "multimodal",
-        "industry"
-      ]
-    },
-    {
-      "title": "Stanford HAI Report Warns of Rapid Proliferation of Unvetted AI Agents in Critical Infrastructure",
-      "summary": "A comprehensive report from Stanford's Human-Centered AI Institute has flagged growing risks associated with the deployment of autonomous AI agents in power grids, water treatment facilities, and financial clearing systems. Researchers documented over 340 instances in the past year where agentic systems made consequential decisions without adequate human oversight. The report calls for an international framework governing agent deployment in safety-critical domains before further scaling.",
-      "url": "https://hai.stanford.edu/reports/agentic-critical-infrastructure-risks-2026",
+      "title": "Stanford HAI Report Warns of Accelerating AI-Driven Misinformation in 2026 Elections",
+      "summary": "Stanford's Human-Centered AI Institute released a comprehensive report documenting a 340% increase in AI-generated political misinformation compared to the 2024 election cycle. The report highlights the growing sophistication of multimodal deepfakes that combine fabricated audio, video, and text in coordinated campaigns. Researchers are calling for emergency legislative action and mandatory watermarking standards for all generative AI outputs.",
+      "url": "https://hai.stanford.edu/news/2026-report-ai-misinformation-elections",
       "source": "Stanford HAI",
-      "date": "June 13",
+      "date": "Jun 12",
       "tags": [
         "safety",
-        "agentic"
+        "research"
       ]
     },
     {
-      "title": "Mistral Releases Mistral Edge 3B: A Compact Model Optimized for On-Device Inference",
-      "summary": "Paris-based Mistral AI has released Mistral Edge 3B, a 3-billion parameter model specifically tuned for on-device deployment on smartphones and embedded systems. The model runs efficiently on Apple Neural Engine and Qualcomm Snapdragon NPU hardware without requiring cloud connectivity. Benchmarks show competitive performance with models twice its size on instruction-following and summarization tasks, making it a strong candidate for privacy-sensitive applications.",
-      "url": "https://venturebeat.com/ai/mistral-edge-3b-on-device-inference-2026",
+      "title": "Hugging Face Launches SmolAgents 2.0 with Visual Tool-Use Framework",
+      "summary": "Hugging Face has released SmolAgents 2.0, a lightweight open-source framework enabling developers to build agentic AI systems that can visually interact with desktop GUIs and web browsers. The new release includes a plug-and-play tool library with over 200 pre-built integrations for common SaaS platforms. Early benchmarks show SmolAgents 2.0 completing complex multi-app workflows with a 78% success rate, a substantial improvement over the previous version.",
+      "url": "https://venturebeat.com/ai/hugging-face-smolagents-2-visual-tool-use-framework-2026",
       "source": "VentureBeat",
-      "date": "June 10",
+      "date": "Jun 11",
       "tags": [
-        "llm",
+        "agentic",
         "tools"
       ]
     }
   ],
-  "date": "2026-06-14",
-  "updated": "2026-06-14T09:50:43.907872Z"
+  "date": "2026-06-15",
+  "updated": "2026-06-15T12:36:59.089639Z"
 }
