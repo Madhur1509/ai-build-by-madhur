@@ -1,94 +1,94 @@
 {
   "articles": [
     {
-      "title": "Anthropic Releases Claude 4 with Enhanced Reasoning and 500K Context Window",
-      "summary": "Anthropic has officially launched Claude 4, its most capable model to date, featuring a 500,000 token context window and significantly improved multi-step reasoning capabilities. The model demonstrates state-of-the-art performance on graduate-level math and coding benchmarks, surpassing previous records. Claude 4 is now available via API and through Claude.ai for Pro and Team subscribers.",
-      "url": "https://techcrunch.com/2026/06/14/anthropic-releases-claude-4-enhanced-reasoning",
+      "title": "Anthropic Releases Claude 4 with Extended Reasoning and 2M Token Context",
+      "summary": "Anthropic has unveiled Claude 4, featuring a breakthrough 2 million token context window and enhanced chain-of-thought reasoning capabilities. The model demonstrates significant improvements on complex multi-step tasks and long document analysis benchmarks. Claude 4 is now available via API with enterprise pricing announced alongside the release.",
+      "url": "https://techcrunch.com/2026/06/15/anthropic-releases-claude-4-extended-reasoning",
       "source": "TechCrunch",
-      "date": "Jun 14",
+      "date": "June 15",
       "tags": [
         "llm",
         "research"
       ]
     },
     {
-      "title": "Google DeepMind's Gemini 2.5 Ultra Achieves Human-Level Performance on New Medical Diagnosis Benchmark",
-      "summary": "Google DeepMind announced that Gemini 2.5 Ultra has reached human-level accuracy on MedBench 2026, a comprehensive medical diagnosis dataset developed in collaboration with Johns Hopkins University. The model correctly diagnosed rare conditions in 91.3% of test cases, compared to specialist physicians averaging 89.7%. Google emphasized the model is intended to assist rather than replace medical professionals.",
-      "url": "https://www.theverge.com/2026/6/13/gemini-ultra-medical-diagnosis-benchmark",
+      "title": "Google DeepMind's Gemini Ultra 2.5 Achieves Human-Level Performance on Medical Licensing Exams",
+      "summary": "Google DeepMind announced that Gemini Ultra 2.5 has surpassed human expert performance on the USMLE, UK MRCGP, and several international medical licensing examinations. The model scored in the 97th percentile compared to human test-takers, raising new discussions about AI deployment in clinical settings. Regulatory bodies in the US and EU have begun convening panels to assess the implications.",
+      "url": "https://www.theverge.com/2026/6/14/gemini-ultra-medical-licensing-exams",
       "source": "The Verge",
-      "date": "Jun 13",
+      "date": "June 14",
       "tags": [
         "multimodal",
         "research"
       ]
     },
     {
-      "title": "OpenAI Launches Operator Pro: Autonomous AI Agents for Enterprise Workflows",
-      "summary": "OpenAI has expanded its Operator platform with Operator Pro, a suite of autonomous AI agents designed to handle complex, multi-day enterprise workflows including procurement, HR onboarding, and financial reconciliation. The new tier includes enhanced tool-use capabilities and integrates directly with SAP, Salesforce, and Microsoft Dynamics. Early enterprise customers report a 40% reduction in administrative overhead in pilot programs.",
-      "url": "https://www.wired.com/story/openai-operator-pro-enterprise-agents-2026",
+      "title": "OpenAI Launches Operator 2.0: Agentic Platform Now Supports Multi-Agent Orchestration",
+      "summary": "OpenAI has released a major upgrade to its Operator platform, enabling complex multi-agent workflows where specialized AI agents collaborate to complete enterprise tasks autonomously. The update includes a new visual workflow builder and native integrations with Salesforce, SAP, and Microsoft 365. Early enterprise customers report 40% reductions in back-office processing times during the beta program.",
+      "url": "https://www.wired.com/story/openai-operator-2-multi-agent-orchestration-2026",
       "source": "Wired",
-      "date": "Jun 15",
+      "date": "June 16",
       "tags": [
         "agentic",
-        "industry"
+        "tools"
       ]
     },
     {
-      "title": "EU AI Act Enforcement Body Issues First Major Fine Against Facial Recognition Startup",
-      "summary": "The newly established EU AI Office has issued a \u20ac47 million fine against Paris-based startup ClearVision AI for deploying a high-risk facial recognition system without completing mandatory conformity assessments. This marks the first significant enforcement action under the EU AI Act, which entered full enforcement mode in January 2026. Legal experts say the ruling signals a new era of strict AI accountability across Europe.",
-      "url": "https://www.reuters.com/technology/eu-ai-office-first-major-fine-facial-recognition-2026-06-14",
+      "title": "EU AI Act Enforcement Division Issues First Major Fines to Three Tech Firms",
+      "summary": "The European AI Office has issued its first significant enforcement actions under the EU AI Act, levying fines totaling \u20ac340 million against three unnamed technology companies for deploying high-risk AI systems without proper conformity assessments. The actions signal that the EU is moving beyond the compliance grace period into active enforcement. Legal experts say the fines could reshape how global companies structure AI deployments for European markets.",
+      "url": "https://www.reuters.com/technology/eu-ai-act-first-major-fines-2026-06-15",
       "source": "Reuters",
-      "date": "Jun 14",
+      "date": "June 15",
       "tags": [
         "safety",
         "industry"
       ]
     },
     {
-      "title": "Meta Releases LLaMA 4 Scout Open Weights Model with Native RAG Architecture",
-      "summary": "Meta has open-sourced LLaMA 4 Scout, a 70-billion parameter model built with a native retrieval-augmented generation architecture that dramatically improves factual accuracy without fine-tuning. The model includes a built-in vector index mechanism that allows it to ground responses against external knowledge bases at inference time. Researchers are already reporting benchmark improvements of up to 22% on knowledge-intensive tasks compared to standard LLaMA 4 variants.",
-      "url": "https://venturebeat.com/ai/meta-llama-4-scout-native-rag-architecture-open-weights",
+      "title": "Meta Introduces RAG-Optimized Llama 4 Scout Fine-Tune for Enterprise Knowledge Bases",
+      "summary": "Meta has released a specialized fine-tuned variant of Llama 4 Scout specifically optimized for retrieval-augmented generation tasks in enterprise environments. The model shows a 28% improvement in faithfulness scores and significantly reduced hallucination rates when grounding responses in proprietary document collections. The weights are available under Meta's commercial license on Hugging Face.",
+      "url": "https://venturebeat.com/ai/meta-llama-4-scout-rag-enterprise-fine-tune",
       "source": "VentureBeat",
-      "date": "Jun 12",
+      "date": "June 13",
       "tags": [
         "rag",
         "llm"
       ]
     },
     {
-      "title": "Microsoft Copilot Studio Adds Real-Time Video Understanding for Meeting Analysis",
-      "summary": "Microsoft has rolled out a major update to Copilot Studio introducing real-time video understanding, enabling enterprise agents to analyze live video streams from Teams meetings and generate structured action items, sentiment analysis, and compliance flags. The feature uses a custom multimodal model co-developed with OpenAI optimized for low-latency inference. The update is available to all Microsoft 365 E5 subscribers starting this week.",
-      "url": "https://www.zdnet.com/article/microsoft-copilot-studio-real-time-video-understanding-teams",
-      "source": "ZDNet",
-      "date": "Jun 15",
-      "tags": [
-        "multimodal",
-        "tools"
-      ]
-    },
-    {
-      "title": "Stanford HAI Report Warns of Compounding Risks in Multi-Agent AI Systems",
-      "summary": "Stanford's Human-Centered AI Institute released a 94-page report detailing emergent safety risks that arise when multiple autonomous AI agents interact within shared environments. The report documents 17 case studies where agent coordination failures led to unintended real-world consequences, including erroneous financial transactions and data exfiltration attempts. Researchers are calling for mandatory sandboxing standards and cross-agent audit trails before large-scale agentic deployments.",
-      "url": "https://hai.stanford.edu/news/report-compounding-risks-multi-agent-ai-systems-2026",
+      "title": "Stanford HAI Report Warns of Accelerating AI-Enabled Disinformation Campaigns Ahead of 2026 Midterms",
+      "summary": "A new report from Stanford's Human-Centered AI Institute documents a sharp increase in AI-generated disinformation targeting US voters in the months leading up to the November midterm elections. Researchers identified over 200 coordinated inauthentic networks using advanced language models to generate hyper-personalized political content at scale. The report calls for mandatory watermarking of AI-generated political content and expanded platform disclosure requirements.",
+      "url": "https://hai.stanford.edu/news/2026-disinformation-midterms-report",
       "source": "Stanford HAI",
-      "date": "Jun 13",
+      "date": "June 16",
       "tags": [
         "safety",
-        "agentic"
+        "research"
       ]
     },
     {
-      "title": "Mistral AI Unveils Mistral Edge 3B: A Compact Model Designed to Run on Smartphones",
-      "summary": "French AI lab Mistral AI has announced Mistral Edge 3B, a 3-billion parameter model specifically optimized to run entirely on-device on modern Android and iOS smartphones without requiring a network connection. The model uses a novel 4-bit quantization scheme co-designed with Qualcomm and Apple Silicon teams to fit within 2GB of RAM while maintaining competitive performance on instruction-following tasks. Mistral says the model will be available for download via its La Plateforme API and directly integrated into select Samsung Galaxy and iPhone 17 devices later this quarter.",
-      "url": "https://techcrunch.com/2026/06/16/mistral-edge-3b-on-device-smartphone-model",
-      "source": "TechCrunch",
-      "date": "Jun 16",
+      "title": "Microsoft Azure Unveils Real-Time Multimodal AI Pipeline for Industrial Inspection",
+      "summary": "Microsoft has announced a new Azure AI service that combines vision, audio, and sensor data streams for real-time industrial quality control and predictive maintenance. The system processes multimodal inputs from factory floor cameras and IoT sensors simultaneously, flagging defects and anomalies with sub-100ms latency. Pilot deployments with automotive and semiconductor manufacturers have reportedly reduced defect escape rates by over 60%.",
+      "url": "https://www.zdnet.com/article/microsoft-azure-multimodal-ai-industrial-inspection-2026",
+      "source": "ZDNet",
+      "date": "June 14",
       "tags": [
-        "llm",
+        "multimodal",
+        "industry"
+      ]
+    },
+    {
+      "title": "xAI Releases Grok 3.5 with Native Code Interpreter and Persistent Memory",
+      "summary": "Elon Musk's xAI has launched Grok 3.5, introducing a built-in sandboxed code execution environment and long-term user memory that persists across sessions. The model can autonomously write, run, and debug code iteratively within a single conversation, and recalls user preferences and prior project context indefinitely. The update is rolling out to X Premium+ subscribers and via the xAI API starting today.",
+      "url": "https://techcrunch.com/2026/06/17/xai-grok-3-5-code-interpreter-persistent-memory",
+      "source": "TechCrunch",
+      "date": "June 17",
+      "tags": [
+        "agentic",
         "tools"
       ]
     }
   ],
-  "date": "2026-06-16",
-  "updated": "2026-06-16T11:28:52.279087Z"
+  "date": "2026-06-17",
+  "updated": "2026-06-17T11:12:16.400302Z"
 }
