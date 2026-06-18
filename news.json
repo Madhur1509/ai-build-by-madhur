@@ -1,94 +1,94 @@
 {
   "articles": [
     {
-      "title": "Anthropic Releases Claude 4 with Extended Reasoning and 2M Token Context",
-      "summary": "Anthropic has unveiled Claude 4, featuring a breakthrough 2 million token context window and enhanced chain-of-thought reasoning capabilities. The model demonstrates significant improvements on complex multi-step tasks and long document analysis benchmarks. Claude 4 is now available via API with enterprise pricing announced alongside the release.",
-      "url": "https://techcrunch.com/2026/06/15/anthropic-releases-claude-4-extended-reasoning",
-      "source": "TechCrunch",
-      "date": "June 15",
+      "title": "Google DeepMind Unveils Gemini 3 with Unprecedented Reasoning Capabilities",
+      "summary": "Google DeepMind announced Gemini 3, claiming it surpasses all existing models on mathematical reasoning and code generation benchmarks. The model introduces a new 'chain-of-thought distillation' technique that dramatically reduces inference costs while maintaining accuracy. Early access has been granted to select enterprise partners ahead of a broader rollout planned for July.",
+      "url": "https://www.theverge.com/2026/6/17/google-deepmind-gemini-3-announcement",
+      "source": "The Verge",
+      "date": "Jun 17",
       "tags": [
         "llm",
         "research"
       ]
     },
     {
-      "title": "Google DeepMind's Gemini Ultra 2.5 Achieves Human-Level Performance on Medical Licensing Exams",
-      "summary": "Google DeepMind announced that Gemini Ultra 2.5 has surpassed human expert performance on the USMLE, UK MRCGP, and several international medical licensing examinations. The model scored in the 97th percentile compared to human test-takers, raising new discussions about AI deployment in clinical settings. Regulatory bodies in the US and EU have begun convening panels to assess the implications.",
-      "url": "https://www.theverge.com/2026/6/14/gemini-ultra-medical-licensing-exams",
-      "source": "The Verge",
-      "date": "June 14",
-      "tags": [
-        "multimodal",
-        "research"
-      ]
-    },
-    {
-      "title": "OpenAI Launches Operator 2.0: Agentic Platform Now Supports Multi-Agent Orchestration",
-      "summary": "OpenAI has released a major upgrade to its Operator platform, enabling complex multi-agent workflows where specialized AI agents collaborate to complete enterprise tasks autonomously. The update includes a new visual workflow builder and native integrations with Salesforce, SAP, and Microsoft 365. Early enterprise customers report 40% reductions in back-office processing times during the beta program.",
-      "url": "https://www.wired.com/story/openai-operator-2-multi-agent-orchestration-2026",
-      "source": "Wired",
-      "date": "June 16",
+      "title": "OpenAI Launches Autonomous Agent Platform for Enterprise Workflows",
+      "summary": "OpenAI has officially released its enterprise-grade agentic platform, allowing businesses to deploy multi-step autonomous agents capable of executing complex workflows across dozens of integrated tools. The platform includes built-in audit trails and human-in-the-loop checkpoints to satisfy compliance requirements. Several Fortune 500 companies, including JPMorgan and Salesforce, have already signed on as launch partners.",
+      "url": "https://techcrunch.com/2026/6/16/openai-autonomous-agent-platform-enterprise",
+      "source": "TechCrunch",
+      "date": "Jun 16",
       "tags": [
         "agentic",
-        "tools"
+        "industry"
       ]
     },
     {
-      "title": "EU AI Act Enforcement Division Issues First Major Fines to Three Tech Firms",
-      "summary": "The European AI Office has issued its first significant enforcement actions under the EU AI Act, levying fines totaling \u20ac340 million against three unnamed technology companies for deploying high-risk AI systems without proper conformity assessments. The actions signal that the EU is moving beyond the compliance grace period into active enforcement. Legal experts say the fines could reshape how global companies structure AI deployments for European markets.",
-      "url": "https://www.reuters.com/technology/eu-ai-act-first-major-fines-2026-06-15",
-      "source": "Reuters",
-      "date": "June 15",
+      "title": "EU AI Act Enforcement Body Issues First Major Fines to Meta and Apple",
+      "summary": "The newly established EU AI Enforcement Authority levied fines totaling \u20ac480 million against Meta and Apple for failing to meet transparency requirements under the AI Act. Both companies were found to have deployed high-risk AI systems in hiring and content moderation without adequate documentation or user disclosure. The ruling is expected to trigger a wave of compliance reviews across the tech industry.",
+      "url": "https://www.bbc.com/technology/2026/6/15/eu-ai-act-fines-meta-apple",
+      "source": "BBC Technology",
+      "date": "Jun 15",
       "tags": [
         "safety",
         "industry"
       ]
     },
     {
-      "title": "Meta Introduces RAG-Optimized Llama 4 Scout Fine-Tune for Enterprise Knowledge Bases",
-      "summary": "Meta has released a specialized fine-tuned variant of Llama 4 Scout specifically optimized for retrieval-augmented generation tasks in enterprise environments. The model shows a 28% improvement in faithfulness scores and significantly reduced hallucination rates when grounding responses in proprietary document collections. The weights are available under Meta's commercial license on Hugging Face.",
-      "url": "https://venturebeat.com/ai/meta-llama-4-scout-rag-enterprise-fine-tune",
+      "title": "Anthropic Releases Claude 4 Sonnet with Native Video Understanding",
+      "summary": "Anthropic has expanded its Claude 4 family with a new Sonnet variant that natively processes video inputs up to 30 minutes in length, enabling use cases like meeting summarization and video-based customer support. The model also features improved multilingual performance across 42 languages, including several low-resource African and Southeast Asian languages. Anthropic emphasized that the model underwent extensive red-teaming for harmful content generation in video contexts.",
+      "url": "https://venturebeat.com/2026/6/17/anthropic-claude-4-sonnet-video-understanding",
       "source": "VentureBeat",
-      "date": "June 13",
+      "date": "Jun 17",
       "tags": [
-        "rag",
+        "multimodal",
         "llm"
       ]
     },
     {
-      "title": "Stanford HAI Report Warns of Accelerating AI-Enabled Disinformation Campaigns Ahead of 2026 Midterms",
-      "summary": "A new report from Stanford's Human-Centered AI Institute documents a sharp increase in AI-generated disinformation targeting US voters in the months leading up to the November midterm elections. Researchers identified over 200 coordinated inauthentic networks using advanced language models to generate hyper-personalized political content at scale. The report calls for mandatory watermarking of AI-generated political content and expanded platform disclosure requirements.",
-      "url": "https://hai.stanford.edu/news/2026-disinformation-midterms-report",
-      "source": "Stanford HAI",
-      "date": "June 16",
+      "title": "Microsoft and LinkedIn Integrate AI Career Coach Directly into Job Listings",
+      "summary": "Microsoft has rolled out an AI-powered career coaching feature embedded directly within LinkedIn job postings, offering real-time resume tailoring suggestions and interview prep based on the specific job description. The tool leverages a fine-tuned version of GPT-5 and retrieval-augmented generation over the applicant's profile history. Privacy advocates have raised concerns about how applicant data is being used to train future model iterations.",
+      "url": "https://www.wired.com/story/microsoft-linkedin-ai-career-coach-job-listings-2026",
+      "source": "Wired",
+      "date": "Jun 16",
       "tags": [
-        "safety",
-        "research"
-      ]
-    },
-    {
-      "title": "Microsoft Azure Unveils Real-Time Multimodal AI Pipeline for Industrial Inspection",
-      "summary": "Microsoft has announced a new Azure AI service that combines vision, audio, and sensor data streams for real-time industrial quality control and predictive maintenance. The system processes multimodal inputs from factory floor cameras and IoT sensors simultaneously, flagging defects and anomalies with sub-100ms latency. Pilot deployments with automotive and semiconductor manufacturers have reportedly reduced defect escape rates by over 60%.",
-      "url": "https://www.zdnet.com/article/microsoft-azure-multimodal-ai-industrial-inspection-2026",
-      "source": "ZDNet",
-      "date": "June 14",
-      "tags": [
-        "multimodal",
+        "rag",
         "industry"
       ]
     },
     {
-      "title": "xAI Releases Grok 3.5 with Native Code Interpreter and Persistent Memory",
-      "summary": "Elon Musk's xAI has launched Grok 3.5, introducing a built-in sandboxed code execution environment and long-term user memory that persists across sessions. The model can autonomously write, run, and debug code iteratively within a single conversation, and recalls user preferences and prior project context indefinitely. The update is rolling out to X Premium+ subscribers and via the xAI API starting today.",
-      "url": "https://techcrunch.com/2026/06/17/xai-grok-3-5-code-interpreter-persistent-memory",
-      "source": "TechCrunch",
-      "date": "June 17",
+      "title": "Stanford HAI Report Warns of Systemic Risks in AI Agent Ecosystems",
+      "summary": "Stanford's Human-Centered AI Institute released a comprehensive 180-page report identifying cascading failure modes that emerge when multiple autonomous AI agents interact in shared environments. Researchers found that even individually well-aligned agents can produce harmful emergent behaviors when operating in competitive or resource-constrained multi-agent settings. The report calls for new international standards governing agent-to-agent communication protocols.",
+      "url": "https://www.axios.com/2026/6/14/stanford-hai-report-ai-agent-systemic-risks",
+      "source": "Axios",
+      "date": "Jun 14",
       "tags": [
-        "agentic",
+        "safety",
+        "agentic"
+      ]
+    },
+    {
+      "title": "Mistral AI Open-Sources 'Mistral Flux 72B' Beating Llama 4 on Key Benchmarks",
+      "summary": "Paris-based Mistral AI has open-sourced its new 72-billion parameter model, Mistral Flux 72B, under an Apache 2.0 license, posting competitive scores against Meta's Llama 4 on MMLU, HumanEval, and MATH datasets. The model employs a novel sparse mixture-of-experts architecture that allows it to run efficiently on a single A100 GPU node. The release has been widely celebrated by the open-source AI community as a counterweight to closed frontier models.",
+      "url": "https://arstechnica.com/ai/2026/06/mistral-flux-72b-open-source-llm-benchmarks",
+      "source": "Ars Technica",
+      "date": "Jun 15",
+      "tags": [
+        "llm",
+        "research"
+      ]
+    },
+    {
+      "title": "New 'MemoryOS' Framework Gives AI Assistants Persistent Long-Term Memory",
+      "summary": "A team of researchers from CMU and UC Berkeley have published MemoryOS, an open-source middleware framework that equips any LLM-based assistant with structured, queryable long-term memory spanning months or years of interactions. The system uses a hierarchical RAG architecture combined with periodic memory consolidation to prevent context bloat and reduce retrieval latency. Early benchmarks show a 34% improvement in personalization accuracy compared to existing session-based memory approaches.",
+      "url": "https://techcrunch.com/2026/6/18/memoryos-framework-persistent-long-term-memory-ai-assistants",
+      "source": "TechCrunch",
+      "date": "Jun 18",
+      "tags": [
+        "rag",
         "tools"
       ]
     }
   ],
-  "date": "2026-06-17",
-  "updated": "2026-06-17T11:12:16.400302Z"
+  "date": "2026-06-18",
+  "updated": "2026-06-18T10:42:41.634390Z"
 }
