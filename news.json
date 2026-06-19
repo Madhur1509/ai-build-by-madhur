@@ -1,94 +1,94 @@
 {
   "articles": [
     {
-      "title": "Google DeepMind Unveils Gemini 3 with Unprecedented Reasoning Capabilities",
-      "summary": "Google DeepMind announced Gemini 3, claiming it surpasses all existing models on mathematical reasoning and code generation benchmarks. The model introduces a new 'chain-of-thought distillation' technique that dramatically reduces inference costs while maintaining accuracy. Early access has been granted to select enterprise partners ahead of a broader rollout planned for July.",
-      "url": "https://www.theverge.com/2026/6/17/google-deepmind-gemini-3-announcement",
+      "title": "Google DeepMind Unveils Gemini 3 Ultra with Record-Breaking Benchmark Scores",
+      "summary": "Google DeepMind announced Gemini 3 Ultra, claiming state-of-the-art performance across coding, mathematics, and scientific reasoning benchmarks. The model reportedly surpasses all existing competitors on MMLU, HumanEval, and the newly introduced SciMaster benchmark. DeepMind CEO Demis Hassabis described it as the most capable general-purpose AI system the company has ever released.",
+      "url": "https://www.theverge.com/2026/6/18/gemini-3-ultra-google-deepmind-announcement",
       "source": "The Verge",
-      "date": "Jun 17",
+      "date": "June 18",
       "tags": [
         "llm",
         "research"
       ]
     },
     {
-      "title": "OpenAI Launches Autonomous Agent Platform for Enterprise Workflows",
-      "summary": "OpenAI has officially released its enterprise-grade agentic platform, allowing businesses to deploy multi-step autonomous agents capable of executing complex workflows across dozens of integrated tools. The platform includes built-in audit trails and human-in-the-loop checkpoints to satisfy compliance requirements. Several Fortune 500 companies, including JPMorgan and Salesforce, have already signed on as launch partners.",
-      "url": "https://techcrunch.com/2026/6/16/openai-autonomous-agent-platform-enterprise",
+      "title": "OpenAI Launches Operator Pro: Autonomous Web Agents Now Available to Enterprise Customers",
+      "summary": "OpenAI expanded its Operator agentic platform with a new Pro tier designed for enterprise workflows, enabling AI agents to autonomously handle multi-step tasks across web browsers and internal tools. The update includes improved error recovery and a new audit trail feature that logs every action taken by the agent. Several Fortune 500 companies have already signed on as early adopters.",
+      "url": "https://techcrunch.com/2026/6/17/openai-operator-pro-enterprise-agents",
       "source": "TechCrunch",
-      "date": "Jun 16",
+      "date": "June 17",
       "tags": [
         "agentic",
         "industry"
       ]
     },
     {
-      "title": "EU AI Act Enforcement Body Issues First Major Fines to Meta and Apple",
-      "summary": "The newly established EU AI Enforcement Authority levied fines totaling \u20ac480 million against Meta and Apple for failing to meet transparency requirements under the AI Act. Both companies were found to have deployed high-risk AI systems in hiring and content moderation without adequate documentation or user disclosure. The ruling is expected to trigger a wave of compliance reviews across the tech industry.",
-      "url": "https://www.bbc.com/technology/2026/6/15/eu-ai-act-fines-meta-apple",
-      "source": "BBC Technology",
-      "date": "Jun 15",
+      "title": "Anthropic Publishes Comprehensive Safety Report on Claude 4 Model Family",
+      "summary": "Anthropic released a detailed 90-page safety evaluation report covering its Claude 4 series, including results from red-teaming exercises, jailbreak resistance tests, and long-horizon risk assessments. The report reveals that Claude 4 Opus demonstrated measurably lower rates of harmful output compared to previous generations across all tested categories. Researchers noted persistent challenges in preventing subtle misinformation in highly specialized domains.",
+      "url": "https://www.anthropic.com/news/claude-4-safety-report-2026",
+      "source": "Anthropic",
+      "date": "June 16",
       "tags": [
         "safety",
-        "industry"
-      ]
-    },
-    {
-      "title": "Anthropic Releases Claude 4 Sonnet with Native Video Understanding",
-      "summary": "Anthropic has expanded its Claude 4 family with a new Sonnet variant that natively processes video inputs up to 30 minutes in length, enabling use cases like meeting summarization and video-based customer support. The model also features improved multilingual performance across 42 languages, including several low-resource African and Southeast Asian languages. Anthropic emphasized that the model underwent extensive red-teaming for harmful content generation in video contexts.",
-      "url": "https://venturebeat.com/2026/6/17/anthropic-claude-4-sonnet-video-understanding",
-      "source": "VentureBeat",
-      "date": "Jun 17",
-      "tags": [
-        "multimodal",
-        "llm"
-      ]
-    },
-    {
-      "title": "Microsoft and LinkedIn Integrate AI Career Coach Directly into Job Listings",
-      "summary": "Microsoft has rolled out an AI-powered career coaching feature embedded directly within LinkedIn job postings, offering real-time resume tailoring suggestions and interview prep based on the specific job description. The tool leverages a fine-tuned version of GPT-5 and retrieval-augmented generation over the applicant's profile history. Privacy advocates have raised concerns about how applicant data is being used to train future model iterations.",
-      "url": "https://www.wired.com/story/microsoft-linkedin-ai-career-coach-job-listings-2026",
-      "source": "Wired",
-      "date": "Jun 16",
-      "tags": [
-        "rag",
-        "industry"
-      ]
-    },
-    {
-      "title": "Stanford HAI Report Warns of Systemic Risks in AI Agent Ecosystems",
-      "summary": "Stanford's Human-Centered AI Institute released a comprehensive 180-page report identifying cascading failure modes that emerge when multiple autonomous AI agents interact in shared environments. Researchers found that even individually well-aligned agents can produce harmful emergent behaviors when operating in competitive or resource-constrained multi-agent settings. The report calls for new international standards governing agent-to-agent communication protocols.",
-      "url": "https://www.axios.com/2026/6/14/stanford-hai-report-ai-agent-systemic-risks",
-      "source": "Axios",
-      "date": "Jun 14",
-      "tags": [
-        "safety",
-        "agentic"
-      ]
-    },
-    {
-      "title": "Mistral AI Open-Sources 'Mistral Flux 72B' Beating Llama 4 on Key Benchmarks",
-      "summary": "Paris-based Mistral AI has open-sourced its new 72-billion parameter model, Mistral Flux 72B, under an Apache 2.0 license, posting competitive scores against Meta's Llama 4 on MMLU, HumanEval, and MATH datasets. The model employs a novel sparse mixture-of-experts architecture that allows it to run efficiently on a single A100 GPU node. The release has been widely celebrated by the open-source AI community as a counterweight to closed frontier models.",
-      "url": "https://arstechnica.com/ai/2026/06/mistral-flux-72b-open-source-llm-benchmarks",
-      "source": "Ars Technica",
-      "date": "Jun 15",
-      "tags": [
-        "llm",
         "research"
       ]
     },
     {
-      "title": "New 'MemoryOS' Framework Gives AI Assistants Persistent Long-Term Memory",
-      "summary": "A team of researchers from CMU and UC Berkeley have published MemoryOS, an open-source middleware framework that equips any LLM-based assistant with structured, queryable long-term memory spanning months or years of interactions. The system uses a hierarchical RAG architecture combined with periodic memory consolidation to prevent context bloat and reduce retrieval latency. Early benchmarks show a 34% improvement in personalization accuracy compared to existing session-based memory approaches.",
-      "url": "https://techcrunch.com/2026/6/18/memoryos-framework-persistent-long-term-memory-ai-assistants",
-      "source": "TechCrunch",
-      "date": "Jun 18",
+      "title": "Meta AI Releases SeamlessVideo 2.0 for Real-Time Multilingual Video Translation",
+      "summary": "Meta AI unveiled SeamlessVideo 2.0, a multimodal model capable of translating and lip-syncing video content across 36 languages in near real-time. The system combines updated speech recognition, neural machine translation, and a diffusion-based video synthesis layer to produce natural-looking dubbed video. Meta says the tool will be integrated into Instagram and Facebook Live features later this summer.",
+      "url": "https://ai.meta.com/blog/seamlessvideo-2-multilingual-video-translation",
+      "source": "Meta AI Blog",
+      "date": "June 17",
+      "tags": [
+        "multimodal",
+        "industry"
+      ]
+    },
+    {
+      "title": "EU AI Act Enforcement Agency Issues First Major Fine Against Undisclosed AI Firm",
+      "summary": "The newly operational European AI Enforcement Agency levied a \u20ac48 million fine against an unnamed technology company for deploying a high-risk AI hiring system without completing mandatory conformity assessments. The decision marks the first significant enforcement action under the EU AI Act since its full implementation earlier this year. Legal experts say the ruling signals that European regulators are prepared to move quickly against non-compliant deployments.",
+      "url": "https://www.reuters.com/technology/eu-ai-act-first-major-fine-2026-06-18",
+      "source": "Reuters",
+      "date": "June 18",
+      "tags": [
+        "safety",
+        "industry"
+      ]
+    },
+    {
+      "title": "Microsoft and LinkedIn Debut AI Career Coach Powered by RAG Over Live Job Market Data",
+      "summary": "Microsoft and LinkedIn jointly launched an AI-powered career coaching assistant that uses retrieval-augmented generation to pull live labor market data, salary benchmarks, and job postings into its responses. The tool can analyze a user's resume and generate personalized skill gap reports grounded in current hiring trends. The feature is rolling out to LinkedIn Premium subscribers globally starting this week.",
+      "url": "https://blogs.microsoft.com/2026/06/16/linkedin-ai-career-coach-rag",
+      "source": "Microsoft Blog",
+      "date": "June 16",
       "tags": [
         "rag",
+        "industry"
+      ]
+    },
+    {
+      "title": "Researchers at MIT Demonstrate LLM-Driven Autonomous Lab That Accelerates Drug Discovery",
+      "summary": "A team at MIT published findings showing an LLM-orchestrated robotic laboratory system that independently designed, ran, and interpreted chemistry experiments to identify candidate compounds for antibiotic resistance. Over a six-week trial, the autonomous lab generated three novel candidate molecules that are now advancing to preclinical testing. The study, published in Nature, is being called a landmark demonstration of AI-driven scientific research.",
+      "url": "https://www.nature.com/articles/mit-llm-autonomous-lab-drug-discovery-2026",
+      "source": "Nature",
+      "date": "June 15",
+      "tags": [
+        "agentic",
+        "research"
+      ]
+    },
+    {
+      "title": "Mistral AI Releases Mistral Edge 3B: A Compact Model Optimized for On-Device Inference",
+      "summary": "Paris-based Mistral AI launched Mistral Edge 3B, a 3-billion-parameter model engineered for deployment on smartphones, laptops, and edge devices without requiring cloud connectivity. The model achieves performance comparable to much larger models on instruction-following tasks while running efficiently on consumer-grade NPU hardware. Mistral is releasing the weights under an open license, drawing immediate interest from developers building privacy-first applications.",
+      "url": "https://mistral.ai/news/mistral-edge-3b-release-2026",
+      "source": "Mistral AI",
+      "date": "June 19",
+      "tags": [
+        "llm",
         "tools"
       ]
     }
   ],
-  "date": "2026-06-18",
-  "updated": "2026-06-18T10:42:41.634390Z"
+  "date": "2026-06-19",
+  "updated": "2026-06-19T10:53:02.112407Z"
 }
