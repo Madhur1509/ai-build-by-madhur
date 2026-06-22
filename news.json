@@ -1,94 +1,94 @@
 {
   "articles": [
     {
-      "title": "Anthropic Releases Claude 4 Opus with Enhanced Reasoning Capabilities",
-      "summary": "Anthropic has launched Claude 4 Opus, claiming it surpasses all existing models on complex multi-step reasoning benchmarks. The model features a new 'deliberative thinking' mode that allows it to pause and verify intermediate steps before producing final answers. Early evaluations from third-party researchers suggest significant improvements in mathematics, coding, and scientific problem-solving.",
-      "url": "https://techcrunch.com/2026/06/19/anthropic-claude-4-opus-reasoning",
-      "source": "TechCrunch",
-      "date": "Jun 19",
+      "title": "Anthropic Releases Claude 4 with Enhanced Reasoning and 2M Token Context Window",
+      "summary": "Anthropic has officially launched Claude 4, featuring a breakthrough 2 million token context window and significantly improved multi-step reasoning capabilities. The model outperforms competitors on several key benchmarks including MATH and HumanEval. Enterprise customers gain access immediately, with general availability rolling out over the next two weeks.",
+      "url": "https://www.theverge.com/2026/6/20/anthropic-claude-4-release-reasoning",
+      "source": "The Verge",
+      "date": "June 20",
       "tags": [
         "llm",
-        "research"
+        "industry"
       ]
     },
     {
-      "title": "Google DeepMind Unveils Gemini Ultra 2.5 with Native Video Generation",
-      "summary": "Google DeepMind announced Gemini Ultra 2.5, which integrates native video generation directly into its multimodal architecture without relying on a separate diffusion model. The system can produce coherent 60-second video clips from text or image prompts with unprecedented temporal consistency. The model is expected to roll out to Google One subscribers later this month.",
-      "url": "https://www.theverge.com/2026/6/18/google-deepmind-gemini-ultra-25-video",
-      "source": "The Verge",
-      "date": "Jun 18",
+      "title": "Google DeepMind's AlphaFold 4 Predicts RNA and Protein Complexes with Unprecedented Accuracy",
+      "summary": "DeepMind announced AlphaFold 4, extending its protein prediction capabilities to full RNA-protein complexes and small molecule interactions. Researchers say the model could accelerate drug discovery timelines by years for several disease categories. The weights are being made available to academic researchers under a non-commercial license.",
+      "url": "https://www.nature.com/articles/deepmind-alphafold4-2026",
+      "source": "Nature",
+      "date": "June 19",
+      "tags": [
+        "research",
+        "multimodal"
+      ]
+    },
+    {
+      "title": "OpenAI Launches Operator Pro: Autonomous Agent Platform for Enterprise Workflows",
+      "summary": "OpenAI has expanded its Operator product into a full enterprise platform called Operator Pro, capable of managing multi-step business workflows across dozens of integrated third-party applications. The system can autonomously handle tasks ranging from procurement approvals to customer onboarding with minimal human oversight. Early beta customers report productivity gains averaging 34% in back-office operations.",
+      "url": "https://techcrunch.com/2026/6/21/openai-operator-pro-enterprise-agents",
+      "source": "TechCrunch",
+      "date": "June 21",
+      "tags": [
+        "agentic",
+        "industry"
+      ]
+    },
+    {
+      "title": "EU AI Act Enforcement Body Issues First Major Fine Against Facial Recognition Vendor",
+      "summary": "The newly operational EU AI Office levied a \u20ac48 million fine against a European surveillance technology firm for deploying a prohibited real-time facial recognition system in public spaces. The case marks the first significant enforcement action under the EU AI Act's high-risk provisions. Legal experts say the ruling sets a precedent for how biometric AI systems will be regulated across member states.",
+      "url": "https://www.bbc.com/news/technology/eu-ai-act-first-fine-facial-recognition-2026",
+      "source": "BBC News",
+      "date": "June 20",
+      "tags": [
+        "safety",
+        "industry"
+      ]
+    },
+    {
+      "title": "Meta Releases SeamlessStream 2.0: Real-Time Multilingual Video Translation for 120 Languages",
+      "summary": "Meta AI has launched SeamlessStream 2.0, a real-time video translation model that synchronizes lip movements and voice with translated audio across 120 languages with under 300ms latency. The system is being integrated into WhatsApp and Instagram video calls starting this month. Researchers highlight particular improvements in low-resource African and Southeast Asian language pairs.",
+      "url": "https://ai.meta.com/blog/seamlessstream-2-multilingual-video-translation",
+      "source": "Meta AI Blog",
+      "date": "June 18",
       "tags": [
         "multimodal",
-        "industry"
-      ]
-    },
-    {
-      "title": "OpenAI's Operator Agents Now Handle End-to-End Enterprise Workflows",
-      "summary": "OpenAI expanded its Operator agentic platform to support complex, multi-day enterprise workflows including procurement, HR onboarding, and financial reporting. The update introduces persistent memory across sessions and improved error recovery when agents encounter unexpected states. Several Fortune 500 companies are already piloting the system, reporting up to 40 percent reduction in administrative overhead.",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-17/openai-operator-agents-enterprise",
-      "source": "Bloomberg",
-      "date": "Jun 17",
-      "tags": [
-        "agentic",
-        "industry"
-      ]
-    },
-    {
-      "title": "EU AI Act Enforcement Body Issues First Major Fines to Two Tech Firms",
-      "summary": "The newly formed European AI Office levied fines totaling \u20ac480 million against two unnamed technology companies for deploying high-risk AI systems without completing mandatory conformity assessments. The action marks the first significant enforcement under the EU AI Act, which came into full effect earlier this year. Legal experts say the move signals a more aggressive regulatory posture than many in the industry had anticipated.",
-      "url": "https://www.reuters.com/technology/eu-ai-act-first-fines-2026-06-20",
-      "source": "Reuters",
-      "date": "Jun 20",
-      "tags": [
-        "safety",
-        "industry"
-      ]
-    },
-    {
-      "title": "MIT Researchers Propose New RAG Architecture That Cuts Hallucinations by Half",
-      "summary": "A team at MIT's CSAIL published a paper introducing 'VerifRAG,' a retrieval-augmented generation framework that cross-references retrieved documents against a curated knowledge graph before generating responses. In controlled benchmarks, the system reduced factual hallucinations by 51 percent compared to standard RAG pipelines. The code and datasets have been released publicly on GitHub.",
-      "url": "https://venturebeat.com/ai/mit-verifrag-hallucination-reduction-2026",
-      "source": "VentureBeat",
-      "date": "Jun 19",
-      "tags": [
-        "rag",
         "research"
       ]
     },
     {
-      "title": "Meta Launches Open-Source Llama 4 Scout Fine-Tuning Toolkit",
-      "summary": "Meta released a comprehensive fine-tuning toolkit for its Llama 4 Scout model, making it easier for developers to adapt the model to domain-specific tasks with limited compute. The toolkit supports LoRA, QLoRA, and a new Meta-developed technique called 'FlexFuse' that reportedly achieves better performance retention at aggressive quantization levels. The release has already generated thousands of GitHub stars within 24 hours.",
-      "url": "https://www.wired.com/story/meta-llama-4-scout-finetuning-toolkit-2026",
-      "source": "Wired",
-      "date": "Jun 20",
-      "tags": [
-        "llm",
-        "tools"
-      ]
-    },
-    {
-      "title": "Microsoft Integrates Autonomous Coding Agents Directly into Visual Studio Code",
-      "summary": "Microsoft announced that its autonomous coding agent, built on the latest GPT-5 architecture, is now natively embedded in Visual Studio Code without requiring a Copilot subscription add-on. The agent can independently plan, write, test, and debug multi-file changes based on a single natural language instruction. The feature is rolling out in the Insiders build starting June 21 with general availability expected next month.",
-      "url": "https://www.zdnet.com/article/microsoft-autonomous-coding-agent-vscode-2026",
+      "title": "Microsoft Copilot Studio Now Supports RAG Pipelines with Private Data Vaults",
+      "summary": "Microsoft has updated Copilot Studio to include native support for retrieval-augmented generation pipelines connected to enterprise private data vaults, eliminating the need for third-party middleware. The feature includes automatic chunking strategies, hybrid vector search, and audit logging for compliance teams. The update is available to all Microsoft 365 E3 and E5 subscribers immediately.",
+      "url": "https://www.zdnet.com/article/microsoft-copilot-studio-rag-private-data-vaults-2026",
       "source": "ZDNet",
-      "date": "Jun 21",
+      "date": "June 21",
       "tags": [
-        "agentic",
+        "rag",
         "tools"
       ]
     },
     {
-      "title": "Stanford HAI Report Warns of Emerging AI Model Monoculture Risks",
-      "summary": "Stanford's Human-Centered AI Institute released its mid-year report highlighting systemic risks arising from the dominance of a small number of foundation models across critical infrastructure, healthcare, and finance. Researchers argue that widespread reliance on the same underlying models creates correlated failure modes that could cascade across industries simultaneously. The report recommends regulatory requirements for model diversity and independent stress-testing protocols.",
-      "url": "https://www.technologyreview.com/2026/06/18/stanford-hai-monoculture-risk-report",
-      "source": "MIT Technology Review",
-      "date": "Jun 18",
+      "title": "Stanford HAI Report Warns of Systemic Risks in Autonomous AI-to-AI Financial Trading",
+      "summary": "A new report from Stanford's Human-Centered AI Institute has flagged growing systemic risks as financial institutions deploy autonomous AI agents that increasingly negotiate and trade directly with other AI agents without human intervention. The report documents three near-miss liquidity events in Q1 2026 that were only caught by circuit breakers. Researchers are calling for mandatory human-in-the-loop requirements for AI transactions above defined thresholds.",
+      "url": "https://hai.stanford.edu/research/autonomous-ai-financial-trading-risks-2026",
+      "source": "Stanford HAI",
+      "date": "June 19",
       "tags": [
         "safety",
+        "agentic"
+      ]
+    },
+    {
+      "title": "Mistral AI Open-Sources Mistral-Next-7B: Matches GPT-4 Class Performance at Fraction of Cost",
+      "summary": "Paris-based Mistral AI has released Mistral-Next-7B under the Apache 2.0 license, a 7 billion parameter model that the company claims matches GPT-4-class performance on coding and instruction-following benchmarks through advanced distillation techniques. The release has energized the open-source community, with Hugging Face reporting over 200,000 downloads in the first 24 hours. Mistral says the model is optimized to run efficiently on consumer-grade GPUs with 16GB VRAM.",
+      "url": "https://venturebeat.com/ai/mistral-next-7b-open-source-gpt4-class-2026",
+      "source": "VentureBeat",
+      "date": "June 22",
+      "tags": [
+        "llm",
         "research"
       ]
     }
   ],
-  "date": "2026-06-21",
-  "updated": "2026-06-21T10:01:35.216141Z"
+  "date": "2026-06-22",
+  "updated": "2026-06-22T12:21:29.681906Z"
 }
