@@ -1,94 +1,94 @@
 {
   "articles": [
     {
-      "title": "OpenAI Releases GPT-5 Turbo with Enhanced Reasoning and 2M Token Context Window",
-      "summary": "OpenAI has unveiled GPT-5 Turbo, a faster and more cost-efficient variant of its flagship model featuring a 2 million token context window and significant improvements to multi-step reasoning tasks. The model demonstrates a 40% reduction in hallucination rates on standard benchmarks compared to its predecessor. Enterprise customers will gain access first, with broader rollout expected by end of July.",
-      "url": "https://techcrunch.com/2026/06/21/openai-gpt5-turbo-2m-context-window",
+      "title": "Anthropic Releases Claude 4 with Breakthrough Reasoning Capabilities",
+      "summary": "Anthropic has launched Claude 4, claiming significant improvements in multi-step reasoning and code generation benchmarks. The model reportedly outperforms competitors on several standardized tests including MATH and HumanEval. Anthropic also introduced enhanced safety guardrails developed from two years of constitutional AI research.",
+      "url": "https://techcrunch.com/2026/06/22/anthropic-releases-claude-4-reasoning",
       "source": "TechCrunch",
-      "date": "June 21",
-      "tags": [
-        "llm",
-        "industry"
-      ]
-    },
-    {
-      "title": "Google DeepMind's AlphaAgent Framework Completes Autonomous Scientific Experiments at Scale",
-      "summary": "DeepMind published results showing its AlphaAgent system autonomously designed, executed, and interpreted over 1,200 biology experiments in a six-week period without human intervention. The system identified three novel protein interaction candidates that human researchers are now pursuing for drug discovery applications. The paper, released on arXiv, is being called a landmark moment for agentic AI in scientific research.",
-      "url": "https://www.nature.com/articles/s41586-026-08841-2",
-      "source": "Nature",
       "date": "June 22",
       "tags": [
-        "agentic",
-        "research"
+        "llm",
+        "safety"
       ]
     },
     {
-      "title": "Anthropic Introduces Constitutional AI 2.0 to Address Jailbreak Vulnerabilities",
-      "summary": "Anthropic has announced Constitutional AI 2.0, an updated safety framework designed to close persistent jailbreak exploits that have plagued large language models across the industry. The new system uses a dynamic rule-updating mechanism that adapts to novel adversarial prompting strategies in near real-time. Safety researchers have given cautious praise, noting independent evaluations are still needed to verify the claims.",
-      "url": "https://www.wired.com/story/anthropic-constitutional-ai-2-jailbreak-safety",
-      "source": "Wired",
-      "date": "June 20",
-      "tags": [
-        "safety",
-        "llm"
-      ]
-    },
-    {
-      "title": "Microsoft Copilot Studio Now Supports Full RAG Pipeline Configuration for Enterprise Knowledge Bases",
-      "summary": "Microsoft has rolled out a major update to Copilot Studio that allows enterprise developers to configure end-to-end retrieval-augmented generation pipelines directly within the platform, including custom chunking strategies and hybrid vector-keyword search. The update integrates natively with Azure AI Search and supports ingestion from SharePoint, OneDrive, and third-party data lakes. Analysts say the move significantly lowers the barrier for large organizations to deploy production-grade RAG applications.",
-      "url": "https://www.theverge.com/2026/6/20/microsoft-copilot-studio-rag-pipeline-enterprise",
+      "title": "Google DeepMind's Gemini Ultra 2.5 Achieves Human-Level Performance on Medical Licensing Exams",
+      "summary": "Google DeepMind announced that its latest Gemini Ultra 2.5 model has surpassed passing thresholds on the USMLE and several international medical licensing exams with over 95% accuracy. The achievement has reignited debate among healthcare professionals about AI's role in clinical decision support. DeepMind stressed the model is intended as an assistive tool, not a replacement for licensed physicians.",
+      "url": "https://www.theverge.com/2026/6/21/gemini-ultra-medical-exam-performance",
       "source": "The Verge",
-      "date": "June 20",
-      "tags": [
-        "rag",
-        "tools"
-      ]
-    },
-    {
-      "title": "Meta's Chameleon 3 Multimodal Model Achieves State-of-the-Art on Video Understanding Benchmarks",
-      "summary": "Meta AI released Chameleon 3, a natively multimodal model that processes interleaved text, images, and video in a unified architecture without modality-specific encoders. The model sets new records on EgoSchema and Video-MME benchmarks, outperforming GPT-5V and Gemini 2.0 Ultra on temporal reasoning tasks. Meta has open-sourced the weights under a research license on Hugging Face.",
-      "url": "https://ai.meta.com/blog/chameleon-3-multimodal-video-understanding",
-      "source": "Meta AI Blog",
-      "date": "June 19",
+      "date": "June 21",
       "tags": [
         "multimodal",
         "research"
       ]
     },
     {
-      "title": "EU AI Act Enforcement Body Issues First Major Fine Against Undisclosed AI-Generated Content",
-      "summary": "The newly operational EU AI Office levied a \u20ac47 million fine against a major European media conglomerate for systematically publishing AI-generated news articles without required disclosure labels, marking the first significant enforcement action under the AI Act. The ruling sets a precedent for how generative content transparency requirements will be interpreted across member states. Industry groups have called for clearer technical guidelines to avoid inadvertent non-compliance.",
-      "url": "https://www.reuters.com/technology/eu-ai-office-first-fine-undisclosed-generated-content-2026-06-21",
+      "title": "OpenAI Launches Autonomous Agent Platform 'Operator Pro' for Enterprise",
+      "summary": "OpenAI has expanded its Operator agentic platform with a new enterprise tier called Operator Pro, enabling businesses to deploy fully autonomous AI agents capable of managing complex workflows. The platform includes built-in audit trails and human-in-the-loop checkpoints designed to satisfy regulatory compliance requirements. Early adopters include several Fortune 500 firms in finance and logistics.",
+      "url": "https://www.bloomberg.com/news/articles/2026-06-23/openai-operator-pro-enterprise-agents",
+      "source": "Bloomberg",
+      "date": "June 23",
+      "tags": [
+        "agentic",
+        "industry"
+      ]
+    },
+    {
+      "title": "EU AI Act Enforcement Agency Issues First Major Fine to European AI Startup",
+      "summary": "The newly operational EU AI Office has issued a \u20ac47 million fine to Berlin-based AI startup Synthia Labs for deploying a high-risk AI hiring system without completing mandatory conformity assessments. The case marks the first significant enforcement action under the EU AI Act, which entered full enforcement earlier this year. Legal analysts say the ruling signals a more aggressive posture from European regulators toward AI compliance.",
+      "url": "https://www.reuters.com/technology/eu-ai-act-first-major-fine-synthia-labs-2026-06-22",
       "source": "Reuters",
-      "date": "June 21",
+      "date": "June 22",
       "tags": [
         "safety",
         "industry"
       ]
     },
     {
-      "title": "LangChain Launches LangGraph Cloud with Persistent Memory and Cross-Session Agent State",
-      "summary": "LangChain has officially launched LangGraph Cloud, a managed platform for deploying stateful multi-agent workflows that maintains persistent memory and task context across sessions and users. The service includes built-in observability tooling, human-in-the-loop checkpointing, and support for branching agent execution graphs. Early adopters report the platform dramatically simplifies the operationalization of complex agentic pipelines that previously required significant custom infrastructure.",
-      "url": "https://venturebeat.com/ai/langchain-langgraph-cloud-persistent-memory-agents-2026",
+      "title": "Meta Introduces Open-Source RAG Framework 'Atlas 2.0' for Production Deployments",
+      "summary": "Meta AI has released Atlas 2.0, an open-source retrieval-augmented generation framework designed to simplify production-grade RAG pipelines at scale. The toolkit supports hybrid dense-sparse retrieval, automatic chunk optimization, and native integration with popular vector databases including Pinecone and Weaviate. Developers on GitHub have already starred the repository over 18,000 times within the first 48 hours of release.",
+      "url": "https://venturebeat.com/ai/meta-atlas-2-open-source-rag-framework-2026",
       "source": "VentureBeat",
-      "date": "June 22",
+      "date": "June 23",
       "tags": [
-        "agentic",
+        "rag",
         "tools"
       ]
     },
     {
-      "title": "Stanford HAI Report Warns of Accelerating AI Energy Consumption Threatening Climate Goals",
-      "summary": "A comprehensive report from Stanford's Human-Centered AI Institute estimates that global AI compute consumption will surpass the electricity usage of Germany by the end of 2026, raising urgent questions about sustainability. The report highlights that the rapid deployment of inference infrastructure for agentic and multimodal workloads is growing three times faster than anticipated in previous projections. Researchers are calling on policymakers and hyperscalers to establish binding efficiency standards before the next generation of model deployments.",
-      "url": "https://hai.stanford.edu/news/2026-ai-energy-consumption-report",
+      "title": "Stanford HAI Report Warns of Growing 'Alignment Tax' in Commercial AI Models",
+      "summary": "A new report from Stanford's Human-Centered AI Institute argues that competitive pressure is causing leading AI labs to quietly reduce safety fine-tuning in order to improve benchmark performance. Researchers analyzed behavioral differences across model versions and found measurable regression in refusal accuracy for harmful prompts. The report calls for independent third-party auditing of safety properties before major model releases.",
+      "url": "https://hai.stanford.edu/news/alignment-tax-commercial-models-report-2026",
       "source": "Stanford HAI",
-      "date": "June 23",
+      "date": "June 20",
       "tags": [
-        "research",
-        "industry"
+        "safety",
+        "research"
+      ]
+    },
+    {
+      "title": "Microsoft Integrates Real-Time Video Understanding into Copilot with New Multimodal Update",
+      "summary": "Microsoft has rolled out a major Copilot update that enables real-time video stream analysis, allowing enterprise users to query live meeting footage, surveillance feeds, and video dashboards using natural language. The feature is built on a fine-tuned version of GPT-5 Vision and processes video at up to 30 frames per second with under 200ms latency. The update is initially available to Copilot for Microsoft 365 enterprise subscribers in North America.",
+      "url": "https://www.zdnet.com/article/microsoft-copilot-real-time-video-understanding-update-2026",
+      "source": "ZDNet",
+      "date": "June 24",
+      "tags": [
+        "multimodal",
+        "tools"
+      ]
+    },
+    {
+      "title": "xAI's Grok 3 Tops New Agentic Benchmark Evaluating Long-Horizon Task Completion",
+      "summary": "Elon Musk's xAI released benchmark results showing Grok 3 achieving state-of-the-art scores on AgentBench 3.0, a newly released suite measuring AI performance on multi-day, multi-tool autonomous tasks. The model demonstrated particular strength in software engineering tasks requiring repository-level code navigation and iterative debugging. Competitors OpenAI and Anthropic have disputed the methodology, questioning whether the benchmark tasks were included in Grok 3's training data.",
+      "url": "https://www.wired.com/story/xai-grok-3-agentic-benchmark-controversy-2026",
+      "source": "Wired",
+      "date": "June 24",
+      "tags": [
+        "agentic",
+        "llm"
       ]
     }
   ],
-  "date": "2026-06-23",
-  "updated": "2026-06-23T09:58:46.720410Z"
+  "date": "2026-06-24",
+  "updated": "2026-06-24T09:46:46.459997Z"
 }
