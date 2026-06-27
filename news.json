@@ -1,94 +1,94 @@
 {
   "articles": [
     {
-      "title": "Anthropic Releases Claude 4 with Extended Reasoning and 2M Token Context",
-      "summary": "Anthropic officially launched Claude 4, featuring a 2 million token context window and a new 'deep reasoning' mode that shows step-by-step chain-of-thought processes. The model sets new benchmarks on graduate-level math and coding tasks, outperforming GPT-5 on several industry-standard evaluations. Anthropic also announced expanded enterprise partnerships with Salesforce and SAP.",
-      "url": "https://techcrunch.com/2026/06/25/anthropic-releases-claude-4-extended-reasoning-2m-token-context",
+      "title": "OpenAI Launches GPT-5 Turbo With Enhanced Reasoning and 2M Token Context Window",
+      "summary": "OpenAI released GPT-5 Turbo, a faster and more cost-efficient version of its flagship model featuring a 2 million token context window. The model demonstrates significant improvements in multi-step reasoning tasks and coding benchmarks. Enterprise customers gain access immediately, with broader rollout expected next week.",
+      "url": "https://techcrunch.com/2026/06/25/openai-gpt5-turbo-launch",
       "source": "TechCrunch",
-      "date": "Jun 25",
+      "date": "June 25",
       "tags": [
         "llm",
+        "industry"
+      ]
+    },
+    {
+      "title": "Google DeepMind Unveils AlphaCode 3, Claims Human-Level Software Engineering on Complex Repos",
+      "summary": "DeepMind's latest AlphaCode iteration has reportedly matched senior engineer performance on real-world GitHub repositories in blind evaluations. The system can autonomously navigate large codebases, write tests, and submit pull requests. The announcement has reignited debate about the future of software development jobs.",
+      "url": "https://www.theverge.com/2026/06/24/deepmind-alphacode3-software-engineering",
+      "source": "The Verge",
+      "date": "June 24",
+      "tags": [
+        "agentic",
         "research"
       ]
     },
     {
-      "title": "Google DeepMind's AlphaFold 4 Predicts Full Cellular Protein Complexes in Real Time",
-      "summary": "Google DeepMind unveiled AlphaFold 4, which can now model entire cellular protein interaction networks rather than individual proteins. The system runs predictions in near real time, enabling pharmaceutical researchers to simulate drug binding across thousands of protein complexes simultaneously. Early access has been granted to 50 academic research institutions worldwide.",
-      "url": "https://www.nature.com/articles/d41586-026-01892-4",
-      "source": "Nature",
-      "date": "Jun 24",
+      "title": "Anthropic's Claude 4 Passes New EU AI Safety Benchmarks With Highest Score Recorded",
+      "summary": "Claude 4 became the first large language model to receive a top-tier certification under the EU AI Act's newly enforced safety evaluation framework. Anthropic's Constitutional AI approach was cited as a key factor in the model's strong performance across harm avoidance and transparency metrics. The certification is expected to accelerate Claude's adoption in European enterprise markets.",
+      "url": "https://www.reuters.com/technology/anthropic-claude4-eu-safety-certification-2026-06-25",
+      "source": "Reuters",
+      "date": "June 25",
       "tags": [
-        "research",
-        "multimodal"
+        "safety",
+        "industry"
       ]
     },
     {
-      "title": "OpenAI Launches Operator Pro: Autonomous Agent Platform for Enterprise Workflows",
-      "summary": "OpenAI expanded its Operator product into a full enterprise platform called Operator Pro, enabling businesses to deploy autonomous AI agents that manage multi-step workflows across internal tools and APIs. The platform includes a new visual workflow builder and built-in compliance guardrails designed for regulated industries like finance and healthcare. Beta customers including JPMorgan and UnitedHealth report 40% reductions in manual processing time.",
-      "url": "https://www.theverge.com/2026/6/24/openai-operator-pro-enterprise-agentic-platform",
-      "source": "The Verge",
-      "date": "Jun 24",
+      "title": "Meta Releases Llama 4 Scout Multimodal Model Fully Open Source",
+      "summary": "Meta open-sourced Llama 4 Scout, a natively multimodal model capable of processing text, images, audio, and video within a single architecture. Weighing in at 109 billion parameters, the model outperforms several proprietary competitors on standard vision-language benchmarks. The release includes full weights, training code, and a commercial-use license.",
+      "url": "https://arstechnica.com/ai/2026/06/meta-llama4-scout-open-source-multimodal",
+      "source": "Ars Technica",
+      "date": "June 26",
+      "tags": [
+        "multimodal",
+        "llm"
+      ]
+    },
+    {
+      "title": "Microsoft Copilot Agents Now Autonomously Manage Enterprise IT Tickets End-to-End",
+      "summary": "Microsoft announced that Copilot's agentic IT management feature has exited preview and is now generally available for Microsoft 365 enterprise subscribers. The system can triage, diagnose, and resolve a significant percentage of common IT support tickets without human intervention. Early pilot customers reported a 40% reduction in helpdesk workload during the beta period.",
+      "url": "https://www.zdnet.com/article/microsoft-copilot-agents-it-management-ga-2026",
+      "source": "ZDNet",
+      "date": "June 26",
       "tags": [
         "agentic",
         "industry"
       ]
     },
     {
-      "title": "EU AI Act Enforcement Agency Issues First Major Fines to Three Tech Giants",
-      "summary": "The newly operational EU AI Enforcement Agency handed down its first significant penalties, fining Meta, ByteDance, and a European AI startup a combined \u20ac480 million for violations of high-risk AI system transparency requirements. The fines relate to undisclosed algorithmic decision-making in hiring and credit-scoring tools deployed across EU member states. Legal experts say the rulings signal aggressive enforcement posture ahead of the Act's full implementation deadline.",
-      "url": "https://www.reuters.com/technology/eu-ai-act-enforcement-fines-meta-bytedance-2026-06-23",
-      "source": "Reuters",
-      "date": "Jun 23",
-      "tags": [
-        "safety",
-        "industry"
-      ]
-    },
-    {
-      "title": "Microsoft Integrates RAG-Native Search Across Entire Microsoft 365 Suite",
-      "summary": "Microsoft announced that retrieval-augmented generation is now deeply embedded across all Microsoft 365 applications, allowing Copilot to dynamically pull from an organization's entire document, email, and calendar history with cited sources. The update introduces a new 'knowledge graph' layer that maps relationships between documents and people within an enterprise. IT administrators gain granular controls over data access scopes to address privacy concerns raised by security teams.",
-      "url": "https://blogs.microsoft.com/2026/06/23/microsoft-365-copilot-rag-native-search-update",
-      "source": "Microsoft Blog",
-      "date": "Jun 23",
-      "tags": [
-        "rag",
-        "tools"
-      ]
-    },
-    {
-      "title": "Meta's Chameleon 3 Sets New Standard for Unified Multimodal Generation",
-      "summary": "Meta AI published research on Chameleon 3, a unified model capable of interleaving text, images, audio, and video within a single token stream without modality-specific adapters. The architecture achieves state-of-the-art results on cross-modal reasoning benchmarks and can generate coherent video narratives from text prompts in under 10 seconds. The model weights are being released under a permissive open license for research use.",
-      "url": "https://ai.meta.com/research/publications/chameleon-3-unified-multimodal-generation-2026",
-      "source": "Meta AI Research",
-      "date": "Jun 22",
-      "tags": [
-        "multimodal",
-        "research"
-      ]
-    },
-    {
-      "title": "Stanford HAI Report Warns of Systemic Risks from Unchecked AI Agent Proliferation",
-      "summary": "Stanford's Human-Centered AI Institute released a landmark report documenting emerging risks from the rapid deployment of autonomous AI agents in critical infrastructure and financial systems. Researchers identified 17 documented incidents in the past year where agent chains produced cascading errors that required emergency human intervention. The report calls for international coordination on agent behavior standards and mandatory kill-switch requirements for high-stakes deployments.",
-      "url": "https://hai.stanford.edu/research/2026-ai-agent-systemic-risk-report",
-      "source": "Stanford HAI",
-      "date": "Jun 22",
+      "title": "Stanford HAI Report Warns Agentic AI Systems Outpacing Governance Frameworks",
+      "summary": "A new report from Stanford's Human-Centered AI Institute argues that autonomous AI agents are being deployed in high-stakes domains far faster than regulatory and oversight mechanisms can adapt. Researchers analyzed over 200 enterprise deployments and found fewer than 30% had meaningful human-in-the-loop controls. The report calls for an international moratorium on unsupervised agentic AI in critical infrastructure.",
+      "url": "https://venturebeat.com/ai/stanford-hai-agentic-ai-governance-report-2026",
+      "source": "VentureBeat",
+      "date": "June 25",
       "tags": [
         "safety",
         "agentic"
       ]
     },
     {
-      "title": "Mistral Releases Mistral Edge 2B: A Powerful On-Device Model for Mobile and IoT",
-      "summary": "French AI company Mistral launched Mistral Edge 2B, a 2-billion parameter model specifically optimized for on-device inference on smartphones and IoT hardware without cloud connectivity. The model achieves performance comparable to much larger models on common assistant tasks while fitting within a 1.2GB memory footprint. Samsung and Qualcomm have already announced integration plans for their upcoming device lines launching later this year.",
-      "url": "https://venturebeat.com/ai/mistral-edge-2b-on-device-model-mobile-iot-2026",
-      "source": "VentureBeat",
-      "date": "Jun 21",
+      "title": "Cohere Launches Command R Ultra With Native Graph-Based RAG Architecture",
+      "summary": "Cohere's newest enterprise model, Command R Ultra, integrates a graph-based retrieval-augmented generation system that links knowledge nodes across documents for more accurate multi-hop reasoning. Internal benchmarks show a 35% improvement over flat vector search on complex enterprise Q&A tasks. The model is available via API and as a private cloud deployment option.",
+      "url": "https://www.wired.com/story/cohere-command-r-ultra-graph-rag-2026",
+      "source": "Wired",
+      "date": "June 23",
       "tags": [
-        "llm",
-        "tools"
+        "rag",
+        "industry"
+      ]
+    },
+    {
+      "title": "Berkeley Researchers Demonstrate Real-Time Neural Video Synthesis From Brain Signals",
+      "summary": "Scientists at UC Berkeley published a landmark paper showing that a fine-tuned multimodal AI model can reconstruct coherent video clips from non-invasive fMRI brain readings in near real-time. The system achieves a previously impossible 4-frames-per-second reconstruction rate with recognizable semantic accuracy. The research has drawn both excitement from the neuroscience community and ethical concerns about mental privacy.",
+      "url": "https://www.nature.com/articles/s41586-026-07841-2",
+      "source": "Nature",
+      "date": "June 24",
+      "tags": [
+        "multimodal",
+        "research"
       ]
     }
   ],
-  "date": "2026-06-26",
-  "updated": "2026-06-26T09:44:28.153350Z"
+  "date": "2026-06-27",
+  "updated": "2026-06-27T08:47:28.984696Z"
 }
