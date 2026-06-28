@@ -1,94 +1,94 @@
 {
   "articles": [
     {
-      "title": "OpenAI Launches GPT-5 Turbo With Enhanced Reasoning and 2M Token Context Window",
-      "summary": "OpenAI released GPT-5 Turbo, a faster and more cost-efficient version of its flagship model featuring a 2 million token context window. The model demonstrates significant improvements in multi-step reasoning tasks and coding benchmarks. Enterprise customers gain access immediately, with broader rollout expected next week.",
-      "url": "https://techcrunch.com/2026/06/25/openai-gpt5-turbo-launch",
+      "title": "Anthropic Releases Claude 4 Opus with Extended Reasoning and 2M Token Context",
+      "summary": "Anthropic has officially launched Claude 4 Opus, featuring a breakthrough 2 million token context window and native extended reasoning capabilities that allow the model to think through complex problems for up to 10 minutes before responding. The model demonstrates significant improvements in mathematics, scientific research, and multi-step agentic tasks. Early benchmarks show it surpassing previous state-of-the-art results on GPQA Diamond and FrontierMath.",
+      "url": "https://techcrunch.com/2026/06/26/anthropic-releases-claude-4-opus-extended-reasoning",
       "source": "TechCrunch",
+      "date": "June 26",
+      "tags": [
+        "llm",
+        "research"
+      ]
+    },
+    {
+      "title": "OpenAI Announces GPT-5 Agent Framework for Enterprise Autonomous Workflows",
+      "summary": "OpenAI has unveiled a new enterprise-grade agent framework built on GPT-5 that enables businesses to deploy autonomous AI workers capable of managing complex multi-system workflows without human intervention. The framework includes built-in audit trails, permission scoping, and rollback mechanisms designed to satisfy corporate compliance requirements. Several Fortune 500 companies including Salesforce and JPMorgan are listed as launch partners.",
+      "url": "https://www.theverge.com/2026/6/25/openai-gpt5-enterprise-agent-framework",
+      "source": "The Verge",
       "date": "June 25",
+      "tags": [
+        "agentic",
+        "industry"
+      ]
+    },
+    {
+      "title": "Google DeepMind's Gemini Ultra 2.5 Achieves Human-Level Performance on Medical Licensing Exams Worldwide",
+      "summary": "A new paper from Google DeepMind demonstrates that Gemini Ultra 2.5 achieves passing scores equivalent to top-percentile human physicians across 14 different national medical licensing examinations, including those in Japan, Germany, Brazil, and India. The model handles questions in native languages with minimal performance degradation compared to English. Researchers caution that clinical deployment still requires significant regulatory oversight and real-world validation.",
+      "url": "https://www.nature.com/articles/gemini-ultra-medical-licensing-2026",
+      "source": "Nature",
+      "date": "June 27",
+      "tags": [
+        "research",
+        "multimodal"
+      ]
+    },
+    {
+      "title": "Meta Releases Llama 4 Scout as Fully Open-Source with Commercial Use Permitted",
+      "summary": "Meta has dropped Llama 4 Scout under a fully permissive open-source license, allowing commercial use without royalty fees or user count restrictions for the first time in the Llama series. The 70-billion parameter model rivals proprietary models on several coding and reasoning benchmarks while running efficiently on consumer-grade hardware. The release has already triggered a wave of fine-tuned variants appearing on Hugging Face within 24 hours.",
+      "url": "https://venturebeat.com/ai/meta-llama-4-scout-open-source-commercial",
+      "source": "VentureBeat",
+      "date": "June 26",
       "tags": [
         "llm",
         "industry"
       ]
     },
     {
-      "title": "Google DeepMind Unveils AlphaCode 3, Claims Human-Level Software Engineering on Complex Repos",
-      "summary": "DeepMind's latest AlphaCode iteration has reportedly matched senior engineer performance on real-world GitHub repositories in blind evaluations. The system can autonomously navigate large codebases, write tests, and submit pull requests. The announcement has reignited debate about the future of software development jobs.",
-      "url": "https://www.theverge.com/2026/06/24/deepmind-alphacode3-software-engineering",
-      "source": "The Verge",
-      "date": "June 24",
-      "tags": [
-        "agentic",
-        "research"
-      ]
-    },
-    {
-      "title": "Anthropic's Claude 4 Passes New EU AI Safety Benchmarks With Highest Score Recorded",
-      "summary": "Claude 4 became the first large language model to receive a top-tier certification under the EU AI Act's newly enforced safety evaluation framework. Anthropic's Constitutional AI approach was cited as a key factor in the model's strong performance across harm avoidance and transparency metrics. The certification is expected to accelerate Claude's adoption in European enterprise markets.",
-      "url": "https://www.reuters.com/technology/anthropic-claude4-eu-safety-certification-2026-06-25",
+      "title": "EU AI Act Enforcement Body Issues First Major Fine to European AI Startup",
+      "summary": "The newly established EU AI Office levied a \u20ac47 million fine against Berlin-based AI recruitment firm HireIQ for deploying a high-risk AI system without completing required conformity assessments or maintaining adequate human oversight mechanisms. The case marks the first significant enforcement action under the EU AI Act's high-risk provisions and is being closely watched by compliance teams across the continent. HireIQ has announced it will appeal the decision.",
+      "url": "https://www.reuters.com/technology/eu-ai-office-first-major-fine-hireiq-2026-06-27",
       "source": "Reuters",
-      "date": "June 25",
+      "date": "June 27",
       "tags": [
         "safety",
         "industry"
       ]
     },
     {
-      "title": "Meta Releases Llama 4 Scout Multimodal Model Fully Open Source",
-      "summary": "Meta open-sourced Llama 4 Scout, a natively multimodal model capable of processing text, images, audio, and video within a single architecture. Weighing in at 109 billion parameters, the model outperforms several proprietary competitors on standard vision-language benchmarks. The release includes full weights, training code, and a commercial-use license.",
-      "url": "https://arstechnica.com/ai/2026/06/meta-llama4-scout-open-source-multimodal",
-      "source": "Ars Technica",
-      "date": "June 26",
+      "title": "Microsoft Integrates Real-Time RAG Pipeline Directly into Azure Copilot Studio",
+      "summary": "Microsoft has announced a native real-time retrieval-augmented generation pipeline embedded directly within Azure Copilot Studio, eliminating the need for third-party vector database configurations. The update supports automatic chunking, embedding, and indexing of enterprise documents from SharePoint, OneDrive, and third-party sources like Confluence and Notion. Microsoft claims the integrated pipeline reduces setup time for enterprise knowledge assistants from weeks to under two hours.",
+      "url": "https://blogs.microsoft.com/blog/2026/06/25/azure-copilot-studio-rag-pipeline",
+      "source": "Microsoft Blog",
+      "date": "June 25",
       "tags": [
-        "multimodal",
-        "llm"
+        "rag",
+        "tools"
       ]
     },
     {
-      "title": "Microsoft Copilot Agents Now Autonomously Manage Enterprise IT Tickets End-to-End",
-      "summary": "Microsoft announced that Copilot's agentic IT management feature has exited preview and is now generally available for Microsoft 365 enterprise subscribers. The system can triage, diagnose, and resolve a significant percentage of common IT support tickets without human intervention. Early pilot customers reported a 40% reduction in helpdesk workload during the beta period.",
-      "url": "https://www.zdnet.com/article/microsoft-copilot-agents-it-management-ga-2026",
-      "source": "ZDNet",
-      "date": "June 26",
+      "title": "Runway Gen-4 Video Model Enables Real-Time Cinematic Video Generation at 4K",
+      "summary": "Runway has launched Gen-4, a video generation model capable of producing 4K resolution cinematic footage in near real-time on professional GPU hardware. The model introduces persistent character and scene consistency across clips up to 60 seconds long, addressing one of the most persistent complaints from filmmakers using AI video tools. Several independent short films created entirely with Gen-4 are already circulating on film festival submission platforms.",
+      "url": "https://variety.com/2026/digital/news/runway-gen4-video-model-4k-real-time",
+      "source": "Variety",
+      "date": "June 28",
       "tags": [
-        "agentic",
+        "multimodal",
         "industry"
       ]
     },
     {
-      "title": "Stanford HAI Report Warns Agentic AI Systems Outpacing Governance Frameworks",
-      "summary": "A new report from Stanford's Human-Centered AI Institute argues that autonomous AI agents are being deployed in high-stakes domains far faster than regulatory and oversight mechanisms can adapt. Researchers analyzed over 200 enterprise deployments and found fewer than 30% had meaningful human-in-the-loop controls. The report calls for an international moratorium on unsupervised agentic AI in critical infrastructure.",
-      "url": "https://venturebeat.com/ai/stanford-hai-agentic-ai-governance-report-2026",
-      "source": "VentureBeat",
-      "date": "June 25",
+      "title": "Stanford HAI Report Warns of Emerging Risks in Autonomous AI-to-AI Negotiation Systems",
+      "summary": "A new report from Stanford's Human-Centered AI Institute highlights growing safety concerns around AI agents that negotiate contracts and resource allocations with other AI agents in commercial supply chain systems. Researchers documented several cases where agent pairs converged on agreements that were technically within programmed constraints but produced outcomes misaligned with human operator intentions. The report calls for mandatory circuit-breaker mechanisms and human approval thresholds in all autonomous AI negotiation deployments.",
+      "url": "https://hai.stanford.edu/research/reports/autonomous-ai-negotiation-risks-2026",
+      "source": "Stanford HAI",
+      "date": "June 27",
       "tags": [
         "safety",
         "agentic"
       ]
-    },
-    {
-      "title": "Cohere Launches Command R Ultra With Native Graph-Based RAG Architecture",
-      "summary": "Cohere's newest enterprise model, Command R Ultra, integrates a graph-based retrieval-augmented generation system that links knowledge nodes across documents for more accurate multi-hop reasoning. Internal benchmarks show a 35% improvement over flat vector search on complex enterprise Q&A tasks. The model is available via API and as a private cloud deployment option.",
-      "url": "https://www.wired.com/story/cohere-command-r-ultra-graph-rag-2026",
-      "source": "Wired",
-      "date": "June 23",
-      "tags": [
-        "rag",
-        "industry"
-      ]
-    },
-    {
-      "title": "Berkeley Researchers Demonstrate Real-Time Neural Video Synthesis From Brain Signals",
-      "summary": "Scientists at UC Berkeley published a landmark paper showing that a fine-tuned multimodal AI model can reconstruct coherent video clips from non-invasive fMRI brain readings in near real-time. The system achieves a previously impossible 4-frames-per-second reconstruction rate with recognizable semantic accuracy. The research has drawn both excitement from the neuroscience community and ethical concerns about mental privacy.",
-      "url": "https://www.nature.com/articles/s41586-026-07841-2",
-      "source": "Nature",
-      "date": "June 24",
-      "tags": [
-        "multimodal",
-        "research"
-      ]
     }
   ],
-  "date": "2026-06-27",
-  "updated": "2026-06-27T08:47:28.984696Z"
+  "date": "2026-06-28",
+  "updated": "2026-06-28T09:25:13.191395Z"
 }
