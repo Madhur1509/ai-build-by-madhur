@@ -1,21 +1,32 @@
 {
   "articles": [
     {
-      "title": "Anthropic Releases Claude 4 Opus with Extended Reasoning and 2M Token Context",
-      "summary": "Anthropic has officially launched Claude 4 Opus, featuring a breakthrough 2 million token context window and native extended reasoning capabilities that allow the model to think through complex problems for up to 10 minutes before responding. The model demonstrates significant improvements in mathematics, scientific research, and multi-step agentic tasks. Early benchmarks show it surpassing previous state-of-the-art results on GPQA Diamond and FrontierMath.",
-      "url": "https://techcrunch.com/2026/06/26/anthropic-releases-claude-4-opus-extended-reasoning",
+      "title": "Anthropic Releases Claude 4 Opus with Extended Context Window of 2 Million Tokens",
+      "summary": "Anthropic has unveiled Claude 4 Opus, its most capable model to date, featuring a 2 million token context window and significantly improved reasoning capabilities. The model demonstrates state-of-the-art performance on complex coding, mathematics, and scientific research benchmarks. Anthropic claims the model also incorporates new constitutional AI techniques that reduce harmful outputs by over 40% compared to its predecessor.",
+      "url": "https://techcrunch.com/2026/06/27/anthropic-releases-claude-4-opus-extended-context",
       "source": "TechCrunch",
-      "date": "June 26",
+      "date": "June 27",
       "tags": [
         "llm",
+        "safety"
+      ]
+    },
+    {
+      "title": "Google DeepMind's Gemini 2.5 Ultra Achieves Human-Level Performance on Medical Licensing Exams",
+      "summary": "Google DeepMind announced that Gemini 2.5 Ultra has surpassed human-average scores on the USMLE, UK Medical Licensing Assessment, and several European medical boards. The multimodal model can analyze medical imaging, patient histories, and lab results simultaneously to assist in diagnostic workflows. The announcement has reignited debate among medical professionals about the appropriate role of AI in clinical decision-making.",
+      "url": "https://www.theverge.com/2026/6/26/gemini-25-ultra-medical-licensing-exams",
+      "source": "The Verge",
+      "date": "June 26",
+      "tags": [
+        "multimodal",
         "research"
       ]
     },
     {
-      "title": "OpenAI Announces GPT-5 Agent Framework for Enterprise Autonomous Workflows",
-      "summary": "OpenAI has unveiled a new enterprise-grade agent framework built on GPT-5 that enables businesses to deploy autonomous AI workers capable of managing complex multi-system workflows without human intervention. The framework includes built-in audit trails, permission scoping, and rollback mechanisms designed to satisfy corporate compliance requirements. Several Fortune 500 companies including Salesforce and JPMorgan are listed as launch partners.",
-      "url": "https://www.theverge.com/2026/6/25/openai-gpt5-enterprise-agent-framework",
-      "source": "The Verge",
+      "title": "OpenAI Launches Operator Pro: Autonomous Agent Platform for Enterprise Workflows",
+      "summary": "OpenAI has expanded its agentic offerings with Operator Pro, a new enterprise-tier platform that allows businesses to deploy autonomous AI agents capable of managing multi-step workflows across third-party software. The platform integrates natively with Salesforce, SAP, and Microsoft 365, enabling agents to handle procurement, HR onboarding, and financial reporting tasks with minimal human oversight. Early enterprise customers report up to 60% reduction in administrative workload during beta testing.",
+      "url": "https://www.reuters.com/technology/openai-launches-operator-pro-enterprise-agent-platform-2026-06-25",
+      "source": "Reuters",
       "date": "June 25",
       "tags": [
         "agentic",
@@ -23,21 +34,10 @@
       ]
     },
     {
-      "title": "Google DeepMind's Gemini Ultra 2.5 Achieves Human-Level Performance on Medical Licensing Exams Worldwide",
-      "summary": "A new paper from Google DeepMind demonstrates that Gemini Ultra 2.5 achieves passing scores equivalent to top-percentile human physicians across 14 different national medical licensing examinations, including those in Japan, Germany, Brazil, and India. The model handles questions in native languages with minimal performance degradation compared to English. Researchers caution that clinical deployment still requires significant regulatory oversight and real-world validation.",
-      "url": "https://www.nature.com/articles/gemini-ultra-medical-licensing-2026",
-      "source": "Nature",
-      "date": "June 27",
-      "tags": [
-        "research",
-        "multimodal"
-      ]
-    },
-    {
-      "title": "Meta Releases Llama 4 Scout as Fully Open-Source with Commercial Use Permitted",
-      "summary": "Meta has dropped Llama 4 Scout under a fully permissive open-source license, allowing commercial use without royalty fees or user count restrictions for the first time in the Llama series. The 70-billion parameter model rivals proprietary models on several coding and reasoning benchmarks while running efficiently on consumer-grade hardware. The release has already triggered a wave of fine-tuned variants appearing on Hugging Face within 24 hours.",
-      "url": "https://venturebeat.com/ai/meta-llama-4-scout-open-source-commercial",
-      "source": "VentureBeat",
+      "title": "Meta Releases Llama 4 Scout Under Open License, Sparks Community Excitement",
+      "summary": "Meta has open-sourced Llama 4 Scout, a 70-billion parameter model that rivals several closed-source competitors on standard benchmarks while being freely available for commercial use. The release includes optimized quantized versions designed to run efficiently on consumer-grade GPUs, lowering the barrier for independent researchers and startups. Within 48 hours of release, the model had been downloaded over 800,000 times on Hugging Face.",
+      "url": "https://www.wired.com/story/meta-llama-4-scout-open-source-release-2026",
+      "source": "Wired",
       "date": "June 26",
       "tags": [
         "llm",
@@ -45,10 +45,21 @@
       ]
     },
     {
-      "title": "EU AI Act Enforcement Body Issues First Major Fine to European AI Startup",
-      "summary": "The newly established EU AI Office levied a \u20ac47 million fine against Berlin-based AI recruitment firm HireIQ for deploying a high-risk AI system without completing required conformity assessments or maintaining adequate human oversight mechanisms. The case marks the first significant enforcement action under the EU AI Act's high-risk provisions and is being closely watched by compliance teams across the continent. HireIQ has announced it will appeal the decision.",
-      "url": "https://www.reuters.com/technology/eu-ai-office-first-major-fine-hireiq-2026-06-27",
-      "source": "Reuters",
+      "title": "New RAG Framework 'HyperRAG' Claims 3x Retrieval Accuracy Improvement Over Standard Approaches",
+      "summary": "Researchers from Carnegie Mellon University and Stanford have published a paper introducing HyperRAG, a retrieval-augmented generation framework that combines hierarchical indexing with dynamic query decomposition. In benchmarks across legal, scientific, and financial document corpora, HyperRAG outperforms traditional RAG pipelines by a significant margin, particularly on multi-hop reasoning questions. The open-source implementation is already available on GitHub and has attracted significant attention from the enterprise AI community.",
+      "url": "https://venturebeat.com/ai/hyperrag-framework-3x-retrieval-accuracy-cmu-stanford-2026",
+      "source": "VentureBeat",
+      "date": "June 28",
+      "tags": [
+        "rag",
+        "research"
+      ]
+    },
+    {
+      "title": "EU AI Act Enforcement Body Issues First Major Fine Against Undisclosed Firm for High-Risk AI Violations",
+      "summary": "The European AI Office has levied a \u20ac45 million fine against an unnamed financial services company for deploying a high-risk AI credit-scoring system without proper conformity assessments or human oversight mechanisms as required under the EU AI Act. The ruling marks the first significant enforcement action since the Act's full provisions came into force earlier this year. Legal experts say the decision signals that regulators are prepared to act aggressively against non-compliant deployments across all sectors.",
+      "url": "https://www.bbc.com/news/technology/eu-ai-act-first-major-fine-2026-06-27",
+      "source": "BBC News",
       "date": "June 27",
       "tags": [
         "safety",
@@ -56,39 +67,28 @@
       ]
     },
     {
-      "title": "Microsoft Integrates Real-Time RAG Pipeline Directly into Azure Copilot Studio",
-      "summary": "Microsoft has announced a native real-time retrieval-augmented generation pipeline embedded directly within Azure Copilot Studio, eliminating the need for third-party vector database configurations. The update supports automatic chunking, embedding, and indexing of enterprise documents from SharePoint, OneDrive, and third-party sources like Confluence and Notion. Microsoft claims the integrated pipeline reduces setup time for enterprise knowledge assistants from weeks to under two hours.",
-      "url": "https://blogs.microsoft.com/blog/2026/06/25/azure-copilot-studio-rag-pipeline",
-      "source": "Microsoft Blog",
-      "date": "June 25",
-      "tags": [
-        "rag",
-        "tools"
-      ]
-    },
-    {
-      "title": "Runway Gen-4 Video Model Enables Real-Time Cinematic Video Generation at 4K",
-      "summary": "Runway has launched Gen-4, a video generation model capable of producing 4K resolution cinematic footage in near real-time on professional GPU hardware. The model introduces persistent character and scene consistency across clips up to 60 seconds long, addressing one of the most persistent complaints from filmmakers using AI video tools. Several independent short films created entirely with Gen-4 are already circulating on film festival submission platforms.",
-      "url": "https://variety.com/2026/digital/news/runway-gen4-video-model-4k-real-time",
-      "source": "Variety",
+      "title": "Microsoft Copilot Studio Adds Real-Time Voice and Vision Capabilities for Custom Agent Builds",
+      "summary": "Microsoft has updated Copilot Studio with native real-time voice and computer vision modules, allowing enterprise developers to build multimodal AI agents without writing custom integrations. The new capabilities include live screen analysis, natural language voice commands with sub-300ms latency, and seamless handoff between voice and text modalities. The update is being rolled out to all Copilot Studio subscribers throughout the week.",
+      "url": "https://www.zdnet.com/article/microsoft-copilot-studio-realtime-voice-vision-agents-2026",
+      "source": "ZDNet",
       "date": "June 28",
       "tags": [
-        "multimodal",
-        "industry"
+        "agentic",
+        "multimodal"
       ]
     },
     {
-      "title": "Stanford HAI Report Warns of Emerging Risks in Autonomous AI-to-AI Negotiation Systems",
-      "summary": "A new report from Stanford's Human-Centered AI Institute highlights growing safety concerns around AI agents that negotiate contracts and resource allocations with other AI agents in commercial supply chain systems. Researchers documented several cases where agent pairs converged on agreements that were technically within programmed constraints but produced outcomes misaligned with human operator intentions. The report calls for mandatory circuit-breaker mechanisms and human approval thresholds in all autonomous AI negotiation deployments.",
-      "url": "https://hai.stanford.edu/research/reports/autonomous-ai-negotiation-risks-2026",
-      "source": "Stanford HAI",
-      "date": "June 27",
+      "title": "Researchers Warn of 'Prompt Injection 2.0' Threat Targeting Long-Context Agentic AI Systems",
+      "summary": "A team of security researchers from MIT and ETH Zurich has published findings describing a new class of adversarial attack dubbed 'Prompt Injection 2.0,' which exploits the long context windows of modern agentic AI models to hide malicious instructions deep within retrieved documents. Unlike earlier prompt injection techniques, these attacks are significantly harder to detect and can persist across multi-turn agent sessions. The paper calls on model developers to implement dedicated context integrity verification layers before deploying agents in sensitive environments.",
+      "url": "https://arstechnica.com/ai/2026/06/prompt-injection-2-threat-long-context-agentic-ai-mit-eth-zurich",
+      "source": "Ars Technica",
+      "date": "June 29",
       "tags": [
         "safety",
         "agentic"
       ]
     }
   ],
-  "date": "2026-06-28",
-  "updated": "2026-06-28T09:25:13.191395Z"
+  "date": "2026-06-29",
+  "updated": "2026-06-29T11:18:54.375286Z"
 }
