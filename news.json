@@ -1,94 +1,94 @@
 {
   "articles": [
     {
-      "title": "OpenAI Launches GPT-5 Turbo with Real-Time Multimodal Reasoning",
-      "summary": "OpenAI has unveiled GPT-5 Turbo, a significantly faster and more efficient version of its flagship model featuring enhanced real-time audio and video understanding. The model reportedly achieves 40% lower latency than GPT-5 while maintaining benchmark performance. Enterprise customers gain access starting July 7, with broader rollout planned for mid-month.",
-      "url": "https://techcrunch.com/2026/07/03/openai-gpt5-turbo-multimodal-launch",
-      "source": "TechCrunch",
+      "title": "Anthropic Releases Claude 4 Opus with Extended Reasoning and 2M Token Context",
+      "summary": "Anthropic has unveiled Claude 4 Opus, its most capable model to date, featuring a 2 million token context window and a new extended reasoning mode that allows the model to deliberate for up to 10 minutes before responding. The model reportedly outperforms all existing benchmarks on graduate-level science reasoning and complex multi-step coding tasks. Anthropic also announced a new constitutional AI update aimed at reducing subtle sycophancy observed in prior versions.",
+      "url": "https://www.theverge.com/2026/7/3/anthropic-claude-4-opus-release",
+      "source": "The Verge",
       "date": "July 3",
       "tags": [
         "llm",
-        "multimodal"
+        "safety"
       ]
     },
     {
-      "title": "Google DeepMind's AlphaResearch Agent Autonomously Publishes Peer-Reviewed Paper",
-      "summary": "Google DeepMind announced that its AlphaResearch agentic system has co-authored and submitted a peer-reviewed paper on protein folding dynamics that passed review at Nature Methods. The AI agent independently designed experiments, analyzed results, and wrote the manuscript with minimal human oversight. Researchers caution this raises new questions about authorship standards in academic publishing.",
-      "url": "https://www.theverge.com/2026/7/2/alphareseach-deepmind-peer-review-paper",
-      "source": "The Verge",
+      "title": "Google DeepMind's Gemini Ultra 2.5 Achieves Human-Level Performance on MMMU-Pro",
+      "summary": "Google DeepMind announced that Gemini Ultra 2.5 has reached human-expert-level performance on the MMMU-Pro multimodal benchmark, excelling at tasks combining visual charts, scientific diagrams, and natural language reasoning. The model also introduces native real-time video understanding at 60 frames per second, enabling new applications in robotics and live surveillance analysis. The update is rolling out to Gemini Advanced subscribers and enterprise API users starting this week.",
+      "url": "https://techcrunch.com/2026/07/02/google-deepmind-gemini-ultra-25-mmmu-pro",
+      "source": "TechCrunch",
       "date": "July 2",
+      "tags": [
+        "multimodal",
+        "research"
+      ]
+    },
+    {
+      "title": "OpenAI Launches Operator Pro: Autonomous Agent Platform for Enterprise Workflows",
+      "summary": "OpenAI has expanded its Operator product into a full enterprise platform called Operator Pro, enabling businesses to deploy autonomous AI agents that can manage multi-step workflows across CRM, ERP, and cloud infrastructure systems. The platform includes a new agent orchestration layer that allows chains of specialized sub-agents to collaborate on long-horizon tasks without human intervention. Early adopters including Salesforce and SAP report a 40% reduction in back-office processing time during the beta.",
+      "url": "https://www.reuters.com/technology/openai-operator-pro-enterprise-agents-2026-07-04",
+      "source": "Reuters",
+      "date": "July 4",
       "tags": [
         "agentic",
-        "research"
+        "industry"
       ]
     },
     {
-      "title": "Anthropic Releases Constitutional AI 2.0 Framework for Safer Model Alignment",
-      "summary": "Anthropic has published its updated Constitutional AI 2.0 framework, introducing dynamic rule arbitration that allows models to resolve conflicting safety guidelines more robustly. The company claims the new approach reduces harmful outputs by 62% compared to their previous methodology. The full technical paper and open-source evaluation suite have been released on their research portal.",
-      "url": "https://www.wired.com/story/anthropic-constitutional-ai-2-safety-framework-2026",
-      "source": "Wired",
-      "date": "July 2",
+      "title": "Meta Releases LLaMA 4 Scout Open Weights Model, Rivals Proprietary Frontrunners",
+      "summary": "Meta has open-sourced LLaMA 4 Scout, a 109-billion-parameter mixture-of-experts model that Meta claims matches GPT-4o and Gemini 1.5 Pro on most standard benchmarks while remaining fully open-weight. The release includes fine-tuning recipes, safety classifiers, and a new retrieval-augmented generation toolkit designed to make enterprise RAG pipelines easier to build. The model is available immediately on Hugging Face and Meta's AI Studio portal.",
+      "url": "https://arstechnica.com/ai/2026/07/03/meta-llama-4-scout-open-weights",
+      "source": "Ars Technica",
+      "date": "July 3",
+      "tags": [
+        "llm",
+        "rag"
+      ]
+    },
+    {
+      "title": "EU AI Act Enforcement Agency Issues First Major Fines to Three Tech Firms",
+      "summary": "The newly operational EU AI Office has issued its first enforcement actions under the AI Act, levying fines totaling \u20ac340 million against three unnamed technology companies for deploying high-risk AI systems without completing required conformity assessments. The fines mark a significant escalation in European AI regulation after months of soft guidance and voluntary compliance frameworks. Legal analysts expect the actions to trigger a wave of compliance reviews across the industry ahead of the 2027 full-enforcement deadline.",
+      "url": "https://www.bbc.com/news/technology/eu-ai-act-first-fines-2026-07-04",
+      "source": "BBC News",
+      "date": "July 4",
       "tags": [
         "safety",
+        "industry"
+      ]
+    },
+    {
+      "title": "Stanford HAI Publishes Study Showing RAG Pipelines Degrade with Long-Context LLMs",
+      "summary": "Researchers at Stanford's Human-Centered AI Institute have released a paper demonstrating that retrieval-augmented generation systems show measurable performance degradation when paired with ultra-long-context models like Gemini Ultra 2.5 and Claude 4, due to attention dilution across retrieved chunks. The study suggests that current RAG architectures may need fundamental redesign as context windows exceed one million tokens. The authors propose a new hierarchical retrieval method called ContextAnchor that reduces this degradation by 38% in their experiments.",
+      "url": "https://venturebeat.com/ai/2026/07/02/stanford-rag-long-context-degradation-study",
+      "source": "VentureBeat",
+      "date": "July 2",
+      "tags": [
+        "rag",
         "research"
       ]
     },
     {
-      "title": "Microsoft Copilot Studio Gains Autonomous Multi-Agent Orchestration Feature",
-      "summary": "Microsoft has rolled out a major update to Copilot Studio that enables businesses to deploy networks of specialized AI agents that coordinate tasks autonomously across enterprise workflows. The feature includes a visual agent-builder and pre-built connectors for SAP, Salesforce, and ServiceNow. Early enterprise adopters report cutting operational task completion times by over 50%.",
-      "url": "https://www.zdnet.com/article/microsoft-copilot-studio-multi-agent-orchestration-2026",
-      "source": "ZDNet",
-      "date": "July 3",
+      "title": "Microsoft Integrates Copilot Agents Directly into Windows 12 Kernel-Level APIs",
+      "summary": "Microsoft has announced that Windows 12's upcoming August update will expose kernel-level APIs allowing Copilot agents to interact directly with system processes, file I/O, and hardware sensors without sandboxing overhead. The move is intended to enable real-time AI assistance for power users and developers but has drawn immediate scrutiny from security researchers who warn of potential privilege escalation attack vectors. Microsoft says a new permission model called AgentGuard will require explicit user authorization for any sensitive system interaction.",
+      "url": "https://www.wired.com/story/microsoft-copilot-windows-12-kernel-api-2026",
+      "source": "Wired",
+      "date": "July 5",
       "tags": [
         "agentic",
         "tools"
       ]
     },
     {
-      "title": "EU AI Act Enforcement Body Issues First Major Fine to Meta Over Training Data",
-      "summary": "The newly operational EU AI Office has issued a \u20ac800 million fine against Meta, marking the first major enforcement action under the EU AI Act. Regulators allege Meta used improperly consented European user data to train its Llama series of models. Meta has announced it will appeal the decision while pausing new EU-based model training pipelines.",
-      "url": "https://www.bbc.com/news/technology/eu-ai-act-meta-fine-2026-07-03",
-      "source": "BBC News",
-      "date": "July 3",
+      "title": "Mistral AI Unveils Mistral Large 3 with Native Tool Calling and Code Interpreter",
+      "summary": "Paris-based Mistral AI has launched Mistral Large 3, featuring significantly improved native function calling, a built-in sandboxed code interpreter, and multilingual support expanded to 47 languages. The company claims the model achieves state-of-the-art results among open-API models on the BFCL tool-calling leaderboard, surpassing GPT-4o mini and Gemini Flash 2.0. Mistral Large 3 is available through the La Plateforme API and will be licensed under a new commercial-friendly Mistral Open License.",
+      "url": "https://techcrunch.com/2026/07/05/mistral-large-3-tool-calling-code-interpreter",
+      "source": "TechCrunch",
+      "date": "July 5",
       "tags": [
-        "safety",
-        "industry"
-      ]
-    },
-    {
-      "title": "Mistral AI Unveils Mistral RAG-X: A Retrieval-Optimized Open Model",
-      "summary": "Paris-based Mistral AI has released Mistral RAG-X, an open-weight model purpose-built for retrieval-augmented generation pipelines with native support for long-context document grounding up to 512K tokens. The model outperforms GPT-4o on several RAG benchmarks including FRAMES and RGB while remaining fully open-source. Mistral says the release is aimed at enterprise teams building knowledge-intensive applications.",
-      "url": "https://venturebeat.com/ai/mistral-rag-x-open-model-retrieval-augmented-generation-2026",
-      "source": "VentureBeat",
-      "date": "July 1",
-      "tags": [
-        "rag",
-        "llm"
-      ]
-    },
-    {
-      "title": "Stanford HAI Report Warns of Agentic AI Risks in Critical Infrastructure",
-      "summary": "Stanford's Human-Centered AI Institute has released a landmark 200-page report documenting emerging risks from the deployment of autonomous AI agents in power grids, financial systems, and healthcare networks. The report identifies cascading failure scenarios where agent misalignment could propagate across interconnected systems faster than human operators can intervene. Authors are calling for mandatory incident reporting standards before further deployment in these sectors.",
-      "url": "https://hai.stanford.edu/news/agentic-ai-critical-infrastructure-risk-report-2026",
-      "source": "Stanford HAI",
-      "date": "July 1",
-      "tags": [
-        "agentic",
-        "safety"
-      ]
-    },
-    {
-      "title": "Apple Intelligence 3.0 Brings On-Device Vision-Language Models to iPhone 18",
-      "summary": "Apple has previewed Apple Intelligence 3.0, set to ship with iOS 20 and the upcoming iPhone 18, featuring a powerful on-device vision-language model capable of understanding images, PDFs, and screen content without sending data to the cloud. The new system integrates deeply with third-party apps through a revamped SiriKit API that supports natural language task chaining. Analysts say the move signals Apple's intent to compete directly with cloud-based AI assistants on privacy grounds.",
-      "url": "https://appleinsider.com/articles/26/07/02/apple-intelligence-3-on-device-vision-language-model-iphone18",
-      "source": "AppleInsider",
-      "date": "July 2",
-      "tags": [
-        "multimodal",
-        "industry"
+        "llm",
+        "tools"
       ]
     }
   ],
-  "date": "2026-07-04",
-  "updated": "2026-07-04T08:48:16.998560Z"
+  "date": "2026-07-05",
+  "updated": "2026-07-05T09:18:36.627285Z"
 }
