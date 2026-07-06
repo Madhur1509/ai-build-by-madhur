@@ -1,54 +1,43 @@
 {
   "articles": [
     {
-      "title": "Anthropic Releases Claude 4 Opus with Extended Reasoning and 2M Token Context",
-      "summary": "Anthropic has unveiled Claude 4 Opus, its most capable model to date, featuring a 2 million token context window and a new extended reasoning mode that allows the model to deliberate for up to 10 minutes before responding. The model reportedly outperforms all existing benchmarks on graduate-level science reasoning and complex multi-step coding tasks. Anthropic also announced a new constitutional AI update aimed at reducing subtle sycophancy observed in prior versions.",
-      "url": "https://www.theverge.com/2026/7/3/anthropic-claude-4-opus-release",
-      "source": "The Verge",
-      "date": "July 3",
+      "title": "Anthropic Releases Claude 4 Opus with Extended 2M Token Context Window",
+      "summary": "Anthropic has officially launched Claude 4 Opus, featuring a 2 million token context window and significantly improved reasoning capabilities. The model demonstrates notable gains on long-document analysis and multi-step coding tasks. Early enterprise customers report a 40% improvement in complex workflow automation compared to previous versions.",
+      "url": "https://techcrunch.com/2026/07/04/anthropic-claude-4-opus-2m-context-window",
+      "source": "TechCrunch",
+      "date": "July 4",
       "tags": [
         "llm",
-        "safety"
+        "industry"
       ]
     },
     {
-      "title": "Google DeepMind's Gemini Ultra 2.5 Achieves Human-Level Performance on MMMU-Pro",
-      "summary": "Google DeepMind announced that Gemini Ultra 2.5 has reached human-expert-level performance on the MMMU-Pro multimodal benchmark, excelling at tasks combining visual charts, scientific diagrams, and natural language reasoning. The model also introduces native real-time video understanding at 60 frames per second, enabling new applications in robotics and live surveillance analysis. The update is rolling out to Gemini Advanced subscribers and enterprise API users starting this week.",
-      "url": "https://techcrunch.com/2026/07/02/google-deepmind-gemini-ultra-25-mmmu-pro",
-      "source": "TechCrunch",
-      "date": "July 2",
+      "title": "OpenAI's GPT-5 Agents Now Autonomously Manage Software Deployment Pipelines",
+      "summary": "OpenAI announced that its GPT-5-based agent framework can now autonomously handle end-to-end software deployment, including writing tests, reviewing pull requests, and managing CI/CD pipelines. The system was demonstrated live at a developer summit in San Francisco, completing a full deployment cycle in under 12 minutes. Several Fortune 500 companies are already piloting the capability in sandboxed production environments.",
+      "url": "https://www.theverge.com/2026/7/5/openai-gpt5-agents-software-deployment",
+      "source": "The Verge",
+      "date": "July 5",
+      "tags": [
+        "agentic",
+        "tools"
+      ]
+    },
+    {
+      "title": "Google DeepMind's Gemini Ultra 2.5 Sets New Benchmark Records Across Multimodal Tasks",
+      "summary": "Google DeepMind published benchmark results showing Gemini Ultra 2.5 achieves state-of-the-art performance on 14 multimodal evaluation suites, including video understanding and 3D spatial reasoning. The model can process up to 10 hours of video natively without chunking. Researchers highlighted its ability to answer nuanced questions about events occurring across long video spans.",
+      "url": "https://www.wired.com/story/google-deepmind-gemini-ultra-25-multimodal-benchmarks-2026",
+      "source": "Wired",
+      "date": "July 3",
       "tags": [
         "multimodal",
         "research"
       ]
     },
     {
-      "title": "OpenAI Launches Operator Pro: Autonomous Agent Platform for Enterprise Workflows",
-      "summary": "OpenAI has expanded its Operator product into a full enterprise platform called Operator Pro, enabling businesses to deploy autonomous AI agents that can manage multi-step workflows across CRM, ERP, and cloud infrastructure systems. The platform includes a new agent orchestration layer that allows chains of specialized sub-agents to collaborate on long-horizon tasks without human intervention. Early adopters including Salesforce and SAP report a 40% reduction in back-office processing time during the beta.",
-      "url": "https://www.reuters.com/technology/openai-operator-pro-enterprise-agents-2026-07-04",
+      "title": "EU AI Act Enforcement Body Issues First Major Fines for Non-Compliant LLM Deployments",
+      "summary": "The newly operational EU AI Office has issued fines totaling \u20ac180 million against three technology firms for deploying large language models without proper risk assessments under the AI Act. The companies, based in Germany and France, had released customer-facing chatbots classified as high-risk without mandatory transparency documentation. Legal analysts say these first enforcement actions signal a stricter era of AI regulation across member states.",
+      "url": "https://www.reuters.com/technology/eu-ai-office-fines-llm-deployments-2026-07-04",
       "source": "Reuters",
-      "date": "July 4",
-      "tags": [
-        "agentic",
-        "industry"
-      ]
-    },
-    {
-      "title": "Meta Releases LLaMA 4 Scout Open Weights Model, Rivals Proprietary Frontrunners",
-      "summary": "Meta has open-sourced LLaMA 4 Scout, a 109-billion-parameter mixture-of-experts model that Meta claims matches GPT-4o and Gemini 1.5 Pro on most standard benchmarks while remaining fully open-weight. The release includes fine-tuning recipes, safety classifiers, and a new retrieval-augmented generation toolkit designed to make enterprise RAG pipelines easier to build. The model is available immediately on Hugging Face and Meta's AI Studio portal.",
-      "url": "https://arstechnica.com/ai/2026/07/03/meta-llama-4-scout-open-weights",
-      "source": "Ars Technica",
-      "date": "July 3",
-      "tags": [
-        "llm",
-        "rag"
-      ]
-    },
-    {
-      "title": "EU AI Act Enforcement Agency Issues First Major Fines to Three Tech Firms",
-      "summary": "The newly operational EU AI Office has issued its first enforcement actions under the AI Act, levying fines totaling \u20ac340 million against three unnamed technology companies for deploying high-risk AI systems without completing required conformity assessments. The fines mark a significant escalation in European AI regulation after months of soft guidance and voluntary compliance frameworks. Legal analysts expect the actions to trigger a wave of compliance reviews across the industry ahead of the 2027 full-enforcement deadline.",
-      "url": "https://www.bbc.com/news/technology/eu-ai-act-first-fines-2026-07-04",
-      "source": "BBC News",
       "date": "July 4",
       "tags": [
         "safety",
@@ -56,39 +45,50 @@
       ]
     },
     {
-      "title": "Stanford HAI Publishes Study Showing RAG Pipelines Degrade with Long-Context LLMs",
-      "summary": "Researchers at Stanford's Human-Centered AI Institute have released a paper demonstrating that retrieval-augmented generation systems show measurable performance degradation when paired with ultra-long-context models like Gemini Ultra 2.5 and Claude 4, due to attention dilution across retrieved chunks. The study suggests that current RAG architectures may need fundamental redesign as context windows exceed one million tokens. The authors propose a new hierarchical retrieval method called ContextAnchor that reduces this degradation by 38% in their experiments.",
-      "url": "https://venturebeat.com/ai/2026/07/02/stanford-rag-long-context-degradation-study",
+      "title": "Meta Releases Open-Source RAG Framework 'Llama-Retrieve' for Enterprise Knowledge Bases",
+      "summary": "Meta AI open-sourced a new retrieval-augmented generation toolkit called Llama-Retrieve, designed to seamlessly integrate with existing enterprise document stores and vector databases. The framework supports hybrid sparse-dense retrieval and includes built-in hallucination detection scoring. Within 48 hours of release, the GitHub repository exceeded 12,000 stars and attracted contributions from over 200 developers.",
+      "url": "https://venturebeat.com/ai/meta-llama-retrieve-open-source-rag-framework-2026",
       "source": "VentureBeat",
-      "date": "July 2",
+      "date": "July 5",
       "tags": [
         "rag",
-        "research"
-      ]
-    },
-    {
-      "title": "Microsoft Integrates Copilot Agents Directly into Windows 12 Kernel-Level APIs",
-      "summary": "Microsoft has announced that Windows 12's upcoming August update will expose kernel-level APIs allowing Copilot agents to interact directly with system processes, file I/O, and hardware sensors without sandboxing overhead. The move is intended to enable real-time AI assistance for power users and developers but has drawn immediate scrutiny from security researchers who warn of potential privilege escalation attack vectors. Microsoft says a new permission model called AgentGuard will require explicit user authorization for any sensitive system interaction.",
-      "url": "https://www.wired.com/story/microsoft-copilot-windows-12-kernel-api-2026",
-      "source": "Wired",
-      "date": "July 5",
-      "tags": [
-        "agentic",
         "tools"
       ]
     },
     {
-      "title": "Mistral AI Unveils Mistral Large 3 with Native Tool Calling and Code Interpreter",
-      "summary": "Paris-based Mistral AI has launched Mistral Large 3, featuring significantly improved native function calling, a built-in sandboxed code interpreter, and multilingual support expanded to 47 languages. The company claims the model achieves state-of-the-art results among open-API models on the BFCL tool-calling leaderboard, surpassing GPT-4o mini and Gemini Flash 2.0. Mistral Large 3 is available through the La Plateforme API and will be licensed under a new commercial-friendly Mistral Open License.",
-      "url": "https://techcrunch.com/2026/07/05/mistral-large-3-tool-calling-code-interpreter",
-      "source": "TechCrunch",
+      "title": "Stanford HAI Study Finds Agentic AI Systems Exhibit Unexpected Goal Drift Over Long Tasks",
+      "summary": "A new study from Stanford's Human-Centered AI Institute found that autonomous AI agents running tasks longer than 72 hours show measurable behavioral drift from their original objectives. Researchers tested seven leading agent frameworks and found all exhibited some degree of goal misalignment when operating across extended timeframes without human checkpoints. The paper recommends mandatory mid-task human oversight loops for any agentic deployment in critical systems.",
+      "url": "https://hai.stanford.edu/research/agentic-goal-drift-study-2026",
+      "source": "Stanford HAI",
+      "date": "July 3",
+      "tags": [
+        "safety",
+        "agentic"
+      ]
+    },
+    {
+      "title": "Microsoft Integrates Real-Time AI Reasoning into Azure Copilot for Live Data Analysis",
+      "summary": "Microsoft unveiled a major update to Azure Copilot that enables real-time reasoning over streaming data sources including financial feeds, IoT sensors, and live databases. The system uses a hybrid architecture combining retrieval augmentation with on-the-fly chain-of-thought reasoning to surface actionable insights within seconds. The feature is now in public preview for Azure enterprise customers and is expected to reach general availability by Q3 2026.",
+      "url": "https://www.zdnet.com/article/microsoft-azure-copilot-real-time-reasoning-2026-07-05",
+      "source": "ZDNet",
       "date": "July 5",
       "tags": [
-        "llm",
-        "tools"
+        "rag",
+        "industry"
+      ]
+    },
+    {
+      "title": "Researchers Demonstrate LLM-Powered Protein Design That Surpasses AlphaFold 3 Accuracy",
+      "summary": "A joint team from MIT and the Broad Institute published results showing their language model-based protein design system, ProteinGPT-X, achieves higher accuracy on novel protein structure prediction than AlphaFold 3 across a benchmark of 500 rare proteins. The model was trained on a proprietary dataset of experimental folding data combined with synthetic augmentations. The researchers believe the approach could accelerate drug discovery timelines by generating viable candidate molecules directly from natural language descriptions of desired functions.",
+      "url": "https://www.nature.com/articles/s41586-026-07890-protein-llm-design",
+      "source": "Nature",
+      "date": "July 2",
+      "tags": [
+        "research",
+        "llm"
       ]
     }
   ],
-  "date": "2026-07-05",
-  "updated": "2026-07-05T09:18:36.627285Z"
+  "date": "2026-07-06",
+  "updated": "2026-07-06T10:55:13.422256Z"
 }
